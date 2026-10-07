@@ -23,3 +23,21 @@ paper accuracy. Source hashes are in `historical_sources/manifest.json`.
 Historical experiment-specific wrappers import dependencies that are not
 distributed, including the unresolved mixed baseline module. Publishing a wrapper
 does not license those dependencies or establish that it runs in this checkout.
+
+## Pinned official FBCNet (new maintained dependency)
+
+`baselines/vendor_fbcnet.py` is a byte-identical copy of
+`codes/centralRepo/networks.py` at official commit
+`de1bbdd8a54cb1e466830e3d47070e0e56761a37`:
+https://github.com/ravikiran-mane/FBCNet/tree/de1bbdd8a54cb1e466830e3d47070e0e56761a37
+Copyright (c) 2020 ravikiran-mane. Distributed under MIT; the complete text is
+in `baselines/FBCNet-MIT.txt`. Source and license SHA256 are recorded in
+`baselines/FBCNET_PROVENANCE.json`. The new filter/input adapter is separate
+in `model/factory.py`; its finite-epoch causal response is checked against
+SciPy lfilter. This pin is not presented as the unidentified revision used to
+develop the historical mixed-baseline module, which remains excluded.
+
+The new EEGNet control is assembled separately from the documented topology;
+it does not import or extract the unresolved mixed module. The architecture
+continues to be attributed to Lawhern et al. New training is labelled maintained
+v2, with no claim to regenerate historical training trajectories.

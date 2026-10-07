@@ -1,0 +1,505 @@
+{
+  "scope": "New maintained-engine integration validation, not historical reproduction",
+  "subject": 1,
+  "models": {
+    "npf": {
+      "role": "full maintained recipe (single subject/seed)",
+      "max_epochs": 300,
+      "selected_epoch": 44,
+      "elapsed_seconds": 35.24381147800159,
+      "metrics": {
+        "accuracy": 0.625,
+        "balanced_accuracy": 0.625,
+        "class_recall": [
+          0.59,
+          0.66
+        ],
+        "confusion_matrix": [
+          [
+            59,
+            41
+          ],
+          [
+            34,
+            66
+          ]
+        ],
+        "kappa": 0.25,
+        "nll": 0.6436215003128993,
+        "trials": 200
+      },
+      "protocol": "npfeegnet-maintained-v2",
+      "model_kwargs": {
+        "centering": "raw",
+        "classes": 2,
+        "model_name": "npf",
+        "n_times": 1000,
+        "num_channels": 20,
+        "sampling_rate": 250.0
+      },
+      "environment": {
+        "cuda": "12.6",
+        "numpy": "2.4.4",
+        "python": "3.12.14",
+        "torch": "2.11.0+cu126"
+      },
+      "source_sha256": {
+        "baselines/__init__.py": "cfd38e06338ea12f514bad843e575d415a4eaa15a683d0cf1b0858816868d3e3",
+        "baselines/openbmi_atcnet.py": "a3a6bd64ca6d66acb4ac16b21a4715c412905bf8134a30be770e51b752e61c1b",
+        "baselines/openbmi_eegconformer.py": "d980f4a0ae9bff6f4806d5aef77c5d1c1186126a9b871bf167539283c0bb6e92",
+        "baselines/vendor_fbcnet.py": "48b0b46f36d70a8ea337fa1e82cb84d5eed593c35bbb860672dcd3569c751d92",
+        "model/__init__.py": "fb2c03102352180161417072c10eef393afcc9ac91d3f72c90aa2152312e8276",
+        "model/eegnet_encoder.py": "96ffa7b9522fe6fde5354673a7811627082c539501e2dc8a7c7d482c53b5886c",
+        "model/factory.py": "9ef91b7cd24f3b6d6ac3adaec71df2d79fba3645caef697d8813a8bcc867785a",
+        "model/npf_eegnet_rd.py": "dd5fe8581175021744e2bbabb361134503afce044bd5cf21a1590495db06c450",
+        "predict.py": "097abd2f33347ba7448af7f386282d27b1c50b18a6181919762b91de6e7c0d0b",
+        "train.py": "5e30c3230728f111cbe58985076f61d23c5847892b14277fed68dc529f7ed776",
+        "training/__init__.py": "aa9dcd1f8d39043a1e592adfa54cfb5a8bac3d83eaa9e6426ba84cac78350ddc",
+        "training/data.py": "ca832a3b868295d76a43d7d1b632bdc2253d55ce1eb732c2f8b583b08a4f3feb",
+        "training/engine.py": "4b7c10aedf020c7a283651112ace5ee2597b151875147117a38f6cb69e1eeba4"
+      },
+      "checkpoint_sha256": "797740faa8daaafec5ef9fa3ba12136d3f6738b73333cb4da9c95aa9a91f0ef1",
+      "source_data_sha256": [
+        "be88f138bc07f8561212924ab64ea56bc331c1952debec2931f7a6fbf3344f5b",
+        "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+        "e9df86eed3fa90d7a0b03ac6ca92589a8acd23fdce0f1a699485097d65338a89"
+      ],
+      "test_data_sha256": [
+        "e6c550276183a5535cb54dc5e3b2172cc89fc235ad4ba7f15f1b077ac440aae6",
+        "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+        "35b8e1c9c10234062df4bbaf2968d580319e2f3741a37ed61439af3e9dd9bafd"
+      ],
+      "test_evaluations": 1,
+      "prediction_file_sha256": "3933903d1bcef25d7e7c2f5c04ec8425c754873eaac6384e10dded52330119b4"
+    },
+    "eegnet": {
+      "role": "short integration smoke; not recipe reproduction",
+      "max_epochs": 2,
+      "selected_epoch": 2,
+      "elapsed_seconds": 10.153814511999371,
+      "metrics": {
+        "accuracy": 0.475,
+        "balanced_accuracy": 0.47500000000000003,
+        "class_recall": [
+          0.28,
+          0.67
+        ],
+        "confusion_matrix": [
+          [
+            28,
+            72
+          ],
+          [
+            33,
+            67
+          ]
+        ],
+        "kappa": -0.050000000000000044,
+        "nll": 0.6950134199031005,
+        "trials": 200
+      },
+      "protocol": "npfeegnet-maintained-v2",
+      "model_kwargs": {
+        "centering": "demean",
+        "classes": 2,
+        "model_name": "eegnet",
+        "n_times": 1000,
+        "num_channels": 20,
+        "sampling_rate": 250.0
+      },
+      "environment": {
+        "cuda": "12.6",
+        "numpy": "2.4.4",
+        "python": "3.12.14",
+        "torch": "2.11.0+cu126"
+      },
+      "source_sha256": {
+        "baselines/__init__.py": "cfd38e06338ea12f514bad843e575d415a4eaa15a683d0cf1b0858816868d3e3",
+        "baselines/openbmi_atcnet.py": "a3a6bd64ca6d66acb4ac16b21a4715c412905bf8134a30be770e51b752e61c1b",
+        "baselines/openbmi_eegconformer.py": "d980f4a0ae9bff6f4806d5aef77c5d1c1186126a9b871bf167539283c0bb6e92",
+        "baselines/vendor_fbcnet.py": "48b0b46f36d70a8ea337fa1e82cb84d5eed593c35bbb860672dcd3569c751d92",
+        "model/__init__.py": "fb2c03102352180161417072c10eef393afcc9ac91d3f72c90aa2152312e8276",
+        "model/eegnet_encoder.py": "96ffa7b9522fe6fde5354673a7811627082c539501e2dc8a7c7d482c53b5886c",
+        "model/factory.py": "9ef91b7cd24f3b6d6ac3adaec71df2d79fba3645caef697d8813a8bcc867785a",
+        "model/npf_eegnet_rd.py": "dd5fe8581175021744e2bbabb361134503afce044bd5cf21a1590495db06c450",
+        "predict.py": "097abd2f33347ba7448af7f386282d27b1c50b18a6181919762b91de6e7c0d0b",
+        "train.py": "5e30c3230728f111cbe58985076f61d23c5847892b14277fed68dc529f7ed776",
+        "training/__init__.py": "aa9dcd1f8d39043a1e592adfa54cfb5a8bac3d83eaa9e6426ba84cac78350ddc",
+        "training/data.py": "ca832a3b868295d76a43d7d1b632bdc2253d55ce1eb732c2f8b583b08a4f3feb",
+        "training/engine.py": "4b7c10aedf020c7a283651112ace5ee2597b151875147117a38f6cb69e1eeba4"
+      },
+      "checkpoint_sha256": "35962ee89a74481832d28a88086e04a35c36499d9fcc67c73848ec4f0db4b49b",
+      "source_data_sha256": [
+        "be88f138bc07f8561212924ab64ea56bc331c1952debec2931f7a6fbf3344f5b",
+        "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+        "e9df86eed3fa90d7a0b03ac6ca92589a8acd23fdce0f1a699485097d65338a89"
+      ],
+      "test_data_sha256": [
+        "e6c550276183a5535cb54dc5e3b2172cc89fc235ad4ba7f15f1b077ac440aae6",
+        "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+        "35b8e1c9c10234062df4bbaf2968d580319e2f3741a37ed61439af3e9dd9bafd"
+      ],
+      "test_evaluations": 1,
+      "prediction_file_sha256": "ac8892e55586520031f287bd6f7ba0aaa5bb69e26749159a9ce0094cb07dea7a"
+    },
+    "fbcnet": {
+      "role": "short integration smoke; not recipe reproduction",
+      "max_epochs": 2,
+      "selected_epoch": 2,
+      "elapsed_seconds": 13.536950503003027,
+      "metrics": {
+        "accuracy": 0.46,
+        "balanced_accuracy": 0.45999999999999996,
+        "class_recall": [
+          0.41,
+          0.51
+        ],
+        "confusion_matrix": [
+          [
+            41,
+            59
+          ],
+          [
+            49,
+            51
+          ]
+        ],
+        "kappa": -0.07999999999999996,
+        "nll": 0.731430228311214,
+        "trials": 200
+      },
+      "protocol": "npfeegnet-maintained-v2",
+      "model_kwargs": {
+        "centering": "demean",
+        "classes": 2,
+        "model_name": "fbcnet",
+        "n_times": 1000,
+        "num_channels": 20,
+        "sampling_rate": 250.0
+      },
+      "environment": {
+        "cuda": "12.6",
+        "numpy": "2.4.4",
+        "python": "3.12.14",
+        "torch": "2.11.0+cu126"
+      },
+      "source_sha256": {
+        "baselines/__init__.py": "cfd38e06338ea12f514bad843e575d415a4eaa15a683d0cf1b0858816868d3e3",
+        "baselines/openbmi_atcnet.py": "a3a6bd64ca6d66acb4ac16b21a4715c412905bf8134a30be770e51b752e61c1b",
+        "baselines/openbmi_eegconformer.py": "d980f4a0ae9bff6f4806d5aef77c5d1c1186126a9b871bf167539283c0bb6e92",
+        "baselines/vendor_fbcnet.py": "48b0b46f36d70a8ea337fa1e82cb84d5eed593c35bbb860672dcd3569c751d92",
+        "model/__init__.py": "fb2c03102352180161417072c10eef393afcc9ac91d3f72c90aa2152312e8276",
+        "model/eegnet_encoder.py": "96ffa7b9522fe6fde5354673a7811627082c539501e2dc8a7c7d482c53b5886c",
+        "model/factory.py": "9ef91b7cd24f3b6d6ac3adaec71df2d79fba3645caef697d8813a8bcc867785a",
+        "model/npf_eegnet_rd.py": "dd5fe8581175021744e2bbabb361134503afce044bd5cf21a1590495db06c450",
+        "predict.py": "097abd2f33347ba7448af7f386282d27b1c50b18a6181919762b91de6e7c0d0b",
+        "train.py": "5e30c3230728f111cbe58985076f61d23c5847892b14277fed68dc529f7ed776",
+        "training/__init__.py": "aa9dcd1f8d39043a1e592adfa54cfb5a8bac3d83eaa9e6426ba84cac78350ddc",
+        "training/data.py": "ca832a3b868295d76a43d7d1b632bdc2253d55ce1eb732c2f8b583b08a4f3feb",
+        "training/engine.py": "4b7c10aedf020c7a283651112ace5ee2597b151875147117a38f6cb69e1eeba4"
+      },
+      "checkpoint_sha256": "0c0314c387bde6eb035de6c2839aa84b5fca5ee4c2b97f376346ba9ef6b6afb4",
+      "source_data_sha256": [
+        "be88f138bc07f8561212924ab64ea56bc331c1952debec2931f7a6fbf3344f5b",
+        "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+        "e9df86eed3fa90d7a0b03ac6ca92589a8acd23fdce0f1a699485097d65338a89"
+      ],
+      "test_data_sha256": [
+        "e6c550276183a5535cb54dc5e3b2172cc89fc235ad4ba7f15f1b077ac440aae6",
+        "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+        "35b8e1c9c10234062df4bbaf2968d580319e2f3741a37ed61439af3e9dd9bafd"
+      ],
+      "test_evaluations": 1,
+      "prediction_file_sha256": "777fe4a0bfaccab9bf02a50bf20b4e1f7d6cf6f279606b38be10552c16601a55"
+    },
+    "atcnet": {
+      "role": "short integration smoke; not recipe reproduction",
+      "max_epochs": 2,
+      "selected_epoch": 2,
+      "elapsed_seconds": 11.318509245000314,
+      "metrics": {
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.5,
+        "class_recall": [
+          0.63,
+          0.37
+        ],
+        "confusion_matrix": [
+          [
+            63,
+            37
+          ],
+          [
+            63,
+            37
+          ]
+        ],
+        "kappa": 0.0,
+        "nll": 0.7039898042352821,
+        "trials": 200
+      },
+      "protocol": "npfeegnet-maintained-v2",
+      "model_kwargs": {
+        "centering": "demean",
+        "classes": 2,
+        "model_name": "atcnet",
+        "n_times": 1000,
+        "num_channels": 20,
+        "sampling_rate": 250.0
+      },
+      "environment": {
+        "cuda": "12.6",
+        "numpy": "2.4.4",
+        "python": "3.12.14",
+        "torch": "2.11.0+cu126"
+      },
+      "source_sha256": {
+        "baselines/__init__.py": "cfd38e06338ea12f514bad843e575d415a4eaa15a683d0cf1b0858816868d3e3",
+        "baselines/openbmi_atcnet.py": "a3a6bd64ca6d66acb4ac16b21a4715c412905bf8134a30be770e51b752e61c1b",
+        "baselines/openbmi_eegconformer.py": "d980f4a0ae9bff6f4806d5aef77c5d1c1186126a9b871bf167539283c0bb6e92",
+        "baselines/vendor_fbcnet.py": "48b0b46f36d70a8ea337fa1e82cb84d5eed593c35bbb860672dcd3569c751d92",
+        "model/__init__.py": "fb2c03102352180161417072c10eef393afcc9ac91d3f72c90aa2152312e8276",
+        "model/eegnet_encoder.py": "96ffa7b9522fe6fde5354673a7811627082c539501e2dc8a7c7d482c53b5886c",
+        "model/factory.py": "9ef91b7cd24f3b6d6ac3adaec71df2d79fba3645caef697d8813a8bcc867785a",
+        "model/npf_eegnet_rd.py": "dd5fe8581175021744e2bbabb361134503afce044bd5cf21a1590495db06c450",
+        "predict.py": "097abd2f33347ba7448af7f386282d27b1c50b18a6181919762b91de6e7c0d0b",
+        "train.py": "5e30c3230728f111cbe58985076f61d23c5847892b14277fed68dc529f7ed776",
+        "training/__init__.py": "aa9dcd1f8d39043a1e592adfa54cfb5a8bac3d83eaa9e6426ba84cac78350ddc",
+        "training/data.py": "ca832a3b868295d76a43d7d1b632bdc2253d55ce1eb732c2f8b583b08a4f3feb",
+        "training/engine.py": "4b7c10aedf020c7a283651112ace5ee2597b151875147117a38f6cb69e1eeba4"
+      },
+      "checkpoint_sha256": "0b921b4368268fbdbf1cc93b00255517a7994fd7a70d7f2c558be170262b504e",
+      "source_data_sha256": [
+        "be88f138bc07f8561212924ab64ea56bc331c1952debec2931f7a6fbf3344f5b",
+        "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+        "e9df86eed3fa90d7a0b03ac6ca92589a8acd23fdce0f1a699485097d65338a89"
+      ],
+      "test_data_sha256": [
+        "e6c550276183a5535cb54dc5e3b2172cc89fc235ad4ba7f15f1b077ac440aae6",
+        "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+        "35b8e1c9c10234062df4bbaf2968d580319e2f3741a37ed61439af3e9dd9bafd"
+      ],
+      "test_evaluations": 1,
+      "prediction_file_sha256": "413e199c02ec209fafa56dd2cf48c285f71ac54ba02876f537b93e50c91c647c"
+    },
+    "conformer": {
+      "role": "short integration smoke; not recipe reproduction",
+      "max_epochs": 2,
+      "selected_epoch": 2,
+      "elapsed_seconds": 10.713099006003176,
+      "metrics": {
+        "accuracy": 0.48,
+        "balanced_accuracy": 0.48,
+        "class_recall": [
+          0.9,
+          0.06
+        ],
+        "confusion_matrix": [
+          [
+            90,
+            10
+          ],
+          [
+            94,
+            6
+          ]
+        ],
+        "kappa": -0.040000000000000036,
+        "nll": 0.7521444167756445,
+        "trials": 200
+      },
+      "protocol": "npfeegnet-maintained-v2",
+      "model_kwargs": {
+        "centering": "demean",
+        "classes": 2,
+        "model_name": "conformer",
+        "n_times": 1000,
+        "num_channels": 20,
+        "sampling_rate": 250.0
+      },
+      "environment": {
+        "cuda": "12.6",
+        "numpy": "2.4.4",
+        "python": "3.12.14",
+        "torch": "2.11.0+cu126"
+      },
+      "source_sha256": {
+        "baselines/__init__.py": "cfd38e06338ea12f514bad843e575d415a4eaa15a683d0cf1b0858816868d3e3",
+        "baselines/openbmi_atcnet.py": "a3a6bd64ca6d66acb4ac16b21a4715c412905bf8134a30be770e51b752e61c1b",
+        "baselines/openbmi_eegconformer.py": "d980f4a0ae9bff6f4806d5aef77c5d1c1186126a9b871bf167539283c0bb6e92",
+        "baselines/vendor_fbcnet.py": "48b0b46f36d70a8ea337fa1e82cb84d5eed593c35bbb860672dcd3569c751d92",
+        "model/__init__.py": "fb2c03102352180161417072c10eef393afcc9ac91d3f72c90aa2152312e8276",
+        "model/eegnet_encoder.py": "96ffa7b9522fe6fde5354673a7811627082c539501e2dc8a7c7d482c53b5886c",
+        "model/factory.py": "9ef91b7cd24f3b6d6ac3adaec71df2d79fba3645caef697d8813a8bcc867785a",
+        "model/npf_eegnet_rd.py": "dd5fe8581175021744e2bbabb361134503afce044bd5cf21a1590495db06c450",
+        "predict.py": "097abd2f33347ba7448af7f386282d27b1c50b18a6181919762b91de6e7c0d0b",
+        "train.py": "5e30c3230728f111cbe58985076f61d23c5847892b14277fed68dc529f7ed776",
+        "training/__init__.py": "aa9dcd1f8d39043a1e592adfa54cfb5a8bac3d83eaa9e6426ba84cac78350ddc",
+        "training/data.py": "ca832a3b868295d76a43d7d1b632bdc2253d55ce1eb732c2f8b583b08a4f3feb",
+        "training/engine.py": "4b7c10aedf020c7a283651112ace5ee2597b151875147117a38f6cb69e1eeba4"
+      },
+      "checkpoint_sha256": "41a984a5c410aabf55b04397c92f48bf80030961beecacea63275cecf745cedd",
+      "source_data_sha256": [
+        "be88f138bc07f8561212924ab64ea56bc331c1952debec2931f7a6fbf3344f5b",
+        "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+        "e9df86eed3fa90d7a0b03ac6ca92589a8acd23fdce0f1a699485097d65338a89"
+      ],
+      "test_data_sha256": [
+        "e6c550276183a5535cb54dc5e3b2172cc89fc235ad4ba7f15f1b077ac440aae6",
+        "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+        "35b8e1c9c10234062df4bbaf2968d580319e2f3741a37ed61439af3e9dd9bafd"
+      ],
+      "test_evaluations": 1,
+      "prediction_file_sha256": "d0e158ce064a75f0851e585d7ace36073f85a07ade4d7c7870f4fe4cb12caa1b"
+    }
+  },
+  "raw_mat_preprocessing_validation": {
+    "O01T_data.npy": {
+      "new_sha256": "be88f138bc07f8561212924ab64ea56bc331c1952debec2931f7a6fbf3344f5b",
+      "historical_input_sha256": "be88f138bc07f8561212924ab64ea56bc331c1952debec2931f7a6fbf3344f5b",
+      "file_bytes_equal": true,
+      "arrays_equal": true,
+      "shape": [
+        200,
+        20,
+        1000
+      ],
+      "max_abs_difference": 0.0
+    },
+    "O01T_label.npy": {
+      "new_sha256": "e9df86eed3fa90d7a0b03ac6ca92589a8acd23fdce0f1a699485097d65338a89",
+      "historical_input_sha256": "e9df86eed3fa90d7a0b03ac6ca92589a8acd23fdce0f1a699485097d65338a89",
+      "file_bytes_equal": true,
+      "arrays_equal": true,
+      "shape": [
+        200,
+        1
+      ],
+      "max_abs_difference": 0.0
+    },
+    "O01T_group.npy": {
+      "new_sha256": "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+      "historical_input_sha256": "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+      "file_bytes_equal": true,
+      "arrays_equal": true,
+      "shape": [
+        200
+      ],
+      "max_abs_difference": 0.0
+    },
+    "O01E_data.npy": {
+      "new_sha256": "e6c550276183a5535cb54dc5e3b2172cc89fc235ad4ba7f15f1b077ac440aae6",
+      "historical_input_sha256": "e6c550276183a5535cb54dc5e3b2172cc89fc235ad4ba7f15f1b077ac440aae6",
+      "file_bytes_equal": true,
+      "arrays_equal": true,
+      "shape": [
+        200,
+        20,
+        1000
+      ],
+      "max_abs_difference": 0.0
+    },
+    "O01E_label.npy": {
+      "new_sha256": "35b8e1c9c10234062df4bbaf2968d580319e2f3741a37ed61439af3e9dd9bafd",
+      "historical_input_sha256": "35b8e1c9c10234062df4bbaf2968d580319e2f3741a37ed61439af3e9dd9bafd",
+      "file_bytes_equal": true,
+      "arrays_equal": true,
+      "shape": [
+        200,
+        1
+      ],
+      "max_abs_difference": 0.0
+    },
+    "O01E_group.npy": {
+      "new_sha256": "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+      "historical_input_sha256": "c80f0b8b8eb8f93b9b2184e5893f47314b45cfde8ed8306310d281fbe148b205",
+      "file_bytes_equal": true,
+      "arrays_equal": true,
+      "shape": [
+        200
+      ],
+      "max_abs_difference": 0.0
+    }
+  },
+  "raw_mat_sha256": {
+    "session1": "da1e4ce677f95bf2feed9ba0bc5edaef9daa4fb5ef2102d90fdcece69cc48b5c",
+    "session2": "5b8f0664dae03306328927e1fb43242f00d0335aad21aacb09db355f7301bb58"
+  },
+  "limitations": [
+    "One OpenBMI subject, one seed only",
+    "Baseline integrations use two-epoch smoke budgets, not published full recipes",
+    "Maintained v2 training is not the historical frozen engine",
+    "No historical third-party permission has been obtained",
+    "Other datasets and all-subject numerical replication have not been validated here"
+  ],
+  "validation_environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "packages": {
+      "numpy": {
+        "version": "2.4.4",
+        "declared_license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+        "legacy_license_first_line": "",
+        "license_files": [
+          "LICENSE.txt",
+          "numpy/_core/include/numpy/libdivide/LICENSE.txt",
+          "numpy/_core/src/common/pythoncapi-compat/COPYING",
+          "numpy/_core/src/highway/LICENSE",
+          "numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+          "numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+          "numpy/_core/src/umath/svml/LICENSE",
+          "numpy/fft/pocketfft/LICENSE.md",
+          "numpy/linalg/lapack_lite/LICENSE.txt",
+          "numpy/ma/LICENSE",
+          "numpy/random/LICENSE.md",
+          "numpy/random/src/distributions/LICENSE.md",
+          "numpy/random/src/mt19937/LICENSE.md",
+          "numpy/random/src/pcg64/LICENSE.md",
+          "numpy/random/src/philox/LICENSE.md",
+          "numpy/random/src/sfc64/LICENSE.md",
+          "numpy/random/src/splitmix64/LICENSE.md"
+        ]
+      },
+      "torch": {
+        "version": "2.11.0+cu126",
+        "declared_license_expression": null,
+        "legacy_license_first_line": "BSD-3-Clause",
+        "license_files": [
+          "LICENSE",
+          "NOTICE"
+        ]
+      },
+      "scipy": {
+        "version": "1.17.1",
+        "declared_license_expression": null,
+        "legacy_license_first_line": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.",
+        "license_files": []
+      },
+      "matplotlib": {
+        "version": "3.11.2",
+        "declared_license_expression": null,
+        "legacy_license_first_line": "License agreement for matplotlib versions 1.3.0 and later",
+        "license_files": []
+      },
+      "scikit-learn": {
+        "version": "1.8.0",
+        "declared_license_expression": "BSD-3-Clause",
+        "legacy_license_first_line": "",
+        "license_files": [
+          "COPYING"
+        ]
+      },
+      "mne": {
+        "version": "1.13.2",
+        "declared_license_expression": "BSD-3-Clause",
+        "legacy_license_first_line": "",
+        "license_files": [
+          "LICENSE.txt"
+        ]
+      },
+      "moabb": {
+        "installed": false
+      }
+    }
+  }
+}

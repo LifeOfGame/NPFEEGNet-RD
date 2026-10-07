@@ -508,7 +508,7 @@
         {
           "path": "model/npf_eegnet_rd.py",
           "in_repository": true,
-          "sha256": "3bc008dcb863f2ae145367d5d9ad6ca1eb84970411d90808abd90a191c4c9139"
+          "sha256": "dd5fe8581175021744e2bbabb361134503afce044bd5cf21a1590495db06c450"
         }
       ]
     },

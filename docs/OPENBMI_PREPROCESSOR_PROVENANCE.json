@@ -1,0 +1,10 @@
+{
+  "source": "historical_sources/openbmi/preprocess_moabb_openbmi.py",
+  "source_sha256": "49361f1423c9d72cffc970bfdd522f52cfe6e69bbf21d722efe0fd524ac8c528",
+  "preserved_functions": [
+    "_matlab_string",
+    "channel_names",
+    "extract_phase"
+  ],
+  "changes": "New local-MAT CLI and maintained-selection guard; removed downloads/MOABB and server-specific entry point. Extraction functions preserved verbatim."
+}

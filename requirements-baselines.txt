@@ -1,0 +1,5 @@
+# Maintained training, local-MAT preprocessing, baseline and CPU test dependencies.
+# These bounds are not a historical environment lock.
+numpy>=1.26,<3
+torch>=2.2
+scipy>=1.11,<2

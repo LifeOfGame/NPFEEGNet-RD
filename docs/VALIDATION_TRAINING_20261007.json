@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-07",
+  "tests_passed": 22,
+  "scope": "Maintained code/source policy and OpenBMI subject 1 integration; not historical numerical replication",
+  "models": [
+    "npf",
+    "eegnet",
+    "fbcnet",
+    "atcnet",
+    "conformer"
+  ],
+  "npf_selection_max_epochs": 300,
+  "npf_selected_epoch": 44,
+  "baseline_smoke_epochs": 2,
+  "raw_preprocessed_byte_identical_files": 6,
+  "historical_permission_obtained": false,
+  "legacy_author_contacted": false
+}

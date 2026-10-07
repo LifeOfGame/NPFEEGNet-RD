@@ -13,16 +13,18 @@ import torch  # 构造与训练模型，执行张量推理并保存权重。
 from torch.nn import functional as F  # 使用交叉熵计算融合输出与两个分支的训练损失。
 from torch.utils.data import DataLoader, TensorDataset  # 将 EEG 与标签打包成可复现的批次迭代器。
 
-from model.npf_eegnet_rd import NPFEEGNetRD  # 引入当前 NPFEEGNet-RD 模型实现。
+from model.factory import build_model  # 引入当前 NPFEEGNet-RD 模型实现。
 from .data import assert_shape, file_sha256, group_folds, validate_classes  # 复用输入维度、文件摘要、留组划分和类别校验。
 from .data import TRIAL_FINGERPRINT_SCHEMA, assert_disjoint_trials, trial_fingerprints  # 按规范化 EEG 内容检查隔离，并保存可跨文件比较的逐试次指纹。
 
 
-PROTOCOL = "npfeegnet-rd-clean-v1"  # 标识当前训练协议，防止不同流程的选择记录或权重混用。
+PROTOCOL = "npfeegnet-maintained-v2"  # 标识当前训练协议，防止不同流程的选择记录或权重混用。
 
 
 @dataclass(frozen=True)  # 创建初始化后不可修改的配置对象，避免训练中途无记录地改变参数。
 class TrainConfig:  # 集中定义选择阶段与最终训练共用的超参数。
+    optimizer: str = "adam"
+    scheduler: str = "cosine"
     seed: int = 0  # 固定随机种子，控制初始化、随机失活及训练批次顺序。
     batch_size: int = 64  # 每个训练或推理批次最多包含 64 个试次。
     learning_rate: float = 1e-3  # Adam 优化器的初始学习率。
@@ -32,6 +34,8 @@ class TrainConfig:  # 集中定义选择阶段与最终训练共用的超参数�
     min_learning_rate: float = 1e-6  # 余弦学习率调度的最小学习率。
 
     def validate(self):  # 在启动训练前检查随机种子、训练长度和优化器参数是否合法。
+        if self.optimizer not in {"adam", "adamw"} or self.scheduler not in {"cosine", "constant"}:
+            raise ValueError("Unsupported optimizer or scheduler")
         if self.seed < 0 or self.seed >= 2**32:  # 限制种子位于 NumPy 支持的无符号 32 位整数范围。
             raise ValueError("Seed must be between 0 and 2**32-1.")  # 拒绝超出各随机数生成器共同支持范围的种子。
         if self.batch_size < 1 or self.max_epochs < 1 or self.patience < 1:  # 批大小、最大轮数和早停等待轮数必须为正。
@@ -57,6 +61,7 @@ def source_hashes():  # 对参与训练和推理的源码逐文件计算指纹�
     root = Path(__file__).resolve().parents[1]  # 由本文件位置确定项目根目录。
     paths = [root / "train.py", root / "predict.py"]  # 将训练入口与推理入口纳入源码身份检查。
     paths += sorted((root / "training").glob("*.py"))  # 纳入训练包中的全部 Python 源文件，并固定遍历顺序。
+    paths += sorted((root / "baselines").glob("*.py"))
     paths += sorted((root / "model").glob("*.py"))  # 纳入模型包中的全部 Python 源文件。
     return {path.relative_to(root).as_posix(): file_sha256(path) for path in paths}  # 用相对路径记录内容摘要；注释变化也会改变文件哈希。
 
@@ -65,10 +70,10 @@ def manifest(stage, config, model_kwargs, device):  # 构造包含流程版本�
     return {  # 返回可直接序列化为 JSON 的实验元数据字典。
         "protocol": PROTOCOL, "stage": stage,  # 同时标识协议版本与当前属于选择还是最终训练阶段。
         "created_utc": datetime.now(timezone.utc).isoformat(),  # 使用带时区的 UTC 时间记录实验创建时刻。
-        "model": "NPFEEGNet-RD", "model_kwargs": model_kwargs,  # 保存模型名称及输入维度等构造参数。
+        "model": model_kwargs.get("model_name", "npf"), "model_kwargs": model_kwargs,  # 保存模型名称及输入维度等构造参数。
         "config": asdict(config), "device": str(device),  # 记录训练超参数与实际运行设备。
-        "loss": {"fused_ce": 1.0, "raw_ce": 0.5, "spectral_ce": 0.25},  # 明确融合、原始分支和频谱分支交叉熵的权重。
-        "scheduler": "CosineAnnealingLR; T_max=max_epochs in selection and final training",  # 声明两个训练阶段使用同样的余弦调度周期定义。
+        "loss": {"fused_ce": 1.0, "raw_ce": 0.5 if model_kwargs.get("model_name", "npf") == "npf" else 0.0, "spectral_ce": 0.25 if model_kwargs.get("model_name", "npf") == "npf" else 0.0},  # 明确融合、原始分支和频谱分支交叉熵的权重。
+        "scheduler": config.scheduler + "; cosine uses T_max=max_epochs in both stages",  # 声明两个训练阶段使用同样的余弦调度周期定义。
         "engine_scope": "Current implementation for new experiments; historical frozen results are not rerun or certified by this engine.",  # 限定当前引擎服务于新实验，不据此追认历史冻结结果。
         "source_sha256": source_hashes(),  # 保存全部相关源码指纹，确保选择和重新训练使用同一代码版本。
         "environment": {"python": platform.python_version(), "numpy": str(np.__version__),  # 记录 Python 与 NumPy 版本，帮助复核数值环境。
@@ -87,6 +92,8 @@ def seed_all(seed):  # 同步固定常用随机数生成器，降低重复运行
 
 
 def loss_value(logits, aux, labels):  # 计算融合输出和两个分支的联合监督损失。
+    if not aux:
+        return F.cross_entropy(logits, labels)
     return (F.cross_entropy(logits, labels) + 0.5 * F.cross_entropy(aux["raw_logits"], labels)  # 融合分类损失权重为 1，原始分支辅助损失权重为 0.5。
             + 0.25 * F.cross_entropy(aux["spectral_logits"], labels))  # 再加权重为 0.25 的频谱分支辅助损失。
 
@@ -100,10 +107,12 @@ def loader(data, batch_size, *, shuffle, seed):  # 将 [试次, 1, 通道, 时�
 
 def initialize(model_kwargs, config, device):  # 从固定种子重新构造模型、优化器和学习率调度器。
     seed_all(config.seed)  # 在参数初始化之前固定随机状态，让各折和最终训练遵循相同初始化规则。
-    model = NPFEEGNetRD(**model_kwargs).to(device)  # 新建当前模型，并把参数移到目标设备。
-    optimizer = torch.optim.Adam(model.parameters(), lr=config.learning_rate, weight_decay=config.weight_decay)  # 对所有可训练模型参数使用 Adam 更新。
+    model = build_model(model_kwargs).to(device)  # 新建当前模型，并把参数移到目标设备。
+    optimizer = {"adam": torch.optim.Adam, "adamw": torch.optim.AdamW}[config.optimizer](model.parameters(), lr=config.learning_rate, weight_decay=config.weight_decay)  # 对所有可训练模型参数使用 Adam 更新。
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(  # 使用余弦曲线按训练轮数降低学习率。
         optimizer, T_max=config.max_epochs, eta_min=config.min_learning_rate)  # 周期始终为最大轮数，最终训练不因所选轮数较短而改变曲线。
+    if config.scheduler == "constant":
+        scheduler = torch.optim.lr_scheduler.LambdaLR(optimizer, lambda _: 1.0)
     return model, optimizer, scheduler  # 返回同一次初始化得到的三个训练对象。
 
 
@@ -329,7 +338,7 @@ def fit_selected(train, selection_path, output, *, device="cpu", test_loader=Non
 
 def load_checkpoint(path, device="cpu", model_kwargs=None):  # 从当前协议检查点或显式给定结构的纯权重字典恢复推理模型。
     checkpoint = torch.load(path, map_location="cpu", weights_only=True)  # 先将权重安全地映射到 CPU，并限制为权重加载模式。
-    if checkpoint.get("protocol") == PROTOCOL:  # 当前协议检查点内含模型构造参数及训练元数据。
+    if checkpoint.get("protocol") in {PROTOCOL, "npfeegnet-rd-clean-v1"}:  # 当前协议检查点内含模型构造参数及训练元数据。
         if model_kwargs is not None and model_kwargs != checkpoint["model_kwargs"]:  # 若调用者同时指定结构，必须与检查点元数据完全一致。
             raise ValueError("Model dimensions differ from checkpoint metadata.")  # 阻止按错误输入维度或结构解释保存的权重。
         model_kwargs = checkpoint["model_kwargs"]  # 以检查点保存的参数恢复准确的模型结构。
@@ -339,7 +348,7 @@ def load_checkpoint(path, device="cpu", model_kwargs=None):  # 从当前协议�
         checkpoint = {"model_kwargs": model_kwargs, "format": "plain_state_dict"}  # 为没有训练元数据的权重补充结构与格式说明。
     else:  # 既不符合当前协议，也不满足明确结构的纯权重字典条件。
         raise ValueError("Use a current checkpoint, or provide model dimensions for a plain RD state dictionary.")  # 要求提供可明确解释的当前模型权重格式。
-    model = NPFEEGNetRD(**model_kwargs).to(device)  # 构造与检查点对应的当前模型并移到推理设备。
+    model = build_model(model_kwargs).to(device)  # 构造与检查点对应的当前模型并移到推理设备。
     model.load_state_dict(state, strict=True)  # 严格匹配全部参数名和张量形状，拒绝缺失或多余的权重项。
     model.eval()  # 恢复后立即切换为评估模式，关闭随机失活并固定批归一化行为。
     return model, checkpoint  # 同时返回可推理的模型和其元数据，供调用者校验或记录。

@@ -11,3 +11,8 @@ only to the extent of project-owned authorship; it conveys no license to importe
 legacy dependencies. ATCNet adaptation retains its upstream Apache-2.0 notice.
 The independent Conformer implementation retains its paper/source provenance.
 Anonymous classifier outputs are scientific evidence, not raw EEG redistribution.
+
+`baselines/vendor_fbcnet.py` is third-party MIT software, not relicensed under
+the project's Apache grant. Its full MIT notice is distributed alongside it.
+New independent adapters and the maintained v2 engine do not include the
+excluded legacy training or mixed-baseline files. See docs/LICENSE_RESOLUTION.md.

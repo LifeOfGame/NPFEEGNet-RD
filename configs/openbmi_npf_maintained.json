@@ -1,0 +1,8 @@
+{
+  "model_name": "npf",
+  "num_channels": 20,
+  "classes": 2,
+  "n_times": 1000,
+  "sampling_rate": 250.0,
+  "centering": "raw"
+}

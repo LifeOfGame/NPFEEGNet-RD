@@ -45,7 +45,7 @@ gaps. A source mapping alone does not prove every figure can be regenerated.
 ## What remains separate
 
 The maintained model/trainer supports new experiments. It is not certified as
-the engine that generated the historical runs. Original-engine permission,
-mixed-baseline provenance, some checkpoint-dependent mechanisms/confusion
+the engine that generated the historical runs. Legacy engine redistribution is excluded by choice. Historical mixed-baseline
+provenance, some checkpoint-dependent mechanisms/confusion
 inputs, and the full raw-data-to-result execution path remain unresolved.
 No existing manuscript number is changed by these retrospective checks.

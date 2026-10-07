@@ -1,0 +1,70 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "numpy": {
+      "version": "2.4.4",
+      "declared_license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "legacy_license_first_line": "",
+      "license_files": [
+        "LICENSE.txt",
+        "numpy/_core/include/numpy/libdivide/LICENSE.txt",
+        "numpy/_core/src/common/pythoncapi-compat/COPYING",
+        "numpy/_core/src/highway/LICENSE",
+        "numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+        "numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+        "numpy/_core/src/umath/svml/LICENSE",
+        "numpy/fft/pocketfft/LICENSE.md",
+        "numpy/linalg/lapack_lite/LICENSE.txt",
+        "numpy/ma/LICENSE",
+        "numpy/random/LICENSE.md",
+        "numpy/random/src/distributions/LICENSE.md",
+        "numpy/random/src/mt19937/LICENSE.md",
+        "numpy/random/src/pcg64/LICENSE.md",
+        "numpy/random/src/philox/LICENSE.md",
+        "numpy/random/src/sfc64/LICENSE.md",
+        "numpy/random/src/splitmix64/LICENSE.md"
+      ]
+    },
+    "torch": {
+      "version": "2.11.0+cu126",
+      "declared_license_expression": null,
+      "legacy_license_first_line": "BSD-3-Clause",
+      "license_files": [
+        "LICENSE",
+        "NOTICE"
+      ]
+    },
+    "scipy": {
+      "version": "1.17.1",
+      "declared_license_expression": null,
+      "legacy_license_first_line": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.",
+      "license_files": []
+    },
+    "matplotlib": {
+      "version": "3.11.2",
+      "declared_license_expression": null,
+      "legacy_license_first_line": "License agreement for matplotlib versions 1.3.0 and later",
+      "license_files": []
+    },
+    "scikit-learn": {
+      "version": "1.8.0",
+      "declared_license_expression": "BSD-3-Clause",
+      "legacy_license_first_line": "",
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    "mne": {
+      "version": "1.13.2",
+      "declared_license_expression": "BSD-3-Clause",
+      "legacy_license_first_line": "",
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    "moabb": {
+      "installed": false
+    }
+  }
+}

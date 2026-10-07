@@ -24,7 +24,7 @@ class FixedResponseFilterBank(nn.Module):  # 在频域应用五个固定软带�
     # 类说明：归一化的是每个滤波响应的平方积分近似值，不是每段 EEG 信号的能量。
     """Five fixed soft bands with unit squared-response energy per band."""
 
-    def __init__(self, sampling_rate: float = 250.0):  # 接收采样率，默认每秒 250 个采样点。
+    def __init__(self, sampling_rate: float = 250.0, centering: str = "raw"):  # 接收采样率，默认每秒 250 个采样点。
         super().__init__()  # 初始化 nn.Module，使后续缓冲区能随模型保存和迁移设备。
         if not math.isfinite(sampling_rate) or sampling_rate <= 80.0:  # 要求采样率有限且奈奎斯特频率严格超过最高频带边界 40 Hz。
             raise ValueError("sampling_rate must be finite and greater than 80 Hz")  # 拒绝无法支持当前固定频带的采样率。
@@ -88,7 +88,7 @@ class NPFEEGNetRD(nn.Module):  # 组合去均值原始分支与固定滤波频�
     """
 
     def __init__(self, num_channels: int, classes: int, n_times: int = 1000,  # 接收 EEG 电极数、类别数和每试次点数，默认 1000 点。
-                 sampling_rate: float = 250.0):  # 接收采样率，默认 250 Hz 对应 4 秒的默认试次长度。
+                 sampling_rate: float = 250.0, centering: str = "raw"):  # 接收采样率，默认 250 Hz 对应 4 秒的默认试次长度。
         super().__init__()  # 初始化模块容器，以便自动注册子网络和可训练参数。
         for name, value, minimum in (("num_channels", num_channels, 1),  # 为电极数配置至少为 1 的整数检查。
                                      ("classes", classes, 2), ("n_times", n_times, 32)):  # 类别数至少为 2，时间点数至少为 32，以支持两次时间池化。
@@ -98,6 +98,9 @@ class NPFEEGNetRD(nn.Module):  # 组合去均值原始分支与固定滤波频�
         self.classes = classes  # 保存分类类别数，两个分支输出相同数量的分类分数。
         self.n_times = n_times  # 保存固定试次长度，决定原始分支展平后的特征维度。
         self.sampling_rate = float(sampling_rate)  # 保存浮点采样率，记录当前模型对应的数据采样设置。
+        if centering not in {"raw", "none", "full"}:
+            raise ValueError("centering must be raw, none or full")
+        self.centering = centering
         self.num_bands = 5  # 固定频带数量为 5，与预定义边界以及等权聚合保持一致。
 
         self.raw_features = eegnet_features(num_channels, temporal_kernel=64, dropout=0.5)  # 创建原始分支的独立 EEGNet 参数，首层时间核为 64，训练丢弃率为 0.5。
@@ -118,7 +121,9 @@ class NPFEEGNetRD(nn.Module):  # 组合去均值原始分支与固定滤波频�
             raise ValueError(  # 输入结构不符合当前模型配置时，抛出清晰的形状错误。
                 f"expected input shape (batch, 1, {self.num_channels}, {self.n_times})"  # 在错误消息中展示本模型实例要求的电极数和试次长度。
             )  # 结束形状错误构造，防止不兼容输入继续进入卷积层。
-        raw_input = x - x.mean(dim=-1, keepdim=True)  # 对每个试次和电极沿时间求均值，再通过 [批量, 1, 电极, 1] 广播相减，仅影响原始分支输入。
+        if self.centering == "full":
+            x = x - x.mean(dim=-1, keepdim=True)
+        raw_input = x - x.mean(dim=-1, keepdim=True) if self.centering == "raw" else x  # 对每个试次和电极沿时间求均值，再通过 [批量, 1, 电极, 1] 广播相减，仅影响原始分支输入。
         raw_embedding = self.raw_features(raw_input).flatten(start_dim=1)  # 提取原始分支特征并保留批量维，将其余维度展平为分类向量。
         raw_logits = self.raw_classifier(raw_embedding)  # 生成 [批量, 类别数] 原始分支分类分数，此处尚未做 softmax。
 

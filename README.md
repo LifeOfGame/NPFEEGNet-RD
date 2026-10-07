@@ -2,7 +2,23 @@
 
 Fixed spectral-residual EEGNet with raw-branch trial-wise temporal demeaning.
 
-**Status: repository preparation, version 0.4.0.dev0. This is not the complete manuscript reproducibility release and has no archive DOI yet.** This repository contains an independent maintained model implementation, a new training/inference interface, and the corrected summary-level OpenBMI BP8–30 audit. The new trainer does not certify or regenerate all historical paper results. Do not describe this initial repository as the final paper-associated v1.0.0.
+**Status: repository preparation, version 0.5.0.dev0. This is not the complete manuscript reproducibility release and has no archive DOI yet.** This repository contains an independent maintained model implementation, a new training/inference interface, and the corrected summary-level OpenBMI BP8–30 audit. The new trainer does not certify or regenerate all historical paper results. Do not describe this initial repository as the final paper-associated v1.0.0.
+
+## Independent training validation (7 October 2026)
+
+The maintained v2 trainer supports NPF, EEGNet, FBCNet, ATCNet and EEG Conformer
+without importing the excluded legacy engine or mixed-baseline module.
+FBCNet's official MIT source is now pinned and included with its license.
+See [license/source resolution](docs/LICENSE_RESOLUTION.md) and
+[raw-MAT-to-training commands and validation limits](docs/TRAINING_VALIDATION.md).
+
+One real OpenBMI subject completed source selection, fresh NPF fitting, target
+scoring and checkpoint inference; four baseline interfaces completed short
+integration runs. Re-exported raw MAT inputs matched all six historical input
+files byte-for-byte. This is not a 54-subject historical numerical reproduction.
+Release decision (2026-10-08): the legacy EEG-CSANet-derived engine remains
+private and is not part of this distribution. No permission request is being
+pursued for this release. No grant or historical numerical equivalence is claimed.
 
 ## Portable reconstruction added (7 October 2026)
 
@@ -46,7 +62,7 @@ See `docs/EXPERIMENT_MAP.md` before selecting results. No raw EEG, features or w
 
 ## Install
 
-Use Python 3.12. Install a PyTorch build appropriate for the CPU/CUDA platform, then run `python -m pip install -r requirements.txt`. These dependency bounds describe the maintained implementation, not a reconstructed historical environment. Do not replace an existing validated experimental environment merely to satisfy this example.
+Use Python 3.12. Install a PyTorch build appropriate for the CPU/CUDA platform, then run `python -m pip install -r requirements-baselines.txt` for all maintained models and tests (`requirements.txt` suffices for NPF-only use). These dependency bounds describe the maintained implementation, not a reconstructed historical environment. Do not replace an existing validated experimental environment merely to satisfy this example.
 
 ```bash
 python -m unittest discover -s tests -v
@@ -71,7 +87,7 @@ The default execution device is CPU. Select a CUDA device explicitly through the
 
 ## Validation
 
-On 7 October 2026, all 18 included tests passed on CPU in an isolated server directory (Python 3.12.14, PyTorch 2.11.0+cu126, NumPy 2.4.4). The 324-row BP8?30 verification and corrected paired analysis also passed. See `docs/VALIDATION_20261007.json` for the initial checks and `docs/VALIDATION_EXPANDED_20261007.json` for the expanded checks. These checks do not constitute rerunning the paper experiments.
+On 7 October 2026, 22 tests passed (21-model/statistics/training suite plus the new preprocessing-guard test) on CPU in an isolated server directory (Python 3.12.14, PyTorch 2.11.0+cu126, NumPy 2.4.4). The 324-row BP8?30 verification and corrected paired analysis also passed. See `docs/VALIDATION_20261007.json` for the initial checks and `docs/VALIDATION_EXPANDED_20261007.json` for the expanded checks. These checks do not constitute rerunning the paper experiments.
 
 ## Scientific and licensing scope
 

@@ -1,0 +1,6 @@
+# Observed core versions for the isolated Linux/RTX2080Ti validation only.
+# This is not a historical all-experiment lock or a full transitive environment.
+# Install an appropriate PyTorch build through its supported channel separately.
+numpy==2.4.4
+scipy==1.17.1
+torch==2.11.0+cu126

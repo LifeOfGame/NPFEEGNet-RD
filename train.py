@@ -10,7 +10,7 @@ from training.engine import TrainConfig, fit_selected, select_epochs  # 导入�
 
 def model_config(path):  # 从 JSON 文件取得模型输入尺寸、类别数与采样率。
     result = json.loads(Path(path).read_text(encoding="utf-8"))  # 按 UTF-8 解码文件，再解析为配置字典。
-    allowed = {"num_channels", "classes", "n_times", "sampling_rate"}  # 只允许通道数、类别数、时间点数和采样率四种配置项。
+    allowed = {"num_channels", "classes", "n_times", "sampling_rate", "model_name", "centering", "width"}  # 只允许通道数、类别数、时间点数和采样率四种配置项。
     if set(result) - allowed or not {"num_channels", "classes"} <= set(result):  # 拒绝未知配置项，以及缺少通道数或类别数的配置。
         raise ValueError("Model config requires num_channels/classes and optional n_times/sampling_rate.")  # 明确报错，避免按不完整或拼错的配置构建模型。
     return {"n_times": 1000, "sampling_rate": 250.0, **result}  # 默认每试次 1000 点、250 Hz；文件内的同名值覆盖默认值。
@@ -32,6 +32,8 @@ def build_parser():  # 定义彼此分离的 select 选轮数流程与 fit 最�
     select.add_argument("--patience", type=int, default=40)  # 验证指标连续指定轮数未改善时停止该折训练，默认 40。
     select.add_argument("--lr", type=float, default=0.001)  # 设置优化器初始学习率，默认 0.001。
     select.add_argument("--weight-decay", type=float, default=0.0001)  # 设置优化器权重衰减强度，默认 0.0001。
+    select.add_argument("--optimizer", choices=("adam", "adamw"), default="adam")
+    select.add_argument("--scheduler", choices=("cosine", "constant"), default="cosine")
     select.add_argument("--device", default="cpu")  # 设置选轮数阶段使用的计算设备，默认 CPU。
     fit = commands.add_parser("fit", help="Fresh fixed-epoch fit from a completed selection record.")  # 根据已完成的选择记录重新初始化模型，并训练固定轮数。
     fit.add_argument("--train", required=True)  # 最终训练必须提供与选择阶段文件哈希一致的训练数据。
@@ -47,7 +49,7 @@ def main(argv=None):  # 运行训练命令；argv 为 None 时读取进程命令
     if args.command == "select":  # 进入只使用训练会话及验证信息的轮数选择流程。
         train = load_data(args.train, label_offset=args.label_offset)  # 读取指定训练会话，得到 [N, 1, C, T] EEG、零起始标签和可选分组。
         validation = None if args.validation is None else load_data(args.validation, label_offset=args.label_offset)  # 仅在显式指定路径时读取验证数据，标签偏移与训练数据一致。
-        settings = TrainConfig(seed=args.seed, batch_size=args.batch_size, learning_rate=args.lr,  # 将种子、批量大小与学习率汇总为训练配置。
+        settings = TrainConfig(optimizer=args.optimizer, scheduler=args.scheduler, seed=args.seed, batch_size=args.batch_size, learning_rate=args.lr,  # 将种子、批量大小与学习率汇总为训练配置。
                                weight_decay=args.weight_decay, max_epochs=args.epochs, patience=args.patience)  # 补充权重衰减、最大轮数和早停等待轮数。
         result = select_epochs(train, args.output, settings, model_config(args.model_config),  # 按模型配置启动验证选轮数，并将训练与选择记录写入输出目录。
                                validation=validation, device=args.device)  # 传入可选验证集和计算设备；此调用没有测试数据入口。
