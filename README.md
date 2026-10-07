@@ -4,6 +4,8 @@ Fixed spectral-residual EEGNet with raw-branch trial-wise temporal demeaning.
 
 **Version 0.5.0: maintained implementation and audit evidence.** This version contains the independent maintained model/training/inference path and portable audits of available historical evidence. It excludes the legacy EEG-CSANet-derived training engine and does not certify full numerical reproduction of all manuscript experiments. See [release scope](docs/RELEASE_v0.5.0.md), [citation metadata](CITATION.cff), and the [versioned release](https://github.com/LifeOfGame/NPFEEGNet-RD/releases/tag/v0.5.0).
 
+Version-specific archive DOI: [10.5281/zenodo.23221417](https://doi.org/10.5281/zenodo.23221417). The DOI identifies the immutable `v0.5.0` archive; subsequent repository documentation updates do not change that archive.
+
 ## Independent training validation (7 October 2026)
 
 The maintained v2 trainer supports NPF, EEGNet, FBCNet, ATCNet and EEG Conformer

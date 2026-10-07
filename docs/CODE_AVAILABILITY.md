@@ -1,5 +1,8 @@
 # Code availability ? proposed manuscript wording
 
+Version 0.5.0 is archived at https://doi.org/10.5281/zenodo.23221417
+(Git tag v0.5.0; commit 6c2ea71976af0306fecbfbbdbab7d4e8cb1d07e4).
+
 The maintained implementation, experiment configurations and available anonymous
 prediction-level evidence are available at https://github.com/LifeOfGame/NPFEEGNet-RD.
 The release excludes the legacy EEG-CSANet-derived training engine. Historical
@@ -11,6 +14,5 @@ integration checks. These checks do not establish numerical equivalence to the
 historical engine or full reproduction of all reported experiments. Detailed
 coverage and remaining gaps are documented in the repository.
 
-This wording does not promise access to excluded code on request. Use a real
-release identifier/DOI only once one has been created. No manuscript or PDF was
+This wording does not promise access to excluded code on request. No manuscript or PDF was
 edited as part of this distribution-scope update.

@@ -19,3 +19,4 @@ abstract: >-
   and trained weights are excluded. Validation does not establish full historical
   numerical replication. Component-specific license terms apply as documented
   in LICENSE_SCOPE.md and THIRD_PARTY_NOTICES.md.
+doi: "10.5281/zenodo.23221417"
