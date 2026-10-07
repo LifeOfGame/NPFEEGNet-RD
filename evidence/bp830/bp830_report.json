@@ -1,0 +1,85 @@
+{
+  "analysis_status": "post-confirmatory 8-30-Hz continuous-filter sensitivity",
+  "subjects": 54,
+  "seeds_per_subject": 3,
+  "tie_rule": "Exact integer correct-count differences across 3 x 200 predictions; float lattice validation atol=1e-10 pp, rtol=0. Mean and bootstrap computations unchanged.",
+  "subject_macro_accuracy_pct": {
+    "BP830-RD": 66.67592592592592,
+    "BP830-NoDemean": 66.49382716049382,
+    "Original-RD": 70.6358024691358,
+    "Original-NoDemean": 66.45061728395063
+  },
+  "bp830_rd_minus_bp830_no": {
+    "difference_pp": 0.1820987654320971,
+    "subject_bootstrap_95_ci_pp": [
+      -0.13888888888889073,
+      0.5462962962962945
+    ],
+    "wins_ties_losses": [
+      27,
+      6,
+      21
+    ]
+  },
+  "original_rd_minus_original_no": {
+    "difference_pp": 4.185185185185186,
+    "subject_bootstrap_95_ci_pp": [
+      2.4814814814814836,
+      6.064814814814815
+    ],
+    "wins_ties_losses": [
+      40,
+      1,
+      13
+    ]
+  },
+  "bp830_rd_gain_minus_original_rd_gain": {
+    "difference_pp": -4.003086419753089,
+    "subject_bootstrap_95_ci_pp": [
+      -5.88271604938272,
+      -2.3055555555555562
+    ],
+    "wins_ties_losses": [
+      11,
+      1,
+      42
+    ]
+  },
+  "bp830_rd_minus_original_rd": {
+    "difference_pp": -3.959876543209879,
+    "subject_bootstrap_95_ci_pp": [
+      -7.484567901234566,
+      -0.39197530864197644
+    ],
+    "wins_ties_losses": [
+      23,
+      0,
+      31
+    ]
+  },
+  "bp830_no_minus_original_no": {
+    "difference_pp": 0.04320987654321051,
+    "subject_bootstrap_95_ci_pp": [
+      -3.3611111111111107,
+      3.4567901234567895
+    ],
+    "wins_ties_losses": [
+      30,
+      0,
+      24
+    ]
+  },
+  "original_rd_minus_bp830_no": {
+    "difference_pp": 4.141975308641976,
+    "subject_bootstrap_95_ci_pp": [
+      0.6728395061728414,
+      7.592592592592588
+    ],
+    "wins_ties_losses": [
+      33,
+      0,
+      21
+    ]
+  },
+  "interpretation_limit": "Cutoff, continuous phase filtering, and per-variant S1 epoch selection differ from the earlier epoched 1-Hz control; all contrasts are post-confirmatory."
+}

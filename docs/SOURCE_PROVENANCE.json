@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-07",
+  "source": "Current independent NPFEEGNet-RD server workspace; not historical frozen engine",
+  "unchanged_sources": {
+    "train.py": "299e0f0275937b14f8cc5f3844a0b7ab7017020855f8408e593b62cf0b1231b9",
+    "predict.py": "097abd2f33347ba7448af7f386282d27b1c50b18a6181919762b91de6e7c0d0b",
+    "model/eegnet_encoder.py": "96ffa7b9522fe6fde5354673a7811627082c539501e2dc8a7c7d482c53b5886c",
+    "model/npf_eegnet_rd.py": "3bc008dcb863f2ae145367d5d9ad6ca1eb84970411d90808abd90a191c4c9139",
+    "model/__init__.py": "fb2c03102352180161417072c10eef393afcc9ac91d3f72c90aa2152312e8276",
+    "training/data.py": "ca832a3b868295d76a43d7d1b632bdc2253d55ce1eb732c2f8b583b08a4f3feb",
+    "training/engine.py": "c174ae9689cf351842e0665082ae26bde885b0e64c227a7ddbc896fd37392e4d",
+    "training/__init__.py": "aa9dcd1f8d39043a1e592adfa54cfb5a8bac3d83eaa9e6426ba84cac78350ddc",
+    "configs/hgd.json": "7ed83affbc08ccd188eabca321e50ee22c36ed237da7723c0413d59ef491a545",
+    "configs/openbmi.json": "7fe57cad12cde70f017513060f337100195f6159e272781a0fb15e53eee2b56d",
+    "configs/README.md": "591ad780474afe95d1d537d87d1463ee3e4638d03e4a2f82feeec435c1f14ec0",
+    "tests/test_model_equivalence.py": "52d5c88ea1f418a9c0cdfe37ed0d4dd9b14a64d67f68d2a8dde180cc8026ce17",
+    "tests/test_training.py": "0afcece4c98a735d203fe40a753f4744ed98cff3cbc9947ce316aac5160bc84e"
+  }
+}

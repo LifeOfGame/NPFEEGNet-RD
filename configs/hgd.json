@@ -1,0 +1,6 @@
+{
+  "num_channels": 44,
+  "classes": 4,
+  "n_times": 1000,
+  "sampling_rate": 250.0
+}

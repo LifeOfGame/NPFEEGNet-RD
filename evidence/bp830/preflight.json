@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "torch": "2.11.0+cu126",
+  "devices": [
+    "NVIDIA GeForce RTX 2080 Ti",
+    "NVIDIA GeForce RTX 2080 Ti"
+  ],
+  "engine_sha256": "dd010b3c64a1ec25e10b1fe539e439a0e1f3305942327e4baea49ef7e6485e15",
+  "first_source_phase_shape": [
+    100,
+    20,
+    1000
+  ],
+  "source_fs": 1000.0,
+  "source_only": true,
+  "target_session_read": false
+}

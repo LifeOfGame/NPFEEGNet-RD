@@ -1,0 +1,18 @@
+{
+  "bp830_rd": {
+    "subjects": 54,
+    "seeds": 3,
+    "rows_verified": 162,
+    "selection_summary_sha256": "0054c25b2f209e6d79b88339ba13e0794974e9b3ca8994d66af4d39bb0bace74",
+    "frozen_map_sha256": "c24f4e2e4ae852c608f4e48c7a3186a65e4e169d63b4812b46e01eca0d3e3588",
+    "final_summary_sha256": "bbc4a06dc615de9f13ae042f26aaf260d89edd747d06cb090510f50af8be81a3"
+  },
+  "bp830_nodemean": {
+    "subjects": 54,
+    "seeds": 3,
+    "rows_verified": 162,
+    "selection_summary_sha256": "cfb1533a403c1db567ec5e74bf2e8d2026322478c91a22073426769ad664952a",
+    "frozen_map_sha256": "c15d327262413655bf5642723a25ea2394be99564cabe81b99f4a89b2635dad5",
+    "final_summary_sha256": "e4f08796620a478f2698ba75d58bc38a012e99bf7fedcb9496d02c673952bfbe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-07",
+  "scope": "Initial maintained implementation, not full historical manuscript replication",
+  "unit_test_command": "python -m unittest discover -s tests -v",
+  "unit_tests_passed": 10,
+  "unit_tests_failed": 0,
+  "device": "cpu",
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.11.0+cu126",
+    "numpy": "2.4.4",
+    "torch_cuda_build": "12.6"
+  },
+  "environment_role": "Release-preparation test environment; not a claim about historical experiment versions",
+  "bp830_verified_final_rows": 324,
+  "bp830_wins_ties_losses": [27, 6, 21],
+  "remaining_scope": "REPRODUCTION_COVERAGE.md"
+}
