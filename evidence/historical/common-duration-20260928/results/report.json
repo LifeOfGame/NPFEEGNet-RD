@@ -1,0 +1,116 @@
+{
+  "role": "post-confirmatory sensitivity",
+  "completed_at": "2026-09-28T12:06:52.855384+00:00",
+  "bootstrap_seed": 20260928,
+  "subjects": 54,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "conditions": {
+    "A_RD_duration": {
+      "rd_accuracy_percent": 70.87654320987654,
+      "nodemean_accuracy_percent": 66.91975308641975,
+      "gain_pp": 3.956790123456788,
+      "median_pp": 3.0,
+      "ci95_pp": [
+        2.398148148148147,
+        5.762345679012344
+      ],
+      "wtl": [
+        40,
+        3,
+        11
+      ],
+      "exact_signflip_p": 5.7357373695055e-07,
+      "holm_p_two_sensitivity_conditions": 1.1471474739011e-06
+    },
+    "B_NoDemean_duration": {
+      "rd_accuracy_percent": 70.33333333333333,
+      "nodemean_accuracy_percent": 66.59567901234567,
+      "gain_pp": 3.737654320987654,
+      "median_pp": 2.6666666666666785,
+      "ci95_pp": [
+        2.0092592592592613,
+        5.620370370370369
+      ],
+      "wtl": [
+        37,
+        1,
+        16
+      ],
+      "exact_signflip_p": 3.742832417596986e-05,
+      "holm_p_two_sensitivity_conditions": 3.742832417596986e-05
+    }
+  },
+  "contemporary_independent_duration_reference": {
+    "rd_accuracy_percent": 70.87654320987654,
+    "nodemean_accuracy_percent": 66.59567901234567,
+    "gain_pp": 4.280864197530862,
+    "median_pp": 3.416666666666668,
+    "ci95_pp": [
+      2.5432098765432074,
+      6.1820987654320945
+    ],
+    "wtl": [
+      40,
+      0,
+      14
+    ],
+    "exact_signflip_p": 3.922737897843476e-06
+  },
+  "historical_primary_diagonal_reuse": {
+    "A": {
+      "rd_accuracy_percent": 70.63580246913581,
+      "nodemean_accuracy_percent": 66.91975308641975,
+      "gain_pp": 3.7160493827160517,
+      "median_pp": 2.1666666666666785,
+      "ci95_pp": [
+        2.0432098765432154,
+        5.58641975308642
+      ],
+      "wtl": [
+        41,
+        2,
+        11
+      ],
+      "exact_signflip_p": 1.8803347948903593e-05
+    },
+    "B": {
+      "rd_accuracy_percent": 70.33333333333333,
+      "nodemean_accuracy_percent": 66.4506172839506,
+      "gain_pp": 3.882716049382714,
+      "median_pp": 3.0833333333333357,
+      "ci95_pp": [
+        2.2469135802469102,
+        5.697530864197529
+      ],
+      "wtl": [
+        42,
+        2,
+        10
+      ],
+      "exact_signflip_p": 3.634522027340381e-06
+    }
+  },
+  "historical_comparison_caveat": "historical diagonals and new crossed runs differ in execution environment; contemporary four-arm results are preferred for isolating duration",
+  "sources": {
+    "rd_at_rd": {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-common-duration-20260928/output/rd_at_rd/NPFEEGNet/2026-09-28--19-03/summary.csv",
+      "sha256": "aff24c1d7f4b80418db1e5355d2a8a633ccda4572512ec945202cfcb6070faad"
+    },
+    "rd_at_no": {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-common-duration-20260928/output/rd_at_no/NPFEEGNet/2026-09-28--19-35/summary.csv",
+      "sha256": "2f74b3f60e32b37c210ce5233faeea03798c2e1b59db32a7cdd79d0449ef2f07"
+    },
+    "no_at_rd": {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-common-duration-20260928/output/no_at_rd/NPFEEGNet/2026-09-28--19-03/summary.csv",
+      "sha256": "db57ee2da5f99c87406d777adc6ecbc8cbadaaeb825062be352b529d33d85935"
+    },
+    "no_at_no": {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-common-duration-20260928/output/no_at_no/NPFEEGNet/2026-09-28--19-36/summary.csv",
+      "sha256": "e0e2f3edc9152ea11a9d8b349a9e2ed4d2bf70e4b5c16510a230af19474c03a4"
+    }
+  }
+}

@@ -1,23 +1,30 @@
-# Reproduction coverage and release checklist
+# Reproduction coverage, preparation version 0.3.0.dev0
 
-| Evidence or operation | Current repository | Remaining requirement |
+| Scope | Included | Remaining limitation |
 |---|---|---|
-| Maintained NPFEEGNet-RD model | Included with synthetic tests | This is not a new replication of historical runs |
-| Maintained source-only selection and fitting | Included | Match/validate against each original frozen recipe before claiming numerical replication |
-| OpenBMI BP8–30 54 × 3 × 2 final-run audit | Included: summaries, epoch maps, verify.py/analyze.py | Full raw-data preprocessing/retraining path is not included |
-| Original OpenBMI accuracy comparator | Run-level CSV included | Original primary-analysis entry point and prediction-level pooled NLL/ECE reconstruction remain to be released |
-| FullDemean, HP0.5/HP1, duration/capacity/component controls | Not included as complete execution pipelines | Frozen configs, legal engine path and table/figure mapping |
-| FBCNet, ATCNet, EEGConformer and CSP baselines | Not included | Resolve source licenses and preserve each actual recipe |
-| BCIC, HGD, BNCI2015-001 and Zhou external audits | Not included | Dataset preparation, frozen configs, analyses and lawful source dependencies |
-| Activation/frequency/calibration analyses | Not included | Analysis scripts and permissible prediction artifacts |
+| Maintained model/training | Independent code and CPU tests | Not the historical frozen engine |
+| Original OpenBMI primary | Run records, anonymous predictions, portable accuracy/NLL/ECE audit | Exact full training path remains dependent on legacy source |
+| BP8-30 | 324-run epoch/hash audit, fixed W/T/L, predictions | Full raw-data retraining path not yet validated |
+| FullDemean, HP, capacity, components | Configs, reports, available predictions, historical source | Original wrappers retain paths/imports; not turnkey |
+| Baselines | ATCNet and paper-based Conformer source, historical records | Mixed EEGNet/FBCNet dependency provenance unresolved; not all recipe predictions exported |
+| BCIC/HGD | Historical config/result records; corrected 2a preprocessing reference | Superseded 2a records must not be treated as final; portable rerun not validated |
+| BNCI/Zhou | Configs, locks, reports, available predictions and original preprocessing references | Dataset downloads and legacy training dependencies required |
+| Mechanism/calibration | Historical analysis code and result records | Checkpoints/source OOF outputs not distributed; no full rerun verified |
 
-## Before a paper-associated v1.0.0
+The newly generated metrics match original OpenBMI primary accuracy and pooled
+NLL. This is evidence reconstruction, not independent experimental replication.
+The historical record collection intentionally includes superseded development
+work; it is not a replacement for a final table/figure-to-result registry.
 
-1. Complete the experiment-to-script/config/result mapping for every reported table and figure.
-2. Resolve excluded source provenance: obtain permission where required or provide an independently written alternative with documented validation. Never claim new code is the old frozen engine.
-3. Record actual experimental environments separately from current verification environments.
-4. Verify from a fresh checkout, including pooled calibration calculations from permitted prediction files.
-5. Confirm software copyright, author names/order and citation metadata; add CITATION.cff with actual facts.
-6. Publish the repository as appropriate, freeze a reviewed commit in a release, and archive it with Zenodo. Cite its real version DOI.
+## Outstanding for a complete paper-associated release
 
-The package version 0.2.0.dev0 marks preparation only. No formal GitHub release or DOI exists as part of this initial upload.
+1. Resolve EEG-CSANet-derived frozen-engine permission and mixed baseline
+   provenance, or independently reimplement and validate the missing path.
+2. Complete a version-specific manuscript table/figure registry and portable
+   preprocessing-to-selection-to-final commands for every reported experiment.
+3. Recover experiment-specific environments where absent; one later environment
+   cannot establish earlier versions.
+4. Validate the full runnable package on legally obtained data. CPU unit tests
+   and prediction audits do not establish training equivalence.
+5. Confirm citation author names/order, then create the actual release and
+   Zenodo version DOI. No v1.0.0 tag or DOI is claimed here.

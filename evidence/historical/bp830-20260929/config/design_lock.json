@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-09-29T09:22:25.322445+00:00",
+  "status": "prepared locally; server launch pending connectivity and trainer inspection",
+  "protocol": "PROTOCOL.md",
+  "files": {
+    "analyze.py": "34b67b9d587dfb9ed93726c1af4ea1d08162f87c301477651c6af680c5a563c2",
+    "bp830_nodemean_final.yaml": "2a0fcf45e7ea863b860dd29492ae7b518f66821f79c14eee8bbd5fc107cee51c",
+    "bp830_nodemean_selection.yaml": "fd3e3a034d86be8ba8bdb37c213b6da17bfd6dd1697617c3e77ec93110c3923e",
+    "bp830_rd_final.yaml": "5def3cff775606ade4b8d44beb71a4795afa0f65d9414f7fca451d9556118f0f",
+    "bp830_rd_selection.yaml": "a989346b835ba210f5711246ede1064df546276f2c79e27346e08965d992db79",
+    "collect.py": "fc9075878266b07084fa77aaabf81e589cb132101137b0928d540d2f65bf1662",
+    "freeze_bp830_nodemean.py": "ed56cc9c9878c74480536ad2d9bb8211d6dff7c0390cc9a6339e1e5b61e5f0e4",
+    "freeze_bp830_rd.py": "44d31aa735e1ba4e578675ddeb67217c72c35a450caa47869b77abcf99f4ba41",
+    "openbmi_final_3seed_rows.csv": "ba9d8a0c7d48691b25790f25140d2dd548f542b5d8651568b0d6739f4275a264",
+    "preprocess.py": "23dc708814c660320707da2e2c06871ac8ec456d7a49123cf02f877612e40406",
+    "PROTOCOL.md": "1bf56501ee8b488475d7e42855d6dcee79239c561ac5daf7345c0a65bbb16473",
+    "run.sh": "84b7653d2da33b4282a9ba13714c56bd83366c0c4d8dcec4798117c2f9fb7fc5",
+    "signal_summary.py": "7328842818e2992bdbe5548dd5f5e65073b31eff1b0a02ff8ea1b964c4f59f56",
+    "verify.py": "266b64a03e2008bda26fefea90440f1c8a37d84be201af7193efb0b5cbdb0956"
+  }
+}

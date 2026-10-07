@@ -1,0 +1,1397 @@
+{
+  "session": 1,
+  "subjects": [
+    {
+      "subject": 1,
+      "shape": [
+        223,
+        41,
+        1000
+      ],
+      "class_counts": [
+        56,
+        56,
+        55,
+        56
+      ],
+      "run_counts": [
+        39,
+        37,
+        32,
+        36,
+        39,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S01/session_1/run_01.npz",
+          "sha256": "886ce30e7e3608abe5f7392ea6cc0418a4fab19a84a89ad80bd13b81a4591c38",
+          "class_events": 40,
+          "kept": 39,
+          "excluded_indices": [
+            6
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S01/session_1/run_02.npz",
+          "sha256": "469ad3e97d6ebad1876953a0357bd7a83de893353e3e399925841e0edad1c775",
+          "class_events": 40,
+          "kept": 37,
+          "excluded_indices": [
+            1,
+            9,
+            10
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S01/session_1/run_03.npz",
+          "sha256": "45ff09af8ead42ad42ea5b545a743bdb49a8a00178ab6a4453c3ab40c505b596",
+          "class_events": 40,
+          "kept": 32,
+          "excluded_indices": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S01/session_1/run_04.npz",
+          "sha256": "9ebf410260c297905f754202a514a74cf4b57290ccdfe02e06bbbb839323b77a",
+          "class_events": 40,
+          "kept": 36,
+          "excluded_indices": [
+            36,
+            37,
+            38,
+            39
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S01/session_1/run_05.npz",
+          "sha256": "dd9ba052aa7740344328eb02c0355858d48a97c01e022609e8afbbd03c5d3558",
+          "class_events": 40,
+          "kept": 39,
+          "excluded_indices": [
+            15
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S01/session_1/run_06.npz",
+          "sha256": "9e153828ab11d604edff2c92a3fe467a9ac79814c2a362c4ce5ebf0ae168d8c8",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 2,
+      "shape": [
+        227,
+        41,
+        1000
+      ],
+      "class_counts": [
+        58,
+        56,
+        57,
+        56
+      ],
+      "run_counts": [
+        33,
+        39,
+        38,
+        39,
+        39,
+        39
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S02/session_1/run_01.npz",
+          "sha256": "0900da795240b6c42235bc77ddeae77e7549ae59892034fa283564af46ade80c",
+          "class_events": 40,
+          "kept": 33,
+          "excluded_indices": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S02/session_1/run_02.npz",
+          "sha256": "149e97dc5d97b773710aae7ba45502117c1225b85417abcb73bc4e7b55dc8120",
+          "class_events": 40,
+          "kept": 39,
+          "excluded_indices": [
+            33
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S02/session_1/run_03.npz",
+          "sha256": "2bc9e18ff4d7d2cc0a1096456d570117593d7397abda6c7b18ddfe67632c9a9c",
+          "class_events": 40,
+          "kept": 38,
+          "excluded_indices": [
+            28,
+            32
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S02/session_1/run_04.npz",
+          "sha256": "55b266f00fc7c2882fc89a56b2b4199bf61223ece661383084865773417741a0",
+          "class_events": 40,
+          "kept": 39,
+          "excluded_indices": [
+            11
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S02/session_1/run_05.npz",
+          "sha256": "709b74a6fc68330f84bba660553f53b23dd57db4c0d8856df8362e50cef227cd",
+          "class_events": 40,
+          "kept": 39,
+          "excluded_indices": [
+            0
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S02/session_1/run_06.npz",
+          "sha256": "da7714f5dff70a6586c491887b1c71519f05ab4fe4cc19a09be2c9d75575362b",
+          "class_events": 40,
+          "kept": 39,
+          "excluded_indices": [
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "subject": 3,
+      "shape": [
+        236,
+        41,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        58,
+        58
+      ],
+      "run_counts": [
+        40,
+        39,
+        40,
+        39,
+        38,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S03/session_1/run_01.npz",
+          "sha256": "7c28c8946d13fb7a2c06f7327ed5f1d9c1b0d1c2aa194cbbae5e0bb57cb5f601",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S03/session_1/run_02.npz",
+          "sha256": "bf7792b71a793070e16fed188120afed485aabc8d7a509784e4d743515ff6df1",
+          "class_events": 40,
+          "kept": 39,
+          "excluded_indices": [
+            30
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S03/session_1/run_03.npz",
+          "sha256": "a456b1f41e75144570a67f938170e6e98036c0965895bfed0770dd986f8be959",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S03/session_1/run_04.npz",
+          "sha256": "0e939d80e64010b8833c2c07c38a9b0919157a79d8129eca1eb7b8d600ce4694",
+          "class_events": 40,
+          "kept": 39,
+          "excluded_indices": [
+            11
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S03/session_1/run_05.npz",
+          "sha256": "ee6b6b0f1229423ea444c5b2dfdd165e61ace4cddafcdbc8c8d6be74c48f1a37",
+          "class_events": 40,
+          "kept": 38,
+          "excluded_indices": [
+            2,
+            39
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S03/session_1/run_06.npz",
+          "sha256": "786794866858bbe82f6e6253a4f5a5c15247e1455afa73204a901e7c274be8f2",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 4,
+      "shape": [
+        239,
+        41,
+        1000
+      ],
+      "class_counts": [
+        59,
+        60,
+        60,
+        60
+      ],
+      "run_counts": [
+        39,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S04/session_1/run_01.npz",
+          "sha256": "5beea581f97b5ccb2591116d13fd7e0b063b56f04e4da100f31eefeba5c5c490",
+          "class_events": 40,
+          "kept": 39,
+          "excluded_indices": [
+            38
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S04/session_1/run_02.npz",
+          "sha256": "fd58396fba0442339f368ba27b74089f4c952d4f0dfbafa74367d289769b5b43",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S04/session_1/run_03.npz",
+          "sha256": "5d841fde41f647554cb0eee5172716238a651921e805b21cde1cbc6a48808ff6",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S04/session_1/run_04.npz",
+          "sha256": "9d4d870668fc8fe18a694a8b566c324d176bbb03b22f37dc66f5a3bbd12daa20",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S04/session_1/run_05.npz",
+          "sha256": "bca24902054044b695681aa49c39748eb89f969c5715f05d95ef0bdd8aee29cf",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S04/session_1/run_06.npz",
+          "sha256": "a6692efefeefe85e6ee05dd63ad7f047e77a546d065c82f86a573a415b1a8cfa",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 5,
+      "shape": [
+        228,
+        41,
+        1000
+      ],
+      "class_counts": [
+        56,
+        57,
+        59,
+        56
+      ],
+      "run_counts": [
+        40,
+        40,
+        35,
+        33,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S05/session_1/run_01.npz",
+          "sha256": "c6e0850eff1d80c20e43ea482d6f30d42f569f26ee2df93e80c5843c6b918ccd",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S05/session_1/run_02.npz",
+          "sha256": "a0ac8f2d3a6b65c6bca90f4356155a0ff5ad964566c5b5a6d00943bf524676af",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S05/session_1/run_03.npz",
+          "sha256": "a54c7856d582333931595050aff2f6df735f69fb4e694830e671f61481ca4dc0",
+          "class_events": 40,
+          "kept": 35,
+          "excluded_indices": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S05/session_1/run_04.npz",
+          "sha256": "ee395f2a4baecb8714db2115a37d0fe34dbb8dfd00ac537bdb5a37841df2ef42",
+          "class_events": 40,
+          "kept": 33,
+          "excluded_indices": [
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S05/session_1/run_05.npz",
+          "sha256": "f07bb667bd32f9268e703d0f004599a62fdd3f4de2131a40b62fd06d46ce82c4",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S05/session_1/run_06.npz",
+          "sha256": "697c1290492865efd97ec51e01f51b4ef960311f52072a88402e27becb144f40",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 6,
+      "shape": [
+        239,
+        41,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        59,
+        60
+      ],
+      "run_counts": [
+        40,
+        40,
+        40,
+        39,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S06/session_1/run_01.npz",
+          "sha256": "b3f8cb98cf3a37e47fa503d5505ed677f0275eefd0f9384502fcb2bc8619a20f",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S06/session_1/run_02.npz",
+          "sha256": "1d6a86a893ab630498c44cca3fcf36c63d49e5a4cb90e686b5c67b3dd7e7238d",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S06/session_1/run_03.npz",
+          "sha256": "feb6f1826e01d0b6e07f61f27dbb923f27dfe2836b3adcce3069fb3187316baa",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S06/session_1/run_04.npz",
+          "sha256": "ed24a6e7ca5001e7dd08b0778e496c9f8a80f9b549e6c87600a28b1612d522dd",
+          "class_events": 40,
+          "kept": 39,
+          "excluded_indices": [
+            32
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S06/session_1/run_05.npz",
+          "sha256": "710fb6b7f8edc0c58bc386f6def48783378799313c1e8e80ec6a8257c46246f9",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S06/session_1/run_06.npz",
+          "sha256": "1b6feca7adc7f3768bae4c493b70203ae474eb778eae07091b4b29ff4e7db181",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 7,
+      "shape": [
+        240,
+        41,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "run_counts": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S07/session_1/run_01.npz",
+          "sha256": "2e3d0731cae7249ab23a5d5cb7aa833deac1a7f0cb8e5eebdfc8b36d2c26f2dc",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S07/session_1/run_02.npz",
+          "sha256": "e9f22392d72dde5b48c3877e512a171416b5a839aa19d454594c6da8dbb0c6a4",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S07/session_1/run_03.npz",
+          "sha256": "c855cf69e8f1c0700ad80399d219051c4edfef777f2cee4c88a24d2abb47c9b0",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S07/session_1/run_04.npz",
+          "sha256": "beec5f77488a20972e9a005dd2bbd713c443b7b30d8530242050f22a9b27382d",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S07/session_1/run_05.npz",
+          "sha256": "a66eef7a1b23a3867ea52c429be593d961a4297e9b474934fcee31c3819aa1d5",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S07/session_1/run_06.npz",
+          "sha256": "7d163ba0d4aa0af95035227491de0b2f8f33e62b7e558d8158102eaea53dfa48",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 8,
+      "shape": [
+        240,
+        41,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "run_counts": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S08/session_1/run_01.npz",
+          "sha256": "9af1a5dc6b63cc5f2d944237148a3f7c8596c2ca3b876a7b8065330f3945970c",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S08/session_1/run_02.npz",
+          "sha256": "1a1e1c43e237a63b338835a6d8dda8fc661c3803e403845a22a77c54fa07673d",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S08/session_1/run_03.npz",
+          "sha256": "23840ae67401cb49817dc52a265beecaf3f4907e6431f6080b4e92a312b0b6a2",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S08/session_1/run_04.npz",
+          "sha256": "f559388157ba17651472770ead8c3a577a7035ba2fe3de88bdbf931b6fc24572",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S08/session_1/run_05.npz",
+          "sha256": "92ee22295c3ca646d4f6b466c937f460497d40b0cfc8d901d34639e89e15ea48",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S08/session_1/run_06.npz",
+          "sha256": "6fbad41b03b1decca11dbecf78615aef602a58a56201f99d97c4a1e441928ecb",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 9,
+      "shape": [
+        240,
+        41,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "run_counts": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S09/session_1/run_01.npz",
+          "sha256": "67baa571be29616842e3c30342f8e1005f8c48c8fb044db83e3c2fd51fc56244",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S09/session_1/run_02.npz",
+          "sha256": "004a4946fc4232a4dbb8d62f8880d62510c34fa4090f3146eb6c74c64b5ac11e",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S09/session_1/run_03.npz",
+          "sha256": "d4c729c9c03fd1335bdda6ecb50f277ea68f4516b5ce776f79b486f3e791d228",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S09/session_1/run_04.npz",
+          "sha256": "d3bddb3f79aff0723cb80b1ca05f05d6b3055562e012f8b36a9e21e42e7396aa",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S09/session_1/run_05.npz",
+          "sha256": "3761cd9fd4fef98e2e6b809ae0d4d673b0d4c034ebf9560e343e2073bc42a2aa",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S09/session_1/run_06.npz",
+          "sha256": "b8c0fd4e259128194101b7e347ee22c7bd8aff7d1e0b25d733303448c98263c2",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 10,
+      "shape": [
+        236,
+        41,
+        1000
+      ],
+      "class_counts": [
+        60,
+        59,
+        59,
+        58
+      ],
+      "run_counts": [
+        36,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S10/session_1/run_01.npz",
+          "sha256": "47c81c6c78a4e354a5d4a245a2c0b3fef56b241d53e42da98255a280e804c69c",
+          "class_events": 38,
+          "kept": 36,
+          "excluded_indices": [
+            16,
+            17
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S10/session_1/run_02.npz",
+          "sha256": "1e680a9e38066b32faf7712603bca7d625f0f1e3e3d5eabf729e10eb12895e36",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S10/session_1/run_03.npz",
+          "sha256": "d32f196b167511d3b3edfcc3a127c4b1f58ab9283115220c6f5fefebbe9e2a2a",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S10/session_1/run_04.npz",
+          "sha256": "6940296da572cec997bd87a959a1ce2afcede291fae4a6fde24893c93802a158",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S10/session_1/run_05.npz",
+          "sha256": "21ca1b1f231c0d51ff4f6c8cd8a07162a8846756799b287df06cb529f3508ff0",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S10/session_1/run_06.npz",
+          "sha256": "62ff765e306bbb27c80e238c7499a5bd43e95ad2cae3ce9e7390bca3811da4d8",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 11,
+      "shape": [
+        240,
+        41,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "run_counts": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S11/session_1/run_01.npz",
+          "sha256": "7ff4e9f84309223f78c133ad77ad8b4b117d95347bbfa9262c433fecf43172bc",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S11/session_1/run_02.npz",
+          "sha256": "2e2af89590ec1c2b2592634ec3fcd7b7ef59350c75d6d306cb2afae5eec178ee",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S11/session_1/run_03.npz",
+          "sha256": "90972f2cc9a85ca0f1f8e6eca7da765c0a62a2d1f476c1d98cc6ffc7d5b920c1",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S11/session_1/run_04.npz",
+          "sha256": "77bde9f693fb369a1947291631778717b966f636d1c36b48811445de4e10a1c3",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S11/session_1/run_05.npz",
+          "sha256": "5de2d37927e9847129b359e2caed4e6fd8499d52a66b5f179f766982435c31cd",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S11/session_1/run_06.npz",
+          "sha256": "a94a34ecd2b033f61e9ef679a684d0e43ba9ea95dfe2210f5ddba0abf96d0360",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 12,
+      "shape": [
+        240,
+        41,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "run_counts": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S12/session_1/run_01.npz",
+          "sha256": "a0e3249745863f7180e2b20dc37e1cbb54dfa9dc9bd98018a3a8d5d83f996bd6",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S12/session_1/run_02.npz",
+          "sha256": "edfd0207c228bbd2e6bdbc59b9701faf6c4c63a415ebcd67eaac92e70d067009",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S12/session_1/run_03.npz",
+          "sha256": "9aacc427c47976bee2d85deafd7e91fdbe3655e705dbcfe98f0a0f948d48314f",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S12/session_1/run_04.npz",
+          "sha256": "ddd41122dc0a49037574c810bbe858dad300d6dd1f182d327d0bd6c4355e51a6",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S12/session_1/run_05.npz",
+          "sha256": "24b1dbc42c937c347aad15e1375cd24dd6e48d40ea6fb955d0f5c1867cfae1ef",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S12/session_1/run_06.npz",
+          "sha256": "bb94ff99c44268c9ed8fd3e68aff4823a3459ca0064faaac27399deed037c3be",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 13,
+      "shape": [
+        240,
+        26,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "run_counts": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S13/session_1/run_01.npz",
+          "sha256": "6b684fa8badf7d21bdf7f94ee24bfd605363cbe08441a72931f44df3246fed2b",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S13/session_1/run_02.npz",
+          "sha256": "92ef3f14ff86a333b566c8aeef6cbaf1790bfb8e2de1d1669f6542f07be7bad6",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S13/session_1/run_03.npz",
+          "sha256": "14709c1a370c83ea4ff470fa3ae9d476f02157b363ba816ea96e076dc0a20381",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S13/session_1/run_04.npz",
+          "sha256": "ccabe014d17e88ae6f480ab4b12a61332da80eca44e5fe61d44f4d755708fd5b",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S13/session_1/run_05.npz",
+          "sha256": "f2e6199f54ae9f7332efeef2b579f5c6c81bd47d19a27c36f4b93e5dfd8b6f82",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S13/session_1/run_06.npz",
+          "sha256": "fd1b093e24e284db3315b9dc6b4f98f7dd4278d32e56edafc04ed1e330351246",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 14,
+      "shape": [
+        240,
+        26,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "run_counts": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S14/session_1/run_01.npz",
+          "sha256": "12a454c47f4b002c5f258258350b1471615bde99b326d9e836efc121ba975221",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S14/session_1/run_02.npz",
+          "sha256": "e478e88e9a2a7aa2afeac985e6d5846fd914ca094d0d03abcd761064cc522b5d",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S14/session_1/run_03.npz",
+          "sha256": "75a8693af2b3a13278dd021df59d7cdeba64b0f4c7ba65eed62eb331ea0d81ec",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S14/session_1/run_04.npz",
+          "sha256": "484388f8627a23e75b74d806e1340598945b8be97c39d5f54c88685132b0e424",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S14/session_1/run_05.npz",
+          "sha256": "8ec0f2a4d50ff92ade2e8924bfd1c9ecabf0f289c1659abd599aab2ac1a10da6",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S14/session_1/run_06.npz",
+          "sha256": "db888419bf585c119b273145a12d4248e0c2e54db58254f4dfbab21b6fbc83f8",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 15,
+      "shape": [
+        240,
+        26,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "run_counts": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S15/session_1/run_01.npz",
+          "sha256": "4bbf7b1fdd1e922c95e9e1f620add26637ba38c6761adca1b5890c7c54968b7f",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S15/session_1/run_02.npz",
+          "sha256": "cafb454f5199498cdfff134431347178cf855d0faa152bca25c04117e9399dde",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S15/session_1/run_03.npz",
+          "sha256": "9a4283ce2a05e55bcfe52adb7fff364a361c8522673a1759e82de6c4a38623fb",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S15/session_1/run_04.npz",
+          "sha256": "8294b54bafe13d4acb2c2334233cde06e36c428939ca62c57368842438323263",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S15/session_1/run_05.npz",
+          "sha256": "6b7271da406eff20a6d5f8a49ed72bbc76eca833121d86061ff9affa4e2b3e7e",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S15/session_1/run_06.npz",
+          "sha256": "0a828efc95db0b66d241c2ef32d211af1d52f2c213ff7d6258e5def4d61603bf",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 16,
+      "shape": [
+        240,
+        26,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "run_counts": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S16/session_1/run_01.npz",
+          "sha256": "57e73d7208b86d49802dfe789786b502a830b83026649e15ef5c85dc3fbd07a2",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S16/session_1/run_02.npz",
+          "sha256": "b2f52f71cfd6d62a643df7c8764556baefa17ad50f4fd0e2344e727bb90fc902",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S16/session_1/run_03.npz",
+          "sha256": "44a3d7cbef00c502078a28fe9759ada721b516befbb662dc33831b5111f09dd8",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S16/session_1/run_04.npz",
+          "sha256": "29a2be812a80af26742aabc7aef982a10343db1ce23e6d3b7c1180e8f92a9772",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S16/session_1/run_05.npz",
+          "sha256": "c0f662475d5be6355f13b37c36e205e01a12724133befd9a3306412b3f57e54d",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S16/session_1/run_06.npz",
+          "sha256": "3a3d2d385db86010b6daeb2b6bd81cab90088449e2c72c32ccb04667ca047a4e",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 17,
+      "shape": [
+        266,
+        26,
+        1000
+      ],
+      "class_counts": [
+        68,
+        63,
+        69,
+        66
+      ],
+      "run_counts": [
+        78,
+        28,
+        80,
+        80
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S17/session_1/run_01.npz",
+          "sha256": "03745b2ca43a1fe1afbf2c715a60f2aa58ff62c73cb905834168f85a6dee0055",
+          "class_events": 80,
+          "kept": 78,
+          "excluded_indices": [
+            47,
+            77
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S17/session_1/run_02.npz",
+          "sha256": "13db5ac2e460da7f3a181653d04d5de4e585dd7488501156222af1d76a18aafc",
+          "class_events": 56,
+          "kept": 28,
+          "excluded_indices": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S17/session_1/run_03.npz",
+          "sha256": "f9ed40381441ebb59d0bccddbb7910dcd1314df8ef9bed12b74d58614be12bb4",
+          "class_events": 80,
+          "kept": 80,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S17/session_1/run_04.npz",
+          "sha256": "a98c9fe50bc525d4f0d3de9041e2d004626e5f46962278bd303f13eff1950736",
+          "class_events": 80,
+          "kept": 80,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 18,
+      "shape": [
+        240,
+        26,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "run_counts": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S18/session_1/run_01.npz",
+          "sha256": "734dd2d7e56be4a95a63fe9f1b378d209210fdd6b053adc4d8ae71fd7a992f31",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S18/session_1/run_02.npz",
+          "sha256": "fa8c92f51dbb7b41192ec7f83ce2e536d5064cfb486365712e49dbd0641154ad",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S18/session_1/run_03.npz",
+          "sha256": "45d262c306f9db449221e97d1d6ff175fb11565361064a88ddd7e32ee1ce8756",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S18/session_1/run_04.npz",
+          "sha256": "31d9bb3285d16d2766eb22febfc0278de9e4c17ead7be44db2c466f3fab6b040",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S18/session_1/run_05.npz",
+          "sha256": "b554042927d6686a7441d0e671b7dafe4afe5611587b373e1c49ef672e6f49db",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S18/session_1/run_06.npz",
+          "sha256": "5b422d938fd28038475567769f724fd002200705e4cc88f38b9acb2cff334928",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 19,
+      "shape": [
+        240,
+        26,
+        1000
+      ],
+      "class_counts": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "run_counts": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S19/session_1/run_01.npz",
+          "sha256": "349fa0b56d1e8f1f2b7857abf9b72dc758910a450cbd941e7ab3bcef396cc631",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S19/session_1/run_02.npz",
+          "sha256": "7e25d2a99f25f67a6690acc5afe770d06003b6625d7691a94014e8a77495257d",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S19/session_1/run_03.npz",
+          "sha256": "bad0b08cfd5f31bdfe0412034f157ea36d7a6f0036783650616115a284071b33",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S19/session_1/run_04.npz",
+          "sha256": "abde9c5f6f26a68f8fd07aad53ea9be0dffb5113ef5b530b120256983b66eb8f",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S19/session_1/run_05.npz",
+          "sha256": "e0798e7cab799e9fe08e6fcd52d8d56bc9cc019a1ef3bc1e03b5e4bee91312d9",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S19/session_1/run_06.npz",
+          "sha256": "957715edc4f6f4f2245c59b8d8f725af1fe0f38d37e0fac2a111a2f17b2a23d1",
+          "class_events": 40,
+          "kept": 40,
+          "excluded_indices": []
+        }
+      ]
+    },
+    {
+      "subject": 20,
+      "shape": [
+        232,
+        26,
+        1000
+      ],
+      "class_counts": [
+        56,
+        59,
+        58,
+        59
+      ],
+      "run_counts": [
+        73,
+        79,
+        80
+      ],
+      "runs": [
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S20/session_1/run_01.npz",
+          "sha256": "ea67adeaa292fd7efa4e406a1ef27b939e268ad07d462474a23b5990289829fe",
+          "class_events": 80,
+          "kept": 73,
+          "excluded_indices": [
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S20/session_1/run_02.npz",
+          "sha256": "d31970f4b85ace57bf64b45aacd6bf90a446efefcbbada55dad371b3d8842fd0",
+          "class_events": 80,
+          "kept": 79,
+          "excluded_indices": [
+            78
+          ]
+        },
+        {
+          "path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S20/session_1/run_03.npz",
+          "sha256": "2c2e671939a95b8eb1ebb9482cd7f4af41f3e3ca7d7b7e82e40ef55a20a1ef8d",
+          "class_events": 80,
+          "kept": 80,
+          "excluded_indices": []
+        }
+      ]
+    }
+  ],
+  "preprocessing": "resample 250 Hz; IIR zero-phase 8-30 Hz; class [0.5,4.5) s"
+}

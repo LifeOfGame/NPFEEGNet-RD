@@ -1,0 +1,81 @@
+{
+  "models": {
+    "core": {
+      "source": {
+        "path": "/mnt/helongfei/NPFEEGNet-RD-baseline-audit-20260922/output/core_cue_aligned/NPFEEGNet/2026-09-22--16-35/summary.csv",
+        "sha256": "bf703ff37e0f6d6237e727868068d6d8c99be34d4c135f59895621cfb9bc0a8a"
+      },
+      "mean_percent": 70.15174897119343,
+      "subject_sd_percent": 9.829354288455368,
+      "subject_accuracies_percent": [
+        76.7361111111111,
+        60.99537037037036,
+        87.15277777777779,
+        59.83796296296296,
+        67.0138888888889,
+        59.375,
+        81.25,
+        69.09722222222221,
+        69.9074074074074
+      ]
+    },
+    "fbcnet": {
+      "source": {
+        "path": "/mnt/helongfei/NPFEEGNet-RD-baseline-audit-20260922/output/fbcnet_cue_aligned/FBCNet/2026-09-22--17-22/summary.csv",
+        "sha256": "00de8881e9fd71d000622faa2fb50115b17d66afd9ed1860dfcce735b217562c"
+      },
+      "mean_percent": 68.35133744855966,
+      "subject_sd_percent": 14.367490629024893,
+      "subject_accuracies_percent": [
+        78.58796296296296,
+        49.88425925925926,
+        87.84722222222221,
+        60.1851851851852,
+        57.17592592592592,
+        49.76851851851851,
+        83.10185185185185,
+        74.53703703703704,
+        74.07407407407408
+      ]
+    },
+    "fbcnet_author_filter": {
+      "source": {
+        "path": "/mnt/helongfei/NPFEEGNet-RD-baseline-audit-20260922/output/fbcnet_author_filter_cue_aligned/FBCNet/2026-09-22--20-34/summary.csv",
+        "sha256": "4dfb36264ba74bf261cab863ec518c092e7a86f289edc9e24d7f2a36762fbdb2"
+      },
+      "mean_percent": 69.79166666666666,
+      "subject_sd_percent": 14.805543612322333,
+      "subject_accuracies_percent": [
+        76.9675925925926,
+        51.73611111111111,
+        86.80555555555557,
+        65.74074074074075,
+        58.44907407407408,
+        46.41203703703704,
+        85.30092592592592,
+        76.3888888888889,
+        80.32407407407408
+      ]
+    }
+  },
+  "author_filter_minus_old_filter": {
+    "mean_delta_pp": 1.4403292181069998,
+    "bootstrap_95ci_pp": [
+      -0.47614454732510036,
+      3.3436213991769557
+    ],
+    "wins": 6,
+    "wilcoxon_p": 0.203125
+  },
+  "core_minus_author_filter_fbcnet": {
+    "mean_delta_pp": 0.36008230452674506,
+    "bootstrap_95ci_pp": [
+      -4.55246913580247,
+      5.619855967078187
+    ],
+    "wins": 4,
+    "wilcoxon_p": 0.91015625
+  },
+  "filterfix_code_sha256": "b2fbb694ee8373eadb1b5074168a4555e8d8f1954c8cf34568fea7d564dc1a32",
+  "interpretation": "Only the FBCNet Chebyshev-II design Wn changed from cheb2ord ws to author fStop; training and cue-aligned data unchanged."
+}

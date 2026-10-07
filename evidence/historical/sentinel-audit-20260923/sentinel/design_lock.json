@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-09-23T00:00:00+08:00",
+  "status": "locked_before_sentinel_output",
+  "purpose": "Diagnose whether local matched training depresses ATCNet and EEGConformer accuracy on OpenBMI.",
+  "subjects": [11, 24, 32, 40, 3, 8, 25, 36],
+  "difficulty_strata": {
+    "hard": [11, 24],
+    "middle_low": [32, 40],
+    "middle": [3, 8],
+    "easy": [25, 36]
+  },
+  "selection_basis": "Mean accuracy across retained pre-sentinel local models; fixed without inspecting sentinel outputs.",
+  "seeds": [0, 1, 2],
+  "source_session_only_selection": true,
+  "target_session_evaluations_per_subject_seed": 1,
+  "primary_diagnostic": "author-recipe sentinel accuracy minus existing matched-protocol accuracy on the same subject-seed units",
+  "interpretation_thresholds": {
+    "negligible": "absolute mean recovery < 2 percentage points",
+    "material": "absolute mean recovery >= 2 and < 5 percentage points",
+    "large": "absolute mean recovery >= 5 percentage points"
+  },
+  "atcnet_source": "https://github.com/Altaheri/EEG-ATCNet/blob/main/main_TrainValTest.py",
+  "eegconformer_source": "https://github.com/eeyhsong/EEG-Conformer/blob/main/conformer.py",
+  "boundary": "Training recipe is moved closer to author code while preserving the existing OpenBMI architecture ports, temporal demeaning, leak-resistant source-only epoch selection, and one-time Session-2 evaluation. This is not an exact framework-level reproduction."
+}

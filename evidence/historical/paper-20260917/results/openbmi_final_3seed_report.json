@@ -1,0 +1,690 @@
+{
+  "protocol": "OpenBMI fixed S1-to-S2 locked external confirmation v1",
+  "nodemean_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\openbmi_final_npf_nodemean_3seed\\NPFEEGNet\\2026-08-31--15-25",
+  "raw_demean_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\openbmi_final_npf_raw_demean_3seed\\NPFEEGNet\\2026-08-31--14-52",
+  "subjects": 54,
+  "seeds": 3,
+  "nodemean_accuracy_macro": 0.6645061728395063,
+  "raw_demean_accuracy_macro": 0.706358024691358,
+  "paired_accuracy_change": 0.041851851851851696,
+  "raw_demean_accuracy_subject_bootstrap_ci95": [
+    0.6721296296296296,
+    0.7416975308641974
+  ],
+  "paired_change_subject_bootstrap_ci95": [
+    0.02481481481481482,
+    0.06077160493827162
+  ],
+  "paired_subject_exact_sign_flip_p": 4.0981209554757925e-06,
+  "paired_subject_cohen_dz": 0.6160572881546159,
+  "nodemean_subject_accuracy_sample_std": 0.13725201752024765,
+  "raw_demean_subject_accuracy_sample_std": 0.1316406208113471,
+  "nodemean_pooled_branch_metrics": {
+    "fused": {
+      "accuracy": 0.6645061728395062,
+      "balanced_accuracy": 0.6645061728395061,
+      "nll": 0.8359492005605299,
+      "ece": 0.1433605457695178,
+      "class_recalls": [
+        0.681358024691358,
+        0.6476543209876543
+      ],
+      "predicted_class_shares": [
+        0.5168518518518519,
+        0.48314814814814816
+      ],
+      "min_predicted_class_share": 0.48314814814814816,
+      "max_predicted_class_share": 0.5168518518518519,
+      "prediction_entropy": 0.9991804375515032
+    },
+    "raw": {
+      "accuracy": 0.6007716049382716,
+      "balanced_accuracy": 0.6007716049382716,
+      "nll": 0.9128769819231014,
+      "ece": 0.16991751162574187,
+      "class_recalls": [
+        0.6308024691358025,
+        0.5707407407407408
+      ],
+      "predicted_class_shares": [
+        0.5300308641975309,
+        0.46996913580246913
+      ],
+      "min_predicted_class_share": 0.46996913580246913,
+      "max_predicted_class_share": 0.5300308641975309,
+      "prediction_entropy": 0.9973962360683535
+    },
+    "spectral": {
+      "accuracy": 0.6699691358024691,
+      "balanced_accuracy": 0.6699691358024691,
+      "nll": 1.211860928083362,
+      "ece": 0.18660174569844895,
+      "class_recalls": [
+        0.6380864197530864,
+        0.7018518518518518
+      ],
+      "predicted_class_shares": [
+        0.4681172839506173,
+        0.5318827160493828
+      ],
+      "min_predicted_class_share": 0.4681172839506173,
+      "max_predicted_class_share": 0.5318827160493828,
+      "prediction_entropy": 0.9970649882377883
+    }
+  },
+  "raw_demean_pooled_branch_metrics": {
+    "fused": {
+      "accuracy": 0.706358024691358,
+      "balanced_accuracy": 0.706358024691358,
+      "nll": 0.63633714176785,
+      "ece": 0.09119184704842387,
+      "class_recalls": [
+        0.6984567901234567,
+        0.7142592592592593
+      ],
+      "predicted_class_shares": [
+        0.49209876543209874,
+        0.5079012345679013
+      ],
+      "min_predicted_class_share": 0.49209876543209874,
+      "max_predicted_class_share": 0.5079012345679013,
+      "prediction_entropy": 0.9998198590198355
+    },
+    "raw": {
+      "accuracy": 0.6471913580246914,
+      "balanced_accuracy": 0.6471913580246913,
+      "nll": 0.7076845200061065,
+      "ece": 0.11366747030004959,
+      "class_recalls": [
+        0.6463580246913581,
+        0.6480246913580247
+      ],
+      "predicted_class_shares": [
+        0.49916666666666665,
+        0.5008333333333334
+      ],
+      "min_predicted_class_share": 0.49916666666666665,
+      "max_predicted_class_share": 0.5008333333333334,
+      "prediction_entropy": 0.99999799625596
+    },
+    "spectral": {
+      "accuracy": 0.6797839506172839,
+      "balanced_accuracy": 0.679783950617284,
+      "nll": 1.2193736683145613,
+      "ece": 0.2005402654413594,
+      "class_recalls": [
+        0.6598765432098765,
+        0.6996913580246914
+      ],
+      "predicted_class_shares": [
+        0.48009259259259257,
+        0.5199074074074074
+      ],
+      "min_predicted_class_share": 0.48009259259259257,
+      "max_predicted_class_share": 0.5199074074074074,
+      "prediction_entropy": 0.9988562035530575
+    }
+  },
+  "subjects_detail": [
+    {
+      "subject": 1,
+      "nodemean_accuracy_mean": 0.5116666666666667,
+      "raw_demean_accuracy_mean": 0.6733333333333333,
+      "accuracy_change": 0.16166666666666663,
+      "nodemean_seed_std": 0.038837267325770176,
+      "raw_demean_seed_std": 0.13156113914577253,
+      "nodemean_kappa_mean": 0.023333333333333355,
+      "raw_demean_kappa_mean": 0.3466666666666667
+    },
+    {
+      "subject": 2,
+      "nodemean_accuracy_mean": 0.6466666666666666,
+      "raw_demean_accuracy_mean": 0.6183333333333333,
+      "accuracy_change": -0.02833333333333332,
+      "nodemean_seed_std": 0.10251016209787851,
+      "raw_demean_seed_std": 0.06806859285554046,
+      "nodemean_kappa_mean": 0.2933333333333334,
+      "raw_demean_kappa_mean": 0.23666666666666658
+    },
+    {
+      "subject": 3,
+      "nodemean_accuracy_mean": 0.8333333333333334,
+      "raw_demean_accuracy_mean": 0.7600000000000001,
+      "accuracy_change": -0.07333333333333325,
+      "nodemean_seed_std": 0.20641786098429885,
+      "raw_demean_seed_std": 0.2317865397299852,
+      "nodemean_kappa_mean": 0.6666666666666666,
+      "raw_demean_kappa_mean": 0.52
+    },
+    {
+      "subject": 4,
+      "nodemean_accuracy_mean": 0.6866666666666665,
+      "raw_demean_accuracy_mean": 0.82,
+      "accuracy_change": 0.13333333333333341,
+      "nodemean_seed_std": 0.044814432199162486,
+      "raw_demean_seed_std": 0.014999999999999958,
+      "nodemean_kappa_mean": 0.3733333333333333,
+      "raw_demean_kappa_mean": 0.64
+    },
+    {
+      "subject": 5,
+      "nodemean_accuracy_mean": 0.7183333333333334,
+      "raw_demean_accuracy_mean": 0.7483333333333334,
+      "accuracy_change": 0.030000000000000027,
+      "nodemean_seed_std": 0.07815582725128904,
+      "raw_demean_seed_std": 0.04368447474027056,
+      "nodemean_kappa_mean": 0.4366666666666667,
+      "raw_demean_kappa_mean": 0.49666666666666665
+    },
+    {
+      "subject": 6,
+      "nodemean_accuracy_mean": 0.8933333333333334,
+      "raw_demean_accuracy_mean": 0.9083333333333333,
+      "accuracy_change": 0.014999999999999902,
+      "nodemean_seed_std": 0.051071844820148586,
+      "raw_demean_seed_std": 0.020816659994661344,
+      "nodemean_kappa_mean": 0.7866666666666667,
+      "raw_demean_kappa_mean": 0.8166666666666668
+    },
+    {
+      "subject": 7,
+      "nodemean_accuracy_mean": 0.5,
+      "raw_demean_accuracy_mean": 0.7866666666666667,
+      "accuracy_change": 0.28666666666666674,
+      "nodemean_seed_std": 0.0,
+      "raw_demean_seed_std": 0.01892969448600093,
+      "nodemean_kappa_mean": 0.0,
+      "raw_demean_kappa_mean": 0.5733333333333334
+    },
+    {
+      "subject": 8,
+      "nodemean_accuracy_mean": 0.6866666666666666,
+      "raw_demean_accuracy_mean": 0.6750000000000002,
+      "accuracy_change": -0.011666666666666492,
+      "nodemean_seed_std": 0.018929694486000865,
+      "raw_demean_seed_std": 0.019999999999999962,
+      "nodemean_kappa_mean": 0.3733333333333333,
+      "raw_demean_kappa_mean": 0.35000000000000003
+    },
+    {
+      "subject": 9,
+      "nodemean_accuracy_mean": 0.6849999999999999,
+      "raw_demean_accuracy_mean": 0.6933333333333334,
+      "accuracy_change": 0.008333333333333415,
+      "nodemean_seed_std": 0.11821590417536887,
+      "raw_demean_seed_std": 0.09169696468985948,
+      "nodemean_kappa_mean": 0.37000000000000005,
+      "raw_demean_kappa_mean": 0.38666666666666666
+    },
+    {
+      "subject": 10,
+      "nodemean_accuracy_mean": 0.535,
+      "raw_demean_accuracy_mean": 0.5966666666666667,
+      "accuracy_change": 0.06166666666666665,
+      "nodemean_seed_std": 0.04999999999999999,
+      "raw_demean_seed_std": 0.010408329997330672,
+      "nodemean_kappa_mean": 0.06999999999999999,
+      "raw_demean_kappa_mean": 0.19333333333333327
+    },
+    {
+      "subject": 11,
+      "nodemean_accuracy_mean": 0.51,
+      "raw_demean_accuracy_mean": 0.5166666666666667,
+      "accuracy_change": 0.00666666666666671,
+      "nodemean_seed_std": 0.010000000000000009,
+      "raw_demean_seed_std": 0.03403429642777026,
+      "nodemean_kappa_mean": 0.020000000000000018,
+      "raw_demean_kappa_mean": 0.03333333333333336
+    },
+    {
+      "subject": 12,
+      "nodemean_accuracy_mean": 0.6016666666666667,
+      "raw_demean_accuracy_mean": 0.5983333333333333,
+      "accuracy_change": -0.0033333333333334103,
+      "nodemean_seed_std": 0.038837267325770176,
+      "raw_demean_seed_std": 0.03685557397916,
+      "nodemean_kappa_mean": 0.20333333333333328,
+      "raw_demean_kappa_mean": 0.19666666666666663
+    },
+    {
+      "subject": 13,
+      "nodemean_accuracy_mean": 0.5333333333333333,
+      "raw_demean_accuracy_mean": 0.6016666666666667,
+      "accuracy_change": 0.06833333333333336,
+      "nodemean_seed_std": 0.00763762615825974,
+      "raw_demean_seed_std": 0.03752776749732571,
+      "nodemean_kappa_mean": 0.06666666666666672,
+      "raw_demean_kappa_mean": 0.20333333333333328
+    },
+    {
+      "subject": 14,
+      "nodemean_accuracy_mean": 0.5266666666666667,
+      "raw_demean_accuracy_mean": 0.5566666666666666,
+      "accuracy_change": 0.029999999999999916,
+      "nodemean_seed_std": 0.04481443219916255,
+      "raw_demean_seed_std": 0.05795112883571236,
+      "nodemean_kappa_mean": 0.05333333333333338,
+      "raw_demean_kappa_mean": 0.11333333333333329
+    },
+    {
+      "subject": 15,
+      "nodemean_accuracy_mean": 0.645,
+      "raw_demean_accuracy_mean": 0.7600000000000001,
+      "accuracy_change": 0.1150000000000001,
+      "nodemean_seed_std": 0.027838821814150136,
+      "raw_demean_seed_std": 0.013228756555322964,
+      "nodemean_kappa_mean": 0.29000000000000004,
+      "raw_demean_kappa_mean": 0.52
+    },
+    {
+      "subject": 16,
+      "nodemean_accuracy_mean": 0.75,
+      "raw_demean_accuracy_mean": 0.685,
+      "accuracy_change": -0.06499999999999995,
+      "nodemean_seed_std": 0.018027756377319962,
+      "raw_demean_seed_std": 0.027838821814150073,
+      "nodemean_kappa_mean": 0.5,
+      "raw_demean_kappa_mean": 0.37000000000000005
+    },
+    {
+      "subject": 17,
+      "nodemean_accuracy_mean": 0.5650000000000001,
+      "raw_demean_accuracy_mean": 0.5599999999999999,
+      "accuracy_change": -0.0050000000000001155,
+      "nodemean_seed_std": 0.02179449471770332,
+      "raw_demean_seed_std": 0.0492442890089805,
+      "nodemean_kappa_mean": 0.12999999999999998,
+      "raw_demean_kappa_mean": 0.11999999999999995
+    },
+    {
+      "subject": 18,
+      "nodemean_accuracy_mean": 0.8283333333333335,
+      "raw_demean_accuracy_mean": 0.8450000000000001,
+      "accuracy_change": 0.016666666666666607,
+      "nodemean_seed_std": 0.07005949852327902,
+      "raw_demean_seed_std": 0.03774917217635372,
+      "nodemean_kappa_mean": 0.6566666666666666,
+      "raw_demean_kappa_mean": 0.6900000000000001
+    },
+    {
+      "subject": 19,
+      "nodemean_accuracy_mean": 0.7066666666666667,
+      "raw_demean_accuracy_mean": 0.7033333333333333,
+      "accuracy_change": -0.0033333333333334103,
+      "nodemean_seed_std": 0.08144527815247078,
+      "raw_demean_seed_std": 0.08326663997864532,
+      "nodemean_kappa_mean": 0.4133333333333334,
+      "raw_demean_kappa_mean": 0.4066666666666667
+    },
+    {
+      "subject": 20,
+      "nodemean_accuracy_mean": 0.6333333333333334,
+      "raw_demean_accuracy_mean": 0.6166666666666667,
+      "accuracy_change": -0.01666666666666672,
+      "nodemean_seed_std": 0.029297326385411604,
+      "raw_demean_seed_std": 0.06658328118479392,
+      "nodemean_kappa_mean": 0.26666666666666666,
+      "raw_demean_kappa_mean": 0.2333333333333334
+    },
+    {
+      "subject": 21,
+      "nodemean_accuracy_mean": 0.9783333333333334,
+      "raw_demean_accuracy_mean": 0.945,
+      "accuracy_change": -0.03333333333333344,
+      "nodemean_seed_std": 0.005773502691896263,
+      "raw_demean_seed_std": 0.013228756555322923,
+      "nodemean_kappa_mean": 0.9566666666666667,
+      "raw_demean_kappa_mean": 0.89
+    },
+    {
+      "subject": 22,
+      "nodemean_accuracy_mean": 0.555,
+      "raw_demean_accuracy_mean": 0.6033333333333334,
+      "accuracy_change": 0.04833333333333334,
+      "nodemean_seed_std": 0.034999999999999976,
+      "raw_demean_seed_std": 0.04536885862938731,
+      "nodemean_kappa_mean": 0.11000000000000003,
+      "raw_demean_kappa_mean": 0.2066666666666667
+    },
+    {
+      "subject": 23,
+      "nodemean_accuracy_mean": 0.505,
+      "raw_demean_accuracy_mean": 0.5216666666666666,
+      "accuracy_change": 0.016666666666666607,
+      "nodemean_seed_std": 0.04000000000000001,
+      "raw_demean_seed_std": 0.022546248764114492,
+      "nodemean_kappa_mean": 0.010000000000000045,
+      "raw_demean_kappa_mean": 0.04333333333333337
+    },
+    {
+      "subject": 24,
+      "nodemean_accuracy_mean": 0.49666666666666665,
+      "raw_demean_accuracy_mean": 0.5116666666666666,
+      "accuracy_change": 0.014999999999999958,
+      "nodemean_seed_std": 0.028867513459481315,
+      "raw_demean_seed_std": 0.03175426480542944,
+      "nodemean_kappa_mean": -0.006666666666666672,
+      "raw_demean_kappa_mean": 0.023333333333333355
+    },
+    {
+      "subject": 25,
+      "nodemean_accuracy_mean": 0.7966666666666665,
+      "raw_demean_accuracy_mean": 0.8716666666666667,
+      "accuracy_change": 0.07500000000000018,
+      "nodemean_seed_std": 0.08836477427874376,
+      "raw_demean_seed_std": 0.0381881307912987,
+      "nodemean_kappa_mean": 0.5933333333333333,
+      "raw_demean_kappa_mean": 0.7433333333333333
+    },
+    {
+      "subject": 26,
+      "nodemean_accuracy_mean": 0.7366666666666667,
+      "raw_demean_accuracy_mean": 0.7600000000000001,
+      "accuracy_change": 0.023333333333333428,
+      "nodemean_seed_std": 0.016072751268321604,
+      "raw_demean_seed_std": 0.010000000000000009,
+      "nodemean_kappa_mean": 0.47333333333333333,
+      "raw_demean_kappa_mean": 0.52
+    },
+    {
+      "subject": 27,
+      "nodemean_accuracy_mean": 0.7766666666666667,
+      "raw_demean_accuracy_mean": 0.7733333333333333,
+      "accuracy_change": -0.0033333333333334103,
+      "nodemean_seed_std": 0.027537852736430536,
+      "raw_demean_seed_std": 0.017559422921421246,
+      "nodemean_kappa_mean": 0.5533333333333333,
+      "raw_demean_kappa_mean": 0.5466666666666667
+    },
+    {
+      "subject": 28,
+      "nodemean_accuracy_mean": 0.7183333333333334,
+      "raw_demean_accuracy_mean": 0.8000000000000002,
+      "accuracy_change": 0.08166666666666678,
+      "nodemean_seed_std": 0.04645786621588782,
+      "raw_demean_seed_std": 0.013228756555322964,
+      "nodemean_kappa_mean": 0.4366666666666667,
+      "raw_demean_kappa_mean": 0.6000000000000001
+    },
+    {
+      "subject": 29,
+      "nodemean_accuracy_mean": 0.7983333333333333,
+      "raw_demean_accuracy_mean": 0.8916666666666667,
+      "accuracy_change": 0.09333333333333338,
+      "nodemean_seed_std": 0.1072769002783606,
+      "raw_demean_seed_std": 0.03403429642777026,
+      "nodemean_kappa_mean": 0.5966666666666667,
+      "raw_demean_kappa_mean": 0.7833333333333333
+    },
+    {
+      "subject": 30,
+      "nodemean_accuracy_mean": 0.58,
+      "raw_demean_accuracy_mean": 0.6383333333333333,
+      "accuracy_change": 0.05833333333333335,
+      "nodemean_seed_std": 0.03499999999999997,
+      "raw_demean_seed_std": 0.0028867513459481316,
+      "nodemean_kappa_mean": 0.16,
+      "raw_demean_kappa_mean": 0.27666666666666667
+    },
+    {
+      "subject": 31,
+      "nodemean_accuracy_mean": 0.695,
+      "raw_demean_accuracy_mean": 0.735,
+      "accuracy_change": 0.040000000000000036,
+      "nodemean_seed_std": 0.04821825380496476,
+      "raw_demean_seed_std": 0.043588989435406775,
+      "nodemean_kappa_mean": 0.39000000000000007,
+      "raw_demean_kappa_mean": 0.47
+    },
+    {
+      "subject": 32,
+      "nodemean_accuracy_mean": 0.5866666666666668,
+      "raw_demean_accuracy_mean": 0.6133333333333333,
+      "accuracy_change": 0.026666666666666505,
+      "nodemean_seed_std": 0.05530220007679019,
+      "raw_demean_seed_std": 0.10563301251660548,
+      "nodemean_kappa_mean": 0.17333333333333334,
+      "raw_demean_kappa_mean": 0.22666666666666666
+    },
+    {
+      "subject": 33,
+      "nodemean_accuracy_mean": 0.8366666666666668,
+      "raw_demean_accuracy_mean": 0.9316666666666666,
+      "accuracy_change": 0.09499999999999986,
+      "nodemean_seed_std": 0.08129165598838134,
+      "raw_demean_seed_std": 0.015275252316519432,
+      "nodemean_kappa_mean": 0.6733333333333333,
+      "raw_demean_kappa_mean": 0.8633333333333333
+    },
+    {
+      "subject": 34,
+      "nodemean_accuracy_mean": 0.5916666666666667,
+      "raw_demean_accuracy_mean": 0.6083333333333333,
+      "accuracy_change": 0.016666666666666607,
+      "nodemean_seed_std": 0.06171169527191207,
+      "raw_demean_seed_std": 0.029297326385411604,
+      "nodemean_kappa_mean": 0.18333333333333335,
+      "raw_demean_kappa_mean": 0.21666666666666665
+    },
+    {
+      "subject": 35,
+      "nodemean_accuracy_mean": 0.8183333333333334,
+      "raw_demean_accuracy_mean": 0.9050000000000001,
+      "accuracy_change": 0.08666666666666678,
+      "nodemean_seed_std": 0.08386497083606084,
+      "raw_demean_seed_std": 0.008660254037844393,
+      "nodemean_kappa_mean": 0.6366666666666667,
+      "raw_demean_kappa_mean": 0.81
+    },
+    {
+      "subject": 36,
+      "nodemean_accuracy_mean": 0.9583333333333334,
+      "raw_demean_accuracy_mean": 0.985,
+      "accuracy_change": 0.026666666666666616,
+      "nodemean_seed_std": 0.0028867513459481316,
+      "raw_demean_seed_std": 0.010000000000000009,
+      "nodemean_kappa_mean": 0.9166666666666666,
+      "raw_demean_kappa_mean": 0.9700000000000001
+    },
+    {
+      "subject": 37,
+      "nodemean_accuracy_mean": 0.9366666666666666,
+      "raw_demean_accuracy_mean": 0.9266666666666667,
+      "accuracy_change": -0.009999999999999898,
+      "nodemean_seed_std": 0.005773502691896198,
+      "raw_demean_seed_std": 0.017559422921421187,
+      "nodemean_kappa_mean": 0.8733333333333334,
+      "raw_demean_kappa_mean": 0.8533333333333334
+    },
+    {
+      "subject": 38,
+      "nodemean_accuracy_mean": 0.4916666666666667,
+      "raw_demean_accuracy_mean": 0.5666666666666667,
+      "accuracy_change": 0.07499999999999996,
+      "nodemean_seed_std": 0.012583057392117928,
+      "raw_demean_seed_std": 0.11116804097101526,
+      "nodemean_kappa_mean": -0.01666666666666668,
+      "raw_demean_kappa_mean": 0.1333333333333333
+    },
+    {
+      "subject": 39,
+      "nodemean_accuracy_mean": 0.5466666666666667,
+      "raw_demean_accuracy_mean": 0.635,
+      "accuracy_change": 0.08833333333333326,
+      "nodemean_seed_std": 0.014433756729740658,
+      "raw_demean_seed_std": 0.018027756377319962,
+      "nodemean_kappa_mean": 0.09333333333333342,
+      "raw_demean_kappa_mean": 0.27
+    },
+    {
+      "subject": 40,
+      "nodemean_accuracy_mean": 0.585,
+      "raw_demean_accuracy_mean": 0.68,
+      "accuracy_change": 0.09500000000000008,
+      "nodemean_seed_std": 0.0050000000000000044,
+      "raw_demean_seed_std": 0.024999999999999967,
+      "nodemean_kappa_mean": 0.16999999999999993,
+      "raw_demean_kappa_mean": 0.36000000000000004
+    },
+    {
+      "subject": 41,
+      "nodemean_accuracy_mean": 0.5566666666666666,
+      "raw_demean_accuracy_mean": 0.5483333333333333,
+      "accuracy_change": -0.008333333333333304,
+      "nodemean_seed_std": 0.033291640592396934,
+      "raw_demean_seed_std": 0.027537852736430474,
+      "nodemean_kappa_mean": 0.11333333333333336,
+      "raw_demean_kappa_mean": 0.09666666666666668
+    },
+    {
+      "subject": 42,
+      "nodemean_accuracy_mean": 0.6266666666666667,
+      "raw_demean_accuracy_mean": 0.6483333333333333,
+      "accuracy_change": 0.021666666666666612,
+      "nodemean_seed_std": 0.03547299442298797,
+      "raw_demean_seed_std": 0.011547005383792525,
+      "nodemean_kappa_mean": 0.25333333333333335,
+      "raw_demean_kappa_mean": 0.2966666666666667
+    },
+    {
+      "subject": 43,
+      "nodemean_accuracy_mean": 0.59,
+      "raw_demean_accuracy_mean": 0.855,
+      "accuracy_change": 0.265,
+      "nodemean_seed_std": 0.03905124837953331,
+      "raw_demean_seed_std": 0.015000000000000013,
+      "nodemean_kappa_mean": 0.17999999999999994,
+      "raw_demean_kappa_mean": 0.71
+    },
+    {
+      "subject": 44,
+      "nodemean_accuracy_mean": 0.9516666666666667,
+      "raw_demean_accuracy_mean": 0.9700000000000001,
+      "accuracy_change": 0.018333333333333424,
+      "nodemean_seed_std": 0.033291640592396934,
+      "raw_demean_seed_std": 0.013228756555322964,
+      "nodemean_kappa_mean": 0.9033333333333333,
+      "raw_demean_kappa_mean": 0.94
+    },
+    {
+      "subject": 45,
+      "nodemean_accuracy_mean": 0.8250000000000001,
+      "raw_demean_accuracy_mean": 0.765,
+      "accuracy_change": -0.06000000000000005,
+      "nodemean_seed_std": 0.08717797887081348,
+      "raw_demean_seed_std": 0.03774917217635378,
+      "nodemean_kappa_mean": 0.65,
+      "raw_demean_kappa_mean": 0.53
+    },
+    {
+      "subject": 46,
+      "nodemean_accuracy_mean": 0.6749999999999999,
+      "raw_demean_accuracy_mean": 0.68,
+      "accuracy_change": 0.0050000000000001155,
+      "nodemean_seed_std": 0.07,
+      "raw_demean_seed_std": 0.04358898943540671,
+      "nodemean_kappa_mean": 0.35000000000000003,
+      "raw_demean_kappa_mean": 0.36000000000000004
+    },
+    {
+      "subject": 47,
+      "nodemean_accuracy_mean": 0.775,
+      "raw_demean_accuracy_mean": 0.775,
+      "accuracy_change": 0.0,
+      "nodemean_seed_std": 0.06557438524302002,
+      "raw_demean_seed_std": 0.03500000000000003,
+      "nodemean_kappa_mean": 0.5499999999999999,
+      "raw_demean_kappa_mean": 0.55
+    },
+    {
+      "subject": 48,
+      "nodemean_accuracy_mean": 0.6,
+      "raw_demean_accuracy_mean": 0.6983333333333333,
+      "accuracy_change": 0.09833333333333327,
+      "nodemean_seed_std": 0.015000000000000013,
+      "raw_demean_seed_std": 0.010408329997330672,
+      "nodemean_kappa_mean": 0.19999999999999996,
+      "raw_demean_kappa_mean": 0.39666666666666656
+    },
+    {
+      "subject": 49,
+      "nodemean_accuracy_mean": 0.5316666666666667,
+      "raw_demean_accuracy_mean": 0.6633333333333333,
+      "accuracy_change": 0.1316666666666666,
+      "nodemean_seed_std": 0.0401040313850532,
+      "raw_demean_seed_std": 0.06525590650150631,
+      "nodemean_kappa_mean": 0.06333333333333331,
+      "raw_demean_kappa_mean": 0.32666666666666666
+    },
+    {
+      "subject": 50,
+      "nodemean_accuracy_mean": 0.505,
+      "raw_demean_accuracy_mean": 0.535,
+      "accuracy_change": 0.030000000000000027,
+      "nodemean_seed_std": 0.037749172176353755,
+      "raw_demean_seed_std": 0.021794494717703387,
+      "nodemean_kappa_mean": 0.010000000000000045,
+      "raw_demean_kappa_mean": 0.07000000000000006
+    },
+    {
+      "subject": 51,
+      "nodemean_accuracy_mean": 0.59,
+      "raw_demean_accuracy_mean": 0.6333333333333334,
+      "accuracy_change": 0.043333333333333446,
+      "nodemean_seed_std": 0.03905124837953324,
+      "raw_demean_seed_std": 0.016072751268321608,
+      "nodemean_kappa_mean": 0.18000000000000002,
+      "raw_demean_kappa_mean": 0.26666666666666666
+    },
+    {
+      "subject": 52,
+      "nodemean_accuracy_mean": 0.61,
+      "raw_demean_accuracy_mean": 0.6316666666666667,
+      "accuracy_change": 0.021666666666666723,
+      "nodemean_seed_std": 0.02291287847477922,
+      "raw_demean_seed_std": 0.01892969448600093,
+      "nodemean_kappa_mean": 0.21999999999999997,
+      "raw_demean_kappa_mean": 0.26333333333333336
+    },
+    {
+      "subject": 53,
+      "nodemean_accuracy_mean": 0.515,
+      "raw_demean_accuracy_mean": 0.5566666666666668,
+      "accuracy_change": 0.04166666666666674,
+      "nodemean_seed_std": 0.018027756377319962,
+      "raw_demean_seed_std": 0.046188021535170036,
+      "nodemean_kappa_mean": 0.030000000000000027,
+      "raw_demean_kappa_mean": 0.11333333333333336
+    },
+    {
+      "subject": 54,
+      "nodemean_accuracy_mean": 0.5466666666666666,
+      "raw_demean_accuracy_mean": 0.5566666666666666,
+      "accuracy_change": 0.010000000000000009,
+      "nodemean_seed_std": 0.032145502536643174,
+      "raw_demean_seed_std": 0.010408329997330629,
+      "nodemean_kappa_mean": 0.09333333333333334,
+      "raw_demean_kappa_mean": 0.11333333333333336
+    }
+  ],
+  "seeds_detail": [
+    {
+      "seed": 0,
+      "nodemean_accuracy_macro": 0.6774074074074073,
+      "raw_demean_accuracy_macro": 0.7096296296296297,
+      "accuracy_change": 0.032222222222222374
+    },
+    {
+      "seed": 1,
+      "nodemean_accuracy_macro": 0.653425925925926,
+      "raw_demean_accuracy_macro": 0.7123148148148148,
+      "accuracy_change": 0.05888888888888888
+    },
+    {
+      "seed": 2,
+      "nodemean_accuracy_macro": 0.6626851851851852,
+      "raw_demean_accuracy_macro": 0.6971296296296295,
+      "accuracy_change": 0.03444444444444439
+    }
+  ]
+}

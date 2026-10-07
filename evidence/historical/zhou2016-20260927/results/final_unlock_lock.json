@@ -1,0 +1,381 @@
+{
+  "status": "ready_for_session2",
+  "dataset": "Zhou2016",
+  "target_session": "ses-1",
+  "source_archive_sha256": "ceec2fd1794a7d26b57a580b0a14d1df4c7d2fd79b71f91f7157d10f88a390fc",
+  "selection": {
+    "rd": {
+      "epochs": {
+        "1": {
+          "0": 170,
+          "1": 70,
+          "2": 124
+        },
+        "2": {
+          "0": 62,
+          "1": 87,
+          "2": 13
+        },
+        "3": {
+          "0": 72,
+          "1": 62,
+          "2": 64
+        },
+        "4": {
+          "0": 139,
+          "1": 109,
+          "2": 112
+        }
+      },
+      "summary": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/summary.csv"
+    },
+    "nodemean": {
+      "epochs": {
+        "1": {
+          "0": 136,
+          "1": 105,
+          "2": 102
+        },
+        "2": {
+          "0": 110,
+          "1": 79,
+          "2": 88
+        },
+        "3": {
+          "0": 88,
+          "1": 92,
+          "2": 26
+        },
+        "4": {
+          "0": 150,
+          "1": 36,
+          "2": 97
+        }
+      },
+      "summary": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/summary.csv"
+    },
+    "eegnet_demean": {
+      "epochs": {
+        "1": {
+          "0": 66,
+          "1": 56,
+          "2": 41
+        },
+        "2": {
+          "0": 18,
+          "1": 8,
+          "2": 5
+        },
+        "3": {
+          "0": 53,
+          "1": 42,
+          "2": 42
+        },
+        "4": {
+          "0": 124,
+          "1": 78,
+          "2": 98
+        }
+      },
+      "summary": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/summary.csv"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/results/protocol_lock.json",
+      "sha256": "70c770c35492e1533064597b5db1145666bec1ce47f31a66a9d5165cab646eed"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/results/session_a_addendum.json",
+      "sha256": "656d31734ec00c61f68835ec6457678691d45e50f875719578edeb634a00e4d8"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/preprocess_session_a.py",
+      "sha256": "dd841d11d3e9928e56fc019f553298edede153e60124a99b8344cba0ad2b9dd4"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/preprocess_session_b.py",
+      "sha256": "3890bf6cbfcf0031a7e4b3132f724d52f1358f12ff47c05cfa4387a643eeb327"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/build_selection_configs.py",
+      "sha256": "12e47a4c07252cf7fa6238279a3de4884811533e8ff20e5b032215c9a5e857b3"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/freeze_selection.py",
+      "sha256": "f4b3c1e93f0da3af037fa1366177ab91303a9e2e7955f3993eba6ed7fab20666"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/analyze_final.py",
+      "sha256": "81cf4efd8fe88cf52e5476ea24ec99b87ce22912607347108d2997680f29fc8d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/run_pipeline.sh",
+      "sha256": "45d17275e44b9890981c0d92388ae03d9f3dae5ae00657008d3d2496f27280ec"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/session_a_report.json",
+      "sha256": "b113db2e57a01a0a2327249e28c703ea9e0e9d52bec323549af31a0bece3e808"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/model/NPF_EEGNet.py",
+      "sha256": "94d7d071582063dfbacf68362b480f130af0ed524e19c81ce4a0277f986d7544"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/model/openbmi_baselines.py",
+      "sha256": "b46020ca505cdf00893c03696418afd3c5cc0d180cebb003c3d20a35245e1e8d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/repro/frozen_engines/openbmi_dd010/train_dcsa_2a.py",
+      "sha256": "dd010b3c64a1ec25e10b1fe539e439a0e1f3305942327e4baea49ef7e6485e15"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/train_dcsa_2a.py",
+      "sha256": "6ab2c583c59bc0daeaf197566c9d9f4590646188302f0eae938655fc49210200"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/train_openbmi_baselines.py",
+      "sha256": "b041694fa9d160a4789d55056c59d766dbe79934f74153ac17d4819f6c9be6c3"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/Z01T_data.npy",
+      "sha256": "10b9697588a80dfc525d16636255d01e836e287a3e81435fa77341b52c0c05c6"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/Z01T_label.npy",
+      "sha256": "170c742c4cc1879209a162ff72f04c6b29f410b21d60f4c06ef1bc500a434e89"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/Z01T_group.npy",
+      "sha256": "381488f5d3814d166ef617ca893406047e2596ae398468ee95807a5d35202ae9"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/Z02T_data.npy",
+      "sha256": "61a31458a428632074c1a8219ed0ccd5150b96b8b0bbae9d61b82fc9dc89c324"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/Z02T_label.npy",
+      "sha256": "e90128e82861237b9207e5c31f9e0e87b1d23fb49e398b46e1eca6b9ddbfa2ae"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/Z02T_group.npy",
+      "sha256": "6d14e2968a9de271c5348c4e57b22cc8679843739ee899e13aff331bc3ef3c72"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/Z03T_data.npy",
+      "sha256": "4c17d623abf3caaf6c4cafdf2b8ca6c6a36f34deb76dfa8b26ab0a2a360e99ba"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/Z03T_label.npy",
+      "sha256": "623c7819d5d0760129266f9846408d651bf41aab2dee341a57327ee7277f6853"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/Z03T_group.npy",
+      "sha256": "6d14e2968a9de271c5348c4e57b22cc8679843739ee899e13aff331bc3ef3c72"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/Z04T_data.npy",
+      "sha256": "6a06be7138b55853a1865df60657a44a82b97858b5cf6ce93ae369d235f398b6"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/Z04T_label.npy",
+      "sha256": "559c598bd2a62c58c7ded37ab45ee80c0ce306e94bc05d3c5d51b64650b60c67"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/data/Z04T_group.npy",
+      "sha256": "a4648ba3a88e6f51e59549e7d604e010453f6640cf72d38ab8f1cbe8de09bd79"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_rd_selection.yaml",
+      "sha256": "afda610e6c51ef1c8ec62b16a64a3b8e988cd517b290234fa99561f0e5071e1c"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/sub1/seed0/selection/fold_summary.csv",
+      "sha256": "13761cb73fa2206cc130e03cb1e2b1c8f4d08a3f0d2c04d45a0157b8e547f593"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/sub2/seed0/selection/fold_summary.csv",
+      "sha256": "91956a6dca61d96ba98ecb3ae49ad3ab2858c33778fa5e3ac8890b7be1bb08a3"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/sub3/seed0/selection/fold_summary.csv",
+      "sha256": "b91d1f9ad0e9bb7fdc5982dc29df41d97b0fb60d5d00b706bb4542792554813f"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/sub4/seed0/selection/fold_summary.csv",
+      "sha256": "8a2052d0e1067e81513cf76f41a39c96f50429b3b933e320004cab9ad53b4f28"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/sub1/seed1/selection/fold_summary.csv",
+      "sha256": "8dd69e32de1385d08e5007d0896ba03736447ada8196fdc5608d05d55dd5318e"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/sub2/seed1/selection/fold_summary.csv",
+      "sha256": "ecd28a5f33fbb2e62300d974696225eee3be3772b43f429c7bdb2a7b1321582c"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/sub3/seed1/selection/fold_summary.csv",
+      "sha256": "fe3b14ee5c43f1322d700aa8fac28eaaf6897ca0f29df29d38896019061fb57e"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/sub4/seed1/selection/fold_summary.csv",
+      "sha256": "14d286eb697de2e928b61de0a2b97f9107e491d2f705000c457af0e123b35bd8"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/sub1/seed2/selection/fold_summary.csv",
+      "sha256": "013a6f3b1fa688438c5750447ca7102117b4da44c5b6fbe4b699c9e6840a426b"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/sub2/seed2/selection/fold_summary.csv",
+      "sha256": "690393594b9ff98a27bda49b963b2236e7fc65e12e7fb148e55325ceb020ab1c"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/sub3/seed2/selection/fold_summary.csv",
+      "sha256": "81478a61da3022ce99a546605568132081fe63feeaa65f52d98214ceb088b535"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/sub4/seed2/selection/fold_summary.csv",
+      "sha256": "aa96637ca0e76c8b7e6da1d8de5a58cab4eb94a71910fee9f4a7c4121981f097"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/summary.csv",
+      "sha256": "6ec302ae7501adbf1e3cec8c460878128eb7ac45fd1f5fffb1d9b6ab679d7b8b"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/results/zhou2016_rd_selected_epochs.json",
+      "sha256": "32efe93cf1fe07670a16680819dcfed092430b56528dc5e08c104ebb70cf97ed"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_rd_final.yaml",
+      "sha256": "4821660223ebc14bc7507952c065832fdf2aa8abf7a55bf49a9ba261dbefc361"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_nodemean_selection.yaml",
+      "sha256": "5924e1b0737c360658ce10b83a52e993a6c39f2e7f0dea9ef49cfdd41b2e007c"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/sub1/seed0/selection/fold_summary.csv",
+      "sha256": "1d6533f77914c2154af99f8a1ea3e02d5608f0dcf51539b552bae56d09c3434d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/sub2/seed0/selection/fold_summary.csv",
+      "sha256": "21bbbd94a18ff2a6b200af03c3e190de7e8a44a1e9a61dfc83075f12452f6dc5"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/sub3/seed0/selection/fold_summary.csv",
+      "sha256": "5c05bb7be01c5b8b3839c2e32795ac08738cfe5629fd8a091a9c72c2ac52b5eb"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/sub4/seed0/selection/fold_summary.csv",
+      "sha256": "255377d4d10010b7db43b24fdd1b7d2c790c19fe4877aed01be34e34a7db1dc7"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/sub1/seed1/selection/fold_summary.csv",
+      "sha256": "e1b4f6e5202f3f2e47f6acf09d55f0a60adfe6fd758564784aa8679a5f247a04"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/sub2/seed1/selection/fold_summary.csv",
+      "sha256": "ad60e87d406d5b232b5bd967ba5d194e26ee8664412fa798dd8c414ce2c1bb4f"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/sub3/seed1/selection/fold_summary.csv",
+      "sha256": "b146fe39e0ee882cb46ccca213279a2f8dfe0a8e80415a059f28ffff94b729cc"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/sub4/seed1/selection/fold_summary.csv",
+      "sha256": "c1cae10e9d68ff8be8fb9d85f4fe80d0ed2a1d6e987f75a8ef448a118ab568e9"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/sub1/seed2/selection/fold_summary.csv",
+      "sha256": "acf5ff2094a85363fe078affc86fb57cf895862e24b5c5f8f7d60735163c2da1"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/sub2/seed2/selection/fold_summary.csv",
+      "sha256": "1675d74b5052a3d7570695778ea492b07ca7fe25f6e6c325abe94dbb5ad3153d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/sub3/seed2/selection/fold_summary.csv",
+      "sha256": "4d87904141d857b6cc7f76bd8cc5f44f053d258c362f4bbe306cb0edcd8dee84"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/sub4/seed2/selection/fold_summary.csv",
+      "sha256": "119b48f4ade0d356fdeebe25bfabb226092ea53f8e17bdaf8a698d93aa69a17e"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_selection/NPFEEGNet/2026-09-27--11-56/summary.csv",
+      "sha256": "01b8b8b3b86496349a8ce214429a6056657da7f848a636e36ed8c565f14a221d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/results/zhou2016_nodemean_selected_epochs.json",
+      "sha256": "91469808fa30d385d6e13f9aeadf7e628c5c1872e4b94fa73b7c8ac8cc527f29"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_nodemean_final.yaml",
+      "sha256": "a976dbe5f9f7b31c37c386cf940d85c8f5aaac513200961a06f741af7c252406"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_eegnet_demean_selection.yaml",
+      "sha256": "280993fb6ae4e83b64636024b4b71109777cc7036853721aee850df2fe77ad96"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/sub1/seed0/selection/fold_summary.csv",
+      "sha256": "e647bae4d4028f2cff6c54e8f1f8f6a6e30146777d2c0a08ffe0f7034e800fac"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/sub2/seed0/selection/fold_summary.csv",
+      "sha256": "fce321c231099f4611f4c1c94f52d0a8f10b1a76afa548f9df0ccf616872262a"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/sub3/seed0/selection/fold_summary.csv",
+      "sha256": "c0bef4bce87a304a73857b113d469234cbf026413ace05ed46d107ef87e6548a"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/sub4/seed0/selection/fold_summary.csv",
+      "sha256": "51e715019e2e8b1f5c175bd42665ab7badb53dc5f9b57500f8853266ff0139c0"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/sub1/seed1/selection/fold_summary.csv",
+      "sha256": "878eeb235e5860a0a4e99f91f53671b33a123681b519d75938fb69f7e0f4a67d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/sub2/seed1/selection/fold_summary.csv",
+      "sha256": "8a9b50546e18f1f41d443af5f755008af63b220c20cc1ff7d0839fd7d56ad100"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/sub3/seed1/selection/fold_summary.csv",
+      "sha256": "bc8a46d084d3a895ad68727e49b6a5833dd6502240eecc9821c6d339885fe558"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/sub4/seed1/selection/fold_summary.csv",
+      "sha256": "f0669e9ebd1b52e2fc83b28d29ad0519c790e377f3f38123aac0ded138f0dda7"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/sub1/seed2/selection/fold_summary.csv",
+      "sha256": "911a2248a5caed5fee6a75f82542cd024f976aa85852a7d64dbe4a1891e8ab77"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/sub2/seed2/selection/fold_summary.csv",
+      "sha256": "07035d6583f5e3728a6e9370dffbf204757499b4abe9aa6c3c36fdde223aadf5"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/sub3/seed2/selection/fold_summary.csv",
+      "sha256": "b23096bbe49be6175f1192294bc7d9b32568eba60b354f2ed200fc5d5c5ee9df"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/sub4/seed2/selection/fold_summary.csv",
+      "sha256": "7d04bacfe033dbdf7f457d3693552f78aa396d2d2b3ce0adade5524cdf4b9d22"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/summary.csv",
+      "sha256": "897464df6ba30e11847cb1349123853d972e376fce924665a37d434da510414f"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/results/zhou2016_eegnet_demean_selected_epochs.json",
+      "sha256": "4404396b84167b7b94367a31e5c930c791a45c12023c40f86b312b196b441b66"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_eegnet_demean_final.yaml",
+      "sha256": "ee25589d9f692f6147e04db23585fd9f6f0a52a19854720ffd32635db233b707"
+    }
+  ]
+}

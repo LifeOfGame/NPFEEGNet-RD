@@ -1,0 +1,93 @@
+[
+  {
+    "rank": 1,
+    "method": "NPFEEGNet-RawDemean",
+    "accuracy_mean": 0.706358024691358,
+    "accuracy_subject_sd": 0.13164062081134706,
+    "kappa_mean": 0.41271604938271605,
+    "kappa_subject_sd": 0.2632812416226941,
+    "median_retrain_epochs": 58.5,
+    "mean_retrain_epochs": 66.61111111111111,
+    "minimum_retrain_epochs": 1,
+    "maximum_retrain_epochs": 235,
+    "summary_path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/summary.csv"
+  },
+  {
+    "rank": 2,
+    "method": "NPFEEGNet-FullDemean",
+    "accuracy_mean": 0.7041358024691358,
+    "accuracy_subject_sd": 0.132441095146166,
+    "kappa_mean": 0.4082716049382716,
+    "kappa_subject_sd": 0.26488219029233206,
+    "median_retrain_epochs": 59.0,
+    "mean_retrain_epochs": 65.61728395061728,
+    "minimum_retrain_epochs": 1,
+    "maximum_retrain_epochs": 254,
+    "summary_path": "output/openbmi_preprocess_control_final_fulldemean_3seed/NPFEEGNet/2026-09-18--12-33/summary.csv"
+  },
+  {
+    "rank": 3,
+    "method": "NPFEEGNet-NoDemean",
+    "accuracy_mean": 0.6645061728395062,
+    "accuracy_subject_sd": 0.13725201752024765,
+    "kappa_mean": 0.32901234567901233,
+    "kappa_subject_sd": 0.2745040350404953,
+    "median_retrain_epochs": 52.0,
+    "mean_retrain_epochs": 60.74074074074074,
+    "minimum_retrain_epochs": 1,
+    "maximum_retrain_epochs": 200,
+    "summary_path": "output/openbmi_final_npf_nodemean_3seed/NPFEEGNet/2026-08-31--15-25/summary.csv"
+  },
+  {
+    "rank": 4,
+    "method": "EEGNet-Demean",
+    "accuracy_mean": 0.6460493827160494,
+    "accuracy_subject_sd": 0.11340281642532815,
+    "kappa_mean": 0.2920987654320988,
+    "kappa_subject_sd": 0.2268056328506563,
+    "median_retrain_epochs": 44.0,
+    "mean_retrain_epochs": 47.93827160493827,
+    "minimum_retrain_epochs": 1,
+    "maximum_retrain_epochs": 140,
+    "summary_path": "output/openbmi_baseline_final_eegnet_demean_3seed/EEGNet/2026-09-01--12-08/summary.csv"
+  },
+  {
+    "rank": 5,
+    "method": "NPFEEGNet-HighPass1Hz",
+    "accuracy_mean": 0.6454320987654321,
+    "accuracy_subject_sd": 0.15556085894922766,
+    "kappa_mean": 0.2908641975308642,
+    "kappa_subject_sd": 0.31112171789845533,
+    "median_retrain_epochs": 48.0,
+    "mean_retrain_epochs": 58.73456790123457,
+    "minimum_retrain_epochs": 2,
+    "maximum_retrain_epochs": 219,
+    "summary_path": "output/openbmi_preprocess_control_final_highpass1hz_3seed/NPFEEGNet/2026-09-18--12-33/summary.csv"
+  },
+  {
+    "rank": 6,
+    "method": "EEGConformer-Matched-Demean",
+    "accuracy_mean": 0.6229938271604938,
+    "accuracy_subject_sd": 0.1016346375104959,
+    "kappa_mean": 0.24598765432098765,
+    "kappa_subject_sd": 0.2032692750209918,
+    "median_retrain_epochs": 30.0,
+    "mean_retrain_epochs": 33.22839506172839,
+    "minimum_retrain_epochs": 2,
+    "maximum_retrain_epochs": 107,
+    "summary_path": "output/openbmi_eegconformer_final_demean_3seed/FBCNet/2026-09-18--12-33/summary.csv"
+  },
+  {
+    "rank": 7,
+    "method": "ATCNet-Matched-Demean",
+    "accuracy_mean": 0.6081790123456791,
+    "accuracy_subject_sd": 0.1109191957186868,
+    "kappa_mean": 0.21635802469135804,
+    "kappa_subject_sd": 0.2218383914373736,
+    "median_retrain_epochs": 37.5,
+    "mean_retrain_epochs": 42.70987654320987,
+    "minimum_retrain_epochs": 2,
+    "maximum_retrain_epochs": 180,
+    "summary_path": "output/openbmi_atcnet_final_demean_3seed/ATCNetLite/2026-09-01--20-51/summary.csv"
+  }
+]

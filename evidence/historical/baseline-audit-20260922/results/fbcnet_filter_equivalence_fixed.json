@@ -1,0 +1,97 @@
+{
+  "source": "/mnt/helongfei/NPFEEGNet-RD-baseline-audit-20260922/data/2a_cue_aligned/A01T_data.npy",
+  "n_trials": 3,
+  "overall_rmse_uv": 3.990401919972204e-07,
+  "bands": [
+    {
+      "band": [
+        4,
+        8
+      ],
+      "max_abs_diff_uv": 3.396635930741354e-06,
+      "rmse_uv": 7.25654605496866e-07,
+      "correlation": 0.9999999999999898,
+      "expected_sd_uv": 4.497816087690892
+    },
+    {
+      "band": [
+        8,
+        12
+      ],
+      "max_abs_diff_uv": 4.258914696464444e-06,
+      "rmse_uv": 5.313416832748747e-07,
+      "correlation": 0.9999999999999939,
+      "expected_sd_uv": 3.665544476505725
+    },
+    {
+      "band": [
+        12,
+        16
+      ],
+      "max_abs_diff_uv": 3.49214530181996e-06,
+      "rmse_uv": 4.4427364841183853e-07,
+      "correlation": 0.9999999999999937,
+      "expected_sd_uv": 3.1407047819791347
+    },
+    {
+      "band": [
+        16,
+        20
+      ],
+      "max_abs_diff_uv": 1.5666920614165747e-06,
+      "rmse_uv": 3.0980397779854016e-07,
+      "correlation": 0.9999999999999898,
+      "expected_sd_uv": 2.138088483814584
+    },
+    {
+      "band": [
+        20,
+        24
+      ],
+      "max_abs_diff_uv": 1.335773648136751e-06,
+      "rmse_uv": 2.694454221253795e-07,
+      "correlation": 0.9999999999999873,
+      "expected_sd_uv": 1.6145360410713567
+    },
+    {
+      "band": [
+        24,
+        28
+      ],
+      "max_abs_diff_uv": 1.5537223454487048e-06,
+      "rmse_uv": 2.5637134024826557e-07,
+      "correlation": 0.9999999999999896,
+      "expected_sd_uv": 1.613046389665377
+    },
+    {
+      "band": [
+        28,
+        32
+      ],
+      "max_abs_diff_uv": 1.1041665646249754e-06,
+      "rmse_uv": 2.528477717081937e-07,
+      "correlation": 0.9999999999999826,
+      "expected_sd_uv": 1.314555076449538
+    },
+    {
+      "band": [
+        32,
+        36
+      ],
+      "max_abs_diff_uv": 1.4008248880870156e-06,
+      "rmse_uv": 2.572432909110509e-07,
+      "correlation": 0.999999999999983,
+      "expected_sd_uv": 1.3056432973938839
+    },
+    {
+      "band": [
+        36,
+        40
+      ],
+      "max_abs_diff_uv": 1.2977708649941633e-06,
+      "rmse_uv": 2.4981652724327633e-07,
+      "correlation": 0.999999999999983,
+      "expected_sd_uv": 1.2258655989706329
+    }
+  ]
+}

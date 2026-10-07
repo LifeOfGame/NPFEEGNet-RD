@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "npfeegnet-rd"
-version = "0.2.0.dev0"
+version = "0.3.0.dev0"
 description = "Fixed spectral-residual EEGNet with raw-branch demeaning"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = ["numpy>=1.26,<3", "torch>=2.2"]
 
 [tool.setuptools]
-packages = ["model", "training"]
+packages = ["model", "training", "baselines"]
 py-modules = ["train", "predict"]

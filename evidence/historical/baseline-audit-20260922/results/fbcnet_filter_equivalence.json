@@ -1,0 +1,97 @@
+{
+  "source": "/mnt/helongfei/NPFEEGNet-RD-baseline-audit-20260922/data/2a_cue_aligned/A01T_data.npy",
+  "n_trials": 3,
+  "overall_rmse_uv": 2.142290983409065,
+  "bands": [
+    {
+      "band": [
+        4,
+        8
+      ],
+      "max_abs_diff_uv": 18.62806399965146,
+      "rmse_uv": 4.753316514085453,
+      "correlation": 0.3336904245773172,
+      "expected_sd_uv": 4.497816087690892
+    },
+    {
+      "band": [
+        8,
+        12
+      ],
+      "max_abs_diff_uv": 14.234189514937476,
+      "rmse_uv": 2.802321876919861,
+      "correlation": 0.678224945000387,
+      "expected_sd_uv": 3.665544476505725
+    },
+    {
+      "band": [
+        12,
+        16
+      ],
+      "max_abs_diff_uv": 9.659621554512185,
+      "rmse_uv": 2.387998212732938,
+      "correlation": 0.6715802226130244,
+      "expected_sd_uv": 3.1407047819791347
+    },
+    {
+      "band": [
+        16,
+        20
+      ],
+      "max_abs_diff_uv": 5.93538101258562,
+      "rmse_uv": 1.4823302413097055,
+      "correlation": 0.7284554436022058,
+      "expected_sd_uv": 2.138088483814584
+    },
+    {
+      "band": [
+        20,
+        24
+      ],
+      "max_abs_diff_uv": 3.1507367456498514,
+      "rmse_uv": 0.8686846927256153,
+      "correlation": 0.8443421476734637,
+      "expected_sd_uv": 1.6145360410713567
+    },
+    {
+      "band": [
+        24,
+        28
+      ],
+      "max_abs_diff_uv": 4.2454292184351745,
+      "rmse_uv": 0.8086389638933844,
+      "correlation": 0.865923115902386,
+      "expected_sd_uv": 1.613046389665377
+    },
+    {
+      "band": [
+        28,
+        32
+      ],
+      "max_abs_diff_uv": 3.316958391749842,
+      "rmse_uv": 0.681819118623495,
+      "correlation": 0.8563378527257863,
+      "expected_sd_uv": 1.314555076449538
+    },
+    {
+      "band": [
+        32,
+        36
+      ],
+      "max_abs_diff_uv": 2.92557870753709,
+      "rmse_uv": 0.6603094188373708,
+      "correlation": 0.8627156372608276,
+      "expected_sd_uv": 1.3056432973938839
+    },
+    {
+      "band": [
+        36,
+        40
+      ],
+      "max_abs_diff_uv": 3.9023136365639184,
+      "rmse_uv": 0.8052551252091716,
+      "correlation": 0.7573053631069626,
+      "expected_sd_uv": 1.2258655989706329
+    }
+  ]
+}

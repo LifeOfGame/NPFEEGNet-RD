@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "analysis_status": "post-confirmatory training-recipe sensitivity",
+  "subjects": 54,
+  "seeds": 3,
+  "runs": 162,
+  "new_summary_csv": "/mnt/helongfei/NPFEEGNet-RD-sentinel-audit-20260923/output/full54_atcnet_author_recipe/ATCNetLite/2026-09-24--12-17/summary.csv",
+  "accuracy_subject_macro": {
+    "atc_author_recipe": 0.6342283950617283,
+    "atc_matched_recipe": 0.6081790123456791,
+    "npfeegnet_rd": 0.706358024691358
+  },
+  "author_minus_matched_pp": {
+    "mean": 2.6049382716049383,
+    "subject_bootstrap_95_ci": [
+      1.4475308641975306,
+      3.8333333333333335
+    ],
+    "monte_carlo_sign_flip_p": 4.9999750001249995e-05,
+    "wins_ties_losses": [
+      37,
+      2,
+      15
+    ]
+  },
+  "rd_minus_author_pp": {
+    "mean": 7.212962962962963,
+    "subject_bootstrap_95_ci": [
+      5.848765432098765,
+      8.731481481481481
+    ],
+    "monte_carlo_sign_flip_p": 4.9999750001249995e-06,
+    "wins_ties_losses": [
+      52,
+      0,
+      2
+    ]
+  },
+  "retrain_epochs": {
+    "median": 175.0,
+    "min": 1,
+    "max": 494
+  },
+  "limits": "Author-leaning PyTorch training recipe and previously retained architecture port; not a framework-exact reproduction of original ATCNet. Session 2 used only for one evaluation after source-only epoch selection. Comparisons are post-confirmatory."
+}

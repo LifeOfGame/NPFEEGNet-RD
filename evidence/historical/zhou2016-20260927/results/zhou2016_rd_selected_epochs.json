@@ -1,0 +1,25 @@
+{
+  "source_summary": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_selection/NPFEEGNet/2026-09-27--11-56/summary.csv",
+  "selected_epochs": {
+    "1": {
+      "0": 170,
+      "1": 70,
+      "2": 124
+    },
+    "2": {
+      "0": 62,
+      "1": 87,
+      "2": 13
+    },
+    "3": {
+      "0": 72,
+      "1": 62,
+      "2": 64
+    },
+    "4": {
+      "0": 139,
+      "1": 109,
+      "2": 112
+    }
+  }
+}

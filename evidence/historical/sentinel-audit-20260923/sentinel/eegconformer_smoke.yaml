@@ -1,0 +1,58 @@
+﻿network: FBCNet
+registry_alias: FBCNet
+publication_model_name: EEGConformer-Matched-Demean
+analysis_status: diagnostic sentinel audit
+architecture_reference_doi: 10.1109/TNSRE.2022.3230250
+network_args:
+  num_channels: 20
+  classes: 2
+  n_times: 1000
+  embedding_dim: 40
+  temporal_kernel: 25
+  pool_length: 75
+  pool_stride: 15
+  convolution_dropout: 0.5
+  transformer_depth: 6
+  num_heads: 10
+  attention_dropout: 0.5
+  feedforward_expansion: 4
+  classifier_hidden: [256, 32]
+  classifier_dropouts: [0.5, 0.3]
+  input_standardization: demean
+data_path: D:/database/processed/openbmi
+data_prefix: O
+out_folder: output/sentinel_smoke_eegconformer
+preferred_device: gpu
+nGPU: 1
+cudnn_enabled: true
+random_seed: 0
+random_seeds: [0]
+batch_size: 72
+train_microbatch_size: 18
+log_first_epoch_batches: true
+epochs: 2
+optimizer: adam
+adam_betas: [0.5, 0.999]
+lr: 0.0002
+weight_decay: 0.0
+label_smoothing: 0.0
+raw_branch_loss_weight: 0.0
+spectral_branch_loss_weight: 0.0
+session_alignment_weight: 0.0
+use_data_augmentation: true
+num_classes: 2
+num_segs: 8
+validation_strategy: stratified
+val_fraction: 0.2
+split_seed: 42
+two_stage_training: true
+selection_only: false
+epoch_selection_strategy: holdout
+use_group_class_sampler: false
+early_stopping_patience: null
+use_lr_scheduler: false
+export_aux: false
+export_selection_aux: false
+subjects: [11]
+
+

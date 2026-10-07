@@ -1,0 +1,16 @@
+{
+  "source_commit": "de1bbdd8a54cb1e466830e3d47070e0e56761a37",
+  "model": "author FBCNet",
+  "subject": 1,
+  "smoke": true,
+  "dataset": "cue-aligned MOABB MAT export; not author's GDF parser",
+  "torch": "2.11.0+cu126",
+  "gpu": "cuda:1",
+  "filter_seconds": 1.7979352730326355,
+  "train_seconds": 1.904672424076125,
+  "stage1_train_count": 231,
+  "stage1_validation_count": 57,
+  "test_accuracy": 0.3090277777777778,
+  "train_accuracy": 0.35064935064935066,
+  "validation_accuracy": 0.2631578947368421
+}

@@ -1,0 +1,26 @@
+{
+  "hp05_eegnet_small_nodemean": {
+    "rows_verified": 162,
+    "selection_summary_sha256": "0b83ebb07a15702a23f080d7bc3ed0289c3a03e53de87977e948b57bdb34e7a3",
+    "frozen_map_sha256": "2e4d9be89c9f8ea196a3544293335f87ba9c830e014dbd3d0fa445e4216a0030",
+    "final_summary_sha256": "a4df2c33af27ec0a7569f17aedee5aa8dd4caaf146d2fa8af55c69388c05f2a3"
+  },
+  "hp05_eegnet_small_demean": {
+    "rows_verified": 162,
+    "selection_summary_sha256": "580ecc6bf340df522ded0f72f08bfa2c33046181b467a716d24095b30365f50e",
+    "frozen_map_sha256": "74e03fab35f45208fed56ee796246a4d68b1f5a19fd1223b0d9793e06ad04edc",
+    "final_summary_sha256": "f91f33fae55dee1f5def81ec23fb103e3c57679c19aa13c23bea5686e91d559d"
+  },
+  "hp05_eegnet_large_nodemean": {
+    "rows_verified": 162,
+    "selection_summary_sha256": "f2dac512bf9d136806becca1875fc574c9983327d863d1c9642bdff464653e23",
+    "frozen_map_sha256": "eae9836239fc9f376309cbf779875d8416f1c78be07bed20d2fef89403207fdb",
+    "final_summary_sha256": "751b437a7aa348234ecbe3481c06b163829d4442c6a48845bb7bcc2d810e4044"
+  },
+  "hp05_eegnet_large_demean": {
+    "rows_verified": 162,
+    "selection_summary_sha256": "85dea5b2c6bf5d80a64bf91b2590450eb1367153aa6333abbd90a2cee735031d",
+    "frozen_map_sha256": "a76cacf4fa99537f81d75ff19259bafbc424953343901956e3b16ab18eff9b56",
+    "final_summary_sha256": "c333e657d17e538a63777a10f0c621f356bcba8d7a4ebdc1d0fe1cf5620a5eba"
+  }
+}

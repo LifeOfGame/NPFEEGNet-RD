@@ -1,0 +1,51 @@
+# Post-confirmatory matched control; fixed S1-selected epochs, one S2 evaluation.
+network: EEGNet
+network_args:
+  num_channels: 20
+  classes: 2
+  n_times: 1000
+  temporal_filters: 8
+  depth_multiplier: 2
+  temporal_kernel: 64
+  separable_kernel: 16
+  pool_sizes: [4, 8]
+  dropout: 0.5
+  norm_type: batch
+  group_norm_groups: 4
+  input_standardization: demean
+data_path: /mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/openbmi_continuous_hp05
+data_prefix: O
+out_folder: /mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/hp05_eegnet_small_demean_final
+selected_epochs_file: /mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_small_demean_selected_epochs.json
+preferred_device: gpu
+nGPU: 0
+cudnn_enabled: true
+random_seed: 0
+random_seeds: [0, 1, 2]
+batch_size: 64
+train_microbatch_size: 16
+log_first_epoch_batches: true
+epochs: 300
+optimizer: adam
+lr: 0.001
+weight_decay: 0.0001
+label_smoothing: 0.0
+raw_branch_loss_weight: 0.0
+spectral_branch_loss_weight: 0.0
+session_alignment_weight: 0.0
+use_data_augmentation: false
+num_classes: 2
+num_segs: 8
+fixed_epoch_training: true
+two_stage_training: false
+selection_only: false
+early_stopping_patience: null
+use_group_class_sampler: false
+use_lr_scheduler: true
+lr_scheduler_type: cosine
+cosine_t_max: 300
+min_lr: 0.000001
+export_aux: true
+subjects: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]
+
+analysis_status: post-confirmatory_hp05_eegnet_2x2

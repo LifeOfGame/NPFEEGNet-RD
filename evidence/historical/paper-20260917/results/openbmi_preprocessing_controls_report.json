@@ -1,0 +1,183 @@
+{
+  "analysis_status": "post-confirmatory preprocessing controls",
+  "protocol": "OpenBMI S1 two-phase GroupCV, frozen full-S1 training, one S2 test",
+  "independent_unit": "subject after averaging three seeds",
+  "bootstrap_seed": 20260904,
+  "bootstrap_samples": 100000,
+  "run_paths": {
+    "NPFEEGNet-FullDemean": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/output/openbmi_preprocess_control_final_fulldemean_3seed/NPFEEGNet/2026-09-18--12-33",
+    "NPFEEGNet-HighPass1Hz": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/output/openbmi_preprocess_control_final_highpass1hz_3seed/NPFEEGNet/2026-09-18--12-33",
+    "NPFEEGNet-RawDemean": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52",
+    "NPFEEGNet-NoDemean": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/output/openbmi_final_npf_nodemean_3seed/NPFEEGNet/2026-08-31--15-25",
+    "EEGNet-Demean": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/output/openbmi_baseline_final_eegnet_demean_3seed/EEGNet/2026-09-01--12-08"
+  },
+  "new_control_training_environments": {
+    "NPFEEGNet-FullDemean": [
+      {
+        "cuda_device": "NVIDIA GeForce RTX 2080 Ti",
+        "cudnn": 91002,
+        "numpy": "2.4.4",
+        "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+        "python": "3.12.14",
+        "scipy": "1.17.1",
+        "torch": "2.11.0+cu126",
+        "torch_cuda_build": "12.6"
+      }
+    ],
+    "NPFEEGNet-HighPass1Hz": [
+      {
+        "cuda_device": "NVIDIA GeForce RTX 2080 Ti",
+        "cudnn": 91002,
+        "numpy": "2.4.4",
+        "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+        "python": "3.12.14",
+        "scipy": "1.17.1",
+        "torch": "2.11.0+cu126",
+        "torch_cuda_build": "12.6"
+      }
+    ],
+    "NPFEEGNet-RawDemean": [],
+    "NPFEEGNet-NoDemean": []
+  },
+  "main_results": [
+    {
+      "method": "NPFEEGNet-NoDemean",
+      "accuracy_mean": 0.6645061728395063,
+      "subject_sample_sd": 0.13725201752024765,
+      "subject_bootstrap_ci95_low": 0.6287037037037038,
+      "subject_bootstrap_ci95_high": 0.7014197530864197,
+      "balanced_accuracy": 0.6645061728395061,
+      "nll": 0.8359492005605299,
+      "ece": 0.1433605457695178,
+      "class0_recall": 0.681358024691358,
+      "class1_recall": 0.6476543209876543,
+      "subject_seed_collapse_rate": 0.030864197530864196
+    },
+    {
+      "method": "NPFEEGNet-RawDemean",
+      "accuracy_mean": 0.706358024691358,
+      "subject_sample_sd": 0.13164062081134706,
+      "subject_bootstrap_ci95_low": 0.6719753086419752,
+      "subject_bootstrap_ci95_high": 0.741574074074074,
+      "balanced_accuracy": 0.706358024691358,
+      "nll": 0.63633714176785,
+      "ece": 0.09119184704842387,
+      "class0_recall": 0.6984567901234567,
+      "class1_recall": 0.7142592592592593,
+      "subject_seed_collapse_rate": 0.0
+    },
+    {
+      "method": "NPFEEGNet-FullDemean",
+      "accuracy_mean": 0.704135802469136,
+      "subject_sample_sd": 0.13244109514616603,
+      "subject_bootstrap_ci95_low": 0.6696296296296296,
+      "subject_bootstrap_ci95_high": 0.7395987654320989,
+      "balanced_accuracy": 0.7041358024691358,
+      "nll": 0.6389648693182559,
+      "ece": 0.0908887744152252,
+      "class0_recall": 0.7041975308641976,
+      "class1_recall": 0.7040740740740741,
+      "subject_seed_collapse_rate": 0.0
+    },
+    {
+      "method": "NPFEEGNet-HighPass1Hz",
+      "accuracy_mean": 0.6454320987654321,
+      "subject_sample_sd": 0.1555608589492277,
+      "subject_bootstrap_ci95_low": 0.6055555555555556,
+      "subject_bootstrap_ci95_high": 0.6878086419753088,
+      "balanced_accuracy": 0.6454320987654321,
+      "nll": 0.6452531917507269,
+      "ece": 0.08516863617264192,
+      "class0_recall": 0.6674691358024691,
+      "class1_recall": 0.6233950617283951,
+      "subject_seed_collapse_rate": 0.006172839506172839
+    },
+    {
+      "method": "EEGNet-Demean",
+      "accuracy_mean": 0.6460493827160493,
+      "subject_sample_sd": 0.11340281642532815,
+      "subject_bootstrap_ci95_low": 0.6165740740740739,
+      "subject_bootstrap_ci95_high": 0.6766666666666666,
+      "balanced_accuracy": 0.6460493827160494,
+      "nll": 0.7152381651262165,
+      "ece": 0.0988976242347264,
+      "class0_recall": 0.6514197530864198,
+      "class1_recall": 0.640679012345679,
+      "subject_seed_collapse_rate": null
+    }
+  ],
+  "primary_comparisons_holm_family_of_two": [
+    {
+      "contrast": "NPFEEGNet-RawDemean - NPFEEGNet-FullDemean",
+      "analysis_status": "pre-specified within post-confirmatory preprocessing extension",
+      "independent_unit": "subject",
+      "n_subjects": 54,
+      "mean_change": 0.002222222222222226,
+      "subject_bootstrap_ci95_low": -0.004351851851851841,
+      "subject_bootstrap_ci95_high": 0.00891975308641975,
+      "exact_sign_flip_p": 0.5266811652740979,
+      "cohen_dz": 0.08853692566668273,
+      "wins": 31,
+      "ties": 0,
+      "losses": 23,
+      "holm_adjusted_p_two_contrasts": 0.5266811652740979
+    },
+    {
+      "contrast": "NPFEEGNet-RawDemean - NPFEEGNet-HighPass1Hz",
+      "analysis_status": "pre-specified within post-confirmatory preprocessing extension",
+      "independent_unit": "subject",
+      "n_subjects": 54,
+      "mean_change": 0.06092592592592591,
+      "subject_bootstrap_ci95_low": 0.036759259259259255,
+      "subject_bootstrap_ci95_high": 0.08503086419753086,
+      "exact_sign_flip_p": 9.439749676265485e-06,
+      "cohen_dz": 0.6672352502299678,
+      "wins": 41,
+      "ties": 0,
+      "losses": 13,
+      "holm_adjusted_p_two_contrasts": 1.887949935253097e-05
+    }
+  ],
+  "descriptive_comparisons": [
+    {
+      "contrast": "NPFEEGNet-FullDemean - NPFEEGNet-NoDemean",
+      "analysis_status": "descriptive only; no inferential test performed",
+      "independent_unit": "subject",
+      "n_subjects": 54,
+      "mean_change": 0.03962962962962963,
+      "wins": 41,
+      "ties": 0,
+      "losses": 13
+    },
+    {
+      "contrast": "NPFEEGNet-HighPass1Hz - NPFEEGNet-NoDemean",
+      "analysis_status": "descriptive only; no inferential test performed",
+      "independent_unit": "subject",
+      "n_subjects": 54,
+      "mean_change": -0.01907407407407407,
+      "wins": 20,
+      "ties": 0,
+      "losses": 34
+    },
+    {
+      "contrast": "NPFEEGNet-FullDemean - EEGNet-Demean",
+      "analysis_status": "descriptive only; no inferential test performed",
+      "independent_unit": "subject",
+      "n_subjects": 54,
+      "mean_change": 0.05808641975308642,
+      "wins": 34,
+      "ties": 0,
+      "losses": 20
+    },
+    {
+      "contrast": "NPFEEGNet-FullDemean - NPFEEGNet-HighPass1Hz",
+      "analysis_status": "descriptive only; no inferential test performed",
+      "independent_unit": "subject",
+      "n_subjects": 54,
+      "mean_change": 0.05870370370370371,
+      "wins": 44,
+      "ties": 0,
+      "losses": 10
+    }
+  ]
+}

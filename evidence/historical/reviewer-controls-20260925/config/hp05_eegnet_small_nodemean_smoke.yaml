@@ -1,0 +1,54 @@
+# Post-confirmatory matched control; session 1 only.
+network: EEGNet
+network_args:
+  num_channels: 20
+  classes: 2
+  n_times: 1000
+  temporal_filters: 8
+  depth_multiplier: 2
+  temporal_kernel: 64
+  separable_kernel: 16
+  pool_sizes: [4, 8]
+  dropout: 0.5
+  norm_type: batch
+  group_norm_groups: 4
+  input_standardization: none
+data_path: /mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/openbmi_continuous_hp05
+data_prefix: O
+out_folder: /mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/hp05_eegnet_small_nodemean_smoke
+preferred_device: gpu
+nGPU: 0
+cudnn_enabled: true
+random_seed: 0
+random_seeds: [0]
+batch_size: 64
+train_microbatch_size: 16
+log_first_epoch_batches: true
+epochs: 300
+optimizer: adam
+lr: 0.001
+weight_decay: 0.0001
+label_smoothing: 0.0
+raw_branch_loss_weight: 0.0
+spectral_branch_loss_weight: 0.0
+session_alignment_weight: 0.0
+use_data_augmentation: false
+num_classes: 2
+num_segs: 8
+validation_strategy: group
+two_stage_training: true
+selection_only: true
+epoch_selection_strategy: group_cv
+cv_num_folds: 2
+cv_epoch_aggregation: median
+use_group_class_sampler: false
+early_stopping_patience: 40
+use_lr_scheduler: true
+lr_scheduler_type: cosine
+cosine_t_max: 300
+min_lr: 0.000001
+export_aux: false
+export_selection_aux: false
+subjects: [1]
+
+analysis_status: post-confirmatory_hp05_eegnet_2x2

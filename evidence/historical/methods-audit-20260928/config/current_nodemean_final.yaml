@@ -1,0 +1,146 @@
+band_edge_lr_multiplier: 1.0
+batch_size: 64
+cosine_t_max: 300
+cudnn_enabled: true
+cv_epoch_aggregation: median
+cv_num_folds: 2
+data_path: /mnt/helongfei/database/processed/openbmi
+data_prefix: O
+early_stopping_patience: null
+epoch_selection_strategy: group_cv
+epochs: 300
+export_aux: true
+export_selection_aux: false
+label_smoothing: 0.0
+log_first_epoch_batches: true
+lr: 0.001
+lr_scheduler_type: cosine
+min_lr: 1.0e-06
+nGPU: 0
+network: NPFEEGNet
+network_args:
+  adaptive_band_routing: false
+  band_dropout: 0.3
+  band_embedding_dim: 64
+  band_feature_pool: 8
+  band_temporal_kernel: 32
+  bands:
+  - - 4.0
+    - 8.0
+  - - 8.0
+    - 13.0
+  - - 13.0
+    - 20.0
+  - - 20.0
+    - 30.0
+  - - 30.0
+    - 40.0
+  classes: 2
+  depth_multiplier: 2
+  dropout: 0.5
+  fusion_mode: residual
+  group_norm_groups: 4
+  input_standardization: none
+  input_standardization_scope: raw
+  learnable_band_edges: false
+  max_edge_shift_hz: 2.0
+  n_times: 1000
+  norm_type: batch
+  num_channels: 20
+  pool_sizes:
+  - 4
+  - 8
+  residual_initial_strength: 0.1
+  residual_max_strength: 0.5
+  router_hidden_dim: 32
+  router_initial_strength: 0.1
+  router_max_strength: 0.5
+  router_power_segments: 4
+  router_temperature: 0.7
+  sampling_rate: 250.0
+  separable_kernel: 16
+  temporal_filters: 8
+  temporal_kernel: 64
+  transition_hz: 1.0
+num_classes: 2
+num_segs: 8
+optimizer: adam
+out_folder: /mnt/helongfei/NPFEEGNet-RD-methods-audit-20260928/output/current_nodemean/final
+preferred_device: gpu
+random_seed: 0
+random_seeds:
+- 0
+- 1
+- 2
+raw_branch_loss_weight: 0.5
+selection_only: false
+session_alignment_weight: 0.0
+spectral_branch_loss_weight: 0.25
+subjects:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 26
+- 27
+- 28
+- 29
+- 30
+- 31
+- 32
+- 33
+- 34
+- 35
+- 36
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+- 54
+train_microbatch_size: 16
+two_stage_training: false
+use_data_augmentation: false
+use_group_class_sampler: false
+use_lr_scheduler: true
+validation_strategy: group
+weight_decay: 0.0001
+boundary_variant: current
+design_lock_file: /mnt/helongfei/NPFEEGNet-RD-methods-audit-20260928/design_lock.json
+analysis_role: post-confirmatory boundary sensitivity; earlier S2 outcomes known
+selected_epochs_file: /mnt/helongfei/NPFEEGNet-RD-methods-audit-20260928/results/current_nodemean_epochs.json
+protocol_lock_file: /mnt/helongfei/NPFEEGNet-RD-methods-audit-20260928/session2_lock.json
+fixed_epoch_training: true

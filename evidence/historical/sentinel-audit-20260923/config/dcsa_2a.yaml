@@ -1,0 +1,27 @@
+# DCSA-Net on BCIC-IV-2a.  Change data_path/out_folder for the local machine.
+network: DCSANet
+network_args:
+  num_channels: 22
+  classes: 4
+  temporal_kernels: [64, 32, 16, 8]
+  pool_sizes: [8, 7]
+  dim: 32
+  num_heads: 8
+  attn_dropout: 0.1
+  router_temperature: 1.0
+
+data_path: database/processed/2a
+data_prefix: A
+out_folder: output/dcsa_2a
+preferred_device: gpu
+nGPU: 0
+random_seed: 0
+batch_size: 64
+epochs: 2000
+lr: 0.0009
+num_classes: 4
+num_segs: 8
+val_fraction: 0.2
+early_stopping_patience: 30
+# Set e.g. [2] for a short single-subject smoke run; omit for all subjects.
+# subjects: [2]

@@ -1,0 +1,85 @@
+{
+  "candidate_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\confirm_hgd_raw_demean_h10_h14_3seed_groupcv_selection_only\\NPFEEGNet\\2026-08-30--16-53",
+  "core_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\final_hgd_core_h10_h14_3seed_groupcv\\NPFEEGNet\\2026-08-28--09-59",
+  "macro_core_accuracy": 0.9003484848484847,
+  "macro_raw_demean_accuracy": 0.9179545454545455,
+  "macro_accuracy_change": 0.017606060606060736,
+  "subject_cluster_bootstrap_change_ci95": [
+    0.0034242424242423297,
+    0.032196969696969766
+  ],
+  "worst_subject_mean_change": -0.006666666666666821,
+  "worst_seed_macro_change": 0.015136363636363281,
+  "minimum_predicted_class_share": 0.225,
+  "mean_core_fold_std": 0.04050309259383197,
+  "mean_raw_demean_fold_std": 0.022016934680883473,
+  "checks": {
+    "macro_noninferiority": true,
+    "subject_safety": true,
+    "seed_safety": true,
+    "no_class_collapse": true
+  },
+  "passes_phase4_rule": true,
+  "subjects": [
+    {
+      "subject": 10,
+      "core_mean": 0.8768939393939394,
+      "raw_demean_mean": 0.8954545454545455,
+      "mean_change": 0.018560606060606055,
+      "raw_demean_seed_std": 0.007005015912464762,
+      "minimum_class_share": 0.22613636363636364
+    },
+    {
+      "subject": 11,
+      "core_mean": 0.7886363636363636,
+      "raw_demean_mean": 0.831060606060606,
+      "mean_change": 0.042424242424242475,
+      "raw_demean_seed_std": 0.010991377370111253,
+      "minimum_class_share": 0.225
+    },
+    {
+      "subject": 12,
+      "core_mean": 0.9511363636363637,
+      "raw_demean_mean": 0.9621212121212123,
+      "mean_change": 0.010984848484848597,
+      "raw_demean_seed_std": 0.004285495643554835,
+      "minimum_class_share": 0.23977272727272728
+    },
+    {
+      "subject": 13,
+      "core_mean": 0.9358333333333334,
+      "raw_demean_mean": 0.9291666666666666,
+      "mean_change": -0.006666666666666821,
+      "raw_demean_seed_std": 0.007660323462854282,
+      "minimum_class_share": 0.23875
+    },
+    {
+      "subject": 14,
+      "core_mean": 0.9492424242424242,
+      "raw_demean_mean": 0.971969696969697,
+      "mean_change": 0.022727272727272818,
+      "raw_demean_seed_std": 0.005110127864860624,
+      "minimum_class_share": 0.24431818181818182
+    }
+  ],
+  "seeds": [
+    {
+      "seed": 0,
+      "core_macro": 0.8993181818181817,
+      "raw_demean_macro": 0.9207045454545455,
+      "macro_change": 0.021386363636363814
+    },
+    {
+      "seed": 1,
+      "core_macro": 0.9003636363636364,
+      "raw_demean_macro": 0.916659090909091,
+      "macro_change": 0.01629545454545467
+    },
+    {
+      "seed": 2,
+      "core_macro": 0.9013636363636366,
+      "raw_demean_macro": 0.9164999999999999,
+      "macro_change": 0.015136363636363281
+    }
+  ]
+}

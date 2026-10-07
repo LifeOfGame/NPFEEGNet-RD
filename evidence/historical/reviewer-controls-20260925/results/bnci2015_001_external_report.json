@@ -1,0 +1,50 @@
+{
+  "status": "post-confirmatory external A-to-B result; all 12 subjects and 3 seeds",
+  "dataset": "BNCI2015-001",
+  "models": {
+    "rd": {
+      "subject_macro_accuracy_pct": 76.34722222222223,
+      "subject_macro_balanced_accuracy_pct": 76.34722222222221
+    },
+    "nodemean": {
+      "subject_macro_accuracy_pct": 76.04166666666666,
+      "subject_macro_balanced_accuracy_pct": 76.04166666666669
+    },
+    "eegnet_demean": {
+      "subject_macro_accuracy_pct": 67.34722222222223,
+      "subject_macro_balanced_accuracy_pct": 67.34722222222223
+    }
+  },
+  "contrasts": {
+    "RD_minus_NoDemean": {
+      "difference_pp": 0.30555555555556074,
+      "subject_bootstrap_95_ci_pp": [
+        -0.1944444444444323,
+        0.8611111111111146
+      ],
+      "wins_ties_losses": [
+        7,
+        1,
+        4
+      ]
+    },
+    "RD_minus_EEGNet_Demean": {
+      "difference_pp": 9.000000000000002,
+      "subject_bootstrap_95_ci_pp": [
+        4.472222222222229,
+        14.097222222222221
+      ],
+      "wins_ties_losses": [
+        10,
+        0,
+        2
+      ]
+    }
+  },
+  "summary_paths": {
+    "rd": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_final/NPFEEGNet/2026-09-26--15-58/summary.csv",
+    "nodemean": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_final/NPFEEGNet/2026-09-26--15-58/summary.csv",
+    "eegnet_demean": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_final/EEGNet/2026-09-26--16-06/summary.csv"
+  },
+  "interpretation_limit": "New dataset is only 12 subjects, binary right-hand versus feet imagery; the acquisition already has 0.5-Hz high-pass preprocessing."
+}

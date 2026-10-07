@@ -1,0 +1,63 @@
+{
+  "status": "complete",
+  "role": "post-hoc exploratory matched-preprocessing four-class control",
+  "subjects": 20,
+  "seeds": 3,
+  "source_session": 1,
+  "target_session": 2,
+  "preprocessing": "continuous zero-phase IIR 8-30Hz, class [0.5,4.5)s",
+  "model_subject_macro": {
+    "rd": {
+      "accuracy_percent": 38.939162211766046,
+      "balanced_accuracy_percent": 38.90844052587147
+    },
+    "nodemean": {
+      "accuracy_percent": 39.11971629920969,
+      "balanced_accuracy_percent": 39.089000140132136
+    },
+    "eegnet_demean": {
+      "accuracy_percent": 38.05070693514063,
+      "balanced_accuracy_percent": 38.02488584357836
+    }
+  },
+  "rd_minus_nodemean": {
+    "mean_pp": -0.18055408744363857,
+    "subject_bootstrap_95_ci_pp": [
+      -0.6116648738856633,
+      0.2017380644726509
+    ],
+    "exact_two_sided_sign_flip_p": 0.419677734375,
+    "wins_ties_losses": [
+      10,
+      1,
+      9
+    ]
+  },
+  "rd_minus_eegnet_demean": {
+    "mean_pp": 0.888455276625419,
+    "subject_bootstrap_95_ci_pp": [
+      -0.0510596489513815,
+      1.9248914244696156
+    ],
+    "exact_two_sided_sign_flip_p": 0.10655975341796875,
+    "wins_ties_losses": [
+      12,
+      1,
+      7
+    ]
+  },
+  "final_summary_csvs": {
+    "rd": {
+      "s": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-posthoc-20260927/output/zhou2020_s_rd_final/NPFEEGNet/2026-09-27--18-38/summary.csv",
+      "a": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-posthoc-20260927/output/zhou2020_a_rd_final/NPFEEGNet/2026-09-27--18-59/summary.csv"
+    },
+    "nodemean": {
+      "s": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-posthoc-20260927/output/zhou2020_s_nodemean_final/NPFEEGNet/2026-09-27--18-38/summary.csv",
+      "a": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-posthoc-20260927/output/zhou2020_a_nodemean_final/NPFEEGNet/2026-09-27--18-59/summary.csv"
+    },
+    "eegnet_demean": {
+      "s": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-posthoc-20260927/output/zhou2020_s_eegnet_demean_final/EEGNet/2026-09-27--18-55/summary.csv",
+      "a": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-posthoc-20260927/output/zhou2020_a_eegnet_demean_final/EEGNet/2026-09-27--19-07/summary.csv"
+    }
+  }
+}

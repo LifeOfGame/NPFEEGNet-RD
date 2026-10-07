@@ -1,0 +1,5 @@
+dataset,scientific_role,task,subjects,seeds,reported_variant,accuracy_percent,subject_sd_percent,kappa,primary_delta_pp,primary_ci95_pp,primary_p,claim_boundary
+BCIC-IV-2b,architecture development,2-class motor imagery,9,3,NPFEEGNet-Core,86.29,10.05,0.7258,5.58,"[1.64, 10.78]",0.015625,developmental; not independent confirmation
+BCIC-IV-2a,frozen Core confirmation,4-class motor imagery,9,3,NPFEEGNet-Core,66.83,11.6,0.5578,8.26,"[3.78, 12.68]",0.019531,independent support for Core vs matched EEGNet
+High-Gamma Dataset,failure-driven robustness development,4-class executed movement/rest,14,3,NPFEEGNet-RD,90.52083333333333,6.3775428713099895,0.873611111111111,8.690476190476193,"[3.23, 16.41]",0.00244140625,supportive/post-hoc; HGD evaluation was previously exposed
+OpenBMI,predeclared external confirmation of RD,2-class cross-session motor imagery,54,3,NPFEEGNet-RD,70.6358024691358,13.164062081134709,0.4127160493827161,4.185185185185169,"[2.48, 6.08]",4.0981209554757925e-06,primary independent confirmation; Session 2 used once

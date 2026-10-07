@@ -1,0 +1,144 @@
+{
+  "analysis_role": "post-confirmatory exploratory descriptive sensitivity; no multiplicity-controlled significance claims",
+  "completed_at": "2026-09-28T07:20:08.036186+00:00",
+  "mean_accuracy_percent": {
+    "current_rd": 70.77160493827161,
+    "fft_reflect_rd": 70.92283950617285,
+    "raw_reflect_rd": 70.95061728395062,
+    "current_nodemean": 66.44753086419753,
+    "fft_reflect_nodemean": 66.69444444444444,
+    "raw_reflect_nodemean": 66.94753086419753
+  },
+  "contrasts": {
+    "fft_reflect_rd-current_rd": {
+      "mean_pp": 0.1512345679012348,
+      "median_pp": 0.1666666666666714,
+      "ci95_pp": [
+        -0.37037037037036996,
+        0.6666666666666665
+      ],
+      "wtl": [
+        29,
+        3,
+        22
+      ]
+    },
+    "fft_reflect_nodemean-current_nodemean": {
+      "mean_pp": 0.2469135802469139,
+      "median_pp": 0.25,
+      "ci95_pp": [
+        -0.4351851851851848,
+        0.9876543209876539
+      ],
+      "wtl": [
+        28,
+        4,
+        22
+      ]
+    },
+    "raw_reflect_rd-current_rd": {
+      "mean_pp": 0.17901234567901322,
+      "median_pp": 0.3333333333333286,
+      "ci95_pp": [
+        -0.25925925925925875,
+        0.6203703703703705
+      ],
+      "wtl": [
+        29,
+        2,
+        23
+      ]
+    },
+    "raw_reflect_nodemean-current_nodemean": {
+      "mean_pp": 0.4999999999999997,
+      "median_pp": 0.4166666666666714,
+      "ci95_pp": [
+        -0.12962962962963054,
+        1.151234567901235
+      ],
+      "wtl": [
+        32,
+        1,
+        21
+      ]
+    },
+    "current_demeaning_gain": {
+      "mean_pp": 4.3240740740740735,
+      "median_pp": 2.583333333333332,
+      "ci95_pp": [
+        2.487654320987655,
+        6.333333333333333
+      ],
+      "wtl": [
+        39,
+        0,
+        15
+      ]
+    },
+    "fft_reflect_demeaning_gain": {
+      "mean_pp": 4.228395061728396,
+      "median_pp": 3.0,
+      "ci95_pp": [
+        2.3549382716049374,
+        6.246990740740724
+      ],
+      "wtl": [
+        41,
+        1,
+        12
+      ]
+    },
+    "raw_reflect_demeaning_gain": {
+      "mean_pp": 4.003086419753087,
+      "median_pp": 3.0,
+      "ci95_pp": [
+        2.3518518518518534,
+        5.864197530864198
+      ],
+      "wtl": [
+        39,
+        1,
+        14
+      ]
+    },
+    "raw_padding_x_demeaning": {
+      "mean_pp": -0.3209876543209865,
+      "median_pp": -0.3333333333333357,
+      "ci95_pp": [
+        -1.1358024691358006,
+        0.4814814814814819
+      ],
+      "wtl": [
+        24,
+        1,
+        29
+      ]
+    }
+  },
+  "sources": {
+    "current_rd": {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-methods-audit-20260928/output/current_rd/final/NPFEEGNet/2026-09-28--13-44/summary.csv",
+      "sha256": "42553cde3d41b2ee89322203bfaf810d88b1ef30c9e7a61e139223d1ea0fc319"
+    },
+    "fft_reflect_rd": {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-methods-audit-20260928/output/fft_reflect_rd/final/NPFEEGNet/2026-09-28--14-16/summary.csv",
+      "sha256": "58a30bfe05cffcd9c2ab61a8c0da60f271613e1a59f57f7fbb17a5d433136770"
+    },
+    "raw_reflect_rd": {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-methods-audit-20260928/output/raw_reflect_rd/final/NPFEEGNet/2026-09-28--14-47/summary.csv",
+      "sha256": "347bba511915bd52da4d6f460067a70ec79d32649e31252eb3249a19ec6e61d0"
+    },
+    "current_nodemean": {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-methods-audit-20260928/output/current_nodemean/final/NPFEEGNet/2026-09-28--13-44/summary.csv",
+      "sha256": "76d08583a0b5ef4409910d9331bf9884a0efc4553bc2423f8802a43e0a2e0a89"
+    },
+    "fft_reflect_nodemean": {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-methods-audit-20260928/output/fft_reflect_nodemean/final/NPFEEGNet/2026-09-28--14-15/summary.csv",
+      "sha256": "f718d017eda0ee2f92278efd62033e48e65d74f26016fd22a116901a5a669643"
+    },
+    "raw_reflect_nodemean": {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-methods-audit-20260928/output/raw_reflect_nodemean/final/NPFEEGNet/2026-09-28--14-45/summary.csv",
+      "sha256": "e21f41b2d0e85b63533431010533b91336f4db06a0677e7834f63bf03e3305dc"
+    }
+  }
+}

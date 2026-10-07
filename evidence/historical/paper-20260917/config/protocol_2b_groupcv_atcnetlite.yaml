@@ -1,0 +1,49 @@
+# ATCNetLite under the same session-wise group-CV protocol as NPFEEGNet.
+network: ATCNetLite
+network_args:
+  num_channels: 3
+  classes: 2
+  n_times: 1000
+  temporal_filters: 16
+  depth_multiplier: 2
+  temporal_kernel: 64
+  refine_kernel: 16
+  pool_sizes: [8, 7]
+  conv_dropout: 0.3
+  windows: 5
+  head_dim: 8
+  num_heads: 2
+  attention_dropout: 0.5
+  tcn_depth: 2
+  tcn_kernel: 4
+  tcn_dropout: 0.3
+data_path: database/processed/2b
+data_prefix: B
+out_folder: output/protocol_2b_groupcv_atcnetlite
+preferred_device: gpu
+nGPU: 0
+random_seed: 0
+random_seeds: [0, 1, 2]
+batch_size: 64
+epochs: 300
+optimizer: adam
+lr: 0.001
+weight_decay: 0.0001
+label_smoothing: 0.0
+use_data_augmentation: false
+num_classes: 2
+num_segs: 4
+validation_strategy: group
+two_stage_training: true
+selection_only: false
+epoch_selection_strategy: group_cv
+cv_epoch_aggregation: median
+use_group_class_sampler: false
+early_stopping_patience: 40
+use_lr_scheduler: true
+lr_scheduler_type: cosine
+cosine_t_max: 300
+min_lr: 0.000001
+export_aux: false
+export_selection_aux: false
+subjects: [1, 2, 3, 4, 5, 6, 7, 8, 9]

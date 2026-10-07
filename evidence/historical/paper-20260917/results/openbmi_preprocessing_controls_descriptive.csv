@@ -1,0 +1,5 @@
+contrast,analysis_status,independent_unit,n_subjects,mean_change,wins,ties,losses
+NPFEEGNet-FullDemean - NPFEEGNet-NoDemean,descriptive only; no inferential test performed,subject,54,0.03962962962962963,41,0,13
+NPFEEGNet-HighPass1Hz - NPFEEGNet-NoDemean,descriptive only; no inferential test performed,subject,54,-0.01907407407407407,20,0,34
+NPFEEGNet-FullDemean - EEGNet-Demean,descriptive only; no inferential test performed,subject,54,0.05808641975308642,34,0,20
+NPFEEGNet-FullDemean - NPFEEGNet-HighPass1Hz,descriptive only; no inferential test performed,subject,54,0.05870370370370371,44,0,10

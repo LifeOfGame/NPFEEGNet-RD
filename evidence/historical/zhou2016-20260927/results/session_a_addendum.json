@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-09-27 03:47 UTC",
+  "timing": "before opening, processing, or evaluating Zhou2016 Session 1",
+  "observation": "The pinned NEMAR BIDS Session-0 events files do not uniformly contain 75 events per run: sub-1 has 90 and 89, sub-2 and sub-3 have 75 each, and sub-4 has 60 and 75.",
+  "resolution": "Keep all labeled, in-bounds Session-0 trials and retain the original two-run grouping for epoch selection. Apply the same no-rejection rule to target Session 1. Do not change architectures, hyperparameters, seeds, outcome, or the subject-level inference rule.",
+  "source": "Direct counts of Session-0 BIDS events.tsv in the NEMAR nm000115 v1.0.0 archive"
+}

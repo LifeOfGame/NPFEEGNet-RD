@@ -1,0 +1,114 @@
+{
+  "analysis_status": "post-confirmatory matched controls",
+  "protocol": "OpenBMI S1-to-S2, 54 subjects, three seeds",
+  "eegnet_nodemean_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\openbmi_baseline_final_eegnet_nodemean_3seed\\EEGNet\\2026-08-31--21-22",
+  "eegnet_demean_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\openbmi_baseline_final_eegnet_demean_3seed\\EEGNet\\2026-09-01--12-08",
+  "npf_eegnet_nodemean_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\openbmi_final_npf_nodemean_3seed\\NPFEEGNet\\2026-08-31--15-25",
+  "npf_eegnet_raw_demean_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\openbmi_final_npf_raw_demean_3seed\\NPFEEGNet\\2026-08-31--14-52",
+  "bootstrap_seed": 20260831,
+  "bootstrap_samples": 100000,
+  "main_results": [
+    {
+      "method": "EEGNet-NoDemean",
+      "accuracy_mean": 0.5878703703703704,
+      "subject_sample_sd": 0.09225876053728994,
+      "balanced_accuracy": 0.5878703703703704,
+      "nll": 0.9797732323001536,
+      "ece": 0.18186864067006994,
+      "class0_recall": 0.6208024691358025,
+      "class1_recall": 0.5549382716049382
+    },
+    {
+      "method": "EEGNet-Demean",
+      "accuracy_mean": 0.6460493827160493,
+      "subject_sample_sd": 0.11340281642532815,
+      "balanced_accuracy": 0.6460493827160494,
+      "nll": 0.7152381651262165,
+      "ece": 0.0988976242347264,
+      "class0_recall": 0.6514197530864198,
+      "class1_recall": 0.640679012345679
+    },
+    {
+      "method": "NPFEEGNet-NoDemean",
+      "accuracy_mean": 0.6645061728395063,
+      "subject_sample_sd": 0.13725201752024765,
+      "balanced_accuracy": 0.6645061728395061,
+      "nll": 0.8359492005605299,
+      "ece": 0.1433605457695178,
+      "class0_recall": 0.681358024691358,
+      "class1_recall": 0.6476543209876543
+    },
+    {
+      "method": "NPFEEGNet-RawDemean",
+      "accuracy_mean": 0.706358024691358,
+      "subject_sample_sd": 0.1316406208113471,
+      "balanced_accuracy": 0.706358024691358,
+      "nll": 0.63633714176785,
+      "ece": 0.09119184704842387,
+      "class0_recall": 0.6984567901234567,
+      "class1_recall": 0.7142592592592593
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "contrast": "EEGNet-Demean - EEGNet-NoDemean",
+      "mean_change": 0.05817901234567902,
+      "subject_bootstrap_ci95_low": 0.03793209876543209,
+      "subject_bootstrap_ci95_high": 0.07978395061728395,
+      "exact_sign_flip_p": 7.763716525222009e-08,
+      "cohen_dz": 0.7365413715313062,
+      "wins": 46,
+      "ties": 0,
+      "losses": 8,
+      "holm_adjusted_p_five_contrasts": 3.8818582626110043e-07
+    },
+    {
+      "contrast": "NPFEEGNet-NoDemean - EEGNet-NoDemean",
+      "mean_change": 0.07663580246913579,
+      "subject_bootstrap_ci95_low": 0.04370293209876543,
+      "subject_bootstrap_ci95_high": 0.11361111111111111,
+      "exact_sign_flip_p": 4.305551910555039e-07,
+      "cohen_dz": 0.5773985211140393,
+      "wins": 42,
+      "ties": 2,
+      "losses": 10,
+      "holm_adjusted_p_five_contrasts": 1.7222207642220155e-06
+    },
+    {
+      "contrast": "NPFEEGNet-RawDemean - EEGNet-Demean",
+      "mean_change": 0.06030864197530866,
+      "subject_bootstrap_ci95_low": 0.03308641975308643,
+      "subject_bootstrap_ci95_high": 0.09101851851851854,
+      "exact_sign_flip_p": 8.917874634750689e-06,
+      "cohen_dz": 0.5481438786787466,
+      "wins": 35,
+      "ties": 2,
+      "losses": 17,
+      "holm_adjusted_p_five_contrasts": 1.7835749269501378e-05
+    },
+    {
+      "contrast": "NPFEEGNet-RawDemean - NPFEEGNet-NoDemean",
+      "mean_change": 0.04185185185185186,
+      "subject_bootstrap_ci95_low": 0.024907407407407406,
+      "subject_bootstrap_ci95_high": 0.06070987654320991,
+      "exact_sign_flip_p": 4.0981209554757925e-06,
+      "cohen_dz": 0.6160572881546159,
+      "wins": 40,
+      "ties": 1,
+      "losses": 13,
+      "holm_adjusted_p_five_contrasts": 1.2294362866427377e-05
+    },
+    {
+      "contrast": "Architecture x Demeaning interaction",
+      "mean_change": -0.016327160493827143,
+      "subject_bootstrap_ci95_low": -0.03089583333333331,
+      "subject_bootstrap_ci95_high": -0.0026234567901234507,
+      "exact_sign_flip_p": 0.028097588532236206,
+      "cohen_dz": -0.3043152196788543,
+      "wins": 18,
+      "ties": 0,
+      "losses": 36,
+      "holm_adjusted_p_five_contrasts": 0.028097588532236206
+    }
+  ]
+}

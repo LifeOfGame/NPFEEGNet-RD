@@ -1,0 +1,57 @@
+network: ATCNetLite
+publication_model_name: ATCNet-AuthorRecipe-Sentinel
+analysis_status: diagnostic sentinel audit
+network_args:
+  num_channels: 20
+  classes: 2
+  n_times: 1000
+  temporal_filters: 16
+  depth_multiplier: 2
+  temporal_kernel: 64
+  refine_kernel: 16
+  pool_sizes: [8, 7]
+  conv_dropout: 0.3
+  windows: 5
+  head_dim: 8
+  num_heads: 2
+  attention_dropout: 0.5
+  attention_residual_dropout: 0.3
+  tcn_depth: 2
+  tcn_kernel: 4
+  tcn_dropout: 0.3
+  classifier_max_norm: 0.25
+  input_standardization: demean
+data_path: D:/database/processed/openbmi
+data_prefix: O
+out_folder: output/sentinel_atcnet_author_recipe
+preferred_device: gpu
+nGPU: 1
+cudnn_enabled: true
+random_seed: 0
+random_seeds: [0, 1, 2]
+batch_size: 64
+train_microbatch_size: 16
+log_first_epoch_batches: true
+epochs: 500
+optimizer: adam
+lr: 0.001
+weight_decay: 0.0
+label_smoothing: 0.0
+raw_branch_loss_weight: 0.0
+spectral_branch_loss_weight: 0.0
+session_alignment_weight: 0.0
+use_data_augmentation: false
+num_classes: 2
+num_segs: 8
+validation_strategy: stratified
+val_fraction: 0.2
+split_seed: 42
+two_stage_training: true
+selection_only: false
+epoch_selection_strategy: holdout
+use_group_class_sampler: false
+early_stopping_patience: null
+use_lr_scheduler: false
+export_aux: false
+export_selection_aux: false
+subjects: [11, 24, 32, 40, 3, 8, 25, 36]

@@ -1,0 +1,112 @@
+{
+  "analysis_status": "post-confirmatory HP05 EEGNet width by demeaning sensitivity",
+  "subjects": 54,
+  "seeds_per_subject": 3,
+  "subject_macro_accuracy_pct": {
+    "EEGNet-small-nodemean": 62.36728395061729,
+    "EEGNet-small-demean": 62.88888888888887,
+    "EEGNet-large-nodemean": 63.515432098765444,
+    "EEGNet-large-demean": 63.916666666666664,
+    "NPF-NoDemean": 68.91358024691357,
+    "NPF-RD": 69.33024691358024
+  },
+  "contrasts": {
+    "small_demean_minus_no": {
+      "difference_pp": 0.521604938271604,
+      "subject_bootstrap_95_ci_pp": [
+        -0.11728395061728468,
+        1.2376543209876554
+      ],
+      "wins_ties_losses": [
+        22,
+        1,
+        31
+      ]
+    },
+    "large_demean_minus_no": {
+      "difference_pp": 0.4012345679012344,
+      "subject_bootstrap_95_ci_pp": [
+        -0.11111111111111203,
+        0.9413580246913594
+      ],
+      "wins_ties_losses": [
+        28,
+        1,
+        25
+      ]
+    },
+    "large_minus_small_demean": {
+      "difference_pp": 1.0277777777777775,
+      "subject_bootstrap_95_ci_pp": [
+        -0.09259259259259292,
+        2.3518518518518507
+      ],
+      "wins_ties_losses": [
+        30,
+        3,
+        21
+      ]
+    },
+    "large_minus_small_no": {
+      "difference_pp": 1.1481481481481468,
+      "subject_bootstrap_95_ci_pp": [
+        0.08333333333333261,
+        2.3117283950617282
+      ],
+      "wins_ties_losses": [
+        28,
+        0,
+        26
+      ]
+    },
+    "width_by_demean_interaction": {
+      "difference_pp": -0.12037037037036954,
+      "subject_bootstrap_95_ci_pp": [
+        -1.0154320987654297,
+        0.7562499999999869
+      ],
+      "wins_ties_losses": [
+        23,
+        2,
+        29
+      ]
+    },
+    "npf_rd_minus_large_demean": {
+      "difference_pp": 5.413580246913581,
+      "subject_bootstrap_95_ci_pp": [
+        2.8364197530864192,
+        8.271604938271608
+      ],
+      "wins_ties_losses": [
+        34,
+        1,
+        19
+      ]
+    },
+    "npf_rd_minus_large_no": {
+      "difference_pp": 5.814814814814816,
+      "subject_bootstrap_95_ci_pp": [
+        3.222145061728394,
+        8.645061728395065
+      ],
+      "wins_ties_losses": [
+        35,
+        1,
+        18
+      ]
+    },
+    "npf_no_minus_large_no": {
+      "difference_pp": 5.398148148148149,
+      "subject_bootstrap_95_ci_pp": [
+        2.8333333333333344,
+        8.216049382716049
+      ],
+      "wins_ties_losses": [
+        35,
+        0,
+        19
+      ]
+    }
+  },
+  "interpretation_limit": "All variants were designed after the primary OpenBMI outcomes. Shared HP05 inputs and S1\u2192S2 protocol support local comparisons, not original-author recipe rankings or prospective architectural confirmation."
+}

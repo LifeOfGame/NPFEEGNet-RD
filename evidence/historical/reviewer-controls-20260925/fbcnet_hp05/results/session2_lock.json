@@ -1,0 +1,17 @@
+{
+  "status": "ready_for_session2",
+  "model": "FBCNet-AuthorFilter-HP05-Matched-Demean",
+  "official_evaluation_used_for_selection": false,
+  "expected_subject_seed_rows": 162,
+  "primary_contrast": "HP05 NPFEEGNet-RD minus HP05 FBCNet-AuthorFilter-Matched-Demean",
+  "analysis_status": "post-confirmatory",
+  "sha256": {
+    "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/results/design_lock.json": "a4ed10a226ddf84903e0cff2f20d82cd921bf8bab7aae79fe861e065639a06bc",
+    "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/results/selected_epochs.json": "7f3e888770adf9fe3eaa5b5bf33bca03d2c0ffcfcd217d86b7860ce2fa70831c",
+    "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_final.yaml": "163fddbacc585a9fbeed14a7959ac36f49d99772273285a23103206c9642ed1c",
+    "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/author_filter_fbcnet.py": "b04f9778117ccbad2fc334d8738dc1c72ae7f87d9e0605c97c2eb28c2669721a",
+    "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/run_openbmi_fbcnet.py": "b85e1ee69aa565cb377f16de5b9c5ce2ce4fa10246c763294cb0e20e8ffb862b",
+    "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_final_gpu0.yaml": "f8c908df632b00b801d82be42483eb840103967a00f2f20bfd710f775d911fc4",
+    "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_final_gpu1.yaml": "231163c8605920d6969aa06f521847b898bebb545f35d09247be35c4c7d6c497"
+  }
+}

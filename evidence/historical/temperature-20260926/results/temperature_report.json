@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "analysis_role": "post-confirmatory calibration sensitivity",
+  "temperature": 2.5463403064273793,
+  "temperature_lock_sha256": "8a89db808515d8b0f7d0948df15b3533911b1c453b2e0a6d9717b2c5487ca5e8",
+  "session2_used_for_fitting": false,
+  "s1_oof": {
+    "before": {
+      "accuracy": 0.6959567901234568,
+      "nll": 0.6832631821188878,
+      "ece": 0.12101877901657127
+    },
+    "after": {
+      "accuracy": 0.6959567901234568,
+      "nll": 0.5914118890690264,
+      "ece": 0.040870363803736987
+    }
+  },
+  "session2": {
+    "before": {
+      "accuracy": 0.706358024691358,
+      "nll": 0.63633714176785,
+      "ece": 0.09119184704842387
+    },
+    "after": {
+      "accuracy": 0.706358024691358,
+      "nll": 0.5553834068753374,
+      "ece": 0.025640330738154304
+    }
+  },
+  "subject_paired_nll_after_minus_before": {
+    "mean": -0.08095373489251248,
+    "bootstrap_95_ci": [
+      -0.12414223328580369,
+      -0.04302267487621138
+    ],
+    "bootstrap_subjects": 54,
+    "bootstrap_draws": 100000
+  },
+  "note": "T is fitted on S1 fold-out probabilities from fold models, then applied to full-S1 retrained RD models; model differences and S1-to-S2 shift can limit transfer."
+}

@@ -1,0 +1,108 @@
+{
+  "status": "complete",
+  "dataset": "Zhou2016",
+  "role": "later independently locked three-class cross-session audit",
+  "subjects": 4,
+  "seeds": 3,
+  "training_session": "0",
+  "target_session": "1",
+  "models": {
+    "rd": {
+      "subject_macro_accuracy_pct": 65.95490965579266,
+      "subject_macro_balanced_accuracy_pct": 65.94408133623818,
+      "pooled_confusion_three_seeds": [
+        [
+          431,
+          88,
+          69
+        ],
+        [
+          103,
+          382,
+          100
+        ],
+        [
+          127,
+          112,
+          346
+        ]
+      ]
+    },
+    "nodemean": {
+      "subject_macro_accuracy_pct": 67.47968277328101,
+      "subject_macro_balanced_accuracy_pct": 67.47785039941903,
+      "pooled_confusion_three_seeds": [
+        [
+          421,
+          84,
+          83
+        ],
+        [
+          93,
+          405,
+          87
+        ],
+        [
+          135,
+          95,
+          355
+        ]
+      ]
+    },
+    "eegnet_demean": {
+      "subject_macro_accuracy_pct": 49.94816450004087,
+      "subject_macro_balanced_accuracy_pct": 49.948438634713156,
+      "pooled_confusion_three_seeds": [
+        [
+          286,
+          150,
+          152
+        ],
+        [
+          145,
+          302,
+          138
+        ],
+        [
+          158,
+          131,
+          296
+        ]
+      ]
+    }
+  },
+  "contrasts": {
+    "RD_minus_NoDemean": {
+      "mean_pp": -1.5247731174883483,
+      "subject_bootstrap_95_ci_pp": [
+        -7.950699043414281,
+        3.7652685798381103
+      ],
+      "exact_two_sided_sign_flip_p": 0.875,
+      "wins_ties_losses": [
+        2,
+        0,
+        2
+      ]
+    },
+    "RD_minus_EEGNet_Demean": {
+      "mean_pp": 16.006745155751787,
+      "subject_bootstrap_95_ci_pp": [
+        8.087564385577636,
+        24.500000000000004
+      ],
+      "exact_two_sided_sign_flip_p": 0.125,
+      "wins_ties_losses": [
+        4,
+        0,
+        0
+      ]
+    }
+  },
+  "summary_paths": {
+    "rd": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_rd_final/NPFEEGNet/2026-09-27--12-01/summary.csv",
+    "nodemean": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_nodemean_final/NPFEEGNet/2026-09-27--12-01/summary.csv",
+    "eegnet_demean": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_final/EEGNet/2026-09-27--12-03/summary.csv"
+  },
+  "interpretation_limit": "Only four subjects; inference is subject-level and exact sign-flip p has coarse resolution. This later dataset was locked after original OpenBMI outcomes were known."
+}

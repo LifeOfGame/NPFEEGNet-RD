@@ -1,0 +1,73 @@
+{
+  "analysis_status": "post-confirmatory modern matched control",
+  "protocol": "OpenBMI S1 GroupCV to frozen full-S1 training and one S2 test",
+  "atcnet_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\openbmi_atcnet_final_demean_3seed\\ATCNetLite\\2026-09-01--20-51",
+  "npf_eegnet_raw_demean_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\openbmi_final_npf_raw_demean_3seed\\NPFEEGNet\\2026-08-31--14-52",
+  "eegnet_demean_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\openbmi_baseline_final_eegnet_demean_3seed\\EEGNet\\2026-09-01--12-08",
+  "architecture_source_commit": "d8fb0c10abc14b796dfbd317f53f56a68ebe29df",
+  "model_size": {
+    "trainable_parameters": 113338,
+    "batch_norm_running_stat_buffers": 1440,
+    "keras_style_parameters_including_bn_running_stats": 114778,
+    "condensed_time_points": 17,
+    "window_length": 13,
+    "tcn_receptive_field": 19
+  },
+  "main_results": [
+    {
+      "method": "EEGNet-Demean",
+      "accuracy_mean": 0.6460493827160493,
+      "subject_sample_sd": 0.11340281642532815,
+      "balanced_accuracy": 0.6460493827160494,
+      "nll": 0.7152381651262165,
+      "ece": 0.0988976242347264,
+      "class0_recall": 0.6514197530864198,
+      "class1_recall": 0.640679012345679
+    },
+    {
+      "method": "ATCNet-Matched-Demean",
+      "accuracy_mean": 0.6081790123456791,
+      "subject_sample_sd": 0.1109191957186868,
+      "balanced_accuracy": 0.608179012345679,
+      "nll": 0.7865247108533809,
+      "ece": 0.14959275779900727,
+      "class0_recall": 0.5690740740740741,
+      "class1_recall": 0.6472839506172839
+    },
+    {
+      "method": "NPFEEGNet-RawDemean",
+      "accuracy_mean": 0.706358024691358,
+      "subject_sample_sd": 0.1316406208113471,
+      "balanced_accuracy": 0.706358024691358,
+      "nll": 0.63633714176785,
+      "ece": 0.09119184704842387,
+      "class0_recall": 0.6984567901234567,
+      "class1_recall": 0.7142592592592593
+    }
+  ],
+  "primary_comparison": {
+    "contrast": "NPFEEGNet-RawDemean - ATCNet-Matched-Demean",
+    "analysis_status": "predeclared post-confirmatory extension contrast",
+    "independent_unit": "subject",
+    "n_subjects": 54,
+    "mean_change": 0.09817901234567904,
+    "subject_bootstrap_ci95_low": 0.08015432098765435,
+    "subject_bootstrap_ci95_high": 0.1175308641975309,
+    "bootstrap_seed": 20260901,
+    "bootstrap_samples": 100000,
+    "exact_sign_flip_p": 1.4432899320127035e-15,
+    "adjusted_p_one_contrast_family": 1.4432899320127035e-15,
+    "cohen_dz": 1.3841401317393773,
+    "wins": 52,
+    "ties": 0,
+    "losses": 2
+  },
+  "descriptive_architecture_check": {
+    "contrast": "ATCNet-Matched-Demean - EEGNet-Demean",
+    "status": "descriptive only; no predeclared significance claim",
+    "mean_change": -0.03787037037037037,
+    "wins": 10,
+    "ties": 2,
+    "losses": 42
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "analysis_id": "openbmi_npf_raw_demean_frequency_mechanism_20260919",
+  "status": "posthoc_exploratory_locked_before_intervention_results",
+  "locked_at_local": "2026-09-19T17:25:00+08:00",
+  "source_experiment": "output/unified_repro_20260918_npf_raw_demean_3seed",
+  "population": {
+    "dataset": "OpenBMI",
+    "subjects": 54,
+    "seeds": [0, 1, 2],
+    "evaluation_session": "official session-2 evaluation set",
+    "inference_unit": "subject after averaging the three seeds"
+  },
+  "frozen_model_policy": {
+    "retraining": false,
+    "parameter_selection": false,
+    "test_label_use": "metrics only",
+    "intervention": "Mask selected spectral-band embeddings, retain the trained raw logits, spectral classifier, and residual coefficient, then recompute fused logits.",
+    "mask_normalization": "Masked embeddings retain their original uniform 1/5 coefficients."
+  },
+  "bands_hz": [[4, 8], [8, 13], [13, 20], [20, 30], [30, 40]],
+  "planned_conditions": {
+    "full": [0, 1, 2, 3, 4],
+    "remove_4_8": [1, 2, 3, 4],
+    "remove_8_13": [0, 2, 3, 4],
+    "remove_13_20": [0, 1, 3, 4],
+    "remove_20_30": [0, 1, 2, 4],
+    "remove_30_40": [0, 1, 2, 3],
+    "only_4_8": [0],
+    "only_8_13": [1],
+    "only_13_20": [2],
+    "only_20_30": [3],
+    "only_30_40": [4],
+    "smr_only_8_30": [1, 2, 3],
+    "non_smr_only_4_8_30_40": [0, 4],
+    "beta_only_13_30": [2, 3],
+    "raw_only": null,
+    "spectral_full": [0, 1, 2, 3, 4]
+  },
+  "primary_mechanism_family": {
+    "contrasts": [
+      "Each of five leave-one-band-out fused conditions versus full fused model"
+    ],
+    "primary_metric": "evaluation negative log likelihood increase after removal",
+    "secondary_metrics": [
+      "accuracy decrease in percentage points",
+      "correct-class logit-margin decrease",
+      "Brier-score increase"
+    ],
+    "multiplicity": "Holm correction across the five bands for sign-flip p-values"
+  },
+  "planned_smr_contrasts": {
+    "smr_definition_hz": [8, 30],
+    "non_smr_definition_hz": [[4, 8], [30, 40]],
+    "tests": [
+      "Removing 8-30 Hz (retain 4-8 and 30-40 Hz) versus full",
+      "Removing non-SMR bands (retain 8-30 Hz) versus full",
+      "Difference between those two removal harms"
+    ]
+  },
+  "statistics": {
+    "bootstrap_confidence_interval": "subject bootstrap, 20000 resamples, seed 20260919",
+    "p_value": "two-sided subject sign-flip test, 200000 draws, seed 20260919",
+    "confidence_level": 0.95
+  },
+  "interpretation_boundary": "Frequency-path interventions assess model reliance and physiological consistency; they do not establish a causal neural mechanism."
+}

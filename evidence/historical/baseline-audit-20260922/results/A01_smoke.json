@@ -1,0 +1,14 @@
+{
+  "source_commit": "de1bbdd8a54cb1e466830e3d47070e0e56761a37",
+  "subject": 1,
+  "smoke": true,
+  "dataset": "local MOABB-exported NumPy arrays, not author GDF parser",
+  "torch": "2.11.0+cu126",
+  "gpu": "cuda:1",
+  "elapsed_seconds": 1.4826314439997077,
+  "stage1_train_count": 231,
+  "stage1_validation_count": 57,
+  "test_accuracy": 0.3402777777777778,
+  "train_accuracy": 0.39826839826839827,
+  "validation_accuracy": 0.3684210526315789
+}

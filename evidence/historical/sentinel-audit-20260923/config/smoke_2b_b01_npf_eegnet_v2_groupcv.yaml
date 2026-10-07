@@ -1,0 +1,63 @@
+# Fast protocol smoke test: three one-epoch folds, no official test-set load.
+network: NPFEEGNet
+network_args:
+  num_channels: 3
+  classes: 2
+  n_times: 1000
+  sampling_rate: 250.0
+  bands: [[4.0, 8.0], [8.0, 13.0], [13.0, 20.0], [20.0, 30.0], [30.0, 40.0]]
+  temporal_filters: 8
+  depth_multiplier: 2
+  temporal_kernel: 64
+  separable_kernel: 16
+  pool_sizes: [4, 8]
+  dropout: 0.5
+  band_temporal_kernel: 32
+  band_feature_pool: 8
+  band_embedding_dim: 64
+  band_dropout: 0.3
+  router_power_segments: 4
+  router_hidden_dim: 32
+  router_temperature: 0.7
+  router_initial_strength: 0.1
+  router_max_strength: 0.5
+  residual_initial_strength: 0.1
+  residual_max_strength: 0.5
+  transition_hz: 1.0
+  learnable_band_edges: true
+  max_edge_shift_hz: 2.0
+  input_standardization: none
+data_path: database/processed/2b
+data_prefix: B
+out_folder: output/smoke_2b_b01_npf_eegnet_v2_groupcv
+preferred_device: gpu
+nGPU: 0
+random_seed: 0
+random_seeds: [0]
+batch_size: 64
+epochs: 1
+optimizer: adam
+lr: 0.001
+weight_decay: 0.0001
+band_edge_lr_multiplier: 0.1
+label_smoothing: 0.0
+raw_branch_loss_weight: 0.5
+spectral_branch_loss_weight: 0.25
+session_alignment_weight: 0.0
+use_data_augmentation: false
+num_classes: 2
+num_segs: 4
+validation_strategy: group
+two_stage_training: true
+selection_only: true
+epoch_selection_strategy: group_cv
+cv_epoch_aggregation: median
+use_group_class_sampler: false
+early_stopping_patience: 1
+use_lr_scheduler: true
+lr_scheduler_type: cosine
+cosine_t_max: 1
+min_lr: 0.000001
+export_aux: false
+export_selection_aux: false
+subjects: [1]

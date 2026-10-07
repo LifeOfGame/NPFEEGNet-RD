@@ -1,0 +1,9 @@
+{
+  "analysis_status": "post-confirmatory classical reference",
+  "protocol": "OpenBMI S1 training only, S2 evaluation, 54 subjects",
+  "method": "4th-order 8\u201330 Hz trial-wise Butterworth; CSP 2+2 filters; shrinkage LDA",
+  "selection": "No target-informed tuning or subject-specific hyperparameter search",
+  "subject_macro_accuracy_pct": 63.52777777777777,
+  "subject_macro_kappa": 0.27055555555555555,
+  "limitations": "Trial-wise bandpass may have edge effects; this is a transparent classical reference, not an exhaustive optimized FBCSP search."
+}

@@ -1,0 +1,22 @@
+{
+  "analysis_id": "openbmi_npf_raw_demean_frequency_mechanism_20260919",
+  "design_lock": "results/frequency_mechanism_design_lock_20260919.json",
+  "design_lock_sha256": "9f1cc45d3d135bd55a909a63e2e0cb040b1519b44a6b673f00d666635f1e00e9",
+  "source_run_count": 162,
+  "subject_count": 54,
+  "seed_count": 3,
+  "fidelity_max_probability_error": 2.980232238769531e-07,
+  "fidelity_all_predictions_match": true,
+  "outputs": {
+    "frequency_mechanism_condition_summary.csv": "184897758b76ac52386fc9a26ed093f314b52bded4acdebe403c2e14e32344b3",
+    "frequency_mechanism_fidelity.csv": "9b23bbbc245a7870047f9e5f9bcc8b93e35f1f2c50625c87819caa8dac076ea2",
+    "frequency_mechanism_figure.png": "3eb3ca59a38e64922fe05d649dde415ef4d402bdc6204768bcf5dd740accab3a",
+    "frequency_mechanism_figure.svg": "1bb2b039e0dff88b4a18015ff6277bf447321ee3ba2247ec04d2ba2ccb248443",
+    "frequency_mechanism_leave_one_out.csv": "e23599b66eb04be0d8638035bc63378c963c4cb5332026505388d1c8cef4b500",
+    "frequency_mechanism_report.md": "f8b63807d96deb661ba395084f9905c68995ea7b3ee8f7be891fc1762ee93f17",
+    "frequency_mechanism_run_metrics.csv": "484482ab09f106f8986a3a420b7e9dcb15278365927429be6abed3386d342610",
+    "frequency_mechanism_smr_contrasts.csv": "5338a348b31c974ac7c3622e13f37016a4fde0928dcc06413e394415eb9dd778",
+    "frequency_mechanism_smr_difference.csv": "167c10dd471ecca30dc59972d2bfb95baf4f336a6103fce626cc8675ed6ad949",
+    "frequency_mechanism_subject_metrics.csv": "396d9e7f6f0aae8e591331f6edeca4de963dc0d4648c99fd6a6c2806d4a971d4"
+  }
+}

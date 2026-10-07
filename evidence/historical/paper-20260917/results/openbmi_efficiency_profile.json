@@ -1,0 +1,53 @@
+{
+  "status": "descriptive efficiency profile",
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13",
+    "torch": "2.11.0+cu126",
+    "device_argument": "cuda:0",
+    "cuda_available": true,
+    "cuda_runtime": "12.6",
+    "cudnn": 91002,
+    "gpu": "NVIDIA GeForce MX150",
+    "batch_size": 1,
+    "input_shape": [
+      1,
+      1,
+      20,
+      1000
+    ],
+    "warmup": 100,
+    "repetitions": 500,
+    "timing_includes_device_synchronization": true
+  },
+  "mac_definition": "Conv/linear MACs plus QK and attention-value products; excludes pooling, normalization, activations, elementwise work, and FFT/filter work.",
+  "results": [
+    {
+      "method": "EEGNet-Demean",
+      "trainable_parameters": 2418,
+      "conv_linear_attention_macs_batch1": 10688992,
+      "latency_mean_ms_batch1": 2.7371486,
+      "latency_median_ms_batch1": 2.3785,
+      "latency_population_sd_ms_batch1": 1.4894938607789023,
+      "incremental_peak_gpu_bytes_batch1": 1360384
+    },
+    {
+      "method": "ATCNet-Matched-Demean",
+      "trainable_parameters": 113338,
+      "conv_linear_attention_macs_batch1": 24393440,
+      "latency_mean_ms_batch1": 28.7473238,
+      "latency_median_ms_batch1": 26.37605,
+      "latency_population_sd_ms_batch1": 9.461161178528435,
+      "incremental_peak_gpu_bytes_batch1": 2640384
+    },
+    {
+      "method": "NPFEEGNet-RawDemean",
+      "trainable_parameters": 12357,
+      "conv_linear_attention_macs_batch1": 38570080,
+      "latency_mean_ms_batch1": 6.8122092,
+      "latency_median_ms_batch1": 6.3182,
+      "latency_population_sd_ms_batch1": 1.9411164389689146,
+      "incremental_peak_gpu_bytes_batch1": 6883328
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+# Controlled FBCNet reproduction on BCIC-IV-2a.
+# Architecture and Chebyshev-II frontend follow the authors' official code;
+# split, seeds, optimizer, scheduler, budget, and retraining match Core/EEGNet.
+network: FBCNet
+network_args:
+  num_channels: 22
+  classes: 4
+  n_times: 1000
+  sampling_rate: 250.0
+  bands:
+    - [4.0, 8.0]
+    - [8.0, 12.0]
+    - [12.0, 16.0]
+    - [16.0, 20.0]
+    - [20.0, 24.0]
+    - [24.0, 28.0]
+    - [28.0, 32.0]
+    - [32.0, 36.0]
+    - [36.0, 40.0]
+  spatial_filters: 32
+  temporal_segments: 4
+  log_variance_eps: 0.000001
+data_path: database/processed/2a
+data_prefix: A
+out_folder: output/protocol_2a_holdout_fbcnet_equalbudget
+preferred_device: gpu
+nGPU: 0
+random_seed: 0
+random_seeds: [0, 1, 2]
+batch_size: 64
+epochs: 300
+optimizer: adam
+lr: 0.001
+weight_decay: 0.0001
+label_smoothing: 0.0
+use_data_augmentation: false
+num_classes: 4
+num_segs: 4
+validation_strategy: group
+validation_group: -1
+two_stage_training: true
+selection_only: false
+epoch_selection_strategy: holdout
+use_group_class_sampler: false
+early_stopping_patience: 40
+use_lr_scheduler: true
+lr_scheduler_type: cosine
+cosine_t_max: 300
+min_lr: 0.000001
+export_aux: false
+export_selection_aux: false
+subjects: [1, 2, 3, 4, 5, 6, 7, 8, 9]

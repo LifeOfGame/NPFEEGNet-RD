@@ -1,0 +1,237 @@
+{
+  "protocol": {
+    "subjects": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "selection_strategy": "group_cv",
+    "cv_num_folds": 3,
+    "cv_epoch_aggregation": "median",
+    "rows": 42,
+    "sources": [
+      "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\final_hgd_core_h01_h09_3seed_groupcv\\NPFEEGNet\\2026-08-28--14-45\\summary.csv",
+      "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\final_hgd_core_h10_h14_3seed_groupcv\\NPFEEGNet\\2026-08-28--09-59\\summary.csv"
+    ]
+  },
+  "overall": {
+    "accuracy_subject_macro": 0.8183035714285715,
+    "accuracy_subject_median": 0.8520833333333333,
+    "accuracy_subject_sample_sd": 0.15560052748281544,
+    "accuracy_subject_bootstrap95": [
+      0.7311011904761905,
+      0.8854166666666669
+    ],
+    "kappa_subject_macro": 0.7577380952380952,
+    "seed_macro_accuracy": {
+      "0": 0.8017857142857143,
+      "1": 0.8290178571428571,
+      "2": 0.8241071428571428
+    },
+    "seed_macro_accuracy_sample_sd": 0.014514078756257879,
+    "mean_within_subject_seed_sd": 0.060427436835830045,
+    "cv_accuracy_subject_macro": 0.8759524521330584,
+    "cv_test_gap_subject_macro": 0.057648880704486934,
+    "cv_test_subject_mean_correlation": 0.7707142677453998
+  },
+  "subjects": [
+    {
+      "subject": 1,
+      "accuracy_mean": 0.775,
+      "accuracy_seed_sd": 0.16851835953390948,
+      "kappa_mean": 0.7,
+      "cv_accuracy_mean": 0.928125,
+      "cv_test_gap": 0.15312499999999996,
+      "selected_epochs": [
+        77,
+        133,
+        90
+      ]
+    },
+    {
+      "subject": 2,
+      "accuracy_mean": 0.8354166666666667,
+      "accuracy_seed_sd": 0.06322496210622303,
+      "kappa_mean": 0.7805555555555556,
+      "cv_accuracy_mean": 0.8450184501845018,
+      "cv_test_gap": 0.009601783517835139,
+      "selected_epochs": [
+        88,
+        88,
+        80
+      ]
+    },
+    {
+      "subject": 3,
+      "accuracy_mean": 0.9729166666666667,
+      "accuracy_seed_sd": 0.013010412496663345,
+      "kappa_mean": 0.9638888888888889,
+      "cv_accuracy_mean": 0.9564393939393939,
+      "cv_test_gap": -0.01647727272727273,
+      "selected_epochs": [
+        114,
+        192,
+        189
+      ]
+    },
+    {
+      "subject": 4,
+      "accuracy_mean": 0.9,
+      "accuracy_seed_sd": 0.012500000000000011,
+      "kappa_mean": 0.8666666666666667,
+      "cv_accuracy_mean": 0.9420289855072465,
+      "cv_test_gap": 0.04202898550724643,
+      "selected_epochs": [
+        157,
+        174,
+        98
+      ]
+    },
+    {
+      "subject": 5,
+      "accuracy_mean": 0.8,
+      "accuracy_seed_sd": 0.13564084008881688,
+      "kappa_mean": 0.7333333333333333,
+      "cv_accuracy_mean": 0.825,
+      "cv_test_gap": 0.02499999999999991,
+      "selected_epochs": [
+        47,
+        43,
+        89
+      ]
+    },
+    {
+      "subject": 6,
+      "accuracy_mean": 0.8083333333333333,
+      "accuracy_seed_sd": 0.12092309884109544,
+      "kappa_mean": 0.7444444444444445,
+      "cv_accuracy_mean": 0.8121212121212121,
+      "cv_test_gap": 0.0037878787878787845,
+      "selected_epochs": [
+        135,
+        156,
+        130
+      ]
+    },
+    {
+      "subject": 7,
+      "accuracy_mean": 0.3625,
+      "accuracy_seed_sd": 0.10439558180306291,
+      "kappa_mean": 0.15000000000000002,
+      "cv_accuracy_mean": 0.6178030303030304,
+      "cv_test_gap": 0.2553030303030304,
+      "selected_epochs": [
+        76,
+        80,
+        78
+      ]
+    },
+    {
+      "subject": 8,
+      "accuracy_mean": 0.86875,
+      "accuracy_seed_sd": 0.03125,
+      "kappa_mean": 0.825,
+      "cv_accuracy_mean": 0.925586136595311,
+      "cv_test_gap": 0.05683613659531095,
+      "selected_epochs": [
+        132,
+        103,
+        108
+      ]
+    },
+    {
+      "subject": 9,
+      "accuracy_mean": 0.95625,
+      "accuracy_seed_sd": 0.01082531754730551,
+      "kappa_mean": 0.9416666666666667,
+      "cv_accuracy_mean": 0.909469696969697,
+      "cv_test_gap": -0.046780303030303005,
+      "selected_epochs": [
+        117,
+        47,
+        90
+      ]
+    },
+    {
+      "subject": 10,
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_seed_sd": 0.0281828109551431,
+      "kappa_mean": 0.8888888888888888,
+      "cv_accuracy_mean": 0.8768939393939396,
+      "cv_test_gap": -0.03977272727272707,
+      "selected_epochs": [
+        102,
+        79,
+        140
+      ]
+    },
+    {
+      "subject": 11,
+      "accuracy_mean": 0.78125,
+      "accuracy_seed_sd": 0.053400023408234604,
+      "kappa_mean": 0.7083333333333334,
+      "cv_accuracy_mean": 0.7886363636363636,
+      "cv_test_gap": 0.00738636363636358,
+      "selected_epochs": [
+        104,
+        154,
+        126
+      ]
+    },
+    {
+      "subject": 12,
+      "accuracy_mean": 0.9270833333333334,
+      "accuracy_seed_sd": 0.007216878364870361,
+      "kappa_mean": 0.9027777777777778,
+      "cv_accuracy_mean": 0.9511363636363637,
+      "cv_test_gap": 0.0240530303030303,
+      "selected_epochs": [
+        68,
+        94,
+        69
+      ]
+    },
+    {
+      "subject": 13,
+      "accuracy_mean": 0.8895833333333334,
+      "accuracy_seed_sd": 0.07814583055629602,
+      "kappa_mean": 0.8527777777777779,
+      "cv_accuracy_mean": 0.9358333333333334,
+      "cv_test_gap": 0.04625000000000001,
+      "selected_epochs": [
+        155,
+        153,
+        215
+      ]
+    },
+    {
+      "subject": 14,
+      "accuracy_mean": 0.6625,
+      "accuracy_seed_sd": 0.01874999999999999,
+      "kappa_mean": 0.55,
+      "cv_accuracy_mean": 0.9492424242424243,
+      "cv_test_gap": 0.28674242424242435,
+      "selected_epochs": [
+        80,
+        119,
+        115
+      ]
+    }
+  ]
+}

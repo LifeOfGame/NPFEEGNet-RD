@@ -1,0 +1,312 @@
+[
+  {
+    "file": "historical_sources/baseline-audit-20260922/analyze_cue_aligned_2a.py",
+    "source": "NPFEEGNet-RD-baseline-audit-20260922/analyze_cue_aligned_2a.py",
+    "sha256": "3b4baf8ffd3fd0f1fd7ef937a84f41eec96ad0e0449bfd7603e41f499df095cb"
+  },
+  {
+    "file": "historical_sources/baseline-audit-20260922/apply_author_fbcnet_stopband.py",
+    "source": "NPFEEGNet-RD-baseline-audit-20260922/apply_author_fbcnet_stopband.py",
+    "sha256": "596fd86690806a01151c92b24e46545914da4e5cd038f566373bbf7f889b65d7"
+  },
+  {
+    "file": "historical_sources/baseline-audit-20260922/build_cue_aligned_2a.py",
+    "source": "NPFEEGNet-RD-baseline-audit-20260922/build_cue_aligned_2a.py",
+    "sha256": "855e7c5ec55a6715e7a5e5ddfbacc841833fc2a52e50daa923fcd6ea64dcd144"
+  },
+  {
+    "file": "historical_sources/baseline-audit-20260922/compare_fbcnet_filterfix_2a.py",
+    "source": "NPFEEGNet-RD-baseline-audit-20260922/compare_fbcnet_filterfix_2a.py",
+    "sha256": "a4040a8e40e415faba51b07f16dea8849543ed6df27f32f968938fa7a7501d17"
+  },
+  {
+    "file": "historical_sources/baseline-audit-20260922/compare_fbcnet_filters.py",
+    "source": "NPFEEGNet-RD-baseline-audit-20260922/compare_fbcnet_filters.py",
+    "sha256": "a53bc7c3d47f00af933b4ce14e50efe6a5ab34d122968fb9189e96c3075e9a85"
+  },
+  {
+    "file": "historical_sources/baseline-audit-20260922/run_author_eegnet_on_processed_2a.py",
+    "source": "NPFEEGNet-RD-baseline-audit-20260922/run_author_eegnet_on_processed_2a.py",
+    "sha256": "bf168cd7db253e5b5a2161aeac2e3db6446afb1e977ba00932f03c50c1b6de7c"
+  },
+  {
+    "file": "historical_sources/baseline-audit-20260922/run_author_fbcnet_on_cue_2a.py",
+    "source": "NPFEEGNet-RD-baseline-audit-20260922/run_author_fbcnet_on_cue_2a.py",
+    "sha256": "c3ebc650d525b2bbb162492bfc401a079f790a3dc9cc656459a7d471f1b5ae48"
+  },
+  {
+    "file": "historical_sources/reviewer-controls-20260925/analyze_bnci2015_final.py",
+    "source": "NPFEEGNet-RD-reviewer-controls-20260925/analyze_bnci2015_final.py",
+    "sha256": "f551659e7da9cfa6340b78bfd4380c4ae7bfe77581105b85de82e9a5c9dd4db6"
+  },
+  {
+    "file": "historical_sources/reviewer-controls-20260925/build_bnci2015_selection_configs.py",
+    "source": "NPFEEGNet-RD-reviewer-controls-20260925/build_bnci2015_selection_configs.py",
+    "sha256": "26973f21e422bef32fe266d06aa01a1d992ede6cff59aa23eb85c72bc418bc77"
+  },
+  {
+    "file": "historical_sources/reviewer-controls-20260925/check_bnci2015_model_shapes.py",
+    "source": "NPFEEGNet-RD-reviewer-controls-20260925/check_bnci2015_model_shapes.py",
+    "sha256": "75e4a56ca8eed64c75fde9ce4e1bb2d16a2b752a3d4a055bdd7a2cd0215e8107"
+  },
+  {
+    "file": "historical_sources/reviewer-controls-20260925/download_bnci2015_001_nemar.py",
+    "source": "NPFEEGNet-RD-reviewer-controls-20260925/download_bnci2015_001_nemar.py",
+    "sha256": "5593525df137442301829209270b71bfd2b92645e5254e9ccacc2b6e3c99b242"
+  },
+  {
+    "file": "historical_sources/reviewer-controls-20260925/freeze_bnci2015_selection.py",
+    "source": "NPFEEGNet-RD-reviewer-controls-20260925/freeze_bnci2015_selection.py",
+    "sha256": "89847cafcee969d1cc79a3ff05862895dbc2bdf57df1aa0cb6a5792c136e52c6"
+  },
+  {
+    "file": "historical_sources/reviewer-controls-20260925/inspect_bnci2015_a.py",
+    "source": "NPFEEGNet-RD-reviewer-controls-20260925/inspect_bnci2015_a.py",
+    "sha256": "d77ae071796c1da7577d054c64d59340ba9095da324a051cf8403f815098cbc4"
+  },
+  {
+    "file": "historical_sources/reviewer-controls-20260925/preprocess_bnci2015_a.py",
+    "source": "NPFEEGNet-RD-reviewer-controls-20260925/preprocess_bnci2015_a.py",
+    "sha256": "71fccd397de6715b25d2d09e74e91f2dd4dd1cee9ec0efcfef4cf69721cd7542"
+  },
+  {
+    "file": "historical_sources/reviewer-controls-20260925/preprocess_bnci2015_b_after_lock.py",
+    "source": "NPFEEGNet-RD-reviewer-controls-20260925/preprocess_bnci2015_b_after_lock.py",
+    "sha256": "a55f42d600c3c7804969c58bf44f97cec5084df697cbf9c1278893ca1f6c9df2"
+  },
+  {
+    "file": "historical_sources/reviewer-controls-20260925/run_openbmi_fbcsp.py",
+    "source": "NPFEEGNet-RD-reviewer-controls-20260925/run_openbmi_fbcsp.py",
+    "sha256": "2b2cf939622ea433c26ccaee245ff9fa395a14b23b131ceaa9a32b4113ced166"
+  },
+  {
+    "file": "historical_sources/component-author-20260926/analyze_component_author.py",
+    "source": "NPFEEGNet-RD-component-author-20260926/analyze_component_author.py",
+    "sha256": "453705b5d580c8e0325bc9f3735165714cff068e8e29a678edf6a13bf14463da"
+  },
+  {
+    "file": "historical_sources/component-author-20260926/check_component_cuda.py",
+    "source": "NPFEEGNet-RD-component-author-20260926/check_component_cuda.py",
+    "sha256": "874f4388136c01b6abd1b6e5d9b6dea8b5212286623188960b4250f92a6d7e77"
+  },
+  {
+    "file": "historical_sources/component-author-20260926/component_variants.py",
+    "source": "NPFEEGNet-RD-component-author-20260926/component_variants.py",
+    "sha256": "d66b9e03cce326b2266966566c1cd7092a196a8fe5fee0129a6b5086280530e9"
+  },
+  {
+    "file": "historical_sources/component-author-20260926/diagnose_openbmi_calibration.py",
+    "source": "NPFEEGNet-RD-component-author-20260926/diagnose_openbmi_calibration.py",
+    "sha256": "610385435e00c0ab5198fef4f318bce3a16a99653c6e5ce2713d8dc0acc9f9ca"
+  },
+  {
+    "file": "historical_sources/component-author-20260926/freeze_component_author_selection.py",
+    "source": "NPFEEGNet-RD-component-author-20260926/freeze_component_author_selection.py",
+    "sha256": "b5331e510c196136db13860009adbe862fea10b5f10ee13876792b9878036f8e"
+  },
+  {
+    "file": "historical_sources/component-author-20260926/prepare_component_author.py",
+    "source": "NPFEEGNet-RD-component-author-20260926/prepare_component_author.py",
+    "sha256": "2c13f6ca82b2d89b3cf33d2ff13e2273376a5660883aa04ec280e7d96a11ee22"
+  },
+  {
+    "file": "historical_sources/component-author-20260926/run_component_variant.py",
+    "source": "NPFEEGNet-RD-component-author-20260926/run_component_variant.py",
+    "sha256": "a648ad33a102aa18dad558ce23df0dfc5f8e2963c958ca10529f428f16a4fdd5"
+  },
+  {
+    "file": "historical_sources/component-author-20260926/run_fbcnet_author_training.py",
+    "source": "NPFEEGNet-RD-component-author-20260926/run_fbcnet_author_training.py",
+    "sha256": "87908b9bc49dbcf73528684dcab8f1d1b2527c810a9ac63005e00f5a289b46e4"
+  },
+  {
+    "file": "historical_sources/component-author-20260926/smoke_component_author.py",
+    "source": "NPFEEGNet-RD-component-author-20260926/smoke_component_author.py",
+    "sha256": "a3f53fab9d6a6c20efee60c2c95291806484b8504a79ec239844529c57c71ebc"
+  },
+  {
+    "file": "historical_sources/temperature-20260926/fit_apply_rd_temperature.py",
+    "source": "NPFEEGNet-RD-temperature-20260926/fit_apply_rd_temperature.py",
+    "sha256": "3f09b76494a6a437c6cf23c7f1336fb825e9cfa4fb9081af42c474f577519096"
+  },
+  {
+    "file": "historical_sources/temperature-20260926/prepare_rd_temperature.py",
+    "source": "NPFEEGNet-RD-temperature-20260926/prepare_rd_temperature.py",
+    "sha256": "8fa52539dc4202710df1db7db9c9325ddad08530a4ff00317d3de4e5b9b2364b"
+  },
+  {
+    "file": "historical_sources/mechanism-followup-20260927/activation_shift.py",
+    "source": "NPFEEGNet-RD-mechanism-followup-20260927/activation_shift.py",
+    "sha256": "0e3509f4f8cc4f61f85054c2d4b065c765ea0c4ef116cdf20f89da096e00a978"
+  },
+  {
+    "file": "historical_sources/mechanism-followup-20260927/band_permutation.py",
+    "source": "NPFEEGNet-RD-mechanism-followup-20260927/band_permutation.py",
+    "sha256": "b624af795604516ccd2e8b250a881d930b4d30fe4cf586a623d7bbabab637727"
+  },
+  {
+    "file": "historical_sources/methods-audit-20260928/analyze_existing.py",
+    "source": "NPFEEGNet-RD-methods-audit-20260928/analyze_existing.py",
+    "sha256": "0baa893d0cbdcb28dcd27b4de40973da62e4c47a2055180d481e955068df52b4"
+  },
+  {
+    "file": "historical_sources/methods-audit-20260928/boundary_models.py",
+    "source": "NPFEEGNet-RD-methods-audit-20260928/boundary_models.py",
+    "sha256": "894ad277c1ec3436ba437568da91d505cb700b75fb45d2be9bbb4dddecf39041"
+  },
+  {
+    "file": "historical_sources/methods-audit-20260928/pipeline.py",
+    "source": "NPFEEGNet-RD-methods-audit-20260928/pipeline.py",
+    "sha256": "358352f37ba669e101d6bc991b21cc1900a90ee9b522735d8b648f1ebaf7c03a"
+  },
+  {
+    "file": "historical_sources/methods-audit-20260928/run_boundary.py",
+    "source": "NPFEEGNet-RD-methods-audit-20260928/run_boundary.py",
+    "sha256": "a4e230f69dfaa24709100f26a214a3c9afa72692d1efa702dbacbf1bbbc8dce7"
+  },
+  {
+    "file": "historical_sources/methods-audit-20260928/smoke.py",
+    "source": "NPFEEGNet-RD-methods-audit-20260928/smoke.py",
+    "sha256": "f0724e5d6de6556f77de5336084305e25b4ee0a84fd38ba0c1de4196fdc25120"
+  },
+  {
+    "file": "historical_sources/common-duration-20260928/archive_metadata.py",
+    "source": "NPFEEGNet-RD-common-duration-20260928/archive_metadata.py",
+    "sha256": "0547df533c9b3e104bbe7832be74423385b4ca940c6a369edd0d0b9a841b4764"
+  },
+  {
+    "file": "historical_sources/common-duration-20260928/capture_runtime.py",
+    "source": "NPFEEGNet-RD-common-duration-20260928/capture_runtime.py",
+    "sha256": "01ba5231f983b9f61fc74d45c44dc2e98c3e28deb1b46d5f42e4d96eb93a5d74"
+  },
+  {
+    "file": "historical_sources/common-duration-20260928/progress.py",
+    "source": "NPFEEGNet-RD-common-duration-20260928/progress.py",
+    "sha256": "00495946db8b876ce12bdf6a1bfa95210030ca836f64892a17406320a0fdd70f"
+  },
+  {
+    "file": "historical_sources/common-duration-20260928/run.py",
+    "source": "NPFEEGNet-RD-common-duration-20260928/run.py",
+    "sha256": "4cf8241504449fa474fed087e470cbce5fe2da2a073ea0ea4a25922268633d51"
+  },
+  {
+    "file": "historical_sources/zhou2016-20260927/analyze_final.py",
+    "source": "NPFEEGNet-RD-zhou2016-20260927/analyze_final.py",
+    "sha256": "81cf4efd8fe88cf52e5476ea24ec99b87ce22912607347108d2997680f29fc8d"
+  },
+  {
+    "file": "historical_sources/zhou2016-20260927/build_selection_configs.py",
+    "source": "NPFEEGNet-RD-zhou2016-20260927/build_selection_configs.py",
+    "sha256": "12e47a4c07252cf7fa6238279a3de4884811533e8ff20e5b032215c9a5e857b3"
+  },
+  {
+    "file": "historical_sources/zhou2016-20260927/freeze_selection.py",
+    "source": "NPFEEGNet-RD-zhou2016-20260927/freeze_selection.py",
+    "sha256": "f4b3c1e93f0da3af037fa1366177ab91303a9e2e7955f3993eba6ed7fab20666"
+  },
+  {
+    "file": "historical_sources/zhou2016-20260927/preprocess_session_a.py",
+    "source": "NPFEEGNet-RD-zhou2016-20260927/preprocess_session_a.py",
+    "sha256": "dd841d11d3e9928e56fc019f553298edede153e60124a99b8344cba0ad2b9dd4"
+  },
+  {
+    "file": "historical_sources/zhou2016-20260927/preprocess_session_b.py",
+    "source": "NPFEEGNet-RD-zhou2016-20260927/preprocess_session_b.py",
+    "sha256": "3890bf6cbfcf0031a7e4b3132f724d52f1358f12ff47c05cfa4387a643eeb327"
+  },
+  {
+    "file": "historical_sources/zhou2020-20260927/analyze_final.py",
+    "source": "NPFEEGNet-RD-zhou2020-20260927/analyze_final.py",
+    "sha256": "84ab496785c6a3feb3a63bb3ab9196ef8a590008595059cb8139c908291513ac"
+  },
+  {
+    "file": "historical_sources/zhou2020-20260927/build_selection_configs.py",
+    "source": "NPFEEGNet-RD-zhou2020-20260927/build_selection_configs.py",
+    "sha256": "31c666131631bdd42e74d5fe7a98877cf78f404b155e2694f649253f85f73642"
+  },
+  {
+    "file": "historical_sources/zhou2020-20260927/diagnose_accuracy.py",
+    "source": "NPFEEGNet-RD-zhou2020-20260927/diagnose_accuracy.py",
+    "sha256": "6f9ef8cb64b04f9fc4b1d0c73959a5f0afc0916efd28f3223d6b43ba941c9639"
+  },
+  {
+    "file": "historical_sources/zhou2020-20260927/fetch_source_session.py",
+    "source": "NPFEEGNet-RD-zhou2020-20260927/fetch_source_session.py",
+    "sha256": "5714bf1276ecbe24b447928c50052c6674f15301c99e4e825b7e6d3867e45ebf"
+  },
+  {
+    "file": "historical_sources/zhou2020-20260927/fetch_target_session.py",
+    "source": "NPFEEGNet-RD-zhou2020-20260927/fetch_target_session.py",
+    "sha256": "74f556933d627f863c6c586e10cefb2b9cb10c196f283ac18b67db98a73c20a4"
+  },
+  {
+    "file": "historical_sources/zhou2020-20260927/freeze_selection.py",
+    "source": "NPFEEGNet-RD-zhou2020-20260927/freeze_selection.py",
+    "sha256": "e2e7b4dc8f458a9053939d82fd8fe382f241fc1363c05b12349dbca06d20d1e8"
+  },
+  {
+    "file": "historical_sources/zhou2020-20260927/inspect_run_counts.py",
+    "source": "NPFEEGNet-RD-zhou2020-20260927/inspect_run_counts.py",
+    "sha256": "4bcd87ae0e52973c98c32542c193aaa50fbcf1fdd4e8c1301e7c100bab9fa3a3"
+  },
+  {
+    "file": "historical_sources/zhou2020-20260927/inspect_saved_probe.py",
+    "source": "NPFEEGNet-RD-zhou2020-20260927/inspect_saved_probe.py",
+    "sha256": "f1c87abf1cd28877a5fc1551e53cbe6d407cd7d08f5113f339a897c816a54a85"
+  },
+  {
+    "file": "historical_sources/zhou2020-20260927/preprocess_sessions.py",
+    "source": "NPFEEGNet-RD-zhou2020-20260927/preprocess_sessions.py",
+    "sha256": "ea386b1c8b61cb014d33cf506039a947d6a42c43df28970b721d2492c5838672"
+  },
+  {
+    "file": "historical_sources/zhou2020-20260927/probe_source.py",
+    "source": "NPFEEGNet-RD-zhou2020-20260927/probe_source.py",
+    "sha256": "b637b4b96120f393b38f591ac68f664b2c38840e0a4a9333bbc64262123d0a5d"
+  },
+  {
+    "file": "historical_sources/zhou2020-posthoc-20260927/analyze_cnn_final.py",
+    "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/analyze_cnn_final.py",
+    "sha256": "1e4f8cd80390dd80a76d62fd9c183797a4668acbaac1636089aeb1963258febb"
+  },
+  {
+    "file": "historical_sources/zhou2020-posthoc-20260927/build_cnn_configs.py",
+    "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/build_cnn_configs.py",
+    "sha256": "20669d72e3c7ab491415732de6ea93cc583dfe2a15e10a2d4d4bdc702ad6ac4e"
+  },
+  {
+    "file": "historical_sources/zhou2020-posthoc-20260927/freeze_cnn_selection.py",
+    "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/freeze_cnn_selection.py",
+    "sha256": "7163947d83d4eede9e766e2c7d15d38ead165ee79a8928b279cf8f6a0a1e7295"
+  },
+  {
+    "file": "historical_sources/zhou2020-posthoc-20260927/preprocess_bandpass.py",
+    "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/preprocess_bandpass.py",
+    "sha256": "cd6c8eb7d197072f1fccef74130c4f092dceba3c0a6b0959018d2e97c99571aa"
+  },
+  {
+    "file": "historical_sources/zhou2020-posthoc-20260927/run_csp_sanity.py",
+    "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/run_csp_sanity.py",
+    "sha256": "7acac7ebb9c0db135b373f36dbd4258ad7eaef3f8ce1631591622b8dafbcfbc5"
+  },
+  {
+    "file": "baselines/openbmi_atcnet.py",
+    "source": "NPFEEGNet-RD-paper-20260917/model/openbmi_atcnet.py",
+    "sha256": "a3a6bd64ca6d66acb4ac16b21a4715c412905bf8134a30be770e51b752e61c1b"
+  },
+  {
+    "file": "baselines/openbmi_eegconformer.py",
+    "source": "NPFEEGNet-RD-paper-20260917/model/openbmi_eegconformer.py",
+    "sha256": "d980f4a0ae9bff6f4806d5aef77c5d1c1186126a9b871bf167539283c0bb6e92"
+  },
+  {
+    "file": "historical_sources/openbmi/preprocess_moabb_openbmi.py",
+    "source": "NPFEEGNet-RD-paper-20260917/data/openbmi/preprocess_moabb_openbmi.py",
+    "sha256": "49361f1423c9d72cffc970bfdd522f52cfe6e69bbf21d722efe0fd524ac8c528"
+  },
+  {
+    "file": "historical_sources/openbmi/preprocessing_controls.py",
+    "source": "NPFEEGNet-RD-paper-20260917/data/openbmi/preprocessing_controls.py",
+    "sha256": "5c35861a87e407ad79bcc4bb4ca102255c585a078fd629d4a77f934328429c40"
+  }
+]

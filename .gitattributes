@@ -1,3 +1,10 @@
 * text=auto eol=lf
 *.csv -text
 *.json -text
+
+*.npz -text
+*.yaml -text
+*.yml -text
+
+historical_sources/** -text
+baselines/*.py -text

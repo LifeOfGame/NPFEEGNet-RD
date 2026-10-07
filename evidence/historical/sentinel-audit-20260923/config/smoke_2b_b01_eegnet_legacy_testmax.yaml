@@ -1,0 +1,39 @@
+# One-epoch control-flow test; intentionally evaluates B01E for selection.
+network: EEGNet
+network_args:
+  num_channels: 3
+  classes: 2
+  n_times: 1000
+  temporal_filters: 8
+  depth_multiplier: 2
+  temporal_kernel: 64
+  separable_kernel: 16
+  pool_sizes: [4, 8]
+  dropout: 0.5
+data_path: database/processed/2b
+data_prefix: B
+out_folder: output/smoke_2b_b01_eegnet_legacy_testmax
+preferred_device: gpu
+nGPU: 0
+random_seed: 0
+random_seeds: [0]
+batch_size: 64
+epochs: 1
+optimizer: adam
+lr: 0.001
+weight_decay: 0.0001
+label_smoothing: 0.0
+use_data_augmentation: false
+num_classes: 2
+num_segs: 4
+legacy_test_max_training: true
+fixed_epoch_training: false
+two_stage_training: false
+early_stopping_patience: null
+use_group_class_sampler: false
+use_lr_scheduler: true
+lr_scheduler_type: cosine
+cosine_t_max: 1
+min_lr: 0.000001
+export_aux: false
+subjects: [1]

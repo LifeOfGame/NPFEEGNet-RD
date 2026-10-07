@@ -1,0 +1,5 @@
+config,model,device,batch_size,samples,trainable_parameters,state_mib,forward_flops,forward_gflops,batch_latency_ms,trial_latency_ms
+config\protocol_2b_holdout_eegnet_equalbudget.yaml,EEGNet,cuda,1,1000,2146,0.008514404296875,3425984,0.003425984,1.7227460001595318,1.7227460001595318
+config\ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage.yaml,NPFEEGNet,cuda,1,1000,11813,0.045795440673828125,12948160,0.01294816,9.756800001487136,9.756800001487136
+config\ablation_2b_npf_eegnet_v2_learnable_uniform_seed0_twostage.yaml,NPFEEGNet,cuda,1,1000,11823,0.045795440673828125,12948160,0.01294816,6.502966000698507,6.502966000698507
+config\paper_2b_all_subjects_npf_eegnet_v2_seed1_twostage.yaml,NPFEEGNet,cuda,1,1000,13641,0.052730560302734375,12963520,0.01296352,9.374945999588817,9.374945999588817

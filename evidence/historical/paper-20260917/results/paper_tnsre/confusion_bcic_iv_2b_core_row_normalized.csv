@@ -1,0 +1,3 @@
+true_class,predicted_left_hand,predicted_right_hand
+left_hand,0.8764550265,0.1235449735
+right_hand,0.1506944444,0.8493055556

@@ -1,0 +1,9 @@
+{
+  "created_after": "source-session-only metadata inspection; no session_2 EEG or labels read",
+  "reason": "The 41-channel S-group NPZ contains no electrode-name array, and the public MOABB loader assigns EEG1-EEG41 placeholders. A verifiable common-26-channel mapping cannot be established from the archive or public loader.",
+  "amendment": "Retain all native EEG channels per subject: 41 for subjects 1-12, 26 for subjects 13-20. Train subject-specific models with num_channels=41 or 26; compare RD versus NoDemean and EEGNet within each subject. Report group-stratified descriptive results in addition to the 20-subject paired contrast. Do not pool raw channels across subjects.",
+  "event_check": "Session_1 run_01 has 40 class markers but 39 cue markers. Most cue-to-class intervals are 500 samples; class marker is the robust imagery onset. Some class-to-end intervals are shorter than four seconds. Use class-event [0,4) seconds and retain a trial only when all 2000 source samples precede its next end marker and are in bounds. Apply this label-independent timing rule identically to both sessions and report exclusions.",
+  "source_only_evidence": "results/source_probe.json and source_probe_run_01.npz",
+  "run_count_check": "Source ZIP central directories show six session_1 runs for 18 subjects, four for subject 17, and three for subject 20. Source event inspection shows subject 17 has run class-event counts 80, 56, 80, 80; subject 20 has 80, 80, 80. Retain every available run; use two-fold GroupKFold over actual run IDs, keep equal weight per subject, and report trial counts. The same complete-available-run rule applies to session_2 after the release gate. No subject is excluded for fewer runs.",
+  "unchanged": "All 20 subjects, four classes, session_1 training and selection, session_2 once-only held-out evaluation, three seeds, same models and primary contrast."
+}

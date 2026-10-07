@@ -1,0 +1,3 @@
+contrast,raw_p,holm_two_p,status
+NPFEEGNet-RawDemean - ATCNet-Matched-Demean,1.4432899320127035e-15,2.886579864025407e-15,retrospective two-modern-baseline sensitivity only
+NPFEEGNet-RawDemean - EEGConformer-Matched-Demean,6.8833827526759706e-15,6.8833827526759706e-15,retrospective two-modern-baseline sensitivity only

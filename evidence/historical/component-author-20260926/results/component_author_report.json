@@ -1,0 +1,59 @@
+{
+  "status": "complete",
+  "analysis_role": "post-confirmatory",
+  "subjects": 54,
+  "seeds": 3,
+  "accuracy_subject_macro": {
+    "npfeegnet_rd": 0.706358024691358,
+    "spectral_only": 0.6726234567901235,
+    "no_spectral_prior": 0.6494444444444446,
+    "fbcnet_author_training": 0.6970679012345682
+  },
+  "contrasts": {
+    "rd_minus_spectral_only": {
+      "mean_pp": 3.3734567901234587,
+      "subject_bootstrap_95_ci_pp": [
+        1.3549382716049405,
+        5.490740740740742
+      ],
+      "sign_flip_monte_carlo_p": 0.0023199884000579996,
+      "wins_ties_losses": [
+        38,
+        0,
+        16
+      ]
+    },
+    "rd_minus_no_spectral_prior": {
+      "mean_pp": 5.69135802469136,
+      "subject_bootstrap_95_ci_pp": [
+        3.0030864197530893,
+        8.746913580246916
+      ],
+      "sign_flip_monte_carlo_p": 1.4999925000374999e-05,
+      "wins_ties_losses": [
+        37,
+        1,
+        16
+      ]
+    },
+    "rd_minus_fbcnet_author_training": {
+      "mean_pp": 0.9290123456790138,
+      "subject_bootstrap_95_ci_pp": [
+        -1.6141975308641938,
+        3.4969907407407264
+      ],
+      "sign_flip_monte_carlo_p": 0.48249758751206245,
+      "wins_ties_losses": [
+        31,
+        1,
+        22
+      ]
+    }
+  },
+  "source_summaries": {
+    "npfeegnet_rd": "/mnt/helongfei/NPFEEGNet-RD-unified-repro-20260918/output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/summary.csv",
+    "spectral_only": "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/output/spectral_only/final/NPFEEGNet/2026-09-26--20-27/summary.csv",
+    "no_spectral_prior": "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/output/no_spectral_prior/final/NPFEEGNet/2026-09-26--20-50/summary.csv",
+    "fbcnet_author_training": "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/output/fbcnet_author_training/final/FBCNet/2026-09-26--21-13/summary.csv"
+  }
+}

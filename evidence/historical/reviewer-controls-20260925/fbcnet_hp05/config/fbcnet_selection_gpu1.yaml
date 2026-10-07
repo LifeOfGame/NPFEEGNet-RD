@@ -1,0 +1,99 @@
+network: FBCNet
+network_args:
+  num_channels: 20
+  classes: 2
+  n_times: 1000
+  sampling_rate: 250.0
+  bands:
+  - - 4
+    - 8
+  - - 8
+    - 12
+  - - 12
+    - 16
+  - - 16
+    - 20
+  - - 20
+    - 24
+  - - 24
+    - 28
+  - - 28
+    - 32
+  - - 32
+    - 36
+  - - 36
+    - 40
+  spatial_filters: 32
+  temporal_segments: 4
+  input_standardization: demean
+data_path: /mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/openbmi_continuous_hp05
+data_prefix: O
+out_folder: /mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/output/selection_gpu1
+preferred_device: gpu
+nGPU: 1
+cudnn_enabled: true
+random_seed: 0
+random_seeds:
+- 0
+- 1
+- 2
+batch_size: 64
+train_microbatch_size: 16
+log_first_epoch_batches: true
+epochs: 300
+optimizer: adam
+lr: 0.001
+weight_decay: 0.0001
+label_smoothing: 0.0
+raw_branch_loss_weight: 0.0
+spectral_branch_loss_weight: 0.0
+session_alignment_weight: 0.0
+use_data_augmentation: false
+num_classes: 2
+num_segs: 8
+validation_strategy: group
+two_stage_training: true
+selection_only: true
+epoch_selection_strategy: group_cv
+cv_num_folds: 2
+cv_epoch_aggregation: median
+use_group_class_sampler: false
+early_stopping_patience: 40
+use_lr_scheduler: true
+lr_scheduler_type: cosine
+cosine_t_max: 300
+min_lr: 1.0e-06
+export_aux: false
+export_selection_aux: false
+subjects:
+- 28
+- 29
+- 30
+- 31
+- 32
+- 33
+- 34
+- 35
+- 36
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+- 54
+publication_model_name: FBCNet-AuthorFilter-HP05-Matched-Demean
+analysis_status: post-confirmatory continuous-HP05 sensitivity
+implementation_provenance: local FBCNet architecture, author-exact Chebyshev-II stopband,
+  frozen OpenBMI training engine

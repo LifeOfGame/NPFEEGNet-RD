@@ -1,0 +1,4 @@
+config,model,device,batch_size,samples,trainable_parameters,state_mib,forward_flops,forward_gflops,batch_latency_ms,batch_latency_std_ms,trial_latency_ms,trial_latency_std_ms
+config\paper_2a_all_subjects_npf_eegnet_core_3seed_twostage.yaml,NPFEEGNet,cuda,1,1000,13545,0.052402496337890625,84694400,0.0846944,5.030148300000292,0.20606085140673505,5.030148300000292,0.20606085140673505
+config\protocol_2a_holdout_eegnet_equalbudget.yaml,EEGNet,cuda,1,1000,3444,0.01346588134765625,23491968,0.023491968,1.2164771999887307,0.040010062439488944,1.2164771999887307,0.040010062439488944
+config\protocol_2a_holdout_fbcnet_equalbudget.yaml,FBCNet,cuda,1,1000,11812,0.1177825927734375,12681216,0.012681216,1.523503600001277,0.1568389988864172,1.523503600001277,0.1568389988864172

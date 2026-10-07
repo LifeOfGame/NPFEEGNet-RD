@@ -1,0 +1,41 @@
+# Fast screening run: B02/B03 already have three-seed EEGNet results.
+# This configuration evaluates only the remaining seven subjects with seed 0.
+network: EEGNet
+network_args:
+  num_channels: 3
+  classes: 2
+  n_times: 1000
+  temporal_filters: 8
+  depth_multiplier: 2
+  temporal_kernel: 64
+  separable_kernel: 16
+  pool_sizes: [4, 8]
+  dropout: 0.5
+data_path: database/processed/2b
+data_prefix: B
+out_folder: output/baseline_2b_remaining_subjects_eegnet_seed0
+preferred_device: gpu
+nGPU: 0
+random_seed: 0
+random_seeds: [0]
+batch_size: 64
+epochs: 500
+optimizer: adam
+lr: 0.001
+weight_decay: 0.0
+label_smoothing: 0.0
+use_data_augmentation: false
+num_classes: 2
+num_segs: 4
+validation_strategy: group
+validation_group: -1
+two_stage_training: true
+epoch_selection_strategy: holdout
+use_group_class_sampler: false
+early_stopping_patience: 40
+use_lr_scheduler: true
+lr_scheduler_type: cosine
+cosine_t_max: 500
+min_lr: 0.000001
+export_aux: false
+subjects: [1, 4, 5, 6, 7, 8, 9]

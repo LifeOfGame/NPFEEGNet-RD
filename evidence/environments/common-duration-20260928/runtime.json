@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-09-28T11:25:15.338164+00:00",
+  "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:46:43) [GCC 14.3.0]",
+  "executable": "/mnt/helongfei/.conda/envs/helongfei_env/bin/python",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "torch": "2.11.0+cu126",
+  "torch_cuda": "12.6",
+  "cudnn": 91002,
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "pandas": null,
+    "scikit-learn": "1.8.0",
+    "PyYAML": "6.0.3"
+  },
+  "note": "Runtime captured during training; original design hashes are retained separately. Null means distribution metadata absent."
+}

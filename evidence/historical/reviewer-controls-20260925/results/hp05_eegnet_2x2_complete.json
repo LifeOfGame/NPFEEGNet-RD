@@ -1,0 +1,5 @@
+{
+  "status": "complete",
+  "verification": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_2x2_verification.json",
+  "analysis": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_2x2_report.json"
+}

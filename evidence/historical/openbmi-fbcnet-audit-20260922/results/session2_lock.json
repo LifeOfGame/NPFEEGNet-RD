@@ -1,0 +1,17 @@
+{
+  "status": "ready_for_session2",
+  "model": "FBCNet-AuthorFilter-Matched-Demean",
+  "official_evaluation_used_for_selection": false,
+  "expected_subject_seed_rows": 162,
+  "primary_contrast": "NPFEEGNet-RD minus FBCNet-AuthorFilter-Matched-Demean",
+  "analysis_status": "post-confirmatory; interface-only amendment before successful result output",
+  "sha256": {
+    "/mnt/helongfei/NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/results/design_lock.json": "adc13080e280f532a095ab10f8ef55fd78e1175f99c6a35cf836b41bfe4981a6",
+    "/mnt/helongfei/NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/results/selected_epochs.json": "99ca91c3133f345f1794d20ad539267188bc8e143aaeeed6a58977d115aa2320",
+    "/mnt/helongfei/NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/config/fbcnet_final.yaml": "4304091e6c9a8a9833777d3fda23a2aad18bf651e2bacaf54dbbf2e56b9e1af1",
+    "/mnt/helongfei/NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/author_filter_fbcnet.py": "b04f9778117ccbad2fc334d8738dc1c72ae7f87d9e0605c97c2eb28c2669721a",
+    "/mnt/helongfei/NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/run_openbmi_fbcnet.py": "b85e1ee69aa565cb377f16de5b9c5ce2ce4fa10246c763294cb0e20e8ffb862b",
+    "/mnt/helongfei/NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/config/fbcnet_final_gpu1.yaml": "6d1c67dbbfaa7da6862a77b711fa075a82d38f991dbee2163a7a5aea6cf74a9a",
+    "/mnt/helongfei/NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/config/fbcnet_final_gpu2.yaml": "1e828953082df5a0aa3fd767cf1f57913c4bad2644c34e1eadc901e4263ea05c"
+  }
+}

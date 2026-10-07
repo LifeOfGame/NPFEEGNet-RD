@@ -1,0 +1,45 @@
+{
+  "status": "ready_for_session2",
+  "analysis_role": "post-confirmatory",
+  "official_evaluation_used_for_selection": false,
+  "expected_runs_per_variant": 162,
+  "selection": {
+    "spectral_only": {
+      "summary": "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/output/spectral_only/selection_dualgpu_v3/NPFEEGNet/2026-09-26--17-50/summary.csv",
+      "summary_sha256": "7fa7738549218affb14d9484a1987ec397ad51729879fffc9b214f3edf9769cc",
+      "epoch_map": "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/results/spectral_only_selected_epochs.json",
+      "epoch_map_sha256": "4028ef5be2f96ceed1ad62a718628f7b0adedf8e0fd47d5df99e51f1ec8b7ad1",
+      "final_config": "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/config/spectral_only_final.yaml",
+      "final_config_sha256": "d1030eaabd545fbbc3b970bb0c508456b6f8cfce2dcdff9003caef4d960e11e4"
+    },
+    "no_spectral_prior": {
+      "summary": "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/output/no_spectral_prior/selection_dualgpu_v3/NPFEEGNet/2026-09-26--17-50/summary.csv",
+      "summary_sha256": "872547e5f8595918aba734781d6cf1ca3e28a6f4a1dbca41be794a0ddf276a8a",
+      "epoch_map": "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/results/no_spectral_prior_selected_epochs.json",
+      "epoch_map_sha256": "de909607ff1e1866fa920262af9f06b1f098b0f533364e06ef910f2478ddc21e",
+      "final_config": "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/config/no_spectral_prior_final.yaml",
+      "final_config_sha256": "713d2a972d741c53be9bc8345f3dd383b1a2f063f3fe204df71994c773b5facb"
+    },
+    "fbcnet_author_training": {
+      "summary": "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/output/fbcnet_author_training/selection/FBCNet/2026-09-26--18-41/summary.csv",
+      "summary_sha256": "20b6ea5a1096bdcee292f6bcf24747bacbe4567de7c4dc1949334abe37b30b92",
+      "epoch_map": "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/results/fbcnet_author_training_selected_epochs.json",
+      "epoch_map_sha256": "4b3bf7b6485bb79c1bd67d06d5075ecb8e3b8e80f1cf2ef25d0e83fcd80a7c43",
+      "final_config": "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/config/fbcnet_author_training_final.yaml",
+      "final_config_sha256": "743ec10930ef979490cf876f7b7e469b97ae097b5cfbd7f6fed4966c03e731c9"
+    }
+  },
+  "sha256": {
+    "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/results/design_lock.json": "53d4c039c8cbfc2bd266fd3511235b96b801154b79832e01f99c712f2f586271",
+    "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/component_variants.py": "d66b9e03cce326b2266966566c1cd7092a196a8fe5fee0129a6b5086280530e9",
+    "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/run_component_variant.py": "a648ad33a102aa18dad558ce23df0dfc5f8e2963c958ca10529f428f16a4fdd5",
+    "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/run_fbcnet_author_training.py": "87908b9bc49dbcf73528684dcab8f1d1b2527c810a9ac63005e00f5a289b46e4",
+    "/mnt/helongfei/NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/author_filter_fbcnet.py": "b04f9778117ccbad2fc334d8738dc1c72ae7f87d9e0605c97c2eb28c2669721a",
+    "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/config/spectral_only_final.yaml": "d1030eaabd545fbbc3b970bb0c508456b6f8cfce2dcdff9003caef4d960e11e4",
+    "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/config/no_spectral_prior_final.yaml": "713d2a972d741c53be9bc8345f3dd383b1a2f063f3fe204df71994c773b5facb",
+    "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/config/fbcnet_author_training_final.yaml": "743ec10930ef979490cf876f7b7e469b97ae097b5cfbd7f6fed4966c03e731c9",
+    "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/results/spectral_only_selected_epochs.json": "4028ef5be2f96ceed1ad62a718628f7b0adedf8e0fd47d5df99e51f1ec8b7ad1",
+    "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/results/no_spectral_prior_selected_epochs.json": "de909607ff1e1866fa920262af9f06b1f098b0f533364e06ef910f2478ddc21e",
+    "/mnt/helongfei/NPFEEGNet-RD-component-author-20260926/results/fbcnet_author_training_selected_epochs.json": "4b3bf7b6485bb79c1bd67d06d5075ecb8e3b8e80f1cf2ef25d0e83fcd80a7c43"
+  }
+}

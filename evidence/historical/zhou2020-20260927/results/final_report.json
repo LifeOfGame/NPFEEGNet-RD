@@ -1,0 +1,168 @@
+{
+  "status": "complete",
+  "dataset": "Zhou2020",
+  "role": "later independently locked four-class cross-day audit",
+  "subjects": 20,
+  "seeds": 3,
+  "source_session": 1,
+  "target_session": 2,
+  "classes": [
+    "left_hand",
+    "right_hand",
+    "feet",
+    "rest"
+  ],
+  "hardware_groups": {
+    "s": "subjects 1-12, 41 EEG channels",
+    "a": "subjects 13-20, 26 EEG channels"
+  },
+  "model_subject_macro": {
+    "rd": {
+      "accuracy_percent": 38.7083926666901,
+      "balanced_accuracy_percent": 38.70662461848172,
+      "s_group_accuracy_percent": 40.219519990702,
+      "a_group_accuracy_percent": 36.44170168067227
+    },
+    "nodemean": {
+      "accuracy_percent": 38.37415712449554,
+      "balanced_accuracy_percent": 38.372309078511584,
+      "s_group_accuracy_percent": 40.32276654269333,
+      "a_group_accuracy_percent": 35.451242997198875
+    },
+    "eegnet_demean": {
+      "accuracy_percent": 35.116511667428476,
+      "balanced_accuracy_percent": 35.115283459964935,
+      "s_group_accuracy_percent": 37.20963117929645,
+      "a_group_accuracy_percent": 31.976832399626513
+    }
+  },
+  "primary_rd_minus_nodemean": {
+    "mean_pp": 0.334235542194563,
+    "subject_bootstrap_95_ci_pp": [
+      -0.6732609710550882,
+      1.3267390289449106
+    ],
+    "exact_two_sided_sign_flip_p": 0.5235004425048828,
+    "wins_ties_losses": [
+      12,
+      0,
+      8
+    ],
+    "by_hardware_group_mean_pp": {
+      "s_41_channels": -0.1032465519913205,
+      "a_26_channels": 0.9904586834733883
+    }
+  },
+  "secondary_rd_minus_eegnet_demean": {
+    "mean_pp": 3.5918809992616283,
+    "subject_bootstrap_95_ci_pp": [
+      2.2165032679738568,
+      5.0906555090655505
+    ],
+    "exact_two_sided_sign_flip_p": 2.6702880859375e-05,
+    "wins_ties_losses": [
+      18,
+      0,
+      2
+    ],
+    "by_hardware_group_mean_pp": {
+      "s_41_channels": 3.009888811405549,
+      "a_26_channels": 4.464869281045749
+    }
+  },
+  "pooled_confusion_counts_descriptive": {
+    "rd": [
+      [
+        1406,
+        905,
+        660,
+        629
+      ],
+      [
+        825,
+        1393,
+        642,
+        740
+      ],
+      [
+        767,
+        803,
+        1268,
+        762
+      ],
+      [
+        671,
+        756,
+        660,
+        1504
+      ]
+    ],
+    "nodemean": [
+      [
+        1368,
+        861,
+        617,
+        754
+      ],
+      [
+        829,
+        1343,
+        641,
+        787
+      ],
+      [
+        756,
+        783,
+        1235,
+        826
+      ],
+      [
+        678,
+        710,
+        626,
+        1577
+      ]
+    ],
+    "eegnet_demean": [
+      [
+        1257,
+        846,
+        736,
+        761
+      ],
+      [
+        780,
+        1259,
+        703,
+        858
+      ],
+      [
+        832,
+        843,
+        1122,
+        803
+      ],
+      [
+        751,
+        777,
+        647,
+        1416
+      ]
+    ]
+  },
+  "final_summary_csvs": {
+    "rd": {
+      "s": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-20260927/output/zhou2020_s_rd_final/NPFEEGNet/2026-09-27--16-41/summary.csv",
+      "a": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-20260927/output/zhou2020_a_rd_final/NPFEEGNet/2026-09-27--17-01/summary.csv"
+    },
+    "nodemean": {
+      "s": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-20260927/output/zhou2020_s_nodemean_final/NPFEEGNet/2026-09-27--16-41/summary.csv",
+      "a": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-20260927/output/zhou2020_a_nodemean_final/NPFEEGNet/2026-09-27--17-01/summary.csv"
+    },
+    "eegnet_demean": {
+      "s": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-20260927/output/zhou2020_s_eegnet_demean_final/EEGNet/2026-09-27--16-57/summary.csv",
+      "a": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-20260927/output/zhou2020_a_eegnet_demean_final/EEGNet/2026-09-27--17-08/summary.csv"
+    }
+  },
+  "target_release_lock": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-20260927/results/final_unlock_lock.json"
+}

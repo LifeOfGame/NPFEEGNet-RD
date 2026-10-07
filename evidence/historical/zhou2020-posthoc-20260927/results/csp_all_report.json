@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "role": "post-hoc author-inspired sanity check, not original locked result",
+  "classes": [
+    "left_hand",
+    "right_hand",
+    "feet"
+  ],
+  "subjects": 20,
+  "source_within_session_10fold_accuracy_percent": 49.22826797385621,
+  "session1_to_session2_accuracy_percent": 38.00306878971118,
+  "method": "8-30Hz IIR, [0.5,4.5)s, six CSP components, StandardScaler, RBF SVM C=0.8; no ICA/EEMD-CCA",
+  "subject_csv": "/mnt/helongfei/NPFEEGNet-RD-zhou2020-posthoc-20260927/results/csp_all_subjects.csv"
+}

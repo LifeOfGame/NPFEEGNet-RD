@@ -1,0 +1,2451 @@
+{
+  "schema_version": 1,
+  "generated_by": "scripts/make_cross_dataset_confusion_matrices.py",
+  "analysis_type": "descriptive subject-seed-macro official-evaluation confusion matrices",
+  "independent_inference_unit": "subject",
+  "repeated_prediction_note": "The same official evaluation trial labels are repeated across three fixed random seeds; pooled predictions are descriptive and are not independent inferential observations.",
+  "display_aggregation": "For every subject-seed archive, normalize each true-class row to one; then average the normalized matrices with equal subject-seed weight.",
+  "training_performed": false,
+  "eeg_data_loaded": false,
+  "datasets": {
+    "bcic_iv_2a_core": {
+      "key": "bcic_iv_2a_core",
+      "display_name": "BCIC-IV-2a",
+      "model_variant": "NPFEEGNet-Core",
+      "input_kind": "frozen_test_auxiliary_npz",
+      "class_order": [
+        "left_hand",
+        "right_hand",
+        "feet",
+        "tongue"
+      ],
+      "short_class_labels": [
+        "Left\nhand",
+        "Right\nhand",
+        "Feet",
+        "Tongue"
+      ],
+      "subjects": 9,
+      "subject_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "expected_archive_count": 27,
+      "archive_count": 27,
+      "trials_per_subject_seed": {
+        "1": 288,
+        "2": 288,
+        "3": 288,
+        "4": 288,
+        "5": 288,
+        "6": 288,
+        "7": 288,
+        "8": 288,
+        "9": 288
+      },
+      "total_pooled_predictions": 7776,
+      "subject_seed_macro_accuracy_percent": 66.83384773662551,
+      "pooled_count_accuracy_percent_audit_only": 66.83384773662551,
+      "aggregation": "row-normalize each subject-seed confusion matrix, then take the equal-weight mean across subject-seed archives",
+      "raw_counts": [
+        [
+          1357,
+          257,
+          178,
+          152
+        ],
+        [
+          292,
+          1301,
+          214,
+          137
+        ],
+        [
+          242,
+          227,
+          1238,
+          237
+        ],
+        [
+          189,
+          223,
+          231,
+          1301
+        ]
+      ],
+      "pooled_count_row_normalized_proportions_audit_only": [
+        [
+          0.698045267489712,
+          0.13220164609053497,
+          0.09156378600823045,
+          0.07818930041152264
+        ],
+        [
+          0.15020576131687244,
+          0.6692386831275721,
+          0.11008230452674897,
+          0.07047325102880658
+        ],
+        [
+          0.12448559670781893,
+          0.11676954732510288,
+          0.6368312757201646,
+          0.12191358024691358
+        ],
+        [
+          0.09722222222222222,
+          0.1147119341563786,
+          0.11882716049382716,
+          0.6692386831275721
+        ]
+      ],
+      "row_normalized_proportions": [
+        [
+          0.6980452674897117,
+          0.13220164609053497,
+          0.09156378600823042,
+          0.0781893004115226
+        ],
+        [
+          0.15020576131687238,
+          0.6692386831275722,
+          0.11008230452674897,
+          0.07047325102880657
+        ],
+        [
+          0.12448559670781892,
+          0.11676954732510289,
+          0.6368312757201645,
+          0.12191358024691361
+        ],
+        [
+          0.09722222222222222,
+          0.11471193415637858,
+          0.11882716049382719,
+          0.6692386831275722
+        ]
+      ],
+      "row_normalized_percent": [
+        [
+          69.80452674897117,
+          13.220164609053498,
+          9.156378600823043,
+          7.818930041152259
+        ],
+        [
+          15.020576131687239,
+          66.92386831275722,
+          11.008230452674898,
+          7.047325102880657
+        ],
+        [
+          12.448559670781892,
+          11.67695473251029,
+          63.68312757201645,
+          12.191358024691361
+        ],
+        [
+          9.722222222222223,
+          11.471193415637858,
+          11.882716049382719,
+          66.92386831275722
+        ]
+      ],
+      "source_roots": [
+        "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51"
+      ],
+      "source_roots_absolute": [
+        "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\paper_2a_all_subjects_npf_eegnet_core_3seed_twostage\\NPFEEGNet\\2026-08-22--21-51"
+      ],
+      "archives": [
+        {
+          "subject": 1,
+          "seed": 0,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub1/seed0/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 218
+        },
+        {
+          "subject": 1,
+          "seed": 1,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub1/seed1/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 191
+        },
+        {
+          "subject": 1,
+          "seed": 2,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub1/seed2/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 214
+        },
+        {
+          "subject": 2,
+          "seed": 0,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub2/seed0/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 109
+        },
+        {
+          "subject": 2,
+          "seed": 1,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub2/seed1/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 114
+        },
+        {
+          "subject": 2,
+          "seed": 2,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub2/seed2/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 159
+        },
+        {
+          "subject": 3,
+          "seed": 0,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub3/seed0/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 233
+        },
+        {
+          "subject": 3,
+          "seed": 1,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub3/seed1/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 228
+        },
+        {
+          "subject": 3,
+          "seed": 2,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub3/seed2/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 220
+        },
+        {
+          "subject": 4,
+          "seed": 0,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub4/seed0/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 177
+        },
+        {
+          "subject": 4,
+          "seed": 1,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub4/seed1/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 180
+        },
+        {
+          "subject": 4,
+          "seed": 2,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub4/seed2/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 132
+        },
+        {
+          "subject": 5,
+          "seed": 0,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub5/seed0/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 208
+        },
+        {
+          "subject": 5,
+          "seed": 1,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub5/seed1/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 227
+        },
+        {
+          "subject": 5,
+          "seed": 2,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub5/seed2/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 196
+        },
+        {
+          "subject": 6,
+          "seed": 0,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub6/seed0/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 161
+        },
+        {
+          "subject": 6,
+          "seed": 1,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub6/seed1/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 170
+        },
+        {
+          "subject": 6,
+          "seed": 2,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub6/seed2/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 166
+        },
+        {
+          "subject": 7,
+          "seed": 0,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub7/seed0/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 230
+        },
+        {
+          "subject": 7,
+          "seed": 1,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub7/seed1/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 234
+        },
+        {
+          "subject": 7,
+          "seed": 2,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub7/seed2/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 212
+        },
+        {
+          "subject": 8,
+          "seed": 0,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub8/seed0/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 210
+        },
+        {
+          "subject": 8,
+          "seed": 1,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub8/seed1/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 208
+        },
+        {
+          "subject": 8,
+          "seed": 2,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub8/seed2/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 206
+        },
+        {
+          "subject": 9,
+          "seed": 0,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub9/seed0/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 210
+        },
+        {
+          "subject": 9,
+          "seed": 1,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub9/seed1/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 190
+        },
+        {
+          "subject": 9,
+          "seed": 2,
+          "path": "output/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage/NPFEEGNet/2026-08-22--21-51/sub9/seed2/retrain/test_auxiliary.npz",
+          "trials": 288,
+          "correct": 194
+        }
+      ],
+      "row_normalized_csv": "results/paper_tnsre/confusion_bcic_iv_2a_core_row_normalized.csv"
+    },
+    "bcic_iv_2b_core": {
+      "key": "bcic_iv_2b_core",
+      "display_name": "BCIC-IV-2b",
+      "model_variant": "NPFEEGNet-Core",
+      "input_kind": "frozen_test_auxiliary_npz",
+      "class_order": [
+        "left_hand",
+        "right_hand"
+      ],
+      "short_class_labels": [
+        "Left\nhand",
+        "Right\nhand"
+      ],
+      "subjects": 9,
+      "subject_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "expected_archive_count": 27,
+      "archive_count": 27,
+      "trials_per_subject_seed": {
+        "1": 320,
+        "2": 280,
+        "3": 320,
+        "4": 320,
+        "5": 320,
+        "6": 320,
+        "7": 320,
+        "8": 320,
+        "9": 320
+      },
+      "total_pooled_predictions": 8520,
+      "subject_seed_macro_accuracy_percent": 86.2880291005291,
+      "pooled_count_accuracy_percent_audit_only": 86.54929577464789,
+      "aggregation": "row-normalize each subject-seed confusion matrix, then take the equal-weight mean across subject-seed archives",
+      "raw_counts": [
+        [
+          3746,
+          514
+        ],
+        [
+          632,
+          3628
+        ]
+      ],
+      "pooled_count_row_normalized_proportions_audit_only": [
+        [
+          0.8793427230046948,
+          0.12065727699530517
+        ],
+        [
+          0.14835680751173708,
+          0.8516431924882629
+        ]
+      ],
+      "row_normalized_proportions": [
+        [
+          0.8764550264550265,
+          0.12354497354497355
+        ],
+        [
+          0.15069444444444444,
+          0.8493055555555555
+        ]
+      ],
+      "row_normalized_percent": [
+        [
+          87.64550264550265,
+          12.354497354497356
+        ],
+        [
+          15.069444444444443,
+          84.93055555555556
+        ]
+      ],
+      "source_roots": [
+        "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage/NPFEEGNet/2026-08-20--22-24",
+        "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage/NPFEEGNet/2026-08-20--23-17",
+        "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21"
+      ],
+      "source_roots_absolute": [
+        "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage\\NPFEEGNet\\2026-08-20--22-24",
+        "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage\\NPFEEGNet\\2026-08-20--23-17",
+        "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage\\NPFEEGNet\\2026-08-21--20-21"
+      ],
+      "archives": [
+        {
+          "subject": 1,
+          "seed": 0,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage/NPFEEGNet/2026-08-20--22-24/sub1/seed0/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 232
+        },
+        {
+          "subject": 1,
+          "seed": 1,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub1/seed1/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 242
+        },
+        {
+          "subject": 1,
+          "seed": 2,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub1/seed2/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 233
+        },
+        {
+          "subject": 2,
+          "seed": 0,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage/NPFEEGNet/2026-08-20--22-24/sub2/seed0/retrain/test_auxiliary.npz",
+          "trials": 280,
+          "correct": 167
+        },
+        {
+          "subject": 2,
+          "seed": 1,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub2/seed1/retrain/test_auxiliary.npz",
+          "trials": 280,
+          "correct": 205
+        },
+        {
+          "subject": 2,
+          "seed": 2,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub2/seed2/retrain/test_auxiliary.npz",
+          "trials": 280,
+          "correct": 197
+        },
+        {
+          "subject": 3,
+          "seed": 0,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage/NPFEEGNet/2026-08-20--22-24/sub3/seed0/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 279
+        },
+        {
+          "subject": 3,
+          "seed": 1,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub3/seed1/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 267
+        },
+        {
+          "subject": 3,
+          "seed": 2,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub3/seed2/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 271
+        },
+        {
+          "subject": 4,
+          "seed": 0,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage/NPFEEGNet/2026-08-20--22-24/sub4/seed0/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 315
+        },
+        {
+          "subject": 4,
+          "seed": 1,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub4/seed1/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 314
+        },
+        {
+          "subject": 4,
+          "seed": 2,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub4/seed2/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 312
+        },
+        {
+          "subject": 5,
+          "seed": 0,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage/NPFEEGNet/2026-08-20--23-17/sub5/seed0/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 296
+        },
+        {
+          "subject": 5,
+          "seed": 1,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub5/seed1/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 299
+        },
+        {
+          "subject": 5,
+          "seed": 2,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub5/seed2/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 297
+        },
+        {
+          "subject": 6,
+          "seed": 0,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage/NPFEEGNet/2026-08-20--23-17/sub6/seed0/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 268
+        },
+        {
+          "subject": 6,
+          "seed": 1,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub6/seed1/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 275
+        },
+        {
+          "subject": 6,
+          "seed": 2,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub6/seed2/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 255
+        },
+        {
+          "subject": 7,
+          "seed": 0,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage/NPFEEGNet/2026-08-20--23-17/sub7/seed0/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 289
+        },
+        {
+          "subject": 7,
+          "seed": 1,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub7/seed1/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 293
+        },
+        {
+          "subject": 7,
+          "seed": 2,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub7/seed2/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 296
+        },
+        {
+          "subject": 8,
+          "seed": 0,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage/NPFEEGNet/2026-08-20--23-17/sub8/seed0/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 305
+        },
+        {
+          "subject": 8,
+          "seed": 1,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub8/seed1/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 304
+        },
+        {
+          "subject": 8,
+          "seed": 2,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub8/seed2/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 301
+        },
+        {
+          "subject": 9,
+          "seed": 0,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage/NPFEEGNet/2026-08-20--23-17/sub9/seed0/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 290
+        },
+        {
+          "subject": 9,
+          "seed": 1,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub9/seed1/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 283
+        },
+        {
+          "subject": 9,
+          "seed": 2,
+          "path": "output/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage/NPFEEGNet/2026-08-21--20-21/sub9/seed2/retrain/test_auxiliary.npz",
+          "trials": 320,
+          "correct": 289
+        }
+      ],
+      "row_normalized_csv": "results/paper_tnsre/confusion_bcic_iv_2b_core_row_normalized.csv"
+    },
+    "hgd_rd": {
+      "key": "hgd_rd",
+      "display_name": "HGD",
+      "model_variant": "NPFEEGNet-RD",
+      "input_kind": "frozen_confusion_json_derived_from_test_auxiliary_npz",
+      "class_order": [
+        "right_hand",
+        "left_hand",
+        "rest",
+        "feet"
+      ],
+      "short_class_labels": [
+        "Right\nhand",
+        "Left\nhand",
+        "Rest",
+        "Feet"
+      ],
+      "subjects": 14,
+      "subject_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "expected_archive_count": 42,
+      "archive_count": 42,
+      "trials_per_subject_seed": {
+        "1": 160,
+        "2": 160,
+        "3": 160,
+        "4": 160,
+        "5": 160,
+        "6": 160,
+        "7": 160,
+        "8": 160,
+        "9": 160,
+        "10": 160,
+        "11": 160,
+        "12": 160,
+        "13": 160,
+        "14": 160
+      },
+      "total_pooled_predictions": 6720,
+      "subject_seed_macro_accuracy_percent": 90.52083333333334,
+      "pooled_count_accuracy_percent_audit_only": 90.52083333333333,
+      "aggregation": "row-normalize each subject-seed confusion matrix, then take the equal-weight mean across subject-seed archives",
+      "raw_counts": [
+        [
+          1516,
+          136,
+          19,
+          9
+        ],
+        [
+          129,
+          1522,
+          13,
+          16
+        ],
+        [
+          60,
+          33,
+          1501,
+          86
+        ],
+        [
+          22,
+          19,
+          95,
+          1544
+        ]
+      ],
+      "pooled_count_row_normalized_proportions_audit_only": [
+        [
+          0.9023809523809524,
+          0.08095238095238096,
+          0.01130952380952381,
+          0.005357142857142857
+        ],
+        [
+          0.07678571428571429,
+          0.905952380952381,
+          0.007738095238095238,
+          0.009523809523809525
+        ],
+        [
+          0.03571428571428571,
+          0.019642857142857142,
+          0.893452380952381,
+          0.05119047619047619
+        ],
+        [
+          0.013095238095238096,
+          0.01130952380952381,
+          0.05654761904761905,
+          0.919047619047619
+        ]
+      ],
+      "row_normalized_proportions": [
+        [
+          0.9023809523809525,
+          0.08095238095238093,
+          0.011309523809523811,
+          0.005357142857142857
+        ],
+        [
+          0.07678571428571429,
+          0.9059523809523811,
+          0.007738095238095238,
+          0.009523809523809525
+        ],
+        [
+          0.03571428571428571,
+          0.019642857142857146,
+          0.8934523809523808,
+          0.051190476190476175
+        ],
+        [
+          0.013095238095238096,
+          0.011309523809523811,
+          0.056547619047619034,
+          0.9190476190476192
+        ]
+      ],
+      "row_normalized_percent": [
+        [
+          90.23809523809526,
+          8.095238095238093,
+          1.1309523809523812,
+          0.5357142857142857
+        ],
+        [
+          7.678571428571429,
+          90.5952380952381,
+          0.7738095238095238,
+          0.9523809523809524
+        ],
+        [
+          3.571428571428571,
+          1.9642857142857146,
+          89.34523809523807,
+          5.119047619047618
+        ],
+        [
+          1.3095238095238095,
+          1.1309523809523812,
+          5.654761904761903,
+          91.90476190476193
+        ]
+      ],
+      "source_roots": [
+        "results/hgd_raw_demean_final_3seed_report.json"
+      ],
+      "source_roots_absolute": [
+        "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\results\\hgd_raw_demean_final_3seed_report.json"
+      ],
+      "archives": [
+        {
+          "subject": 1,
+          "seed": 0,
+          "json_key": "H01_seed0",
+          "trials": 160,
+          "correct": 150
+        },
+        {
+          "subject": 1,
+          "seed": 1,
+          "json_key": "H01_seed1",
+          "trials": 160,
+          "correct": 146
+        },
+        {
+          "subject": 1,
+          "seed": 2,
+          "json_key": "H01_seed2",
+          "trials": 160,
+          "correct": 148
+        },
+        {
+          "subject": 2,
+          "seed": 0,
+          "json_key": "H02_seed0",
+          "trials": 160,
+          "correct": 152
+        },
+        {
+          "subject": 2,
+          "seed": 1,
+          "json_key": "H02_seed1",
+          "trials": 160,
+          "correct": 137
+        },
+        {
+          "subject": 2,
+          "seed": 2,
+          "json_key": "H02_seed2",
+          "trials": 160,
+          "correct": 148
+        },
+        {
+          "subject": 3,
+          "seed": 0,
+          "json_key": "H03_seed0",
+          "trials": 160,
+          "correct": 156
+        },
+        {
+          "subject": 3,
+          "seed": 1,
+          "json_key": "H03_seed1",
+          "trials": 160,
+          "correct": 151
+        },
+        {
+          "subject": 3,
+          "seed": 2,
+          "json_key": "H03_seed2",
+          "trials": 160,
+          "correct": 154
+        },
+        {
+          "subject": 4,
+          "seed": 0,
+          "json_key": "H04_seed0",
+          "trials": 160,
+          "correct": 153
+        },
+        {
+          "subject": 4,
+          "seed": 1,
+          "json_key": "H04_seed1",
+          "trials": 160,
+          "correct": 153
+        },
+        {
+          "subject": 4,
+          "seed": 2,
+          "json_key": "H04_seed2",
+          "trials": 160,
+          "correct": 157
+        },
+        {
+          "subject": 5,
+          "seed": 0,
+          "json_key": "H05_seed0",
+          "trials": 160,
+          "correct": 152
+        },
+        {
+          "subject": 5,
+          "seed": 1,
+          "json_key": "H05_seed1",
+          "trials": 160,
+          "correct": 154
+        },
+        {
+          "subject": 5,
+          "seed": 2,
+          "json_key": "H05_seed2",
+          "trials": 160,
+          "correct": 152
+        },
+        {
+          "subject": 6,
+          "seed": 0,
+          "json_key": "H06_seed0",
+          "trials": 160,
+          "correct": 144
+        },
+        {
+          "subject": 6,
+          "seed": 1,
+          "json_key": "H06_seed1",
+          "trials": 160,
+          "correct": 147
+        },
+        {
+          "subject": 6,
+          "seed": 2,
+          "json_key": "H06_seed2",
+          "trials": 160,
+          "correct": 149
+        },
+        {
+          "subject": 7,
+          "seed": 0,
+          "json_key": "H07_seed0",
+          "trials": 160,
+          "correct": 144
+        },
+        {
+          "subject": 7,
+          "seed": 1,
+          "json_key": "H07_seed1",
+          "trials": 160,
+          "correct": 139
+        },
+        {
+          "subject": 7,
+          "seed": 2,
+          "json_key": "H07_seed2",
+          "trials": 160,
+          "correct": 137
+        },
+        {
+          "subject": 8,
+          "seed": 0,
+          "json_key": "H08_seed0",
+          "trials": 160,
+          "correct": 147
+        },
+        {
+          "subject": 8,
+          "seed": 1,
+          "json_key": "H08_seed1",
+          "trials": 160,
+          "correct": 148
+        },
+        {
+          "subject": 8,
+          "seed": 2,
+          "json_key": "H08_seed2",
+          "trials": 160,
+          "correct": 148
+        },
+        {
+          "subject": 9,
+          "seed": 0,
+          "json_key": "H09_seed0",
+          "trials": 160,
+          "correct": 154
+        },
+        {
+          "subject": 9,
+          "seed": 1,
+          "json_key": "H09_seed1",
+          "trials": 160,
+          "correct": 153
+        },
+        {
+          "subject": 9,
+          "seed": 2,
+          "json_key": "H09_seed2",
+          "trials": 160,
+          "correct": 152
+        },
+        {
+          "subject": 10,
+          "seed": 0,
+          "json_key": "H10_seed0",
+          "trials": 160,
+          "correct": 146
+        },
+        {
+          "subject": 10,
+          "seed": 1,
+          "json_key": "H10_seed1",
+          "trials": 160,
+          "correct": 135
+        },
+        {
+          "subject": 10,
+          "seed": 2,
+          "json_key": "H10_seed2",
+          "trials": 160,
+          "correct": 142
+        },
+        {
+          "subject": 11,
+          "seed": 0,
+          "json_key": "H11_seed0",
+          "trials": 160,
+          "correct": 131
+        },
+        {
+          "subject": 11,
+          "seed": 1,
+          "json_key": "H11_seed1",
+          "trials": 160,
+          "correct": 128
+        },
+        {
+          "subject": 11,
+          "seed": 2,
+          "json_key": "H11_seed2",
+          "trials": 160,
+          "correct": 129
+        },
+        {
+          "subject": 12,
+          "seed": 0,
+          "json_key": "H12_seed0",
+          "trials": 160,
+          "correct": 151
+        },
+        {
+          "subject": 12,
+          "seed": 1,
+          "json_key": "H12_seed1",
+          "trials": 160,
+          "correct": 151
+        },
+        {
+          "subject": 12,
+          "seed": 2,
+          "json_key": "H12_seed2",
+          "trials": 160,
+          "correct": 150
+        },
+        {
+          "subject": 13,
+          "seed": 0,
+          "json_key": "H13_seed0",
+          "trials": 160,
+          "correct": 151
+        },
+        {
+          "subject": 13,
+          "seed": 1,
+          "json_key": "H13_seed1",
+          "trials": 160,
+          "correct": 148
+        },
+        {
+          "subject": 13,
+          "seed": 2,
+          "json_key": "H13_seed2",
+          "trials": 160,
+          "correct": 147
+        },
+        {
+          "subject": 14,
+          "seed": 0,
+          "json_key": "H14_seed0",
+          "trials": 160,
+          "correct": 115
+        },
+        {
+          "subject": 14,
+          "seed": 1,
+          "json_key": "H14_seed1",
+          "trials": 160,
+          "correct": 114
+        },
+        {
+          "subject": 14,
+          "seed": 2,
+          "json_key": "H14_seed2",
+          "trials": 160,
+          "correct": 120
+        }
+      ],
+      "row_normalized_csv": "results/paper_tnsre/confusion_hgd_rd_row_normalized.csv"
+    },
+    "openbmi_rd": {
+      "key": "openbmi_rd",
+      "display_name": "OpenBMI",
+      "model_variant": "NPFEEGNet-RD",
+      "input_kind": "frozen_test_auxiliary_npz",
+      "class_order": [
+        "right_hand",
+        "left_hand"
+      ],
+      "short_class_labels": [
+        "Right\nhand",
+        "Left\nhand"
+      ],
+      "subjects": 54,
+      "subject_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "expected_archive_count": 162,
+      "archive_count": 162,
+      "trials_per_subject_seed": {
+        "1": 200,
+        "2": 200,
+        "3": 200,
+        "4": 200,
+        "5": 200,
+        "6": 200,
+        "7": 200,
+        "8": 200,
+        "9": 200,
+        "10": 200,
+        "11": 200,
+        "12": 200,
+        "13": 200,
+        "14": 200,
+        "15": 200,
+        "16": 200,
+        "17": 200,
+        "18": 200,
+        "19": 200,
+        "20": 200,
+        "21": 200,
+        "22": 200,
+        "23": 200,
+        "24": 200,
+        "25": 200,
+        "26": 200,
+        "27": 200,
+        "28": 200,
+        "29": 200,
+        "30": 200,
+        "31": 200,
+        "32": 200,
+        "33": 200,
+        "34": 200,
+        "35": 200,
+        "36": 200,
+        "37": 200,
+        "38": 200,
+        "39": 200,
+        "40": 200,
+        "41": 200,
+        "42": 200,
+        "43": 200,
+        "44": 200,
+        "45": 200,
+        "46": 200,
+        "47": 200,
+        "48": 200,
+        "49": 200,
+        "50": 200,
+        "51": 200,
+        "52": 200,
+        "53": 200,
+        "54": 200
+      },
+      "total_pooled_predictions": 32400,
+      "subject_seed_macro_accuracy_percent": 70.63580246913578,
+      "pooled_count_accuracy_percent_audit_only": 70.6358024691358,
+      "aggregation": "row-normalize each subject-seed confusion matrix, then take the equal-weight mean across subject-seed archives",
+      "raw_counts": [
+        [
+          11315,
+          4885
+        ],
+        [
+          4629,
+          11571
+        ]
+      ],
+      "pooled_count_row_normalized_proportions_audit_only": [
+        [
+          0.6984567901234567,
+          0.3015432098765432
+        ],
+        [
+          0.28574074074074074,
+          0.7142592592592593
+        ]
+      ],
+      "row_normalized_proportions": [
+        [
+          0.6984567901234565,
+          0.3015432098765432
+        ],
+        [
+          0.28574074074074074,
+          0.7142592592592594
+        ]
+      ],
+      "row_normalized_percent": [
+        [
+          69.84567901234566,
+          30.15432098765432
+        ],
+        [
+          28.574074074074073,
+          71.42592592592594
+        ]
+      ],
+      "source_roots": [
+        "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52"
+      ],
+      "source_roots_absolute": [
+        "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\openbmi_final_npf_raw_demean_3seed\\NPFEEGNet\\2026-08-31--14-52"
+      ],
+      "archives": [
+        {
+          "subject": 1,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub1/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 163
+        },
+        {
+          "subject": 1,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub1/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 130
+        },
+        {
+          "subject": 1,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub1/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 111
+        },
+        {
+          "subject": 2,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub2/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 119
+        },
+        {
+          "subject": 2,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub2/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 113
+        },
+        {
+          "subject": 2,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub2/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 139
+        },
+        {
+          "subject": 3,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub3/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 99
+        },
+        {
+          "subject": 3,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub3/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 172
+        },
+        {
+          "subject": 3,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub3/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 185
+        },
+        {
+          "subject": 4,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub4/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 167
+        },
+        {
+          "subject": 4,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub4/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 164
+        },
+        {
+          "subject": 4,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub4/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 161
+        },
+        {
+          "subject": 5,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub5/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 140
+        },
+        {
+          "subject": 5,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub5/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 157
+        },
+        {
+          "subject": 5,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub5/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 152
+        },
+        {
+          "subject": 6,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub6/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 183
+        },
+        {
+          "subject": 6,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub6/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 177
+        },
+        {
+          "subject": 6,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub6/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 185
+        },
+        {
+          "subject": 7,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub7/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 160
+        },
+        {
+          "subject": 7,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub7/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 159
+        },
+        {
+          "subject": 7,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub7/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 153
+        },
+        {
+          "subject": 8,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub8/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 139
+        },
+        {
+          "subject": 8,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub8/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 131
+        },
+        {
+          "subject": 8,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub8/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 135
+        },
+        {
+          "subject": 9,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub9/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 153
+        },
+        {
+          "subject": 9,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub9/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 145
+        },
+        {
+          "subject": 9,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub9/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 118
+        },
+        {
+          "subject": 10,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub10/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 121
+        },
+        {
+          "subject": 10,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub10/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 117
+        },
+        {
+          "subject": 10,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub10/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 120
+        },
+        {
+          "subject": 11,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub11/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 98
+        },
+        {
+          "subject": 11,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub11/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 101
+        },
+        {
+          "subject": 11,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub11/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 111
+        },
+        {
+          "subject": 12,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub12/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 128
+        },
+        {
+          "subject": 12,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub12/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 114
+        },
+        {
+          "subject": 12,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub12/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 117
+        },
+        {
+          "subject": 13,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub13/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 113
+        },
+        {
+          "subject": 13,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub13/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 120
+        },
+        {
+          "subject": 13,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub13/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 128
+        },
+        {
+          "subject": 14,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub14/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 119
+        },
+        {
+          "subject": 14,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub14/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 117
+        },
+        {
+          "subject": 14,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub14/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 98
+        },
+        {
+          "subject": 15,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub15/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 154
+        },
+        {
+          "subject": 15,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub15/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 153
+        },
+        {
+          "subject": 15,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub15/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 149
+        },
+        {
+          "subject": 16,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub16/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 132
+        },
+        {
+          "subject": 16,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub16/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 143
+        },
+        {
+          "subject": 16,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub16/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 136
+        },
+        {
+          "subject": 17,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub17/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 101
+        },
+        {
+          "subject": 17,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub17/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 120
+        },
+        {
+          "subject": 17,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub17/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 115
+        },
+        {
+          "subject": 18,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub18/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 170
+        },
+        {
+          "subject": 18,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub18/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 176
+        },
+        {
+          "subject": 18,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub18/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 161
+        },
+        {
+          "subject": 19,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub19/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 154
+        },
+        {
+          "subject": 19,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub19/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 146
+        },
+        {
+          "subject": 19,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub19/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 122
+        },
+        {
+          "subject": 20,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub20/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 130
+        },
+        {
+          "subject": 20,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub20/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 132
+        },
+        {
+          "subject": 20,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub20/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 108
+        },
+        {
+          "subject": 21,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub21/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 192
+        },
+        {
+          "subject": 21,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub21/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 187
+        },
+        {
+          "subject": 21,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub21/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 188
+        },
+        {
+          "subject": 22,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub22/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 111
+        },
+        {
+          "subject": 22,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub22/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 122
+        },
+        {
+          "subject": 22,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub22/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 129
+        },
+        {
+          "subject": 23,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub23/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 104
+        },
+        {
+          "subject": 23,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub23/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 109
+        },
+        {
+          "subject": 23,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub23/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 100
+        },
+        {
+          "subject": 24,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub24/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 106
+        },
+        {
+          "subject": 24,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub24/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 95
+        },
+        {
+          "subject": 24,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub24/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 106
+        },
+        {
+          "subject": 25,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub25/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 166
+        },
+        {
+          "subject": 25,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub25/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 176
+        },
+        {
+          "subject": 25,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub25/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 181
+        },
+        {
+          "subject": 26,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub26/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 152
+        },
+        {
+          "subject": 26,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub26/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 154
+        },
+        {
+          "subject": 26,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub26/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 150
+        },
+        {
+          "subject": 27,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub27/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 151
+        },
+        {
+          "subject": 27,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub27/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 158
+        },
+        {
+          "subject": 27,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub27/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 155
+        },
+        {
+          "subject": 28,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub28/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 162
+        },
+        {
+          "subject": 28,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub28/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 161
+        },
+        {
+          "subject": 28,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub28/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 157
+        },
+        {
+          "subject": 29,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub29/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 173
+        },
+        {
+          "subject": 29,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub29/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 176
+        },
+        {
+          "subject": 29,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub29/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 186
+        },
+        {
+          "subject": 30,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub30/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 128
+        },
+        {
+          "subject": 30,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub30/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 128
+        },
+        {
+          "subject": 30,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub30/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 127
+        },
+        {
+          "subject": 31,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub31/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 143
+        },
+        {
+          "subject": 31,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub31/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 141
+        },
+        {
+          "subject": 31,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub31/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 157
+        },
+        {
+          "subject": 32,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub32/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 120
+        },
+        {
+          "subject": 32,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub32/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 145
+        },
+        {
+          "subject": 32,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub32/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 103
+        },
+        {
+          "subject": 33,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub33/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 187
+        },
+        {
+          "subject": 33,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub33/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 189
+        },
+        {
+          "subject": 33,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub33/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 183
+        },
+        {
+          "subject": 34,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub34/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 126
+        },
+        {
+          "subject": 34,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub34/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 124
+        },
+        {
+          "subject": 34,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub34/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 115
+        },
+        {
+          "subject": 35,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub35/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 182
+        },
+        {
+          "subject": 35,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub35/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 179
+        },
+        {
+          "subject": 35,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub35/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 182
+        },
+        {
+          "subject": 36,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub36/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 195
+        },
+        {
+          "subject": 36,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub36/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 197
+        },
+        {
+          "subject": 36,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub36/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 199
+        },
+        {
+          "subject": 37,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub37/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 185
+        },
+        {
+          "subject": 37,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub37/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 189
+        },
+        {
+          "subject": 37,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub37/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 182
+        },
+        {
+          "subject": 38,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub38/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 139
+        },
+        {
+          "subject": 38,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub38/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 101
+        },
+        {
+          "subject": 38,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub38/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 100
+        },
+        {
+          "subject": 39,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub39/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 130
+        },
+        {
+          "subject": 39,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub39/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 128
+        },
+        {
+          "subject": 39,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub39/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 123
+        },
+        {
+          "subject": 40,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub40/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 131
+        },
+        {
+          "subject": 40,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub40/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 136
+        },
+        {
+          "subject": 40,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub40/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 141
+        },
+        {
+          "subject": 41,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub41/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 116
+        },
+        {
+          "subject": 41,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub41/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 106
+        },
+        {
+          "subject": 41,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub41/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 107
+        },
+        {
+          "subject": 42,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub42/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 127
+        },
+        {
+          "subject": 42,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub42/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 131
+        },
+        {
+          "subject": 42,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub42/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 131
+        },
+        {
+          "subject": 43,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub43/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 174
+        },
+        {
+          "subject": 43,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub43/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 171
+        },
+        {
+          "subject": 43,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub43/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 168
+        },
+        {
+          "subject": 44,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub44/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 193
+        },
+        {
+          "subject": 44,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub44/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 197
+        },
+        {
+          "subject": 44,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub44/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 192
+        },
+        {
+          "subject": 45,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub45/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 160
+        },
+        {
+          "subject": 45,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub45/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 154
+        },
+        {
+          "subject": 45,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub45/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 145
+        },
+        {
+          "subject": 46,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub46/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 132
+        },
+        {
+          "subject": 46,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub46/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 130
+        },
+        {
+          "subject": 46,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub46/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 146
+        },
+        {
+          "subject": 47,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub47/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 155
+        },
+        {
+          "subject": 47,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub47/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 162
+        },
+        {
+          "subject": 47,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub47/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 148
+        },
+        {
+          "subject": 48,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub48/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 138
+        },
+        {
+          "subject": 48,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub48/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 142
+        },
+        {
+          "subject": 48,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub48/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 139
+        },
+        {
+          "subject": 49,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub49/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 145
+        },
+        {
+          "subject": 49,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub49/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 134
+        },
+        {
+          "subject": 49,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub49/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 119
+        },
+        {
+          "subject": 50,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub50/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 109
+        },
+        {
+          "subject": 50,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub50/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 110
+        },
+        {
+          "subject": 50,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub50/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 102
+        },
+        {
+          "subject": 51,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub51/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 129
+        },
+        {
+          "subject": 51,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub51/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 128
+        },
+        {
+          "subject": 51,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub51/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 123
+        },
+        {
+          "subject": 52,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub52/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 129
+        },
+        {
+          "subject": 52,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub52/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 128
+        },
+        {
+          "subject": 52,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub52/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 122
+        },
+        {
+          "subject": 53,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub53/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 122
+        },
+        {
+          "subject": 53,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub53/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 106
+        },
+        {
+          "subject": 53,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub53/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 106
+        },
+        {
+          "subject": 54,
+          "seed": 0,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub54/seed0/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 109
+        },
+        {
+          "subject": 54,
+          "seed": 1,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub54/seed1/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 112
+        },
+        {
+          "subject": 54,
+          "seed": 2,
+          "path": "output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/sub54/seed2/test_auxiliary.npz",
+          "trials": 200,
+          "correct": 113
+        }
+      ],
+      "row_normalized_csv": "results/paper_tnsre/confusion_openbmi_rd_row_normalized.csv"
+    }
+  },
+  "figure_files": {
+    "png": "results/paper_tnsre/figure_cross_dataset_confusion_matrices.png",
+    "pdf": "results/paper_tnsre/figure_cross_dataset_confusion_matrices.pdf",
+    "svg": "results/paper_tnsre/figure_cross_dataset_confusion_matrices.svg"
+  }
+}

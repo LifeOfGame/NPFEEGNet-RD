@@ -1,0 +1,10 @@
+subject,seed,selection_strategy,best_val_accuracy,best_val_loss,best_val_epoch,retrain_epochs,test_loss,test_accuracy,test_kappa,source_summary
+1,0,holdout,0.775,0.495732,80,80,0.720007,0.725,0.4499999999999999,output\ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage\NPFEEGNet\2026-08-20--22-24\summary_recovered.csv
+2,0,holdout,0.525,0.693717,4,4,0.661573,0.5964285714285714,0.1928571428571428,output\ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage\NPFEEGNet\2026-08-20--22-24\summary_recovered.csv
+3,0,holdout,0.69375,0.738122,125,125,0.329336,0.871875,0.74375,output\ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage\NPFEEGNet\2026-08-20--22-24\summary_recovered.csv
+4,0,holdout,0.99375,0.022381,212,212,0.084166,0.984375,0.96875,output\ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage\NPFEEGNet\2026-08-20--22-24\summary_recovered.csv
+5,0,holdout,0.84375,0.5539433049658934,272,272,0.1746196269989013,0.925,0.85,output\ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage\NPFEEGNet\2026-08-20--23-17\summary.csv
+6,0,holdout,0.75,0.6086488167444865,61,61,0.3495933830738068,0.8375,0.675,output\ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage\NPFEEGNet\2026-08-20--23-17\summary.csv
+7,0,holdout,0.9,0.2651480336983998,107,107,0.2060757249593734,0.903125,0.80625,output\ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage\NPFEEGNet\2026-08-20--23-17\summary.csv
+8,0,holdout,0.86875,0.3257795398434003,110,110,0.1478269457817077,0.953125,0.90625,output\ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage\NPFEEGNet\2026-08-20--23-17\summary.csv
+9,0,holdout,0.75625,0.5457855065663656,118,118,0.2640663892030715,0.90625,0.8125,output\ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage\NPFEEGNet\2026-08-20--23-17\summary.csv

@@ -1,0 +1,40 @@
+{
+  "subject": 17,
+  "archive_url": "https://zenodo.org/records/18988317/files/S17.zip?download=1",
+  "source_session": "session_1 only",
+  "files": [
+    {
+      "source_zip_member": "session_1/run_01.npz",
+      "zip_crc32": "ad67a426",
+      "uncompressed_bytes": 140448362,
+      "compressed_bytes": 27549615,
+      "local_path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S17/session_1/run_01.npz",
+      "sha256": "03745b2ca43a1fe1afbf2c715a60f2aa58ff62c73cb905834168f85a6dee0055"
+    },
+    {
+      "source_zip_member": "session_1/run_02.npz",
+      "zip_crc32": "270c8e77",
+      "uncompressed_bytes": 147073602,
+      "compressed_bytes": 17656370,
+      "local_path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S17/session_1/run_02.npz",
+      "sha256": "13db5ac2e460da7f3a181653d04d5de4e585dd7488501156222af1d76a18aafc"
+    },
+    {
+      "source_zip_member": "session_1/run_03.npz",
+      "zip_crc32": "5b77843b",
+      "uncompressed_bytes": 141104122,
+      "compressed_bytes": 28543320,
+      "local_path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S17/session_1/run_03.npz",
+      "sha256": "f9ed40381441ebb59d0bccddbb7910dcd1314df8ef9bed12b74d58614be12bb4"
+    },
+    {
+      "source_zip_member": "session_1/run_04.npz",
+      "zip_crc32": "749cd48d",
+      "uncompressed_bytes": 141243498,
+      "compressed_bytes": 27254032,
+      "local_path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S17/session_1/run_04.npz",
+      "sha256": "a98c9fe50bc525d4f0d3de9041e2d004626e5f46962278bd303f13eff1950736"
+    }
+  ],
+  "finished_utc": "2026-09-27T07:20:15Z"
+}

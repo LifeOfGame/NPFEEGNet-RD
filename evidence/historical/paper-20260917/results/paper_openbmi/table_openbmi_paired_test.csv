@@ -1,0 +1,2 @@
+contrast,mean_change_pp,subject_bootstrap_ci95_low_pp,subject_bootstrap_ci95_high_pp,exact_sign_flip_p,cohen_dz,wins,ties,losses
+RawDemean - NoDemean,4.185185185185169,2.4814814814814823,6.077160493827162,4.0981209554757925e-06,0.6160572881546159,40,1,13

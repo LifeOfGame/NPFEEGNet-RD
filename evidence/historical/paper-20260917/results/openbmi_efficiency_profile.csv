@@ -1,0 +1,4 @@
+method,trainable_parameters,conv_linear_attention_macs_batch1,latency_mean_ms_batch1,latency_median_ms_batch1,latency_population_sd_ms_batch1,incremental_peak_gpu_bytes_batch1
+EEGNet-Demean,2418,10688992,2.7371486,2.3785,1.4894938607789023,1360384
+ATCNet-Matched-Demean,113338,24393440,28.7473238,26.37605,9.461161178528435,2640384
+NPFEEGNet-RawDemean,12357,38570080,6.8122092,6.3182,1.9411164389689146,6883328

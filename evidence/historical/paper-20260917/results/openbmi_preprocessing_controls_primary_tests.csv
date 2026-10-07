@@ -1,0 +1,3 @@
+contrast,analysis_status,independent_unit,n_subjects,mean_change,subject_bootstrap_ci95_low,subject_bootstrap_ci95_high,exact_sign_flip_p,cohen_dz,wins,ties,losses,holm_adjusted_p_two_contrasts
+NPFEEGNet-RawDemean - NPFEEGNet-FullDemean,pre-specified within post-confirmatory preprocessing extension,subject,54,0.002222222222222226,-0.004351851851851841,0.00891975308641975,0.5266811652740979,0.08853692566668273,31,0,23,0.5266811652740979
+NPFEEGNet-RawDemean - NPFEEGNet-HighPass1Hz,pre-specified within post-confirmatory preprocessing extension,subject,54,0.06092592592592591,0.036759259259259255,0.08503086419753086,9.439749676265485e-06,0.6672352502299678,41,0,13,1.887949935253097e-05

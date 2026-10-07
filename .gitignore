@@ -18,3 +18,5 @@ build/
 dist/
 *.egg-info/
 .pytest_cache/
+
+!evidence/predictions/*.npz

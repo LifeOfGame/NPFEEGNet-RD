@@ -1,0 +1,25 @@
+{
+  "source_summary": "/mnt/helongfei/NPFEEGNet-RD-zhou2016-20260927/output/zhou2016_eegnet_demean_selection/EEGNet/2026-09-27--12-00/summary.csv",
+  "selected_epochs": {
+    "1": {
+      "0": 66,
+      "1": 56,
+      "2": 41
+    },
+    "2": {
+      "0": 18,
+      "1": 8,
+      "2": 5
+    },
+    "3": {
+      "0": 53,
+      "1": 42,
+      "2": 42
+    },
+    "4": {
+      "0": 124,
+      "1": 78,
+      "2": 98
+    }
+  }
+}

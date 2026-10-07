@@ -1,0 +1,8 @@
+method,year,reported_accuracy,protocol_note,source
+EEG-TCNet (fixed),2020,0.7735,Published subject-dependent official-session result; training and selection differ,https://arxiv.org/abs/2006.00622
+FBCNet,2022,0.7620,Authors' reported result using the original FBCNet recipe,https://arxiv.org/abs/2104.01233
+TCNet-Fusion,2022,0.8373,Published within-subject result; training and selection differ,https://www.sciencedirect.com/science/article/pii/S1746809421004237
+EEG Conformer,2023,0.7866,Official holdout code uses augmentation and selects the maximum official-test accuracy across epochs,https://github.com/eeyhsong/EEG-Conformer
+ATCNet,2023,0.8538,Official 50/50 session holdout with 1000 epochs and patience 300; training and selection differ,https://doi.org/10.1109/TII.2022.3197419
+WMA-TCNet,2026,0.8580,Published subject-dependent result; training and selection differ,https://pubmed.ncbi.nlm.nih.gov/42317238/
+NPFEEGNet-Core (ours),2026,0.6683,Run-held-out epoch selection then fresh all-training-session retraining and one test evaluation per seed; 3 seeds,local controlled experiment

@@ -1,0 +1,728 @@
+{
+  "status": "ready_for_session2",
+  "dataset": "BNCI2015-001",
+  "protocol": "12 subjects, A-only stratified 5-fold median epoch selection, 3 seeds, one B evaluation",
+  "source": "NEMAR nm000140 v1.0.2 unmodified MAT files",
+  "selection": {
+    "rd": {
+      "n_subject_seed": 36,
+      "selected_epoch_range": [
+        2,
+        186
+      ],
+      "summary": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/summary.csv"
+    },
+    "nodemean": {
+      "n_subject_seed": 36,
+      "selected_epoch_range": [
+        2,
+        179
+      ],
+      "summary": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/summary.csv"
+    },
+    "eegnet_demean": {
+      "n_subject_seed": 36,
+      "selected_epoch_range": [
+        6,
+        182
+      ],
+      "summary": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/summary.csv"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N01T_data.npy",
+      "sha256": "fd5f8c8846e4b831c3a35c6a198fa4d2e3fd1cd4cc94c11e6e0314f1d4b898d1"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N01T_label.npy",
+      "sha256": "f4c99849a01c0b878949f3bac6402ab879980f1492e1e6a97e2cd145a11651f1"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N01T_group.npy",
+      "sha256": "6d59086bad282e9445014f05a81a406e05b453fc0ddc16ae1b0e9bcc3814351e"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N02T_data.npy",
+      "sha256": "6ecddb2934279ac7453ef1d603c5c65392d99b38e0af66b7e37c989822e68bcd"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N02T_label.npy",
+      "sha256": "f4c99849a01c0b878949f3bac6402ab879980f1492e1e6a97e2cd145a11651f1"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N02T_group.npy",
+      "sha256": "6d59086bad282e9445014f05a81a406e05b453fc0ddc16ae1b0e9bcc3814351e"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N03T_data.npy",
+      "sha256": "e6ddba5c4efcca24e88534fe04a19783f3516f73f020fec6f76a42cdee4ebdbc"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N03T_label.npy",
+      "sha256": "d87c1e394fc627001b9ffa398ba5f3d07fc372688e2b3a7c55e1e316fdd584a0"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N03T_group.npy",
+      "sha256": "a9b7cd882b3e8f62d61840283e48600b00689cb835d3cb3fb3fb0aa750b438f5"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N04T_data.npy",
+      "sha256": "b4c24d6721c8c0a81d59c9ae4986027485304fc60ce42b6cf9135588675b622c"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N04T_label.npy",
+      "sha256": "bc047ce55e80c9dcdc39980117d4304e3a96c083ba8ade3f375b1f95a02c3f19"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N04T_group.npy",
+      "sha256": "79b77915bec390659260791e1fd9c506ec6b3277ff85a9970fa383803fb2b497"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N05T_data.npy",
+      "sha256": "af3547cf4cc0663d34b8f264e2e38f7660d8e6794bec76bfcd4e7e8918957e9a"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N05T_label.npy",
+      "sha256": "0dfaa36ca8be8ccdce9c571903d878b70df87b6e82d63d04dd299d1b9e7f74cf"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N05T_group.npy",
+      "sha256": "a017650468f8e95d66f59dc56ea47096f6927d6d07c39c5b5cd89d13c4c8d732"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N06T_data.npy",
+      "sha256": "b51b31877db5f71622ebc4020a490499ae01f88c9862432c02429e2f94b1c444"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N06T_label.npy",
+      "sha256": "1a851b4885aceae8295e8f69ab37bfe0eb7a283f4e67a9baf73f75d1137b3b84"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N06T_group.npy",
+      "sha256": "3bf39d9c2b0e770d8cf756bcae1d4b442dbf31001fb1308657e9c6ea997ab732"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N07T_data.npy",
+      "sha256": "4bbfcf611850da973be371e119b69f4f8cab3d53b14f99ede9aa863f4ddf4ea9"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N07T_label.npy",
+      "sha256": "d8444b515bb6b68ede3fb6949017944fa78992174a02196e8e7b64ece758a770"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N07T_group.npy",
+      "sha256": "db34ae886892a560867b05b9a508e4baa3b1355df5ccc973b06e0e05d451018d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N08T_data.npy",
+      "sha256": "51ec316ef72f1a1bea7c66ffe41ecc01ccb4728942b773daf72cfc60e66e8a29"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N08T_label.npy",
+      "sha256": "51fdbbf9a0a1510fad384d61baa27dfdd6ac19ca673cf9542dec07c2df46f7c1"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N08T_group.npy",
+      "sha256": "cfbc580b2f050d265a54bfaa8b0a8c9b722e271571fb769eacfe9367fff5c8ea"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N09T_data.npy",
+      "sha256": "8115e41a57d5cbb19e0d62ad36c5f778f0be983bc11506a789465a83e80cabef"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N09T_label.npy",
+      "sha256": "1a851b4885aceae8295e8f69ab37bfe0eb7a283f4e67a9baf73f75d1137b3b84"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N09T_group.npy",
+      "sha256": "3bf39d9c2b0e770d8cf756bcae1d4b442dbf31001fb1308657e9c6ea997ab732"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N10T_data.npy",
+      "sha256": "10480dad541ae0c1c0032852b0872c1ee11c78dd092b649c5492c37aca15f4e4"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N10T_label.npy",
+      "sha256": "d4b45b5a8fdcf4450cb6e80997ac1d1ac94f167ccc341172545e4fc15518ef6c"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N10T_group.npy",
+      "sha256": "75c8ff6729eca8413bebd3d7786cc9aa0dd9450ba38f5af51f033766ee5a1088"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N11T_data.npy",
+      "sha256": "4b82fb8157feb23416a32b3ff9990da28668290ea483a91b310d9de7cdb41c9b"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N11T_label.npy",
+      "sha256": "9aab7ff9a0001fd71a06d52a42a495b25ebdde4ba75eb58602e6a476e81fbe5c"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N11T_group.npy",
+      "sha256": "88dd17f168d4a39c0d5dee9697c9518f06e862944e6f70f2624e4376f61e74d1"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N12T_data.npy",
+      "sha256": "6bccaa2df10abf11770a0cabf4e27c44f1b7c95f503baecbafbdc8b4d30faa69"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N12T_label.npy",
+      "sha256": "93866a41c8977261c6ec819758e679abbddb96a88b21118444e6c7be610d504b"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/N12T_group.npy",
+      "sha256": "12559591df6d1fd5572df493a70a91bad531a2568785bfc048e2607e946fea18"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/data/bnci2015_001/session_a_preprocess_report.json",
+      "sha256": "55fe0fd1d27eb6edaaa73a0920535880dc9b0160343e51bdfdff541366b1f38d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/preprocess_bnci2015_a.py",
+      "sha256": "71fccd397de6715b25d2d09e74e91f2dd4dd1cee9ec0efcfef4cf69721cd7542"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/build_bnci2015_selection_configs.py",
+      "sha256": "26973f21e422bef32fe266d06aa01a1d992ede6cff59aa23eb85c72bc418bc77"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/check_bnci2015_model_shapes.py",
+      "sha256": "75e4a56ca8eed64c75fde9ce4e1bb2d16a2b752a3d4a055bdd7a2cd0215e8107"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/freeze_bnci2015_selection.py",
+      "sha256": "89847cafcee969d1cc79a3ff05862895dbc2bdf57df1aa0cb6a5792c136e52c6"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/preprocess_bnci2015_b_after_lock.py",
+      "sha256": "a55f42d600c3c7804969c58bf44f97cec5084df697cbf9c1278893ca1f6c9df2"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/run_bnci2015_final_after_lock.sh",
+      "sha256": "5e7c449b07f25ca4b463bc107ee58934dee595c167f8a7462bbc83625f835caf"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/analyze_bnci2015_final.py",
+      "sha256": "f551659e7da9cfa6340b78bfd4380c4ae7bfe77581105b85de82e9a5c9dd4db6"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/run_bnci2015_pipeline_after_selection.sh",
+      "sha256": "bca5ce142691f789241f4eaaa9f634f35b609eac403f534fa16f5edac795d66c"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/model/NPF_EEGNet.py",
+      "sha256": "94d7d071582063dfbacf68362b480f130af0ed524e19c81ce4a0277f986d7544"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/model/openbmi_baselines.py",
+      "sha256": "b46020ca505cdf00893c03696418afd3c5cc0d180cebb003c3d20a35245e1e8d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/repro/frozen_engines/openbmi_dd010/train_dcsa_2a.py",
+      "sha256": "dd010b3c64a1ec25e10b1fe539e439a0e1f3305942327e4baea49ef7e6485e15"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/train_dcsa_2a.py",
+      "sha256": "6ab2c583c59bc0daeaf197566c9d9f4590646188302f0eae938655fc49210200"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/train_openbmi_baselines.py",
+      "sha256": "b041694fa9d160a4789d55056c59d766dbe79934f74153ac17d4819f6c9be6c3"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_rd_selection.yaml",
+      "sha256": "a03eded59e86afa1d7a2db00d45414981dad132012ff04895665a750ee83f745"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub1/seed0/selection/fold_summary.csv",
+      "sha256": "8d977a5565cd12c564e76a99fee011cfa0ab012043b932a055b09ce9dae7c516"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub2/seed0/selection/fold_summary.csv",
+      "sha256": "6267c2de0041638b9ee20358c9054efdb7a3e143c2208009814a91d10a285477"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub3/seed0/selection/fold_summary.csv",
+      "sha256": "489207c61e1868cffa068156acd5213373a317819ead32a55c9a53ba2c614c57"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub4/seed0/selection/fold_summary.csv",
+      "sha256": "034e86d3ece4e0f893b5e29859c2fef25bb7d2f2e9c8c1ddf30f06a6567b89ee"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub5/seed0/selection/fold_summary.csv",
+      "sha256": "710a44bc3202297b2302c493f86cbeb3af46f5c99cc24621f5587ebbe9c8c5cf"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub6/seed0/selection/fold_summary.csv",
+      "sha256": "edc3ea10a23137bbd7250f9756cc00bb3e04259fcc2c76b1e75c13602fdeee2b"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub7/seed0/selection/fold_summary.csv",
+      "sha256": "bb3cd224d72ae80ef79778c8c9f169ad989e39603c8bcf76638fea9aeab24515"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub8/seed0/selection/fold_summary.csv",
+      "sha256": "48ed878cbf4d2b02918fc298e0b43e53071cf14e24da59175c5daa6259510b1f"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub9/seed0/selection/fold_summary.csv",
+      "sha256": "ba2068fa7d4ae4b3e81366aceb9d2b9c7f2972b10907f1e3f24a3e6d1dc67f90"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub10/seed0/selection/fold_summary.csv",
+      "sha256": "b60b4569cc12cab5e3b5b5253e346fb5d4f9fcb8e325e69f4b7bcad4f5d701e0"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub11/seed0/selection/fold_summary.csv",
+      "sha256": "af1a6e345374e1601abee10298649d2485ff87b6c908262f923ae31364455406"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub12/seed0/selection/fold_summary.csv",
+      "sha256": "4e42bc80c099fc7201202dc3ceb08b85697751e1bf82caf8b89249c91bda8e62"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub1/seed1/selection/fold_summary.csv",
+      "sha256": "3ed9fb74d53b8cc131d69885a8e48e6fdf78954291f3be10dce7c1e61ce6a39e"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub2/seed1/selection/fold_summary.csv",
+      "sha256": "342c0d50a8316ff970a92e764a0c812046f0e0a3bf118019dfb54db11bbd59a2"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub3/seed1/selection/fold_summary.csv",
+      "sha256": "8627e8b86aef34815cea721fb63b7b5c807e8ad1da57dcb03a18df180893c5f3"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub4/seed1/selection/fold_summary.csv",
+      "sha256": "4a137fa6928dc3df60194187b757b7ff494ddd1d794dbded6eb22c043fc65802"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub5/seed1/selection/fold_summary.csv",
+      "sha256": "4102d45c0d22d778397f52ae41fdb3f3075b2d6acda34c260c4dfb9eb45b46e0"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub6/seed1/selection/fold_summary.csv",
+      "sha256": "04f4991099674e02b8dc3143fdde408e5c99819ce70f6712b344383860042217"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub7/seed1/selection/fold_summary.csv",
+      "sha256": "7e8d235a5b99e88e6d0c6ba0744991ddc7eb65fab95542511af0c399c0f278a9"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub8/seed1/selection/fold_summary.csv",
+      "sha256": "8f60cd69426d1e43f6157e63635dc202802cd53f23a5f4cfa8a65a5867d8ad6f"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub9/seed1/selection/fold_summary.csv",
+      "sha256": "374a7cd9812c71a4fc9e8575bed8c94ae45619e2589a47597688aad4b8b253c4"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub10/seed1/selection/fold_summary.csv",
+      "sha256": "1cdfb83cad72fa58dc1e6a66709235ee0fecacecb8e66d8a331005929246ad34"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub11/seed1/selection/fold_summary.csv",
+      "sha256": "0505146a92d27d6e4f8c5ce444d2d84ed8647923906e47366c75867b2c050144"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub12/seed1/selection/fold_summary.csv",
+      "sha256": "388067fabb1b435f3ff6a18fb404db2c6538e428aab9ce314485a224ee3d693a"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub1/seed2/selection/fold_summary.csv",
+      "sha256": "0dbca3db921ab626869bac7f17883bd64b5fe9fcc860c7b81d6cd4cdb152c671"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub2/seed2/selection/fold_summary.csv",
+      "sha256": "d5eb4d9bc052aec090fe57535633015e89d71c1e81e3ca167be66ef374aa91ce"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub3/seed2/selection/fold_summary.csv",
+      "sha256": "a3a1f998502d09e649953d704ca5ce3757fe6a231aa7fbea71934e2755969b74"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub4/seed2/selection/fold_summary.csv",
+      "sha256": "15298999129efa4769cdb4a5c6da9aabda071788ae95d85fe3918b55501c0743"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub5/seed2/selection/fold_summary.csv",
+      "sha256": "d0ca858e4a102d17ff8f6a27b4ddf2989afcb69577d2ff8938e8a69190a593af"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub6/seed2/selection/fold_summary.csv",
+      "sha256": "377af530b2c266637d305a89241d3c188f4c793c0a53cdc52fa8b919c791b747"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub7/seed2/selection/fold_summary.csv",
+      "sha256": "87e7699acdc944fba0e665a361c0653c8e25de34a64c62a5d76ed5f62027ce6a"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub8/seed2/selection/fold_summary.csv",
+      "sha256": "4f3f10269ade1c63293605c886534aa89694e7d393eaa69604ff90ac406ee931"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub9/seed2/selection/fold_summary.csv",
+      "sha256": "29130eb69bf330d84a10122e25d7e5a559b0abec877b26da1ff1c11f68e582d5"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub10/seed2/selection/fold_summary.csv",
+      "sha256": "d2d54af70f6abd629519709cb7499d4606fe20ef321ea09311701359ec533743"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub11/seed2/selection/fold_summary.csv",
+      "sha256": "eaadc8a0fbdf2d6097a72ca69088fddd41f65725ce8fc30394e7e255a542b9d6"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/sub12/seed2/selection/fold_summary.csv",
+      "sha256": "25b9e9837754d6eb33e26b91f36cd79f0f6dd661ba73bf417b469c554116c4ca"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_rd_selection/NPFEEGNet/2026-09-26--14-57/summary.csv",
+      "sha256": "324712dcb0d41f491e68a72c4119b00e182c613688616b5a11ed3f1b8c84b36a"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/results/bnci2015_001_rd_selected_epochs.json",
+      "sha256": "403d89ff5690c7b8c5a8e344d578f00ac8a2c9b81cc5cec2fd91fc6876cce801"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_rd_final.yaml",
+      "sha256": "0ebc7814cae51b16e043837a2fd0fa37ea733d31e9cd53d09f7468c78da6ac27"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_nodemean_selection.yaml",
+      "sha256": "6ab9d6dba619bfeb7de9de6f744caf705ea29d60db74a5f64e656bded127b645"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub1/seed0/selection/fold_summary.csv",
+      "sha256": "1410f515d8fa6d2d6bb38c88aedb66d2b210a0c98628a3fc2ccc3c151d002bfc"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub2/seed0/selection/fold_summary.csv",
+      "sha256": "90254edfa866995b517993eb7e5f469f7af74d4c8b3605b2d0e8a1669acbdcc2"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub3/seed0/selection/fold_summary.csv",
+      "sha256": "222845290b683850ccee1fa073bf00de377ca7026bd67133f37ac3a94cf012a7"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub4/seed0/selection/fold_summary.csv",
+      "sha256": "1e69059683aa651e6364026c47735a8c9a230f23da73a1f989bd696f5e7bf83a"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub5/seed0/selection/fold_summary.csv",
+      "sha256": "84cbe21141a1f6bd6d6d4563adbaf996827323776619307146b9def4a267cfc9"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub6/seed0/selection/fold_summary.csv",
+      "sha256": "1e6f05f7f617d95a4d4ab7f495a1e164e0aecf33fc7fc47186b6673529092b9c"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub7/seed0/selection/fold_summary.csv",
+      "sha256": "ebe09c53d76b68f61272ee9fe58fa7e717fe936f94ffdbacdfe4499800a2aa16"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub8/seed0/selection/fold_summary.csv",
+      "sha256": "2e25d056a979a16d0ba452674b1e1bd6e69e4232094c785a6670430d7076ae50"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub9/seed0/selection/fold_summary.csv",
+      "sha256": "dea97042dbc7f28df4bfb9f66ef8228203eed4960e5ab7f515c1f7e4a1c2215e"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub10/seed0/selection/fold_summary.csv",
+      "sha256": "4dfa985a852b11c7a042f51dc31c9128abd38a95f53a602042f395459ca42263"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub11/seed0/selection/fold_summary.csv",
+      "sha256": "7413ee038885ff01b62846701cae455817d2c83ff529cf6cc41054a5fb0aecff"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub12/seed0/selection/fold_summary.csv",
+      "sha256": "4f91afd9e44fad873f087d102e054c1b0757c458e227a5fb985aef2b4cab0ccc"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub1/seed1/selection/fold_summary.csv",
+      "sha256": "427524fca5dcc7ebdde77d3fcb35b9c3ca5cabb4656f687562233bb1cf96c6da"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub2/seed1/selection/fold_summary.csv",
+      "sha256": "c92a6e1ec8290578e0a8648ec681322327f440a13bfa8d6a9bd2feaa548211a9"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub3/seed1/selection/fold_summary.csv",
+      "sha256": "b0f387d57318cab9c0151b86ae292a1d5f98a0617fa7a69d580ee910d07b652d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub4/seed1/selection/fold_summary.csv",
+      "sha256": "6983dd2405529ec655e1ab383d31c5facfcec61b71d9218d59b32b0a796ae7b5"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub5/seed1/selection/fold_summary.csv",
+      "sha256": "6e8d4679ef8e51d0c12195446b5540cec3be8511eb5bb2c4d95691a4b983c9ad"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub6/seed1/selection/fold_summary.csv",
+      "sha256": "3dd022c0bec04b284d0d3e3673b14a5842754b9a8b5e87930485218e453c73be"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub7/seed1/selection/fold_summary.csv",
+      "sha256": "2cc1329ac79ad9b515bc66af28e575d9b5e7d7163e01cd1febe225004d271b52"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub8/seed1/selection/fold_summary.csv",
+      "sha256": "5df5cd6ea7545adce31dfc4328277150221577e40232cd8f34406943294b406b"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub9/seed1/selection/fold_summary.csv",
+      "sha256": "5431c7b51134b120dcb1363ac4bf83b1692e92f3c13e600b5472edba42e29b0f"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub10/seed1/selection/fold_summary.csv",
+      "sha256": "b04e1305740548f88ea813c23d336c6aa0340af786dead98fb9b75ceb1888712"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub11/seed1/selection/fold_summary.csv",
+      "sha256": "691d945238679ea3865b7074bbb22a8bbb0ff711ec9b6cb7934928ec0953230a"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub12/seed1/selection/fold_summary.csv",
+      "sha256": "18ec35a823cea1a1c1d55e9d09389f5ba8d1553dc210cbfa6be982c3822e627b"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub1/seed2/selection/fold_summary.csv",
+      "sha256": "876f74e2e491aaccd94a394e629c8fdf142fc0b0ae4ac21ed10b686669f71898"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub2/seed2/selection/fold_summary.csv",
+      "sha256": "5f16237e5a641ca0b214a9219ecdc79fba80bc2ed303e867903d3730aafaf3d2"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub3/seed2/selection/fold_summary.csv",
+      "sha256": "3ae61d9031243b9815f04ee09b0da28e5bf48054dc9e74f068d22f5daad6d09c"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub4/seed2/selection/fold_summary.csv",
+      "sha256": "f292eb7927a63d53470e0dab8c6ab3c85e8a57b9621a96404f8b525e699dd9d8"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub5/seed2/selection/fold_summary.csv",
+      "sha256": "6dab74d4245a86247b2892cf1f699af868afb2f604dc26946eadc6f9a1c6cca5"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub6/seed2/selection/fold_summary.csv",
+      "sha256": "1dc037d02aafb247bf90ad1362279bd0f3b4067237ccaa8b4ae7415bf7c9cc71"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub7/seed2/selection/fold_summary.csv",
+      "sha256": "20dcc044199c3e7ecbbdb5acdc4933f66956127b554d44472c28b8f0e80a4b8b"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub8/seed2/selection/fold_summary.csv",
+      "sha256": "0b0a33b02cdcb173766b6e7c2f8850b6bd3c3d0d338cdb79dc1fd740aecdaa97"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub9/seed2/selection/fold_summary.csv",
+      "sha256": "2d4f59cb7fabf2195ea22d6f682ea525588128964237699238086f6d9b6d22c2"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub10/seed2/selection/fold_summary.csv",
+      "sha256": "0cd9ea0400532cdf2cb0c7c6d4cd7ff88e49d5750f4e2efd0171139ecbeaaab4"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub11/seed2/selection/fold_summary.csv",
+      "sha256": "0244cae3dee2c295680764845fdd06dc53c6bdfd89ea85e901c91aad6dd9b312"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/sub12/seed2/selection/fold_summary.csv",
+      "sha256": "e94fd72b6bf955e885145bb26868c7aa93d40f3ac929e38ef418778f0cd0ceb0"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_nodemean_selection/NPFEEGNet/2026-09-26--14-58/summary.csv",
+      "sha256": "a3e4ed05fd96526e8e788984a21af2987e5b03c929c4652ee92ecbe0bcb909bd"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/results/bnci2015_001_nodemean_selected_epochs.json",
+      "sha256": "abee7df7c1d06e2e42079356834b8f1060f7d59bca327239428b0fb20313fee9"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_nodemean_final.yaml",
+      "sha256": "0280d944cad23bc0f6478d770adadde1315a76761609379fc54dd79b4e64c6cf"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_eegnet_demean_selection.yaml",
+      "sha256": "a10f5cb6667e27d0dcc15b0601660b6b7d058015abb47d035fe66c8cf24b5363"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub1/seed0/selection/fold_summary.csv",
+      "sha256": "3972b08c354d348faa040835f555c2d811d9047fd544242a6dc131b56722496f"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub2/seed0/selection/fold_summary.csv",
+      "sha256": "fa212b7befb50c14ce44a3ce7ddc16075f222f44b2933a481f73c35a98d7fee7"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub3/seed0/selection/fold_summary.csv",
+      "sha256": "80c4f29ed379522cbaad4cd4f6a18b5ad01efaec3bd97ad68d4f3ea32031a9ba"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub4/seed0/selection/fold_summary.csv",
+      "sha256": "12ef1ad10a78bdef5100dccb548dd34b32fd10e7003860742ea0fa42fce9031c"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub5/seed0/selection/fold_summary.csv",
+      "sha256": "0cd395bf18da5cd4acdd70b41c236def55b7665a7d6004b6d16f5064035ed3da"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub6/seed0/selection/fold_summary.csv",
+      "sha256": "6abf2c344d0d39feac7b70556ce3496f4800bd07d0d7216be7095689b83c756d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub7/seed0/selection/fold_summary.csv",
+      "sha256": "b05920279ba8c657bac6ff701eb381227ab06cbdb9efcefff1dd0a505da89fc4"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub8/seed0/selection/fold_summary.csv",
+      "sha256": "66252ef5409563756daf1559d1c9377e0c929ee8a15a87c3efa7039f7513a0e0"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub9/seed0/selection/fold_summary.csv",
+      "sha256": "53f75b7fc553475962d12f6ae6841575c57e66702e601eaa08a12006b337faef"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub10/seed0/selection/fold_summary.csv",
+      "sha256": "7a607dac2e825869c847f46e701615fef236bd141225c8d2b41f311e010b5f57"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub11/seed0/selection/fold_summary.csv",
+      "sha256": "7bb828aaf88e966f000757fc057f775f3f0283a0fbe2064fb8ab4865f9ee5101"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub12/seed0/selection/fold_summary.csv",
+      "sha256": "1fa64ddd610524cd6653b7e828bd7ff1d60f952a4fea9505ee9a9d87865fd503"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub1/seed1/selection/fold_summary.csv",
+      "sha256": "df5d27c1d6ee06371131a36c4c8af0d634bd03840257ea5858308492474007db"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub2/seed1/selection/fold_summary.csv",
+      "sha256": "8105554d4c49a09bef1ff81e252cd000e6d23f19bea0f28de2e85aec967766e3"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub3/seed1/selection/fold_summary.csv",
+      "sha256": "aa58e08476b8d349b7dc80292d1e9807d6a2bc3099269fd0d52ee2d807d93f56"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub4/seed1/selection/fold_summary.csv",
+      "sha256": "d930d6894042cc404db817c4b7653a65770f47f23b4c2b1ee73ddaa75f448afa"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub5/seed1/selection/fold_summary.csv",
+      "sha256": "dcb1a9fb33b479707307cdc68adedf69e266a304dd497109455106baac16f86d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub6/seed1/selection/fold_summary.csv",
+      "sha256": "fc00cc694be7bfc99822e8fc9836b2dd0ad7eb8f61e1989cbe64710258f79da4"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub7/seed1/selection/fold_summary.csv",
+      "sha256": "dc5f7ad5630b4df6097398fefe4daca6f9bf210715a73b4f70f57ee4a3b41a73"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub8/seed1/selection/fold_summary.csv",
+      "sha256": "f26d0eef473b0883038a5b6574aecbcf19ae66804dd94ec0dbbbca327c92ad58"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub9/seed1/selection/fold_summary.csv",
+      "sha256": "7c48e9330a5d2f764bdda0fec91ff2a8a7ab96c3b1ce037d1963ccd4b73d239a"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub10/seed1/selection/fold_summary.csv",
+      "sha256": "4805df340813ecfeefb14363293259efa7412c487b6450fb3cc223caa3ac1c04"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub11/seed1/selection/fold_summary.csv",
+      "sha256": "d6dd983dbd13adf8dfe36d22df630e77afb786f78951f5d6858dd12b964ec939"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub12/seed1/selection/fold_summary.csv",
+      "sha256": "bf212d8592b596a9f3a56d9fbfadf62b5c06b0d389dd9bd494d8f4a71dbf2ea7"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub1/seed2/selection/fold_summary.csv",
+      "sha256": "26693ab8055474d87ad305d4a9cd942315bbc48975049c1c0068bcaa0d2cee65"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub2/seed2/selection/fold_summary.csv",
+      "sha256": "1571acbb8d10fbd95f78a641ba9b8ee4b7ef6864fa3f8144ccea2ff3225548a0"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub3/seed2/selection/fold_summary.csv",
+      "sha256": "233b2f6301f6839a4291e58a01cc6574ba10cf7a618c51fd53ee18fe4eb2559e"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub4/seed2/selection/fold_summary.csv",
+      "sha256": "d99585e97bd0075657fffb2098c695ec1795ebc0d07c447614c7ea6ba8dc20eb"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub5/seed2/selection/fold_summary.csv",
+      "sha256": "eb22bc6d1340694c825aa20083fdc6ec20a2bfdb231501fa01b94750671d43b2"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub6/seed2/selection/fold_summary.csv",
+      "sha256": "9a925c98def56190c87c7880b0859d9869ecdc449e298a749f05fa3e8f24e79c"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub7/seed2/selection/fold_summary.csv",
+      "sha256": "1f6f332d249608ea04f35f21b68c22c2c631de3fb19f7d9899af4d0ef4123c7e"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub8/seed2/selection/fold_summary.csv",
+      "sha256": "4aa5d1f614bc65abcd6d89cfb132beb53df485101990fd10a27410ad347901d0"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub9/seed2/selection/fold_summary.csv",
+      "sha256": "5d56254523e2d6f1c6c9c3fe5df4bec04a498df31fae83243676169ed69ff185"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub10/seed2/selection/fold_summary.csv",
+      "sha256": "73cb2a088801d8271258c7f1a33594a1cf70cb08b39302e4cea08ff5717c95a5"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub11/seed2/selection/fold_summary.csv",
+      "sha256": "38580476f88a0906ed9cf22beca629e5a1282d48274cdd4d4a17518b58b2eefe"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/sub12/seed2/selection/fold_summary.csv",
+      "sha256": "58ba6fc2ed82c962b2975eb9e6f954c925fc24a6a7bcfed5be1e19fe31c789ee"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/bnci2015_001_eegnet_demean_selection/EEGNet/2026-09-26--15-44/summary.csv",
+      "sha256": "d13da0b0057a3409a95da501ef05f1fe7a945bee78bc43f9874110ec8910722d"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/results/bnci2015_001_eegnet_demean_selected_epochs.json",
+      "sha256": "8c844125b207f10c8f53a6191938da92272dda734fe1218ab120c107ff289ccc"
+    },
+    {
+      "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_eegnet_demean_final.yaml",
+      "sha256": "28b4ade0cff8faa32a29eaa811c4bdaf153f19871bc0922db8fb1336df91ff04"
+    }
+  ],
+  "session_b_sha256": {
+    "S01B.mat": "c1967542288f1081f933c89b0b2b5fd817cc73a130af848951fe15d8a904fc33",
+    "S02B.mat": "0d45430da95c7ba46297c351fb35ca9f95d3b19a433fd051504f3415be450acb",
+    "S03B.mat": "8b962d8afcf1453e0ea451cdc9ad68d58f64220655c2cbe04c4ce65a0904ccb8",
+    "S04B.mat": "8ff5b426ea3568b04d756d91b7686c962f6d58438978b3ba4adb7051198022f7",
+    "S05B.mat": "7ed264c798901f852362d6b9478dc24bebfde667ebb7ea5c472ed7ec417d3ca5",
+    "S06B.mat": "aa6d573c96af4a4d3912d87ecb26f0c9025c0b44a59c39ffed8ae9194f4ac4d8",
+    "S07B.mat": "fb74d4bb6de2428b7375c7d028d0184eef984a4f13e1f62eb4aeae2c0b897e92",
+    "S08B.mat": "86786c03b6bd9d3dd1f2864d79a079c4625889ea9ff30561d1d27e9627d2cf18",
+    "S09B.mat": "c848d2f1d7b709344a258cc7c1ea947978e7e99986720e6adb10d266c1cb10e0",
+    "S10B.mat": "0808b890c9d017eda6f6685addb9ef854552570fb9992609a3f63fca8ab88a13",
+    "S11B.mat": "804b7559fc784ea1a5b94f551e13a8995b33c4b9dd4acfb902d278725530ee09",
+    "S12B.mat": "ea198d64ce4e786056b85330c6e9f06b17c0fb4ba0edb79f0ad71ae8250ee25e"
+  }
+}

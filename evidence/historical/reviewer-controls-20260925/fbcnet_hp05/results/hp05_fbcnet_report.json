@@ -1,0 +1,62 @@
+{
+  "analysis_status": "post-confirmatory continuous-HP05 FBCNet sensitivity",
+  "integrity": {
+    "subjects": 54,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "rows": 162,
+    "lock_sha256": "fc9302ec85aa3c6d0f34d46a763da27f99daf0b45657366c83101481c423b423",
+    "fbcnet_summary_sha256": {
+      "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/output/final_gpu0/FBCNet/2026-09-26--12-49/summary.csv": "4fbe1704005e7e580f74183f4f82d7efa9b742eb1b947e9169ae9fc1a715db48",
+      "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/output/final_gpu1/FBCNet/2026-09-26--12-49/summary.csv": "ad9adcf836153cdcfdb635b51d7b4d152729956e663514bf6fffcbe14349a8b4"
+    },
+    "npf_summary_sha256": {
+      "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/output/hp05_rd_final/NPFEEGNet/2026-09-25--18-14/summary.csv": "1abfd060c28ea4b7405f4d26730941c97175b4ec2f07857078b3ae27e4ef61de"
+    }
+  },
+  "subject_macro_accuracy_pct": {
+    "FBCNet-HP05-Demean": 67.58024691358024,
+    "NPFEEGNet-HP05-RD": 69.33024691358024,
+    "FBCNet-original-Demean": 67.15123456790123
+  },
+  "pooled_prediction_metrics": {
+    "FBCNet-HP05-Demean": {
+      "nll": 0.5715527882806359,
+      "ece_pct": 6.404082211079419
+    },
+    "NPFEEGNet-HP05-RD": {
+      "nll": 0.6293066984615016,
+      "ece_pct": 8.396663609478207
+    }
+  },
+  "contrasts": {
+    "npf_hp05_rd_minus_fbcnet_hp05_demean": {
+      "difference_pp": 1.75,
+      "subject_bootstrap_95_ci_pp": [
+        -0.858101851851854,
+        4.385802469135804
+      ],
+      "wins_ties_losses": [
+        29,
+        1,
+        24
+      ]
+    },
+    "fbcnet_hp05_minus_original": {
+      "difference_pp": 0.42901234567901175,
+      "subject_bootstrap_95_ci_pp": [
+        -0.5925925925925942,
+        1.5432098765432107
+      ],
+      "wins_ties_losses": [
+        26,
+        2,
+        26
+      ]
+    }
+  },
+  "interpretation_limit": "FBCNet retains its author-exact internal 4\u201340-Hz filter bank; external continuous 0.5-Hz high-pass is a post-hoc input sensitivity intervention, not an original-author recipe."
+}

@@ -1,0 +1,57 @@
+{
+  "subject": 20,
+  "archive_url": "https://zenodo.org/records/18988317/files/S20.zip?download=1",
+  "target_session": "session_2",
+  "unlock_sha256": "7ae583c7e98fb14b0e4f9acd242865d02f55a4575d97b584afbf168f594ee66b",
+  "files": [
+    {
+      "source_zip_member": "session_2/run_01.npz",
+      "zip_crc32": "16b82c87",
+      "uncompressed_bytes": 57985858,
+      "compressed_bytes": 14525124,
+      "local_path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S20/session_2/run_01.npz",
+      "sha256": "09563400c2e816db0c5d1b83ed3afa1f0819a77ad407a3cca4f54c32a70dc8f7"
+    },
+    {
+      "source_zip_member": "session_2/run_02.npz",
+      "zip_crc32": "034b3f45",
+      "uncompressed_bytes": 57981826,
+      "compressed_bytes": 14636287,
+      "local_path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S20/session_2/run_02.npz",
+      "sha256": "6acf6163ae505dd559950358e36c4a64b9e074a44c03b8bea8fa7ebe493e1309"
+    },
+    {
+      "source_zip_member": "session_2/run_03.npz",
+      "zip_crc32": "0765b2b4",
+      "uncompressed_bytes": 92334306,
+      "compressed_bytes": 14955689,
+      "local_path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S20/session_2/run_03.npz",
+      "sha256": "26c4da1f5dc972392fd786cf568230c33fb1f88796f1a816992aafeb69704ce2"
+    },
+    {
+      "source_zip_member": "session_2/run_04.npz",
+      "zip_crc32": "7e272699",
+      "uncompressed_bytes": 57946610,
+      "compressed_bytes": 13483503,
+      "local_path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S20/session_2/run_04.npz",
+      "sha256": "629c2113ee1c980d3a2e798f215db1a96003eb05b52fed668d46edec6df78cb2"
+    },
+    {
+      "source_zip_member": "session_2/run_05.npz",
+      "zip_crc32": "2cd94cc4",
+      "uncompressed_bytes": 57931338,
+      "compressed_bytes": 13099847,
+      "local_path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S20/session_2/run_05.npz",
+      "sha256": "6dd16552386917b4ae010f310f1faec601856a65e04c09e0d5c6cf94fa93fab3"
+    },
+    {
+      "source_zip_member": "session_2/run_06.npz",
+      "zip_crc32": "4ca8b9ed",
+      "uncompressed_bytes": 57978682,
+      "compressed_bytes": 13734930,
+      "local_path": "/mnt/helongfei/database/raw/zhou2020_zenodo_v1/S20/session_2/run_06.npz",
+      "sha256": "79cb818d31ddf52ced80ed72eca16aaba1f19bacaa6af1d2029f881fd6a37023"
+    }
+  ],
+  "finished_utc": "2026-09-27T08:36:59Z"
+}

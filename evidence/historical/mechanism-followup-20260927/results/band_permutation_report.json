@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "analysis_role": "post-confirmatory sensitivity",
+  "subjects": 54,
+  "seeds": 3,
+  "permutations_per_band_per_run": 20,
+  "method": "shuffle one band embedding across 200 Session-2 trials within each subject/seed; preserve empirical band-embedding marginal, raw logits and trained weights",
+  "nll_harm_by_band": {
+    "4-8": {
+      "nll_harm": 0.004324202878791609,
+      "subject_bootstrap_95_ci": [
+        -0.0003823052449036888,
+        0.009052668108754318
+      ]
+    },
+    "8-13": {
+      "nll_harm": 0.10920017018546295,
+      "subject_bootstrap_95_ci": [
+        0.05320242140948037,
+        0.17682103633765628
+      ]
+    },
+    "13-20": {
+      "nll_harm": 0.04414078410496406,
+      "subject_bootstrap_95_ci": [
+        0.009039850956630993,
+        0.09135825239880767
+      ]
+    },
+    "20-30": {
+      "nll_harm": 0.007933470055483925,
+      "subject_bootstrap_95_ci": [
+        0.002136238435610991,
+        0.016242818356919916
+      ]
+    },
+    "30-40": {
+      "nll_harm": 0.0026917110358215413,
+      "subject_bootstrap_95_ci": [
+        0.0004107055404614428,
+        0.0064693125002201115
+      ]
+    }
+  }
+}

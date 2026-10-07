@@ -1,0 +1,8 @@
+{
+  "status": "post-confirmatory fixed classical FBCSP-style audit",
+  "protocol": "OpenBMI 54 subjects; S1 train and S2 test; 200 trials each",
+  "method": "9 non-overlapping 4-Hz bands (4-40 Hz), 4th-order zero-phase trial-wise Butterworth; CSP 2+2 per band; S1-only mutual-information selection of four CSP pairs; shrinkage LDA",
+  "subject_macro_accuracy_pct": 65.63888888888889,
+  "subject_macro_kappa": 0.31277777777777777,
+  "limitations": "FBCSP-style reference, not author-exact MIBIF/NBPW; trial-wise filtering may have boundary effects. No S2 hyperparameter selection."
+}

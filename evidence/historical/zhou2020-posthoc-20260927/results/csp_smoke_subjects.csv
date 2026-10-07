@@ -1,0 +1,2 @@
+subject,source_trials,target_trials,source_within_session_10fold_accuracy,source_within_session_10fold_sd,session1_to_session2_accuracy
+1,167,180,0.4,0.16518953265672254,0.35

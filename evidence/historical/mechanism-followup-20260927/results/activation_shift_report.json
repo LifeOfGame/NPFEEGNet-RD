@@ -1,0 +1,55 @@
+{
+  "status": "complete",
+  "analysis_role": "post-confirmatory mechanism diagnostic",
+  "subjects": 54,
+  "seeds": 3,
+  "metric": "RMS standardized Session-1 versus Session-2 centroid distance on trial-level time-averaged feature maps; each feature standardized by pooled within-session trial SD",
+  "note": "Separate trained RD and NoDemean checkpoints are compared; distance is descriptive and does not identify the causal mediator of accuracy gain.",
+  "layers": {
+    "raw_input": {
+      "rd_mean": 0.011140225938072911,
+      "nodemean_mean": 0.7149289407663875,
+      "rd_minus_nodemean": -0.7037887148283146,
+      "subject_bootstrap_95_ci": [
+        -0.8143364739289541,
+        -0.6003875744382472
+      ]
+    },
+    "temporal_conv": {
+      "rd_mean": 0.25693320643938616,
+      "nodemean_mean": 0.7047121901479032,
+      "rd_minus_nodemean": -0.447778983708517,
+      "subject_bootstrap_95_ci": [
+        -0.5564834881194488,
+        -0.3437751805800714
+      ]
+    },
+    "temporal_bn": {
+      "rd_mean": 0.2569254820729479,
+      "nodemean_mean": 0.7047120678112094,
+      "rd_minus_nodemean": -0.4477865857382615,
+      "subject_bootstrap_95_ci": [
+        -0.5559198902425483,
+        -0.3437510563968969
+      ]
+    },
+    "spatial_conv": {
+      "rd_mean": 0.25860421400931144,
+      "nodemean_mean": 0.7838735377163064,
+      "rd_minus_nodemean": -0.5252693237069948,
+      "subject_bootstrap_95_ci": [
+        -0.6503076653364173,
+        -0.41294162128879514
+      ]
+    },
+    "spatial_bn": {
+      "rd_mean": 0.25869374395704564,
+      "nodemean_mean": 0.7838743963727245,
+      "rd_minus_nodemean": -0.5251806524156789,
+      "subject_bootstrap_95_ci": [
+        -0.6501536049707621,
+        -0.41148630378330936
+      ]
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "analysis_status": "second post-confirmatory modern matched control",
+  "protocol": "OpenBMI S1 GroupCV to frozen full-S1 training and one S2 test",
+  "eegconformer_run": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/output/openbmi_eegconformer_final_demean_3seed/FBCNet/2026-09-18--12-33",
+  "npf_eegnet_raw_demean_run": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52",
+  "eegnet_demean_run": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/output/openbmi_baseline_final_eegnet_demean_3seed/EEGNet/2026-09-01--12-08",
+  "atcnet_run": "/mnt/helongfei/NPFEEGNet-RD-paper-20260917/output/openbmi_atcnet_final_demean_3seed/ATCNetLite/2026-09-01--20-51",
+  "architecture_reference_doi": "10.1109/TNSRE.2022.3230250",
+  "eegconformer_training_environments": [
+    {
+      "cuda_device": "NVIDIA GeForce RTX 2080 Ti",
+      "cudnn": 91002,
+      "numpy": "2.4.4",
+      "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+      "python": "3.12.14",
+      "scipy": "1.17.1",
+      "torch": "2.11.0+cu126",
+      "torch_cuda_build": "12.6"
+    }
+  ],
+  "model_size": {
+    "trainable_parameters": 786306,
+    "batch_norm_running_stat_buffers": 80,
+    "temporal_tokens": 61,
+    "embedding_dimension": 40,
+    "transformer_depth": 6
+  },
+  "main_results": [
+    {
+      "method": "EEGNet-Demean",
+      "accuracy_mean": 0.6460493827160493,
+      "subject_sample_sd": 0.11340281642532815,
+      "balanced_accuracy": 0.6460493827160494,
+      "nll": 0.7152381651262165,
+      "ece": 0.0988976242347264,
+      "class0_recall": 0.6514197530864198,
+      "class1_recall": 0.640679012345679
+    },
+    {
+      "method": "ATCNet-Matched-Demean",
+      "accuracy_mean": 0.6081790123456791,
+      "subject_sample_sd": 0.1109191957186868,
+      "balanced_accuracy": 0.608179012345679,
+      "nll": 0.7865247108533809,
+      "ece": 0.14959275779900727,
+      "class0_recall": 0.5690740740740741,
+      "class1_recall": 0.6472839506172839
+    },
+    {
+      "method": "EEGConformer-Matched-Demean",
+      "accuracy_mean": 0.6229938271604937,
+      "subject_sample_sd": 0.10163463751049591,
+      "balanced_accuracy": 0.6229938271604938,
+      "nll": 1.0697128369502185,
+      "ece": 0.2020350835794284,
+      "class0_recall": 0.6098148148148148,
+      "class1_recall": 0.6361728395061729
+    },
+    {
+      "method": "NPFEEGNet-RawDemean",
+      "accuracy_mean": 0.706358024691358,
+      "subject_sample_sd": 0.1316406208113471,
+      "balanced_accuracy": 0.706358024691358,
+      "nll": 0.63633714176785,
+      "ece": 0.09119184704842387,
+      "class0_recall": 0.6984567901234567,
+      "class1_recall": 0.7142592592592593
+    }
+  ],
+  "primary_comparison": {
+    "contrast": "NPFEEGNet-RawDemean - EEGConformer-Matched-Demean",
+    "analysis_status": "predeclared post-confirmatory extension contrast",
+    "independent_unit": "subject",
+    "n_subjects": 54,
+    "mean_change": 0.08336419753086423,
+    "subject_bootstrap_ci95_low": 0.059567901234567906,
+    "subject_bootstrap_ci95_high": 0.10996913580246916,
+    "bootstrap_seed": 20260904,
+    "bootstrap_samples": 100000,
+    "exact_sign_flip_p": 6.8833827526759706e-15,
+    "adjusted_p_one_contrast_family": 6.8833827526759706e-15,
+    "cohen_dz": 0.8732432249839502,
+    "wins": 51,
+    "ties": 1,
+    "losses": 2
+  },
+  "descriptive_checks": [
+    {
+      "contrast": "EEGConformer-Matched-Demean - EEGNet-Demean",
+      "status": "descriptive only; no predeclared significance claim",
+      "mean_change": -0.023055555555555555,
+      "wins": 13,
+      "ties": 1,
+      "losses": 40
+    },
+    {
+      "contrast": "EEGConformer-Matched-Demean - ATCNet-Matched-Demean",
+      "status": "descriptive only; no predeclared significance claim",
+      "mean_change": 0.014814814814814817,
+      "wins": 41,
+      "ties": 0,
+      "losses": 13
+    }
+  ],
+  "holm_two_modern_baseline_sensitivity": [
+    {
+      "contrast": "NPFEEGNet-RawDemean - ATCNet-Matched-Demean",
+      "raw_p": 1.4432899320127035e-15,
+      "holm_two_p": 2.886579864025407e-15,
+      "status": "retrospective two-modern-baseline sensitivity only"
+    },
+    {
+      "contrast": "NPFEEGNet-RawDemean - EEGConformer-Matched-Demean",
+      "raw_p": 6.8833827526759706e-15,
+      "holm_two_p": 6.8833827526759706e-15,
+      "status": "retrospective two-modern-baseline sensitivity only"
+    }
+  ]
+}

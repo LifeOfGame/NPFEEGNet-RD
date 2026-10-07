@@ -1,0 +1,221 @@
+{
+  "status": "ready_for_s1_selection",
+  "protocol": "OpenBMI post-confirmatory extension design v1",
+  "created_utc": "2026-09-05T00:47:40.926439+00:00",
+  "analysis_status": "post-confirmatory",
+  "original_session2_and_reference_results_previously_observed": true,
+  "new_variants_not_yet_evaluated_on_session2": [
+    "NPFEEGNet-FullDemean",
+    "NPFEEGNet-HighPass1Hz",
+    "EEGConformer-Matched-Demean"
+  ],
+  "official_evaluation_permitted_for_new_epoch_selection": false,
+  "training_engine_sha256": "dd010b3c64a1ec25e10b1fe539e439a0e1f3305942327e4baea49ef7e6485e15",
+  "preprocessing_primary_family": [
+    "NPFEEGNet-RawDemean - NPFEEGNet-FullDemean",
+    "NPFEEGNet-RawDemean - NPFEEGNet-HighPass1Hz"
+  ],
+  "preprocessing_multiplicity": "Holm correction across two contrasts",
+  "modern_baseline_primary_family": [
+    "NPFEEGNet-RawDemean - EEGConformer-Matched-Demean"
+  ],
+  "statement": "This internal SHA-256 manifest fixes the v1 post-confirmatory extension before its Session-1 selection jobs. It is not an external preregistration and does not restore an untouched OpenBMI evaluation set.",
+  "artifacts": [
+    {
+      "path": "OPENBMI_POSTCONFIRMATORY_EXTENSION_AUDIT.md",
+      "sha256": "e840c15d3ed97a74f2fb5814089d92cd0e83daa75f807aad8fe6e00ddc625ff3"
+    },
+    {
+      "path": "OPENBMI_POSTCONFIRMATORY_PREPROCESSING_CONTROLS.md",
+      "sha256": "877b443963fae44814921b87f48b05a54ef66b65d5de4445cbd38990b0f4cf1b"
+    },
+    {
+      "path": "OPENBMI_PREPROCESSING_CONTROLS_RUNBOOK.md",
+      "sha256": "80e363fb68d43ac61a8b6469f862a22b067a395168ca903446b04c7d54b7470d"
+    },
+    {
+      "path": "OPENBMI_POSTCONFIRMATORY_EEGCONFORMER_PROTOCOL.md",
+      "sha256": "d056e5b53b3ff2b1c7b16a72a7e0eab84d22a4b658f63a06026b577feb02b9b3"
+    },
+    {
+      "path": "OPENBMI_EEGCONFORMER_RUNBOOK.md",
+      "sha256": "d133d9c899d108bc815cf4b64633b4d62d2f393491e53687014a1ddc0d447514"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "sha256": "e9eb90aefc0d7a915829038ab0623373b5a598bcc4ac389cb0494a906177ff79"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "845c4cc674a162f8b1617d08714d14d2c125ffc779565f4393e30c4b7222c921"
+    },
+    {
+      "path": "repro/frozen_engine_loader.py",
+      "sha256": "860957da574e1a401c999e336463b18d709b14deef7bf58f629c20aee50c836f"
+    },
+    {
+      "path": "repro/frozen_engines/openbmi_dd010/train_dcsa_2a.py",
+      "sha256": "dd010b3c64a1ec25e10b1fe539e439a0e1f3305942327e4baea49ef7e6485e15"
+    },
+    {
+      "path": "train_openbmi_preprocessing_controls.py",
+      "sha256": "19cfb55dfdd17cb33cd4671197407888c06905473401ea53331419cddb317337"
+    },
+    {
+      "path": "train_openbmi_eegconformer.py",
+      "sha256": "9f8d517e975d9533c1378d92e4734ca4e96f73212dc8305203fc970210ef5772"
+    },
+    {
+      "path": "data/openbmi/preprocessing_controls.py",
+      "sha256": "5c35861a87e407ad79bcc4bb4ca102255c585a078fd629d4a77f934328429c40"
+    },
+    {
+      "path": "data/data_utils.py",
+      "sha256": "ee393f7d24d911919a0a722da2f352a6e4c1f6432b9ef4d44f97ebef203a3227"
+    },
+    {
+      "path": "data/dataset.py",
+      "sha256": "62fb1eb557416d9cded67908237026c4440aea0ecb66f1341579a600cd0b9830"
+    },
+    {
+      "path": "utils.py",
+      "sha256": "4d0ccc454d6c5d09090ee82164d44f51270c0739c4fb904225ea373ce26d4a8b"
+    },
+    {
+      "path": "model/baseModel.py",
+      "sha256": "b52523b6f5d76756f4d1374ed200005ecb1a801044575509a5de9c19074454d7"
+    },
+    {
+      "path": "model/CSANet_2b.py",
+      "sha256": "a6e3efdf5c477439a0ecddb0d3a41052868947c33af689a6019e3c47290edfaf"
+    },
+    {
+      "path": "model/DCSA_Net.py",
+      "sha256": "dfa6ed25521ae1bc95070cef79affcdb8cf2c4ef8e65652329844ad680cd37e8"
+    },
+    {
+      "path": "model/NPF_DCSA.py",
+      "sha256": "2d5a1537c9684acfd11a7d911ecc3cf6f7efc24cf96b0824b61945ec8ef3e423"
+    },
+    {
+      "path": "model/NPF_EEGNet.py",
+      "sha256": "94d7d071582063dfbacf68362b480f130af0ed524e19c81ce4a0277f986d7544"
+    },
+    {
+      "path": "model/baselines.py",
+      "sha256": "6651b6ebebea1467a57b9af03e45d341d6d8f84cc80dbeffe4acabf3546ef108"
+    },
+    {
+      "path": "model/openbmi_eegconformer.py",
+      "sha256": "d980f4a0ae9bff6f4806d5aef77c5d1c1186126a9b871bf167539283c0bb6e92"
+    },
+    {
+      "path": "scripts/freeze_openbmi_extension_design.py",
+      "sha256": "16a2222fe9597d4fc6b04a5946315ad6d3ec809708bf5f8bc57037620ca9362e"
+    },
+    {
+      "path": "scripts/freeze_openbmi_selection.py",
+      "sha256": "d7680ef1e5e865ff725dd3682651ae5c18a82445c3e92e6d340d5267e1724a56"
+    },
+    {
+      "path": "scripts/freeze_openbmi_preprocessing_controls.py",
+      "sha256": "f14bd4e7a22326367cc29d76d8827650c4484db07e569152300d40ff29fa1126"
+    },
+    {
+      "path": "scripts/freeze_openbmi_eegconformer_selection.py",
+      "sha256": "76d3c293b7acf589bd2f5f097814a76ffe4762d3cd1c312d8231487b9d87859c"
+    },
+    {
+      "path": "scripts/analyze_openbmi_final.py",
+      "sha256": "190431a15ea8fb5bb882a3503f985f4a78430ee0acdd8e966c5e07fd24723be7"
+    },
+    {
+      "path": "scripts/analyze_openbmi_baselines.py",
+      "sha256": "4141a36f974276f5c086a0a64065deaac67f1e9606770064368a4b2c4a4e998b"
+    },
+    {
+      "path": "scripts/analyze_openbmi_atcnet.py",
+      "sha256": "d49202159a283a5e7b837b1ebb485afbb9f8e156959a505a0ce7ed5c4519662e"
+    },
+    {
+      "path": "scripts/analyze_hgd_h07_loro_screen.py",
+      "sha256": "6102429091b7bab12a9d6f216e8dd5ed1191838611c76664f5e31b3e88da1a20"
+    },
+    {
+      "path": "scripts/analyze_openbmi_preprocessing_controls.py",
+      "sha256": "fff0810876e7b97264e9443e1d7927aa939eebbb8b5d4d104a8e8748fce76d66"
+    },
+    {
+      "path": "scripts/analyze_openbmi_eegconformer.py",
+      "sha256": "299a41eb1b16773c975339056777bae6b84e7e206381acac334a72ac14d1fa45"
+    },
+    {
+      "path": "scripts/smoke_test_openbmi_preprocessing_controls.py",
+      "sha256": "111d09c2bbcc73fb2ddbd5b1c693dcc95b69eff341e41781ef86e48dc2251ac6"
+    },
+    {
+      "path": "scripts/smoke_test_openbmi_eegconformer.py",
+      "sha256": "0bbda44926a117a916b859587f6d26dbf740700a0f519a49d616232213f1bdf5"
+    },
+    {
+      "path": "config/openbmi_preprocess_control_selection_fulldemean_3seed.yaml",
+      "sha256": "0026c0114243dba578bdf699485bdf3455e4eb3b4bab69c9a1ab243d99acf7c1"
+    },
+    {
+      "path": "config/openbmi_preprocess_control_final_fulldemean_3seed.yaml",
+      "sha256": "135ae19a54d92ba49337b55e9bdbd6c0665d4ea408b4dda109f21184573398f1"
+    },
+    {
+      "path": "config/openbmi_preprocess_control_selection_highpass1hz_3seed.yaml",
+      "sha256": "9d6beb38666be8c68471d1ed7e7a22c9b413c5fff12cf5cbd94bebd8eb85f006"
+    },
+    {
+      "path": "config/openbmi_preprocess_control_final_highpass1hz_3seed.yaml",
+      "sha256": "1b389f4d3b2ee2ca667eb2ffdc2612360b06a35e31e9d3743c4ee7cd20ddc0f6"
+    },
+    {
+      "path": "config/openbmi_eegconformer_selection_demean_3seed.yaml",
+      "sha256": "bfe5a7be39d3e0675816384c02fdd7e3de96969990790ed4c75cd6d98b4c18bc"
+    },
+    {
+      "path": "config/openbmi_eegconformer_final_demean_3seed.yaml",
+      "sha256": "bd1a1c00b827c3f4d680ac14bb44e6fb2c6798b50d620c340917fa1e274876b3"
+    },
+    {
+      "path": "config/openbmi_selection_npf_raw_demean_3seed.yaml",
+      "sha256": "d25e437fcd34ea916a63601bec46e5fc46dad648a8e037da1dcd7606606f97a0"
+    },
+    {
+      "path": "config/openbmi_final_npf_raw_demean_3seed.yaml",
+      "sha256": "d89c2d7b78e1b97bdae093adb5379e6b6e5ef2a552f667312e826ab7827d9400"
+    },
+    {
+      "path": "results/openbmi_evaluation_unlock.json",
+      "sha256": "acaa00fe3abe2d993eb3f5c70cd3e5499a27ede6daa345f081000e9101cd9316"
+    },
+    {
+      "path": "results/openbmi_npf_raw_demean_selected_epochs.json",
+      "sha256": "4f1ed6b241ea6fea440d595aae69e9ee12434afce919754bb373267c7b4ce7d9"
+    },
+    {
+      "path": "results/openbmi_final_3seed_rows.csv",
+      "sha256": "ab9d0a450ebf825ce94777ff14d71b23360e72b4b9fa333370247bb841f058f7"
+    },
+    {
+      "path": "results/openbmi_final_3seed_subjects.csv",
+      "sha256": "5a977ad77f729f31eda92ce08c60ac18e512c92ffa290147fdddb53557a02089"
+    },
+    {
+      "path": "results/openbmi_final_3seed_report.json",
+      "sha256": "0341e06416bacffd470c1e9629d26af9bb2dd389c882a3eded952a5700438b7d"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "c2ad0d89f8e65e503c3eac32ecbbd4363413db0214da5967d336e2ed8c8d05da"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "62ba59cd6fb6952f857c6a46b51ed7b731d5e7cff49756fc6e88700fc8789362"
+    }
+  ]
+}

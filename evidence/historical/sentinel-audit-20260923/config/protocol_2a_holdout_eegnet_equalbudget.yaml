@@ -1,0 +1,43 @@
+# Equal-budget EEGNet baseline for the frozen BCIC-IV-2a Core experiment.
+# Split, seeds, optimizer, scheduler, budget, and final retraining all match Core.
+network: EEGNet
+network_args:
+  num_channels: 22
+  classes: 4
+  n_times: 1000
+  temporal_filters: 8
+  depth_multiplier: 2
+  temporal_kernel: 64
+  separable_kernel: 16
+  pool_sizes: [4, 8]
+  dropout: 0.5
+data_path: database/processed/2a
+data_prefix: A
+out_folder: output/protocol_2a_holdout_eegnet_equalbudget
+preferred_device: gpu
+nGPU: 0
+random_seed: 0
+random_seeds: [0, 1, 2]
+batch_size: 64
+epochs: 300
+optimizer: adam
+lr: 0.001
+weight_decay: 0.0001
+label_smoothing: 0.0
+use_data_augmentation: false
+num_classes: 4
+num_segs: 4
+validation_strategy: group
+validation_group: -1
+two_stage_training: true
+selection_only: false
+epoch_selection_strategy: holdout
+use_group_class_sampler: false
+early_stopping_patience: 40
+use_lr_scheduler: true
+lr_scheduler_type: cosine
+cosine_t_max: 300
+min_lr: 0.000001
+export_aux: false
+export_selection_aux: false
+subjects: [1, 2, 3, 4, 5, 6, 7, 8, 9]

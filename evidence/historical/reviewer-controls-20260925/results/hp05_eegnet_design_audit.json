@@ -1,0 +1,65 @@
+{
+  "analysis_status": "post-confirmatory design audit before EEGNet S2 evaluation",
+  "variants": {
+    "hp05_eegnet_small_nodemean": {
+      "width": 8,
+      "standardization": "none",
+      "gpu": 0,
+      "configs": {
+        "selection": {
+          "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_small_nodemean_selection.yaml",
+          "sha256": "32945fe3fef65fdada749a4d4465522286c00ccd79f5bf16c6b7fd6434273667"
+        },
+        "final": {
+          "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_small_nodemean_final.yaml",
+          "sha256": "fb954b8c414d0ca4a2c423659b0694922030dedf92d32a06ba4c62061fef68de"
+        }
+      }
+    },
+    "hp05_eegnet_small_demean": {
+      "width": 8,
+      "standardization": "demean",
+      "gpu": 0,
+      "configs": {
+        "selection": {
+          "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_small_demean_selection.yaml",
+          "sha256": "ab3b5750abeb2a092c7cabda79b834d7e552590f2662121ff7d51f59569ba974"
+        },
+        "final": {
+          "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_small_demean_final.yaml",
+          "sha256": "3e78a5ff9a856aaf653f9171db4751c70fef69f60586dc3263046df01c6ebfb3"
+        }
+      }
+    },
+    "hp05_eegnet_large_nodemean": {
+      "width": 31,
+      "standardization": "none",
+      "gpu": 1,
+      "configs": {
+        "selection": {
+          "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_large_nodemean_selection.yaml",
+          "sha256": "493fc4a84de7185602c99a720fbe973186c9eef6b7f821c2e45602ac9134a2ea"
+        },
+        "final": {
+          "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_large_nodemean_final.yaml",
+          "sha256": "3752211d73186fff5161c73ce767fb974b27d5c095785903d0a95db0982df86d"
+        }
+      }
+    },
+    "hp05_eegnet_large_demean": {
+      "width": 31,
+      "standardization": "demean",
+      "gpu": 1,
+      "configs": {
+        "selection": {
+          "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_large_demean_selection.yaml",
+          "sha256": "6d67810c4aef7ade224e47c1f50b8932f23b4b650036712a8024a063e2bc49bf"
+        },
+        "final": {
+          "path": "/mnt/helongfei/NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_large_demean_final.yaml",
+          "sha256": "046725a76ed3afb2897ef4abbc16b9a0e9156bfbaabc5c1bf19c366adac8f28d"
+        }
+      }
+    }
+  }
+}

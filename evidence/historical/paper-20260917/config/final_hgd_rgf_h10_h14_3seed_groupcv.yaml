@@ -1,0 +1,79 @@
+# Frozen RGF candidate on untouched H10-H14. See HGD_RGF_DEVELOPMENT_PROTOCOL.md.
+network: NPFEEGNet
+network_args:
+  num_channels: 44
+  classes: 4
+  n_times: 1000
+  sampling_rate: 250.0
+  bands:
+    - [4.0, 8.0]
+    - [8.0, 13.0]
+    - [13.0, 20.0]
+    - [20.0, 30.0]
+    - [30.0, 40.0]
+  temporal_filters: 8
+  depth_multiplier: 2
+  temporal_kernel: 64
+  separable_kernel: 16
+  pool_sizes: [4, 8]
+  dropout: 0.5
+  band_temporal_kernel: 32
+  band_feature_pool: 8
+  band_embedding_dim: 64
+  band_dropout: 0.3
+  adaptive_band_routing: false
+  router_power_segments: 4
+  router_hidden_dim: 32
+  router_temperature: 0.7
+  router_initial_strength: 0.1
+  router_max_strength: 0.5
+  residual_initial_strength: 0.1
+  residual_max_strength: 0.5
+  fusion_mode: reliability_gate
+  fusion_hidden_dim: 32
+  fusion_dropout: 0.1
+  fusion_initial_spectral_weight: 0.5
+  fusion_min_spectral_weight: 0.05
+  fusion_max_spectral_weight: 0.95
+  transition_hz: 1.0
+  learnable_band_edges: false
+  max_edge_shift_hz: 2.0
+  input_standardization: none
+data_path: database/processed/hgd
+data_prefix: H
+out_folder: output/final_hgd_rgf_h10_h14_3seed_groupcv
+preferred_device: gpu
+nGPU: 0
+cudnn_enabled: true
+random_seed: 0
+random_seeds: [0, 1, 2]
+batch_size: 64
+train_microbatch_size: 16
+log_first_epoch_batches: true
+epochs: 300
+optimizer: adam
+lr: 0.001
+weight_decay: 0.0001
+band_edge_lr_multiplier: 1.0
+label_smoothing: 0.0
+raw_branch_loss_weight: 0.5
+spectral_branch_loss_weight: 0.25
+session_alignment_weight: 0.0
+use_data_augmentation: false
+num_classes: 4
+num_segs: 8
+validation_strategy: group
+two_stage_training: true
+selection_only: false
+epoch_selection_strategy: group_cv
+cv_num_folds: 3
+cv_epoch_aggregation: median
+use_group_class_sampler: false
+early_stopping_patience: 40
+use_lr_scheduler: true
+lr_scheduler_type: cosine
+cosine_t_max: 300
+min_lr: 0.000001
+export_aux: true
+export_selection_aux: false
+subjects: [10, 11, 12, 13, 14]

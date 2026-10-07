@@ -1,0 +1,124 @@
+network: FBCNet
+network_args:
+  num_channels: 20
+  classes: 2
+  n_times: 1000
+  sampling_rate: 250.0
+  bands:
+  - - 4
+    - 8
+  - - 8
+    - 12
+  - - 12
+    - 16
+  - - 16
+    - 20
+  - - 20
+    - 24
+  - - 24
+    - 28
+  - - 28
+    - 32
+  - - 32
+    - 36
+  - - 36
+    - 40
+  spatial_filters: 32
+  temporal_segments: 4
+  input_standardization: demean
+data_path: /mnt/helongfei/database/processed/openbmi
+data_prefix: O
+out_folder: /mnt/helongfei/NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/output/final
+selected_epochs_file: /mnt/helongfei/NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/results/selected_epochs.json
+protocol_lock_file: /mnt/helongfei/NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/results/session2_lock.json
+preferred_device: gpu
+nGPU: 0
+cudnn_enabled: true
+random_seed: 0
+random_seeds:
+- 0
+- 1
+- 2
+batch_size: 64
+train_microbatch_size: 16
+log_first_epoch_batches: true
+epochs: 300
+optimizer: adam
+lr: 0.001
+weight_decay: 0.0001
+label_smoothing: 0.0
+raw_branch_loss_weight: 0.0
+spectral_branch_loss_weight: 0.0
+session_alignment_weight: 0.0
+use_data_augmentation: false
+num_classes: 2
+num_segs: 8
+fixed_epoch_training: true
+two_stage_training: false
+selection_only: false
+early_stopping_patience: null
+use_group_class_sampler: false
+use_lr_scheduler: true
+lr_scheduler_type: cosine
+cosine_t_max: 300
+min_lr: 1.0e-06
+export_aux: true
+subjects:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 26
+- 27
+- 28
+- 29
+- 30
+- 31
+- 32
+- 33
+- 34
+- 35
+- 36
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+- 54
+publication_model_name: FBCNet-AuthorFilter-Matched-Demean
+analysis_status: post-confirmatory extension after previous OpenBMI outcomes
+implementation_provenance: local FBCNet architecture, author-exact Chebyshev-II stopband,
+  frozen OpenBMI training engine

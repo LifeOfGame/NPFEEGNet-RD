@@ -2,7 +2,23 @@
 
 Fixed spectral-residual EEGNet with raw-branch trial-wise temporal demeaning.
 
-**Status: repository preparation, version 0.2.0.dev0. This is not the complete manuscript reproducibility release and has no archive DOI yet.** This repository contains an independent maintained model implementation, a new training/inference interface, and the corrected summary-level OpenBMI BP8–30 audit. The new trainer does not certify or regenerate all historical paper results. Do not describe this initial repository as the final paper-associated v1.0.0.
+**Status: repository preparation, version 0.3.0.dev0. This is not the complete manuscript reproducibility release and has no archive DOI yet.** This repository contains an independent maintained model implementation, a new training/inference interface, and the corrected summary-level OpenBMI BP8–30 audit. The new trainer does not certify or regenerate all historical paper results. Do not describe this initial repository as the final paper-associated v1.0.0.
+
+## Expanded historical evidence (7 October 2026)
+
+- `evidence/predictions/`: 45 groups, 5,346 runs, anonymous labels/probabilities and source hashes.
+- `scripts/audit_predictions.py`: portable subject-macro accuracy and pooled NLL/ECE reconstruction with NumPy only.
+- `evidence/historical/`: 573 original configurations, locks and result records, including superseded developmental records.
+- `historical_sources/`: original experiment-specific preprocessing/analysis/wrapper sources. These retain legacy imports and paths; they are reference material, not a turnkey training pipeline.
+- `baselines/`: preserved ATCNet and independently implemented EEG Conformer architecture controls, with provenance notices.
+- `evidence/environments/`: recovered common-duration audit environment, not a claim that all historical experiments used it.
+
+```bash
+python scripts/audit_predictions.py --output /path/to/new-audit-directory
+python -m unittest discover -s tests -p test_prediction_audit.py -v
+```
+
+See `docs/EXPERIMENT_MAP.md` before selecting results. No raw EEG, features or weights are included. Remaining original-engine licensing and execution-path gaps are explicit in `docs/REPRODUCTION_COVERAGE.md`.
 
 ## Included
 
@@ -41,7 +57,7 @@ The default execution device is CPU. Select a CUDA device explicitly through the
 
 ## Validation
 
-On 7 October 2026, all 10 included tests passed on CPU in an isolated server directory (Python 3.12.14, PyTorch 2.11.0+cu126, NumPy 2.4.4). The 324-row BP8?30 verification and corrected paired analysis also passed. See `docs/VALIDATION_20261007.json`. These checks do not constitute rerunning the paper experiments.
+On 7 October 2026, all 14 included tests passed on CPU in an isolated server directory (Python 3.12.14, PyTorch 2.11.0+cu126, NumPy 2.4.4). The 324-row BP8?30 verification and corrected paired analysis also passed. See `docs/VALIDATION_20261007.json` for the initial checks and `docs/VALIDATION_EXPANDED_20261007.json` for the expanded checks. These checks do not constitute rerunning the paper experiments.
 
 ## Scientific and licensing scope
 

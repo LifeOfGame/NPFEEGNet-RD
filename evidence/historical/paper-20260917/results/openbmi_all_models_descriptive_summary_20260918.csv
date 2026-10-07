@@ -1,0 +1,8 @@
+rank,method,accuracy_mean,accuracy_subject_sd,kappa_mean,kappa_subject_sd,median_retrain_epochs,mean_retrain_epochs,minimum_retrain_epochs,maximum_retrain_epochs,summary_path
+1,NPFEEGNet-RawDemean,0.706358024691358,0.13164062081134706,0.41271604938271605,0.2632812416226941,58.5,66.61111111111111,1,235,output/openbmi_final_npf_raw_demean_3seed/NPFEEGNet/2026-08-31--14-52/summary.csv
+2,NPFEEGNet-FullDemean,0.7041358024691358,0.132441095146166,0.4082716049382716,0.26488219029233206,59.0,65.61728395061728,1,254,output/openbmi_preprocess_control_final_fulldemean_3seed/NPFEEGNet/2026-09-18--12-33/summary.csv
+3,NPFEEGNet-NoDemean,0.6645061728395062,0.13725201752024765,0.32901234567901233,0.2745040350404953,52.0,60.74074074074074,1,200,output/openbmi_final_npf_nodemean_3seed/NPFEEGNet/2026-08-31--15-25/summary.csv
+4,EEGNet-Demean,0.6460493827160494,0.11340281642532815,0.2920987654320988,0.2268056328506563,44.0,47.93827160493827,1,140,output/openbmi_baseline_final_eegnet_demean_3seed/EEGNet/2026-09-01--12-08/summary.csv
+5,NPFEEGNet-HighPass1Hz,0.6454320987654321,0.15556085894922766,0.2908641975308642,0.31112171789845533,48.0,58.73456790123457,2,219,output/openbmi_preprocess_control_final_highpass1hz_3seed/NPFEEGNet/2026-09-18--12-33/summary.csv
+6,EEGConformer-Matched-Demean,0.6229938271604938,0.1016346375104959,0.24598765432098765,0.2032692750209918,30.0,33.22839506172839,2,107,output/openbmi_eegconformer_final_demean_3seed/FBCNet/2026-09-18--12-33/summary.csv
+7,ATCNet-Matched-Demean,0.6081790123456791,0.1109191957186868,0.21635802469135804,0.2218383914373736,37.5,42.70987654320987,2,180,output/openbmi_atcnet_final_demean_3seed/ATCNetLite/2026-09-01--20-51/summary.csv

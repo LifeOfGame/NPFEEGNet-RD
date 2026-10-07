@@ -1,0 +1,84 @@
+{
+  "candidate_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\screen_hgd_raw_demean_controls_h01_h05_h06_groupcv_seed0_selection_only\\NPFEEGNet\\2026-08-30--13-31",
+  "core_run": "C:\\Users\\Hacker\\Desktop\\EEG-CSANet\\output\\screen_hgd_npf_eegnet_core_groupcv_seed0_selection_only\\NPFEEGNet\\2026-08-27--21-11",
+  "macro_core_accuracy": 0.8604903198653199,
+  "macro_raw_demean_accuracy": 0.8937815656565656,
+  "macro_accuracy_change": 0.03329124579124576,
+  "worst_subject_accuracy_change": -0.050000000000000044,
+  "minimum_predicted_class_share": 0.234375,
+  "passes_control_rule": true,
+  "subjects": [
+    {
+      "subject": 1,
+      "core_accuracy": 0.921875,
+      "raw_demean_accuracy": 0.871875,
+      "accuracy_change": -0.050000000000000044,
+      "core_fold_std": 0.02841287853538719,
+      "raw_demean_fold_std": 0.04448782605013049,
+      "raw_demean_balanced_accuracy": 0.871875,
+      "raw_demean_nll": 0.36180195212364197,
+      "raw_demean_min_class_share": 0.234375,
+      "raw_demean_max_class_share": 0.26875,
+      "raw_demean_class_recalls": [
+        0.8375,
+        0.9125,
+        0.7875,
+        0.95
+      ],
+      "raw_demean_predicted_class_shares": [
+        0.253125,
+        0.24375,
+        0.234375,
+        0.26875
+      ]
+    },
+    {
+      "subject": 5,
+      "core_accuracy": 0.8277777777777777,
+      "raw_demean_accuracy": 0.9208333333333334,
+      "accuracy_change": 0.09305555555555567,
+      "core_fold_std": 0.10548243081137518,
+      "raw_demean_fold_std": 0.012266334536566462,
+      "raw_demean_balanced_accuracy": 0.9208333333333334,
+      "raw_demean_nll": 0.2793586850166321,
+      "raw_demean_min_class_share": 0.24305555555555555,
+      "raw_demean_max_class_share": 0.25972222222222224,
+      "raw_demean_class_recalls": [
+        0.8722222222222222,
+        0.8833333333333333,
+        0.9444444444444444,
+        0.9833333333333333
+      ],
+      "raw_demean_predicted_class_shares": [
+        0.24305555555555555,
+        0.2513888888888889,
+        0.24583333333333332,
+        0.25972222222222224
+      ]
+    },
+    {
+      "subject": 6,
+      "core_accuracy": 0.8318181818181818,
+      "raw_demean_accuracy": 0.8886363636363636,
+      "accuracy_change": 0.05681818181818177,
+      "core_fold_std": 0.09425532535631442,
+      "raw_demean_fold_std": 0.03403486320789681,
+      "raw_demean_balanced_accuracy": 0.8886363636363637,
+      "raw_demean_nll": 0.3426499664783478,
+      "raw_demean_min_class_share": 0.24431818181818182,
+      "raw_demean_max_class_share": 0.25681818181818183,
+      "raw_demean_class_recalls": [
+        0.8545454545454545,
+        0.8636363636363636,
+        0.9045454545454545,
+        0.9318181818181818
+      ],
+      "raw_demean_predicted_class_shares": [
+        0.24431818181818182,
+        0.25113636363636366,
+        0.24772727272727274,
+        0.25681818181818183
+      ]
+    }
+  ]
+}

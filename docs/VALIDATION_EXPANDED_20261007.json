@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-07",
+  "scope": "Expanded preparation release; not full historical retraining",
+  "cpu_unittests": {
+    "passed": 14,
+    "python": "3.12.14",
+    "torch": "2.11.0+cu126",
+    "numpy": "2.4.4",
+    "gpu_used": false
+  },
+  "prediction_audit": {
+    "groups": 45,
+    "runs": 5346,
+    "trials": 1074447,
+    "primary_rd_accuracy_pct": 70.6358024691358,
+    "primary_nodemean_accuracy_pct": 66.45061728395063,
+    "primary_rd_nll": 0.63633714176785,
+    "primary_nodemean_nll": 0.8359492005605299
+  },
+  "limits": [
+    "Historical wrappers not end-to-end tested",
+    "Legacy frozen engine excluded pending permission",
+    "Not all manuscript artifacts mapped to a fixed manuscript revision",
+    "No formal release or DOI"
+  ]
+}

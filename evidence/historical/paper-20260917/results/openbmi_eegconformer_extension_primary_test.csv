@@ -1,0 +1,2 @@
+contrast,analysis_status,independent_unit,n_subjects,mean_change,subject_bootstrap_ci95_low,subject_bootstrap_ci95_high,bootstrap_seed,bootstrap_samples,exact_sign_flip_p,adjusted_p_one_contrast_family,cohen_dz,wins,ties,losses
+NPFEEGNet-RawDemean - EEGConformer-Matched-Demean,predeclared post-confirmatory extension contrast,subject,54,0.08336419753086423,0.059567901234567906,0.10996913580246916,20260904,100000,6.8833827526759706e-15,6.8833827526759706e-15,0.8732432249839502,51,1,2

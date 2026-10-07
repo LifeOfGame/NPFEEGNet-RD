@@ -1,0 +1,47 @@
+# Full paper baseline; run only after the B02/B03 diagnostic behaves correctly.
+network: ATCNetLite
+network_args:
+  num_channels: 3
+  classes: 2
+  n_times: 1000
+  temporal_filters: 16
+  depth_multiplier: 2
+  temporal_kernel: 64
+  refine_kernel: 16
+  pool_sizes: [8, 7]
+  conv_dropout: 0.3
+  windows: 5
+  head_dim: 8
+  num_heads: 2
+  attention_dropout: 0.5
+  tcn_depth: 2
+  tcn_kernel: 4
+  tcn_dropout: 0.3
+data_path: database/processed/2b
+data_prefix: B
+out_folder: output/baseline_2b_all_subjects_atcnetlite_twostage
+preferred_device: gpu
+nGPU: 0
+random_seed: 0
+random_seeds: [0, 1, 2, 3, 4]
+batch_size: 64
+epochs: 500
+optimizer: adam
+lr: 0.0009
+weight_decay: 0.0001
+label_smoothing: 0.0
+use_data_augmentation: false
+num_classes: 2
+num_segs: 4
+validation_strategy: group
+validation_group: -1
+two_stage_training: true
+epoch_selection_strategy: holdout
+use_group_class_sampler: false
+early_stopping_patience: 40
+use_lr_scheduler: true
+lr_scheduler_type: cosine
+cosine_t_max: 500
+min_lr: 0.000001
+export_aux: false
+subjects: [1, 2, 3, 4, 5, 6, 7, 8, 9]

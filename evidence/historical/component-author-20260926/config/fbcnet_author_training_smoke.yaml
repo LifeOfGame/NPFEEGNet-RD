@@ -1,0 +1,71 @@
+analysis_status: post-confirmatory author-training sensitivity
+batch_size: 16
+cosine_t_max: 300
+cudnn_enabled: true
+cv_epoch_aggregation: median
+cv_num_folds: 2
+data_path: /mnt/helongfei/database/processed/openbmi
+data_prefix: O
+early_stopping_patience: 200
+epoch_selection_strategy: group_cv
+epochs: 1500
+export_aux: false
+export_selection_aux: false
+implementation_provenance: local FBCNet architecture, author-exact Chebyshev-II stopband,
+  frozen OpenBMI training engine
+label_smoothing: 0.0
+log_first_epoch_batches: true
+lr: 0.001
+lr_scheduler_type: cosine
+min_lr: 1.0e-06
+nGPU: 0
+network: FBCNet
+network_args:
+  bands:
+  - - 4
+    - 8
+  - - 8
+    - 12
+  - - 12
+    - 16
+  - - 16
+    - 20
+  - - 20
+    - 24
+  - - 24
+    - 28
+  - - 28
+    - 32
+  - - 32
+    - 36
+  - - 36
+    - 40
+  classes: 2
+  input_standardization: demean
+  n_times: 1000
+  num_channels: 20
+  sampling_rate: 250.0
+  spatial_filters: 32
+  temporal_segments: 4
+num_classes: 2
+num_segs: 8
+optimizer: adam
+out_folder: /mnt/helongfei/NPFEEGNet-RD-component-author-20260926/output/fbcnet_author_training/smoke
+preferred_device: gpu
+publication_model_name: FBCNet-author-filter-author-training
+random_seed: 0
+random_seeds:
+- 0
+raw_branch_loss_weight: 0.0
+selection_only: true
+session_alignment_weight: 0.0
+spectral_branch_loss_weight: 0.0
+subjects:
+- 1
+train_microbatch_size: 16
+two_stage_training: true
+use_data_augmentation: false
+use_group_class_sampler: false
+use_lr_scheduler: false
+validation_strategy: group
+weight_decay: 0.0

@@ -1,0 +1,2 @@
+contrast,analysis_status,independent_unit,n_subjects,mean_change,subject_bootstrap_ci95_low,subject_bootstrap_ci95_high,bootstrap_seed,bootstrap_samples,exact_sign_flip_p,adjusted_p_one_contrast_family,cohen_dz,wins,ties,losses
+NPFEEGNet-RawDemean - ATCNet-Matched-Demean,predeclared post-confirmatory extension contrast,subject,54,0.09817901234567904,0.08015432098765435,0.1175308641975309,20260901,100000,1.4432899320127035e-15,1.4432899320127035e-15,1.3841401317393773,52,0,2

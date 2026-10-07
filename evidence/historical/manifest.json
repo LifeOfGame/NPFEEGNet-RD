@@ -1,0 +1,2870 @@
+{
+  "scope": "Historical records, including developmental and superseded analyses. Not a canonical manuscript table registry. Original absolute paths are provenance, not portable execution instructions. Configuration files alone do not supply the legacy engine.",
+  "files": [
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/A01_full.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/A01_full.json",
+      "sha256": "f5a52cb4bccb441a66eef0bdd49cbe5acc4d9b03585f8c818bc0d90b6e7df092"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/A01_smoke.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/A01_smoke.json",
+      "sha256": "44ea81608aea9db1e547b87b7cd6bbac6c577f2954917f1fb12cf16420c26a65"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/A03_full.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/A03_full.json",
+      "sha256": "e252988f3459b6f841041c0587bd4f207d50082215faaee202ca8db996aaf09e"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/A08_full.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/A08_full.json",
+      "sha256": "5a26426273928d9bcdeafe44db0a9060dec7112825aa800335f3f8ab8a221542"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A01_full.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A01_full.json",
+      "sha256": "b8a968258399fa8a89ebfbafea7178cb826b1198f061844b74ccad70f96e7bc8"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A01_full_fbcnet.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A01_full_fbcnet.json",
+      "sha256": "b208b37f3af4272597ed7986f75a77b1f2d3882d092fd53f7f27679ca028e499"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A01_smoke_fbcnet.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A01_smoke_fbcnet.json",
+      "sha256": "aa2adb479d3d6e39df5d06358a2a0fe68730de413df601d952f7538c8c4e24ad"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A02_full.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A02_full.json",
+      "sha256": "74b28861310c8d75adc6c902ab25de13fa299174af29e472ea96b7767ff3333f"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A02_full_fbcnet.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A02_full_fbcnet.json",
+      "sha256": "ba072c159b21ebbfebdb0445d6b5c7cb426af8fd16b68807a2e0f965d9cf101c"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A03_full.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A03_full.json",
+      "sha256": "ca3b2a9d826b1c2efb4afc672d8ffe7df258a481239ab3b15bbc0ff7fc557235"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A03_full_fbcnet.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A03_full_fbcnet.json",
+      "sha256": "52f0b75e396f79e2e725ce6b7f5f111d51fde80f59eb958e69d570349890007a"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A04_full.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A04_full.json",
+      "sha256": "fc9b1a93d456bf5872ef9b6c0bc60366c85d148017861ae3f800be12dbdc2d56"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A04_full_fbcnet.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A04_full_fbcnet.json",
+      "sha256": "249f4c52ecee31e8f77184cc9ad9026bdc4cfa6560b1ffc015462bb8a5c07658"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A05_full.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A05_full.json",
+      "sha256": "0568b1ec9e2a84dc13ee974dd54a63c93a940f3db47f2c742d49329f77dd4f21"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A05_full_fbcnet.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A05_full_fbcnet.json",
+      "sha256": "5a23bcf3b83dac0cbee912e8f737a7fd6ef91356a12b4cb77acc91bd4c9ea2a7"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A06_full.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A06_full.json",
+      "sha256": "1ecb5614f5bdbd11dd39186d26c278826d240485bc84ba7c4fa24578f63847c8"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A06_full_fbcnet.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A06_full_fbcnet.json",
+      "sha256": "9afb4a51e786c7f49422c877a3bf74fcd49fdc21ae78bd046104dc3fec0cbb51"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A07_full.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A07_full.json",
+      "sha256": "2e4f81d9efe2b41ecc02a34cf043379e34f9ccd3a1e9aafce7a6be06000b5987"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A07_full_fbcnet.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A07_full_fbcnet.json",
+      "sha256": "32191c08791065b9130144e6d002e6ebed91e03bd819e7f9130f76e22aae7c4a"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A08_full.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A08_full.json",
+      "sha256": "4b3d298554730b357555a2349150378b673848dfb9da080f3b33c9fd93604682"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A08_full_fbcnet.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A08_full_fbcnet.json",
+      "sha256": "cddbe2690b328e770a5419bd14791b7d460d6b2d15611aad46ad0e0d04ed377e"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A09_full.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A09_full.json",
+      "sha256": "d2c7b130b6ac1653b758b0bc0faf8dee68d39c77276d37066e50834b8137514d"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned/A09_full_fbcnet.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned/A09_full_fbcnet.json",
+      "sha256": "d83ec1ac73609194f973bcfff43f78180ca1a90ec174e766e249613bb4c0e777"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned_three_model_report.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned_three_model_report.json",
+      "sha256": "ebc2f2e67d44246a02567f69a1bb7ee0220233f358eabe4048b652fe0cc9acec"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/cue_aligned_three_model_subjects.csv",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/cue_aligned_three_model_subjects.csv",
+      "sha256": "f2cb0bfadcbcb63f180c6529800bcd48c494a421d5d58a876061c73ddad559a9"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/fbcnet_author_filter_comparison.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/fbcnet_author_filter_comparison.json",
+      "sha256": "fe315cd016db4a5a23339de040e12a7e6280c02317a68dda6c39213e30a0ba9b"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/fbcnet_filter_equivalence.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/fbcnet_filter_equivalence.json",
+      "sha256": "e5dd4b50ebf1e4d83c8c2afaef72bb71916310a9890bc01d19681894e44aa58c"
+    },
+    {
+      "file": "evidence/historical/baseline-audit-20260922/results/fbcnet_filter_equivalence_fixed.json",
+      "source": "NPFEEGNet-RD-baseline-audit-20260922/results/fbcnet_filter_equivalence_fixed.json",
+      "sha256": "6ccf9107a26d3b004c84990bbea2481bcc8ee91d9338fc9f0dc3dc16a7e93466"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/config/bp830_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-bp830-20260929/config/bp830_nodemean_final.yaml",
+      "sha256": "2a0fcf45e7ea863b860dd29492ae7b518f66821f79c14eee8bbd5fc107cee51c"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/config/bp830_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-bp830-20260929/config/bp830_nodemean_selection.yaml",
+      "sha256": "fd3e3a034d86be8ba8bdb37c213b6da17bfd6dd1697617c3e77ec93110c3923e"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/config/bp830_rd_final.yaml",
+      "source": "NPFEEGNet-RD-bp830-20260929/config/bp830_rd_final.yaml",
+      "sha256": "5def3cff775606ade4b8d44beb71a4795afa0f65d9414f7fca451d9556118f0f"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/config/bp830_rd_selection.yaml",
+      "source": "NPFEEGNet-RD-bp830-20260929/config/bp830_rd_selection.yaml",
+      "sha256": "a989346b835ba210f5711246ede1064df546276f2c79e27346e08965d992db79"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/config/design_lock.json",
+      "source": "NPFEEGNet-RD-bp830-20260929/config/design_lock.json",
+      "sha256": "e7c052eb490978273db5e66bee9bee934ce46dacd7a9586580f011724d8ee93f"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/config/openbmi_final_3seed_rows.csv",
+      "source": "NPFEEGNet-RD-bp830-20260929/config/openbmi_final_3seed_rows.csv",
+      "sha256": "ba9d8a0c7d48691b25790f25140d2dd548f542b5d8651568b0d6739f4275a264"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/results/bp830_nodemean_final_summary.csv",
+      "source": "NPFEEGNet-RD-bp830-20260929/results/bp830_nodemean_final_summary.csv",
+      "sha256": "e4f08796620a478f2698ba75d58bc38a012e99bf7fedcb9496d02c673952bfbe"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/results/bp830_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-bp830-20260929/results/bp830_nodemean_selected_epochs.json",
+      "sha256": "c15d327262413655bf5642723a25ea2394be99564cabe81b99f4a89b2635dad5"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/results/bp830_nodemean_selection_summary.csv",
+      "source": "NPFEEGNet-RD-bp830-20260929/results/bp830_nodemean_selection_summary.csv",
+      "sha256": "cfb1533a403c1db567ec5e74bf2e8d2026322478c91a22073426769ad664952a"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/results/bp830_rd_final_summary.csv",
+      "source": "NPFEEGNet-RD-bp830-20260929/results/bp830_rd_final_summary.csv",
+      "sha256": "bbc4a06dc615de9f13ae042f26aaf260d89edd747d06cb090510f50af8be81a3"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/results/bp830_rd_selected_epochs.json",
+      "source": "NPFEEGNet-RD-bp830-20260929/results/bp830_rd_selected_epochs.json",
+      "sha256": "c24f4e2e4ae852c608f4e48c7a3186a65e4e169d63b4812b46e01eca0d3e3588"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/results/bp830_rd_selection_summary.csv",
+      "source": "NPFEEGNet-RD-bp830-20260929/results/bp830_rd_selection_summary.csv",
+      "sha256": "0054c25b2f209e6d79b88339ba13e0794974e9b3ca8994d66af4d39bb0bace74"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/results/bp830_report.json",
+      "source": "NPFEEGNet-RD-bp830-20260929/results/bp830_report.json",
+      "sha256": "9f2c1a2520418f4d97b1a52612d0e6a7f1fa8607a7c3dcee537567af7d4c4109"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/results/bp830_verification.json",
+      "source": "NPFEEGNet-RD-bp830-20260929/results/bp830_verification.json",
+      "sha256": "c21c80b0717483807c6a1d12831e1e8b2653fe03ac2395d12f1544d6ca0a4510"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/results/openbmi_final_3seed_rows.csv",
+      "source": "NPFEEGNet-RD-bp830-20260929/results/openbmi_final_3seed_rows.csv",
+      "sha256": "ba9d8a0c7d48691b25790f25140d2dd548f542b5d8651568b0d6739f4275a264"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/results/preflight.json",
+      "source": "NPFEEGNet-RD-bp830-20260929/results/preflight.json",
+      "sha256": "63d545e367daaa0e632250ba9231b873bca6759e1a156f2f8a96f97906849f36"
+    },
+    {
+      "file": "evidence/historical/bp830-20260929/results/signal_summary.csv",
+      "source": "NPFEEGNet-RD-bp830-20260929/results/signal_summary.csv",
+      "sha256": "104b5c898fdcd6b6c040e4535d6b8c25fc0305d554da22d3039fa8ccf48e19b4"
+    },
+    {
+      "file": "evidence/historical/common-duration-20260928/config/no_at_no.yaml",
+      "source": "NPFEEGNet-RD-common-duration-20260928/config/no_at_no.yaml",
+      "sha256": "bf1139ea93125120a913b285db8c0cbae3a0a096f043f48d2c8b04ed15a4cf7e"
+    },
+    {
+      "file": "evidence/historical/common-duration-20260928/config/no_at_rd.yaml",
+      "source": "NPFEEGNet-RD-common-duration-20260928/config/no_at_rd.yaml",
+      "sha256": "864f5e02fea22d04779b0fcf41f0ab5252f559263de49ac7774bb840a4ee9c08"
+    },
+    {
+      "file": "evidence/historical/common-duration-20260928/config/rd_at_no.yaml",
+      "source": "NPFEEGNet-RD-common-duration-20260928/config/rd_at_no.yaml",
+      "sha256": "a10c8d89f920dbbc7b2cf15d0942493e3fc23adfbb906a97657c51451d750952"
+    },
+    {
+      "file": "evidence/historical/common-duration-20260928/config/rd_at_rd.yaml",
+      "source": "NPFEEGNet-RD-common-duration-20260928/config/rd_at_rd.yaml",
+      "sha256": "0601a9146f05f950fabd401ac4cbb53a369afa33b2cf7e20745689194786178d"
+    },
+    {
+      "file": "evidence/historical/common-duration-20260928/results/report.json",
+      "source": "NPFEEGNet-RD-common-duration-20260928/results/report.json",
+      "sha256": "866e43cbdb7975c3af03e206c0444eeaa0694b9472faa0824046afcdd0078aeb"
+    },
+    {
+      "file": "evidence/historical/common-duration-20260928/results/subject_summary.csv",
+      "source": "NPFEEGNet-RD-common-duration-20260928/results/subject_summary.csv",
+      "sha256": "2dbcfea5ece71b454c57a5abbff6eec4226225bd26704830231f4d823809bd69"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/config/fbcnet_author_training_final.yaml",
+      "source": "NPFEEGNet-RD-component-author-20260926/config/fbcnet_author_training_final.yaml",
+      "sha256": "743ec10930ef979490cf876f7b7e469b97ae097b5cfbd7f6fed4966c03e731c9"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/config/fbcnet_author_training_selection.yaml",
+      "source": "NPFEEGNet-RD-component-author-20260926/config/fbcnet_author_training_selection.yaml",
+      "sha256": "1adc3410bd86fa4021c457b43bfec7190067a58e0e62e3c11da910fdcfb4409c"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/config/fbcnet_author_training_smoke.yaml",
+      "source": "NPFEEGNet-RD-component-author-20260926/config/fbcnet_author_training_smoke.yaml",
+      "sha256": "fee1da589da193acb9877812662929dabc236e40045d56a3df0ccda6c5a27fde"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/config/no_spectral_prior_final.yaml",
+      "source": "NPFEEGNet-RD-component-author-20260926/config/no_spectral_prior_final.yaml",
+      "sha256": "713d2a972d741c53be9bc8345f3dd383b1a2f063f3fe204df71994c773b5facb"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/config/no_spectral_prior_selection.yaml",
+      "source": "NPFEEGNet-RD-component-author-20260926/config/no_spectral_prior_selection.yaml",
+      "sha256": "2bd0b9d8133b2800e162e56af8b449fa4f97d336fd7f0f064917e66e0f6c3836"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/config/no_spectral_prior_smoke.yaml",
+      "source": "NPFEEGNet-RD-component-author-20260926/config/no_spectral_prior_smoke.yaml",
+      "sha256": "1f6ebf38fa5d8e6147790bbb6c86261dbf66e1add0f62d4d01d17f39611338d6"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/config/spectral_only_final.yaml",
+      "source": "NPFEEGNet-RD-component-author-20260926/config/spectral_only_final.yaml",
+      "sha256": "d1030eaabd545fbbc3b970bb0c508456b6f8cfce2dcdff9003caef4d960e11e4"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/config/spectral_only_selection.yaml",
+      "source": "NPFEEGNet-RD-component-author-20260926/config/spectral_only_selection.yaml",
+      "sha256": "5503d7b977839354a342a88c117e7909e4174f9fee99acface1630198efdcf66"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/config/spectral_only_smoke.yaml",
+      "source": "NPFEEGNet-RD-component-author-20260926/config/spectral_only_smoke.yaml",
+      "sha256": "da156392d18987533955b57758920f62fe8fdb0223edcd39f1ef37655623853a"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/results/component_author_report.json",
+      "source": "NPFEEGNet-RD-component-author-20260926/results/component_author_report.json",
+      "sha256": "92c9347397dcbee8e1dc547dc81eb585fea16c484ba26ed489caafef2b3efee4"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/results/component_author_subjects.csv",
+      "source": "NPFEEGNet-RD-component-author-20260926/results/component_author_subjects.csv",
+      "sha256": "040efbe6f117e9fe7ad4365909d5916a2abb8aef5a7ece9443eb1581b047a4f0"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/results/design_lock.json",
+      "source": "NPFEEGNet-RD-component-author-20260926/results/design_lock.json",
+      "sha256": "53d4c039c8cbfc2bd266fd3511235b96b801154b79832e01f99c712f2f586271"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/results/fbcnet_author_training_selected_epochs.json",
+      "source": "NPFEEGNet-RD-component-author-20260926/results/fbcnet_author_training_selected_epochs.json",
+      "sha256": "4b3bf7b6485bb79c1bd67d06d5075ecb8e3b8e80f1cf2ef25d0e83fcd80a7c43"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/results/no_spectral_prior_selected_epochs.json",
+      "source": "NPFEEGNet-RD-component-author-20260926/results/no_spectral_prior_selected_epochs.json",
+      "sha256": "de909607ff1e1866fa920262af9f06b1f098b0f533364e06ef910f2478ddc21e"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/results/openbmi_rd_fbcnet_calibration_diagnostic.json",
+      "source": "NPFEEGNet-RD-component-author-20260926/results/openbmi_rd_fbcnet_calibration_diagnostic.json",
+      "sha256": "b16d2e57e35daad114d08bfa04206c31251aab676d58d3513e4077e26a811e3d"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/results/session2_lock.json",
+      "source": "NPFEEGNet-RD-component-author-20260926/results/session2_lock.json",
+      "sha256": "ecaea237a1bff5853b6453249ed088deebd6c7f14f81173273336774ff4bfdd0"
+    },
+    {
+      "file": "evidence/historical/component-author-20260926/results/spectral_only_selected_epochs.json",
+      "source": "NPFEEGNet-RD-component-author-20260926/results/spectral_only_selected_epochs.json",
+      "sha256": "4028ef5be2f96ceed1ad62a718628f7b0adedf8e0fd47d5df99e51f1ec8b7ad1"
+    },
+    {
+      "file": "evidence/historical/mechanism-followup-20260927/results/activation_shift_report.json",
+      "source": "NPFEEGNet-RD-mechanism-followup-20260927/results/activation_shift_report.json",
+      "sha256": "fd7065a8a2a0fe7bbe24b3c838b30e5669f4e2df92abf07f5f7f09029c959cbe"
+    },
+    {
+      "file": "evidence/historical/mechanism-followup-20260927/results/activation_shift_runs.csv",
+      "source": "NPFEEGNet-RD-mechanism-followup-20260927/results/activation_shift_runs.csv",
+      "sha256": "3bb4a3c2d7170e2302ba4c60afdf24f03c6a64f183545501df2decd18c042de9"
+    },
+    {
+      "file": "evidence/historical/mechanism-followup-20260927/results/band_permutation_report.json",
+      "source": "NPFEEGNet-RD-mechanism-followup-20260927/results/band_permutation_report.json",
+      "sha256": "ae8540c8284bdf5152e1a9f09b414595ea3102787918b9e86a6b47638353780b"
+    },
+    {
+      "file": "evidence/historical/mechanism-followup-20260927/results/band_permutation_runs.csv",
+      "source": "NPFEEGNet-RD-mechanism-followup-20260927/results/band_permutation_runs.csv",
+      "sha256": "b31eac8db6ee15c311da5500534eb55b9754e9826efdf685cb0f4fca440e015a"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/config/current_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/config/current_nodemean_final.yaml",
+      "sha256": "c80c1e31e15f75239a4d3877f542c5dde4e5e819ea5f0a96ac2739bed7203791"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/config/current_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/config/current_nodemean_selection.yaml",
+      "sha256": "c1e7118253a66b4dbe99de87ab8b1aeb8ab333504714c8351446983f71003279"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/config/current_rd_final.yaml",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/config/current_rd_final.yaml",
+      "sha256": "5e8fa5d9507078fe8a7739961f633623be9f84ad6842bf83d5046f92e2bb177f"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/config/current_rd_selection.yaml",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/config/current_rd_selection.yaml",
+      "sha256": "e4dd83acf4113c2419086c35783ab0900d68bc81d6e19c6d65eb16a731289bd5"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/config/fft_reflect_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/config/fft_reflect_nodemean_final.yaml",
+      "sha256": "da9ee61cfdefadd7a33428defd4e2baa217c790c5ef6a1a75bc7531baa500717"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/config/fft_reflect_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/config/fft_reflect_nodemean_selection.yaml",
+      "sha256": "fbf4364bd0f2fc366cd77dd3d4f7d46eff10c528d99f02fc832af9aa02d279dd"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/config/fft_reflect_rd_final.yaml",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/config/fft_reflect_rd_final.yaml",
+      "sha256": "6dfdc26541364e2a9d6009dbc3a6e1e1a8e5083caaa5ebdcab23c81ad589e513"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/config/fft_reflect_rd_selection.yaml",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/config/fft_reflect_rd_selection.yaml",
+      "sha256": "a1a3763eb91bf99082def0d5f4792f02dc007625ca6f43dee58b8cf12dc321af"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/config/raw_reflect_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/config/raw_reflect_nodemean_final.yaml",
+      "sha256": "0484299b708e80766e59850febb60ab9d4a20a0fb691e91acb9c114e3c72a731"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/config/raw_reflect_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/config/raw_reflect_nodemean_selection.yaml",
+      "sha256": "75acae5b4c43e64d334f79b6dfc9cdf555cee7cb309ebadbee29632a760a6ebc"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/config/raw_reflect_rd_final.yaml",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/config/raw_reflect_rd_final.yaml",
+      "sha256": "d2f938d65b5f1d95b60587983939858c23ace3a0bcfde99f549b609abc208866"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/config/raw_reflect_rd_selection.yaml",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/config/raw_reflect_rd_selection.yaml",
+      "sha256": "c524a8e39d9ec76501bd5060ca1a96bf4c51d2d18e24e898c444eaa059b8fd6f"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/results/current_nodemean_epochs.json",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/results/current_nodemean_epochs.json",
+      "sha256": "75812be364b7b4ea4c9519326c36e98e9739b4a8f92745def77cdae5fac9ec68"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/results/current_rd_epochs.json",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/results/current_rd_epochs.json",
+      "sha256": "314f40e84fe7725f63c682286aff3720bbf786a9cff26b546730e6a6ff127449"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/results/fft_reflect_nodemean_epochs.json",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/results/fft_reflect_nodemean_epochs.json",
+      "sha256": "a9332ccd38febcd393f804405d77f4c07b7b7a8d755b99197d5783f63ae89bdf"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/results/fft_reflect_rd_epochs.json",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/results/fft_reflect_rd_epochs.json",
+      "sha256": "5d9e2a233e76accd21581e325e81fe43b0e40c8fb1b5e2ff9891ba0ac278503a"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/results/final_report.json",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/results/final_report.json",
+      "sha256": "49cb012a06a838bba6833dac736d284128ba32aac7e24b9f8b3ae881dddcab58"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/results/raw_reflect_nodemean_epochs.json",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/results/raw_reflect_nodemean_epochs.json",
+      "sha256": "9b53e5e8be5295b19196ff98a5c380b13d6f23d3e475fe2100a7575f213e6661"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/results/raw_reflect_rd_epochs.json",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/results/raw_reflect_rd_epochs.json",
+      "sha256": "c4af4cdcc52d07e4cb10b9872f936fc11b479e678947b94f5c1b06b69655a519"
+    },
+    {
+      "file": "evidence/historical/methods-audit-20260928/results/subject_accuracies.csv",
+      "source": "NPFEEGNet-RD-methods-audit-20260928/results/subject_accuracies.csv",
+      "sha256": "0f2792c4b62729e7bef5cb5ed993809892f3baa267322b93fbe418ebb5ed2ed1"
+    },
+    {
+      "file": "evidence/historical/openbmi-fbcnet-audit-20260922/config/fbcnet_final.yaml",
+      "source": "NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/config/fbcnet_final.yaml",
+      "sha256": "4304091e6c9a8a9833777d3fda23a2aad18bf651e2bacaf54dbbf2e56b9e1af1"
+    },
+    {
+      "file": "evidence/historical/openbmi-fbcnet-audit-20260922/config/fbcnet_final_gpu1.yaml",
+      "source": "NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/config/fbcnet_final_gpu1.yaml",
+      "sha256": "6d1c67dbbfaa7da6862a77b711fa075a82d38f991dbee2163a7a5aea6cf74a9a"
+    },
+    {
+      "file": "evidence/historical/openbmi-fbcnet-audit-20260922/config/fbcnet_final_gpu2.yaml",
+      "source": "NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/config/fbcnet_final_gpu2.yaml",
+      "sha256": "1e828953082df5a0aa3fd767cf1f57913c4bad2644c34e1eadc901e4263ea05c"
+    },
+    {
+      "file": "evidence/historical/openbmi-fbcnet-audit-20260922/config/fbcnet_selection.yaml",
+      "source": "NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/config/fbcnet_selection.yaml",
+      "sha256": "6d284f1974f5a022d1119f107de48db5e72615735a6241f00121f13e97b5b796"
+    },
+    {
+      "file": "evidence/historical/openbmi-fbcnet-audit-20260922/config/fbcnet_selection_gpu1.yaml",
+      "source": "NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/config/fbcnet_selection_gpu1.yaml",
+      "sha256": "7ca7b985d8104971e85a7f536c64a8041148713182a35d919b19589a80412b95"
+    },
+    {
+      "file": "evidence/historical/openbmi-fbcnet-audit-20260922/config/fbcnet_selection_gpu2.yaml",
+      "source": "NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/config/fbcnet_selection_gpu2.yaml",
+      "sha256": "091a4dfddfadd480621d7acc36f856b013eaeabc3790fe992ed8900df663eb4d"
+    },
+    {
+      "file": "evidence/historical/openbmi-fbcnet-audit-20260922/config/fbcnet_smoke.yaml",
+      "source": "NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/config/fbcnet_smoke.yaml",
+      "sha256": "79aac1631b0e23231fe75e25ea1fb0199b1ef3ab357ac510723d1dd3add0bedf"
+    },
+    {
+      "file": "evidence/historical/openbmi-fbcnet-audit-20260922/results/design_lock.json",
+      "source": "NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/results/design_lock.json",
+      "sha256": "adc13080e280f532a095ab10f8ef55fd78e1175f99c6a35cf836b41bfe4981a6"
+    },
+    {
+      "file": "evidence/historical/openbmi-fbcnet-audit-20260922/results/openbmi_fbcnet_report.json",
+      "source": "NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/results/openbmi_fbcnet_report.json",
+      "sha256": "0759efb90dd7aafda3c0940f135f68ab62e7251baf93fd62a82366c2357da5e9"
+    },
+    {
+      "file": "evidence/historical/openbmi-fbcnet-audit-20260922/results/openbmi_fbcnet_runs.csv",
+      "source": "NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/results/openbmi_fbcnet_runs.csv",
+      "sha256": "270dc81628be0ae8b973f967a9e7f90e3e261d2183e59fa8381faae36c38fc5a"
+    },
+    {
+      "file": "evidence/historical/openbmi-fbcnet-audit-20260922/results/selected_epochs.json",
+      "source": "NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/results/selected_epochs.json",
+      "sha256": "99ca91c3133f345f1794d20ad539267188bc8e143aaeeed6a58977d115aa2320"
+    },
+    {
+      "file": "evidence/historical/openbmi-fbcnet-audit-20260922/results/session2_lock.json",
+      "source": "NPFEEGNet-RD-openbmi-fbcnet-audit-20260922/results/session2_lock.json",
+      "sha256": "122143b712f8076654f9c0235ca3d107ad25f6a26e4e716bd3eadd0113fc61c1"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage.yaml",
+      "sha256": "6d0f11ae0a2997de8643e916c32694274edaedf6cc679e938409ac006c172975"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage.yaml",
+      "sha256": "150e5529228fdea681ae52c4b25b2975710518deab94cae43bef54d27c5917a3"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage.yaml",
+      "sha256": "47c024d9163068e6be872d053ddf3a0a8e311e4d991f3eca90fb0f580bbe5946"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/ablation_2b_npf_eegnet_v2_learnable_uniform_seed0_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/ablation_2b_npf_eegnet_v2_learnable_uniform_seed0_twostage.yaml",
+      "sha256": "e9cd6b53381f403e26383007947c21a1198ff682cd23c40a34a4b8bd3c5401af"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/ablation_2b_npf_eegnet_v2_learnable_uniform_seed1_seed2_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/ablation_2b_npf_eegnet_v2_learnable_uniform_seed1_seed2_twostage.yaml",
+      "sha256": "c86a2703042a648160537fb09679ff9f0d11aecbc6a71b4e486a63b8fd0bd27f"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/ablation_2b_npf_eegnet_v2_no_deepsup_seed0_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/ablation_2b_npf_eegnet_v2_no_deepsup_seed0_twostage.yaml",
+      "sha256": "e1d83e1470093f6e660d7c7b1bc583bf09ff83f613d1fdedc1f6e0c70c040c89"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/ablation_2b_npf_eegnet_v2_no_deepsup_seed1_seed2_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/ablation_2b_npf_eegnet_v2_no_deepsup_seed1_seed2_twostage.yaml",
+      "sha256": "0be5a24ac45da586d8cf44735c4d122796672f6cc1d17030fcdb55646894a9d7"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/baseline_2b_all_subjects_atcnetlite_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/baseline_2b_all_subjects_atcnetlite_twostage.yaml",
+      "sha256": "1b01ff50ccc300169ef9072ba488d2cb30f4b446f1b71c8ded71f7b746d8845c"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/baseline_2b_all_subjects_eegnet_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/baseline_2b_all_subjects_eegnet_twostage.yaml",
+      "sha256": "aa55a95258dfbd0c85cf18421b665fa38d4331b50c114d7c9db966fbfe748cec"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/baseline_2b_b02_b03_atcnetlite_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/baseline_2b_b02_b03_atcnetlite_twostage.yaml",
+      "sha256": "8e2899a8c2e057277724ebf9be2843921566b31cf2c068c2c34900682643e588"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/baseline_2b_b02_b03_eegnet_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/baseline_2b_b02_b03_eegnet_twostage.yaml",
+      "sha256": "9e8313b3a71cbcb058dd112f6aab458c9c41ec792509541cca5d66503ba0947b"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/baseline_2b_remaining_subjects_eegnet_seed0.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/baseline_2b_remaining_subjects_eegnet_seed0.yaml",
+      "sha256": "f996c2c5187d4f143d18e3c4b118689a555b3d5d719da50c9792665b6b301e73"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/confirm_2b_core_sr8_seeds12.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/confirm_2b_core_sr8_seeds12.yaml",
+      "sha256": "1d3ff6afb0d084cbb3f53a03b6725acda549c990b1a6df5c0ab0ea28a15de374"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/confirm_2b_npf_eegnet_v2_b02_b03_b06_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/confirm_2b_npf_eegnet_v2_b02_b03_b06_twostage.yaml",
+      "sha256": "b891fca888eb33f98c900b07a1020b7597c087f5ff4e2bafce76eddb45cee728"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/confirm_2b_npf_eegnet_v2_remaining_seed0_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/confirm_2b_npf_eegnet_v2_remaining_seed0_twostage.yaml",
+      "sha256": "23ffd6303e7e23469077e96ddf365cafc266b292add975ae7b11d0fa885cf811"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/confirm_hgd_npf_eegnet_core_3seed_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/confirm_hgd_npf_eegnet_core_3seed_twostage.yaml",
+      "sha256": "6f510f0396f3bbc4d7693c0477f10da425de2374c82631a422cd20af875102c0"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/confirm_hgd_npf_eegnet_enhanced_sr8_3seed_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/confirm_hgd_npf_eegnet_enhanced_sr8_3seed_twostage.yaml",
+      "sha256": "067e9864ece8c4c7a3afc7ffd01ea8d5c871d221e8b5d1357a1ef43c09a15eb0"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/confirm_hgd_raw_demean_h01_h09_seed0_remaining_groupcv_selection_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/confirm_hgd_raw_demean_h01_h09_seed0_remaining_groupcv_selection_only.yaml",
+      "sha256": "4eea0246cf6794923b2435fb7bb83890385f953c728a7dcb2ac2f6897888237d"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/confirm_hgd_raw_demean_h01_h09_seeds12_groupcv_selection_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/confirm_hgd_raw_demean_h01_h09_seeds12_groupcv_selection_only.yaml",
+      "sha256": "b8ba8b927f131f284660d0fe606c1e1694e931e1f0099902b06a098c67db3b2e"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/confirm_hgd_raw_demean_h10_h14_3seed_groupcv_selection_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/confirm_hgd_raw_demean_h10_h14_3seed_groupcv_selection_only.yaml",
+      "sha256": "a943474fc971a351ddada95a83c8b0f55c509e63d0b4da558e0640bda557e7ae"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/dcsa_2a.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/dcsa_2a.yaml",
+      "sha256": "f2a99c832af76fdc9d75f7db29b9e14698b2ba1793f90fd897ad394c815199ec"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/explore_2a_npf_eegnet_enhanced_sr8_3seed_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/explore_2a_npf_eegnet_enhanced_sr8_3seed_twostage.yaml",
+      "sha256": "31ea21ba3cbfec56a8e48722181722b212f5c17ace579fe699f70af4e29a858f"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/final_hgd_core_h01_h09_3seed_groupcv.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/final_hgd_core_h01_h09_3seed_groupcv.yaml",
+      "sha256": "7623958bfce6811275581e7d6e5329c651757d4e3552578cab207f6b7c553b3d"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/final_hgd_core_h10_h14_3seed_groupcv.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/final_hgd_core_h10_h14_3seed_groupcv.yaml",
+      "sha256": "b77bfbdf3d1f1ad49790dddc2226d7ac583f8cb9c7519995c4397f22efe68940"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/final_hgd_raw_demean_h01_h09_3seed_preselected.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/final_hgd_raw_demean_h01_h09_3seed_preselected.yaml",
+      "sha256": "133c583b3d0ac4e63ca9fbd02c83cc9a6b8e71e288105252ff7b95cda2e2f3da"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/final_hgd_raw_demean_h10_h14_3seed_preselected.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/final_hgd_raw_demean_h10_h14_3seed_preselected.yaml",
+      "sha256": "c58e7af311bace4224a3425996ef8fe037d634b7eef76ea0c0f9c08f28fb4a88"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/final_hgd_rgf_h10_h14_3seed_groupcv.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/final_hgd_rgf_h10_h14_3seed_groupcv.yaml",
+      "sha256": "92b8533e0ec926ca62aab6d947cf349584c99a7debe2bb6943df56ca368a9ff6"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_atcnet_final_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_atcnet_final_demean_3seed.yaml",
+      "sha256": "08d676071db9451d5c7d8b28964e1568370dffe1671c64dffc3a2fc660b99d19"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_atcnet_selection_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_atcnet_selection_demean_3seed.yaml",
+      "sha256": "32f93560762268c56debb4c69e84e90141ec1ed0b98a0c46d414f6ca87b72605"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_baseline_final_eegnet_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_baseline_final_eegnet_demean_3seed.yaml",
+      "sha256": "1d6f38f2fd62d9f3947484f5ef7dbefe7e5fc815826a9b65fe9aea93dd73a7ac"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_baseline_final_eegnet_nodemean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_baseline_final_eegnet_nodemean_3seed.yaml",
+      "sha256": "b81cc9bafa7f732f2915fbd9fa244570eb29f3ace0dad66828c6889c25bc1907"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_baseline_selection_eegnet_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_baseline_selection_eegnet_demean_3seed.yaml",
+      "sha256": "bfc6ce662fbda142ac61d803375790a7089302bb9dd27ac023ced8fe9e67c0cf"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_baseline_selection_eegnet_nodemean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_baseline_selection_eegnet_nodemean_3seed.yaml",
+      "sha256": "e872f9cc561ed238e1d28ce9cdd5526ac2a35129c14e565167f89976073ee5fa"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_eegconformer_final_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_eegconformer_final_demean_3seed.yaml",
+      "sha256": "bd1a1c00b827c3f4d680ac14bb44e6fb2c6798b50d620c340917fa1e274876b3"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_eegconformer_selection_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_eegconformer_selection_demean_3seed.yaml",
+      "sha256": "bfe5a7be39d3e0675816384c02fdd7e3de96969990790ed4c75cd6d98b4c18bc"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_final_npf_nodemean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_final_npf_nodemean_3seed.yaml",
+      "sha256": "33a5742858fd2635c8fc63320075dfdc498fec97053202bb82b1f63bdc30d45b"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_final_npf_raw_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_final_npf_raw_demean_3seed.yaml",
+      "sha256": "d89c2d7b78e1b97bdae093adb5379e6b6e5ef2a552f667312e826ab7827d9400"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_preprocess_control_final_fulldemean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_preprocess_control_final_fulldemean_3seed.yaml",
+      "sha256": "135ae19a54d92ba49337b55e9bdbd6c0665d4ea408b4dda109f21184573398f1"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_preprocess_control_final_highpass1hz_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_preprocess_control_final_highpass1hz_3seed.yaml",
+      "sha256": "1b389f4d3b2ee2ca667eb2ffdc2612360b06a35e31e9d3743c4ee7cd20ddc0f6"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_preprocess_control_selection_fulldemean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_preprocess_control_selection_fulldemean_3seed.yaml",
+      "sha256": "0026c0114243dba578bdf699485bdf3455e4eb3b4bab69c9a1ab243d99acf7c1"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_preprocess_control_selection_highpass1hz_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_preprocess_control_selection_highpass1hz_3seed.yaml",
+      "sha256": "9d6beb38666be8c68471d1ed7e7a22c9b413c5fff12cf5cbd94bebd8eb85f006"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_selection_npf_nodemean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_selection_npf_nodemean_3seed.yaml",
+      "sha256": "3e04559e055ba3f75f98c7af0b10cd0a5fda8ab055d0647bcd2029174e819f8e"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/openbmi_selection_npf_raw_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/openbmi_selection_npf_raw_demean_3seed.yaml",
+      "sha256": "d25e437fcd34ea916a63601bec46e5fc46dad648a8e037da1dcd7606606f97a0"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage.yaml",
+      "sha256": "ca191e1344d0645f79ee029bb7b4834569c62dc4ddd99c1f1ba63b420b293659"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/paper_2b_all_subjects_npf_eegnet_v2_groupcv_seed0_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/paper_2b_all_subjects_npf_eegnet_v2_groupcv_seed0_twostage.yaml",
+      "sha256": "8c8583bbbce069fab2eb1b6e0ea69a17cfce382dbb8a616037fb03d2a56e452f"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/paper_2b_all_subjects_npf_eegnet_v2_groupcv_seed1_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/paper_2b_all_subjects_npf_eegnet_v2_groupcv_seed1_twostage.yaml",
+      "sha256": "cf655d01324ec6def37904308175a5b01023001e38ac18fe05ebcc56d8b8db72"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/paper_2b_all_subjects_npf_eegnet_v2_groupcv_seed2_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/paper_2b_all_subjects_npf_eegnet_v2_groupcv_seed2_twostage.yaml",
+      "sha256": "121e4eb04a51e23bfd768989cf49966137c039e3965168a0d86135783185983f"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/paper_2b_all_subjects_npf_eegnet_v2_seed1_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/paper_2b_all_subjects_npf_eegnet_v2_seed1_twostage.yaml",
+      "sha256": "122aedf9a610f689458fd511f3f00904217dc00d4a0aecc593f3aadda26d7507"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/paper_2b_all_subjects_npf_eegnet_v2_seed2_twostage.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/paper_2b_all_subjects_npf_eegnet_v2_seed2_twostage.yaml",
+      "sha256": "005a1a5c3f91dc1368a4c5e860fac54f541782b3c5095ed2bbafecf087ccd0de"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/protocol_2a_holdout_eegnet_equalbudget.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/protocol_2a_holdout_eegnet_equalbudget.yaml",
+      "sha256": "01d08dcb20d0cdec3eda0eb26bc2769c61b615d86876f52ecec1602a8b3f95ba"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/protocol_2a_holdout_fbcnet_equalbudget.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/protocol_2a_holdout_fbcnet_equalbudget.yaml",
+      "sha256": "34d4ac098f881ac16b7c041933c39cf796082682ec2730a6cbb95f6daf022124"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/protocol_2b_fixedfinal_atcnetlite.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/protocol_2b_fixedfinal_atcnetlite.yaml",
+      "sha256": "8feb89164f46c64e5ba132fd2f1ec367ef10d35864d55232c58967d0bdec2c05"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/protocol_2b_fixedfinal_eegnet.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/protocol_2b_fixedfinal_eegnet.yaml",
+      "sha256": "a22e805e8ea9540535970c22feffe27a612c3beb23424201ff410671e571067b"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/protocol_2b_fixedfinal_npf_eegnet_v2.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/protocol_2b_fixedfinal_npf_eegnet_v2.yaml",
+      "sha256": "e457b69a245a9a1099b825ced51ea43c30368228507d016b735a19335bff3313"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/protocol_2b_groupcv_atcnetlite.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/protocol_2b_groupcv_atcnetlite.yaml",
+      "sha256": "6aeec46a04e1b25b6ea19032eca00dd6166425bdf8ff22715106c8c0cc471029"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/protocol_2b_groupcv_eegnet.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/protocol_2b_groupcv_eegnet.yaml",
+      "sha256": "aa7b1c323c29c45538afb75adbdd24ee385a2f52a3172453a59b90fdd3e8c7d1"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/protocol_2b_holdout_eegnet_equalbudget.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/protocol_2b_holdout_eegnet_equalbudget.yaml",
+      "sha256": "2aa2bfb1f3ba7760f0351cbc466f4dadf1606bcefa20901d43f1d704ec7a45d5"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/protocol_2b_legacy_testmax_eegnet_seed0.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/protocol_2b_legacy_testmax_eegnet_seed0.yaml",
+      "sha256": "fbd090fdf7e9ee9f13f16a1fec2b801001646f31649fd139a783450b580ca7af"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/protocol_2b_legacy_testmax_npf_eegnet_v2_seed0.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/protocol_2b_legacy_testmax_npf_eegnet_v2_seed0.yaml",
+      "sha256": "96f28d72e0a2248f566660ce4c3f0bfc5d065c69f2b4301111c38b74bafaefb6"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_2b_core_channelwise_seed0.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_2b_core_channelwise_seed0.yaml",
+      "sha256": "fde4436d3ebc7bbec98f1e53c14a9a0aa0be617ef56ac6913c96545c0546aba1"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_2b_core_channelwise_sr8_seed0.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_2b_core_channelwise_sr8_seed0.yaml",
+      "sha256": "664ad3b405f3d212db2d82a052960e3e28721b5440a97db45cda0ed9b1f10113"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_2b_core_sr8_seed0.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_2b_core_sr8_seed0.yaml",
+      "sha256": "1c2d63d655c1baadd4e93518ee53edf0346d2043aec2f3ea5a1da40143482d22"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_2b_npf_eegnet_deepsup_validation_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_2b_npf_eegnet_deepsup_validation_only.yaml",
+      "sha256": "a36d733af72527c26e3ae573334564bbc7a97a0c739906b71169f12def527718"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_2b_npf_eegnet_sessionalign_validation_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_2b_npf_eegnet_sessionalign_validation_only.yaml",
+      "sha256": "8487d80fd50a501400f5ef925cf4af4164adb4c0b27bcc148bb96ccd3b110ada"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_2b_npf_eegnet_validation_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_2b_npf_eegnet_validation_only.yaml",
+      "sha256": "0e871dfc075164dc96f76c33f716488d9dad1e0a67de850d4350a9c9b3fdf010"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_hgd_h07_core_loro_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_hgd_h07_core_loro_seed0_selection_only.yaml",
+      "sha256": "fb9a32edf44b3b0505a6fbfee9334e71514473e988ba47519f2fdfbb1de5c816"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_hgd_h07_groupnorm_loro_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_hgd_h07_groupnorm_loro_seed0_selection_only.yaml",
+      "sha256": "d7fa37d8a43d2ba0e9805278ea32ad212cb08e2a8eee4ed1f97fa398b6f862e9"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_hgd_h07_raw_demean_groupnorm_loro_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_hgd_h07_raw_demean_groupnorm_loro_seed0_selection_only.yaml",
+      "sha256": "3e3c6f174c2b1d73bd63ae3bdf19d967b7c360331ace5c1dc60149d4993a5c07"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_hgd_h07_raw_demean_loro_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_hgd_h07_raw_demean_loro_seed0_selection_only.yaml",
+      "sha256": "b322b21630368918cb517f983f130b7c7cd8a1483d3faaa59c7cdaccbef79868"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_hgd_npf_eegnet_core_groupcv_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_hgd_npf_eegnet_core_groupcv_seed0_selection_only.yaml",
+      "sha256": "74004c369b89079e3849ec8730e20887d056a0036edfcd4a156bc0caff489cf7"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_hgd_npf_eegnet_probavg_groupcv_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_hgd_npf_eegnet_probavg_groupcv_seed0_selection_only.yaml",
+      "sha256": "ab28a20568cc2c59c3df89ef1a6a6e2c081053e9184db8aec358ce553993f103"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_hgd_npf_eegnet_rgf_groupcv_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_hgd_npf_eegnet_rgf_groupcv_seed0_selection_only.yaml",
+      "sha256": "fbde72e5668802cabf9c27b2aa8e1a15cf45fdf6418079f036274f87bcce6f17"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/screen_hgd_raw_demean_controls_h01_h05_h06_groupcv_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/screen_hgd_raw_demean_controls_h01_h05_h06_groupcv_seed0_selection_only.yaml",
+      "sha256": "4d3dbf9badc13e515df7ea0ae2f29c46d4b1e3579c4821c505de9554dd3aa5ef"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/smoke_2b_b01_eegnet_legacy_testmax.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/smoke_2b_b01_eegnet_legacy_testmax.yaml",
+      "sha256": "2aeb0a3b3f92af3fe6c6ebaad4670cb6bda65552583d0361d37f264dbcec6bfe"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/smoke_2b_b01_npf_eegnet_v2_fixedfinal.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/smoke_2b_b01_npf_eegnet_v2_fixedfinal.yaml",
+      "sha256": "47bc80c667cdb2694dd9711c03cffc0590ae639a4ed39f2cb2b357c17e8bb748"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/smoke_2b_b01_npf_eegnet_v2_groupcv.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/smoke_2b_b01_npf_eegnet_v2_groupcv.yaml",
+      "sha256": "5e479b22ab9bdb17fa3b85e8e8b4b7f4226f58acca9ef17ba00ea2f32d692935"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/smoke_hgd_npf_eegnet_enhanced_sr8_selection_only.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/smoke_hgd_npf_eegnet_enhanced_sr8_selection_only.yaml",
+      "sha256": "a806e351c71f8ed8297bb13cd2f865e2e1f1e422ea0eeadbac0335f5fbd2ddc4"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/config/smoke_openbmi_s01_raw_demean_selection.yaml",
+      "source": "NPFEEGNet-RD-paper-20260917/config/smoke_openbmi_s01_raw_demean_selection.yaml",
+      "sha256": "531d1855449b1db1ef72684ff60cff97534390bc81a9ed8ff10c6379f6857158"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/ablation_2b_fixed_uniform_3seed_combined.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/ablation_2b_fixed_uniform_3seed_combined.csv",
+      "sha256": "9e35d68768638c271881e2e9a119c1fd45014e52c66f34ce386555fca6e1054f"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/ablation_2b_fixed_uniform_seed0_combined.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/ablation_2b_fixed_uniform_seed0_combined.csv",
+      "sha256": "5e66f2d912f04a931c72e617ac00333331310b1c351151420307d9b16732be7c"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/ablation_2b_learnable_uniform_3seed_combined.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/ablation_2b_learnable_uniform_3seed_combined.csv",
+      "sha256": "5a58b23326f77476d3f364124e0b1d9fec1ee9f00ef3b212bb5c03e14c49d101"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/ablation_2b_no_deepsup_3seed_combined.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/ablation_2b_no_deepsup_3seed_combined.csv",
+      "sha256": "4725a026e8251bd4c2ff56da123e482b10acd47d5f008e77620929093d7ef952"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/controlled_2a_efficiency.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/controlled_2a_efficiency.csv",
+      "sha256": "534181f7337ceedc9bfa4babfd8ed06cb8edd993ca3b8d31bc93116a1919e222"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/controlled_2a_three_model_summary.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/controlled_2a_three_model_summary.csv",
+      "sha256": "c2930c694e23f40eca17f1c028d81561c15697792510feabe7e58da643b9cbb3"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/enhanced_2b_selection_summary.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/enhanced_2b_selection_summary.csv",
+      "sha256": "ba59ee08d76aca35119811a631fe6578bda9724a357b03e654a7f3714a00991e"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_condition_summary.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_condition_summary.csv",
+      "sha256": "184897758b76ac52386fc9a26ed093f314b52bded4acdebe403c2e14e32344b3"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_fidelity.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_fidelity.csv",
+      "sha256": "9b23bbbc245a7870047f9e5f9bcc8b93e35f1f2c50625c87819caa8dac076ea2"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_leave_one_out.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_leave_one_out.csv",
+      "sha256": "e23599b66eb04be0d8638035bc63378c963c4cb5332026505388d1c8cef4b500"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_manifest.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_manifest.json",
+      "sha256": "6174a62c4addc85c1c98ab70667dcc0febd3a15cca818f2cbe24100657476e81"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_run_metrics.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_run_metrics.csv",
+      "sha256": "484482ab09f106f8986a3a420b7e9dcb15278365927429be6abed3386d342610"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_smr_contrasts.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_smr_contrasts.csv",
+      "sha256": "5338a348b31c974ac7c3622e13f37016a4fde0928dcc06413e394415eb9dd778"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_smr_difference.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_smr_difference.csv",
+      "sha256": "167c10dd471ecca30dc59972d2bfb95baf4f336a6103fce626cc8675ed6ad949"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_subject_metrics.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_subject_metrics.csv",
+      "sha256": "396d9e7f6f0aae8e591331f6edeca4de963dc0d4648c99fd6a6c2806d4a971d4"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/frequency_mechanism_design_lock_20260919.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/frequency_mechanism_design_lock_20260919.json",
+      "sha256": "9f1cc45d3d135bd55a909a63e2e0cb040b1519b44a6b673f00d666635f1e00e9"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_core_uniform_3seed_combined.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_core_uniform_3seed_combined.csv",
+      "sha256": "8cb8648ccd116fb16646b2608e7c719c23f13b5466f73515f1d2027c24caba70"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_core_uniform_report.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_core_uniform_report.json",
+      "sha256": "9d97ac18cdff0d43e47c110be2043f0e83094044c7d8d07bb13687763db58c4e"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_h07_loro_screen.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_h07_loro_screen.csv",
+      "sha256": "1d9cee1c6cfbb6cd2dcbf03c9eda68cabcd2fcbc15a2ae455de654105bf4520a"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_h07_loro_screen.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_h07_loro_screen.json",
+      "sha256": "0f482f77d2a7115b502540fed86d42f8020836762110bc5e92dd582e640c70a6"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_h07_loro_screen_folds.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_h07_loro_screen_folds.csv",
+      "sha256": "6fd82a39d138e5077fd489de9e0167dd38415a72d31791e2df6dfed97b007382"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_controls.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_controls.csv",
+      "sha256": "8e00d140a27ce4971f76d92a12a8c9011324b28a780ad73a088ad1c879780e33"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_controls.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_controls.json",
+      "sha256": "e3ab9a5ba8d53a60315f18e4f450adb73fad63358b22bb306cc4cd66a6ecd887"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_final_3seed_combined.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_final_3seed_combined.csv",
+      "sha256": "64bc72d1b52569b9a86d68a1fb04dc8b9df40626b9686cf5ed764422a495c4dc"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_final_3seed_report.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_final_3seed_report.json",
+      "sha256": "088fc5338f71ef4826d78df7ffd46ea02d123000ee29e5f427db6199a485a9a8"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_final_3seed_seeds.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_final_3seed_seeds.csv",
+      "sha256": "b37be2369fe7aad672bd4265917f87150c795b0fa10c125edb36794c676e4613"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_final_3seed_subjects.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_final_3seed_subjects.csv",
+      "sha256": "48989fa5934d0afb83d20314997f9cd9c5f37dce8831db7ea1ef858193f35c60"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_h01_h09_3seed_report.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_h01_h09_3seed_report.json",
+      "sha256": "9ba86348cb42cb8082b89be80e02f9234e20c5c3d24497a17a94145b966a99f2"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_h01_h09_3seed_rows.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_h01_h09_3seed_rows.csv",
+      "sha256": "9265a8edf6a641b49bd696917276663d2ff65339597a01d6d73fc14574777318"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_h01_h09_3seed_seeds.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_h01_h09_3seed_seeds.csv",
+      "sha256": "503737a80e037b0ec93f88bb12f9152d5cbe70fcc0ee8f332795808ffd41f714"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_h01_h09_3seed_subjects.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_h01_h09_3seed_subjects.csv",
+      "sha256": "12cc8ee153f18629b5781110d7c36b3593e0121ddab085738668ae004eba233c"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_h10_h14_3seed_report.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_h10_h14_3seed_report.json",
+      "sha256": "88199205136cdb47bf13beee11f392431b5213f4404b423bd997e89b47fb65d5"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_h10_h14_3seed_rows.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_h10_h14_3seed_rows.csv",
+      "sha256": "bbcc41e060728504b1fa0838db0a88907a43a2a1c3c8170d926c724107962c66"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_h10_h14_3seed_seeds.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_h10_h14_3seed_seeds.csv",
+      "sha256": "a2314494ec0f326b58c94b41e2a320d81ebd8187aa1757305eb9817b26e92805"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_h10_h14_3seed_subjects.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_h10_h14_3seed_subjects.csv",
+      "sha256": "1a4c89137dec698aa652f9a0e5da5692c79a96bdf86b5cf8a3120354b76d634e"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/hgd_raw_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/hgd_raw_demean_selected_epochs.json",
+      "sha256": "ecc24a1ae83bff45981615575fd06f6c7d584c811e118b10cde9e23d1edc6c60"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/literature_2a_context.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/literature_2a_context.csv",
+      "sha256": "d1e2307f255a3152b707e9d1676d805487fbddb786f556a23e0686a6cc609b90"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/npf_eegnet_core_2a_branch_diagnostics.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/npf_eegnet_core_2a_branch_diagnostics.csv",
+      "sha256": "003b7b4da6f368d51745885925f28568724a200ce2467e39573f44d8a61531e9"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/npf_eegnet_v2_efficiency.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/npf_eegnet_v2_efficiency.csv",
+      "sha256": "dc89988a7166ea4a32afb3024e4eb5d0ce9011d90cc6eee37d5850fa778647d2"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_all_models_descriptive_summary_20260918.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_all_models_descriptive_summary_20260918.csv",
+      "sha256": "6669a803c7c4a28991d90fe513236e2bc04db8d02411a533a9d4cca7934ffa09"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_all_models_descriptive_summary_20260918.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_all_models_descriptive_summary_20260918.json",
+      "sha256": "b878238c7e5b86c54f361b9e0f7531f3dd1e66be5357b3f18c63483baed696e2"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_atcnet_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_atcnet_demean_selected_epochs.json",
+      "sha256": "f6be6315da511517b61e621f5ef058a7997fc8276b4dbd6155d19e663aab3c5b"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_atcnet_extension_main.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_atcnet_extension_main.csv",
+      "sha256": "435d46c3f4787a0e7195e0b26d62917ae97a2f79a6fb86fa0182b7647e1ca22d"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_atcnet_extension_primary_test.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_atcnet_extension_primary_test.csv",
+      "sha256": "a97794e956d7450c193beb85a873dcc2432d974bdffe4873f7adf4d544800a35"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_atcnet_extension_report.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_atcnet_extension_report.json",
+      "sha256": "b663d58ee2b37ee572326841e99031858f203550ae345ce79149bc4e3c14bdd2"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_atcnet_extension_runs.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_atcnet_extension_runs.csv",
+      "sha256": "a57bb4ece233c9e1709aba3df3d334be79604f1fd05da59d08e7646f5b9a18e9"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_atcnet_extension_subjects.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_atcnet_extension_subjects.csv",
+      "sha256": "aa8f32f87605046965753f70494d87a4842cf10f215eeb4f52afa2241830e65f"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_atcnet_postconfirmatory_lock.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_atcnet_postconfirmatory_lock.json",
+      "sha256": "e620fe5e4844c83371112f24c5b36a16a73db9112007322a41318f2d3cdb4cb7"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_baseline_2x2_main.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_baseline_2x2_main.csv",
+      "sha256": "4d1da5d52069dad4cdbeccdc39d061f03a61906f8feb06072baf132fe386dfb4"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_baseline_2x2_paired_tests.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_baseline_2x2_paired_tests.csv",
+      "sha256": "1edd43cf99cad8c88179685a9ef4f8b33f555fbe970fd1572b0e2189a5d372a7"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_baseline_2x2_report.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_baseline_2x2_report.json",
+      "sha256": "e75bc81c32bf2b350194d726319045743872e201b0344459ce91a9bff69a2c2f"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_baseline_2x2_runs.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_baseline_2x2_runs.csv",
+      "sha256": "1d479f2004dbaca914e1c218802c75a467b163b13fb8216accca56019a7afa38"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_baseline_2x2_subjects.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_baseline_2x2_subjects.csv",
+      "sha256": "90358f917c49d133ebd10f7980eff0fdff48f0311b27e3fac63735159531fe60"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_eegconformer_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_eegconformer_demean_selected_epochs.json",
+      "sha256": "47d73a324e808f1d59cfd03e44991d3370fd666c49e108dae328274a1556d959"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_eegconformer_extension_main.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_eegconformer_extension_main.csv",
+      "sha256": "48e5c5d70de90d71025be2b0170bc26d8902ead7684ee583b189daf24f6af989"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_eegconformer_extension_primary_test.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_eegconformer_extension_primary_test.csv",
+      "sha256": "938f8e77755611284dd4eee0a662c0a3b24ad0eb2da777081345de0b073f795b"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_eegconformer_extension_report.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_eegconformer_extension_report.json",
+      "sha256": "49d1e0aeacf388d9ac0fc8e9aa3b50c8b7a7451920e545bc524ea3ca64745c55"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_eegconformer_extension_runs.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_eegconformer_extension_runs.csv",
+      "sha256": "774313e8d5e42f653e0a120e5a7cc8691c20f1b2e6e797c9f58b9628fe3fe8a8"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_eegconformer_extension_subjects.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_eegconformer_extension_subjects.csv",
+      "sha256": "e03fe284812ac832da12e88298723faec4e4d44cb6a4a9d71be2cfa1f65da71e"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_eegconformer_postconfirmatory_lock.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_eegconformer_postconfirmatory_lock.json",
+      "sha256": "75ae5f9d6e10a8e788688bc2bc4d93afcf90401c375ba4756845fae98dc43d50"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_eegnet_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_eegnet_demean_selected_epochs.json",
+      "sha256": "5c9e0308c52c396cdebd125fc9c65b177c6e6947c54dc01a24f63adab4ba5d96"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_eegnet_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_eegnet_nodemean_selected_epochs.json",
+      "sha256": "504d1839bc3c52c7f527a164e21749c1a009ab91fbc361ab76017369b7a3a293"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_efficiency_profile.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_efficiency_profile.csv",
+      "sha256": "4273dfcb6e6a3aab28091313f995b951d63f4a06cf07ee3fed3ac1c607e88c00"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_efficiency_profile.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_efficiency_profile.json",
+      "sha256": "a3f11e156a6d26540607ad01d8ffee54b21e834d5bd97816d89671021739176b"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_evaluation_unlock.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_evaluation_unlock.json",
+      "sha256": "acaa00fe3abe2d993eb3f5c70cd3e5499a27ede6daa345f081000e9101cd9316"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_final_3seed_report.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_final_3seed_report.json",
+      "sha256": "0341e06416bacffd470c1e9629d26af9bb2dd389c882a3eded952a5700438b7d"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_final_3seed_rows.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_final_3seed_rows.csv",
+      "sha256": "ab9d0a450ebf825ce94777ff14d71b23360e72b4b9fa333370247bb841f058f7"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_final_3seed_seeds.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_final_3seed_seeds.csv",
+      "sha256": "648b6ff9ca15fa570e29204b3de9a1cdc8efc11c947bc483321ba88a3118b4f8"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_final_3seed_subjects.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_final_3seed_subjects.csv",
+      "sha256": "5a977ad77f729f31eda92ce08c60ac18e512c92ffa290147fdddb53557a02089"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_integrity_manifest.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_integrity_manifest.json",
+      "sha256": "48ddb64fd7aea1c8fd01468fe448612f42b0490c611cf19c5f545d68496c5cda"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_modern_baselines_holm2_sensitivity.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_modern_baselines_holm2_sensitivity.csv",
+      "sha256": "25998bd4386346ba5952e5c6990b01343e77800e56503131b4eeaae5e17c8211"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_npf_fulldemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_npf_fulldemean_selected_epochs.json",
+      "sha256": "54ce69a6e04eb61b2d4d9562844f3d034892665958cb1bcfd88f52bf4d86d694"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_npf_highpass1hz_selected_epochs.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_npf_highpass1hz_selected_epochs.json",
+      "sha256": "ae97afd9e6af2d3793f057047ff6839edeb9c5547aa09bbe241a1f81896a143f"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_npf_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_npf_nodemean_selected_epochs.json",
+      "sha256": "993c1af4a7166ec127d6ed9641fb032137d41520a9138fa9a7947a10871ab858"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_npf_raw_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_npf_raw_demean_selected_epochs.json",
+      "sha256": "4f1ed6b241ea6fea440d595aae69e9ee12434afce919754bb373267c7b4ce7d9"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_postconfirmatory_baseline_lock.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_postconfirmatory_baseline_lock.json",
+      "sha256": "3eae3750798fda328628e4ab461be320f77f31c92c3aaa3929aaf79106af6c64"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_postconfirmatory_extension_design_lock.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_postconfirmatory_extension_design_lock.json",
+      "sha256": "ea6c1054d0c95c65c62c5bb211794416102ab2f092d04daf8ecc44ea70d298ec"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_descriptive.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_preprocessing_controls_descriptive.csv",
+      "sha256": "01da15920bf9f0285e7671d188c9204498451fd33a2999aa0fb0a406f6b2371e"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_eegnet_reference_runs.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_preprocessing_controls_eegnet_reference_runs.csv",
+      "sha256": "1aed8df1f88424098d62ca06eb14586a60410e46ad32f90e12c6b872585436a5"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_lock.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_preprocessing_controls_lock.json",
+      "sha256": "dc03ef3fc64842cf54e9845372e35556106adb766d7ad79d332839ad015ba6b9"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_main.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_preprocessing_controls_main.csv",
+      "sha256": "3801afad6114af9cda4d0ae847e1fd4e4b6c6ef85bb920f0e055a311326664d5"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_primary_tests.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_preprocessing_controls_primary_tests.csv",
+      "sha256": "1d776ea20e648b3c229b5f603616a3ed9a8f997140f19f54e67dc019177494b4"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_report.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_preprocessing_controls_report.json",
+      "sha256": "0189a4b9fd9d06ee03f80cfe0105eebe0944b1bff801bcc17489387250eae4d3"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_runs.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_preprocessing_controls_runs.csv",
+      "sha256": "15663acc8f9fcb49e80546fd455a4f3bfca7c28c51c395dfd5228c413bf1909a"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_subjects.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/openbmi_preprocessing_controls_subjects.csv",
+      "sha256": "13e428951572b7ba92cc0651aa6f8817e651ae6a849aead7341138dbb6088cb2"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_2b_ablation_summary.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_2b_ablation_summary.csv",
+      "sha256": "7a05a5849b7b2865162d875369ccf5fc4c1d09ceced394eda0db06194ecafa74"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_openbmi/table_openbmi_branch_diagnostics.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_openbmi/table_openbmi_branch_diagnostics.csv",
+      "sha256": "694d2f4aacc825c73d633e9b124448b78ef0a494e10dcd6dbeaffc32576439f5"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_openbmi/table_openbmi_main.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_openbmi/table_openbmi_main.csv",
+      "sha256": "e7c1d6faf36c68cf1b2b3658123807813223c4e0a28d66ff88aade70f87df024"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_openbmi/table_openbmi_paired_test.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_openbmi/table_openbmi_paired_test.csv",
+      "sha256": "7673930094598d32bd3ae38f7e907d09b37c5a19346aa81d03b21b588e895160"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_openbmi/table_openbmi_seed_stability.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_openbmi/table_openbmi_seed_stability.csv",
+      "sha256": "f98aa2d255387063699b36f1c9c3a988cc73961313c30f597cf82406e767d29c"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_openbmi/table_openbmi_subject_results.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_openbmi/table_openbmi_subject_results.csv",
+      "sha256": "9adca3d422932dd99f1ae7f3525307408ebd545ca32ea2ba72a758eaf492c2cc"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_tnsre/confusion_bcic_iv_2a_core_row_normalized.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_tnsre/confusion_bcic_iv_2a_core_row_normalized.csv",
+      "sha256": "6105843e16ef2f6db0c81f7d855a277113a5a12e58ebf1cc63bf39c0f116a090"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_tnsre/confusion_bcic_iv_2b_core_row_normalized.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_tnsre/confusion_bcic_iv_2b_core_row_normalized.csv",
+      "sha256": "1bb890b1ff664ca8b09abe71b8f547b1d8cf9faa8bf6a4063a48bb7a13177ff0"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_tnsre/confusion_hgd_rd_row_normalized.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_tnsre/confusion_hgd_rd_row_normalized.csv",
+      "sha256": "880ecd554e4227af7666cc49be1815867666d5b096a75a0fdea8a77372613f0c"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_tnsre/confusion_openbmi_rd_row_normalized.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_tnsre/confusion_openbmi_rd_row_normalized.csv",
+      "sha256": "b448f46de6004848f4438c5b07ce330733cbd300b91f39808c894165841137a5"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_tnsre/cross_dataset_confusion_matrices.json",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_tnsre/cross_dataset_confusion_matrices.json",
+      "sha256": "eabecc72c6337b97614ca1940966e3c707121bc214bcc16d5cc111c01099f15f"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_tnsre/table_cross_dataset_evidence.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_tnsre/table_cross_dataset_evidence.csv",
+      "sha256": "c1c7c1638688c580e327313e59a6d11629ea51072c8199f25f134c36044f635a"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_tnsre/table_openbmi_matched_controls.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_tnsre/table_openbmi_matched_controls.csv",
+      "sha256": "aa4aa1e766d489f4994f327da97bb147a9d6532455bc06f234af75c8c030f3b2"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_tnsre/table_openbmi_mechanism_contrasts.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_tnsre/table_openbmi_mechanism_contrasts.csv",
+      "sha256": "22d128b45234b5310532dcc82ade632b7385e19d0d1364e73ab3dfb6715699f9"
+    },
+    {
+      "file": "evidence/historical/paper-20260917/results/paper_tnsre/table_openbmi_mechanism_subjects.csv",
+      "source": "NPFEEGNet-RD-paper-20260917/results/paper_tnsre/table_openbmi_mechanism_subjects.csv",
+      "sha256": "190d489e8ac1bdb52bd13c33515d24cd75bb90ace79547f227e049cab75221d5"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/bnci2015_001_eegnet_demean_final.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_eegnet_demean_final.yaml",
+      "sha256": "28b4ade0cff8faa32a29eaa811c4bdaf153f19871bc0922db8fb1336df91ff04"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/bnci2015_001_eegnet_demean_selection.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_eegnet_demean_selection.yaml",
+      "sha256": "a10f5cb6667e27d0dcc15b0601660b6b7d058015abb47d035fe66c8cf24b5363"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/bnci2015_001_eegnet_demean_smoke.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_eegnet_demean_smoke.yaml",
+      "sha256": "e83a9f625201689b0a8fdd96b7d4a671122d3c61c229e595470da9db5fab95ea"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/bnci2015_001_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_nodemean_final.yaml",
+      "sha256": "0280d944cad23bc0f6478d770adadde1315a76761609379fc54dd79b4e64c6cf"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/bnci2015_001_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_nodemean_selection.yaml",
+      "sha256": "6ab9d6dba619bfeb7de9de6f744caf705ea29d60db74a5f64e656bded127b645"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/bnci2015_001_nodemean_smoke.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_nodemean_smoke.yaml",
+      "sha256": "3cce413443ab4ee62f8a50f7cb0a355c670dc4dd3047c160061e37e578902ad6"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/bnci2015_001_rd_final.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_rd_final.yaml",
+      "sha256": "0ebc7814cae51b16e043837a2fd0fa37ea733d31e9cd53d09f7468c78da6ac27"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/bnci2015_001_rd_selection.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_rd_selection.yaml",
+      "sha256": "a03eded59e86afa1d7a2db00d45414981dad132012ff04895665a750ee83f745"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/bnci2015_001_rd_smoke.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/bnci2015_001_rd_smoke.yaml",
+      "sha256": "a56fe9dc3286502821ca73514da30296742c1ca4d4115724f673ae23f6867832"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/eegnet_large_final.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/eegnet_large_final.yaml",
+      "sha256": "b22cec27f7bac3bf619786edb70c394d93177c62d2cb7a374f4c5ac9bac2b589"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/eegnet_large_selection.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/eegnet_large_selection.yaml",
+      "sha256": "ae4c5a6efb83f57e73862e319a3e92d782ffb5fead237fa2629cb83fcba38f27"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/eegnet_large_smoke.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/eegnet_large_smoke.yaml",
+      "sha256": "68483ead2acf044f287e70ce01050d05d0532bf292632f36773fb488e602a6c9"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_eegnet_large_demean_final.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_large_demean_final.yaml",
+      "sha256": "046725a76ed3afb2897ef4abbc16b9a0e9156bfbaabc5c1bf19c366adac8f28d"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_eegnet_large_demean_selection.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_large_demean_selection.yaml",
+      "sha256": "6d67810c4aef7ade224e47c1f50b8932f23b4b650036712a8024a063e2bc49bf"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_eegnet_large_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_large_nodemean_final.yaml",
+      "sha256": "3752211d73186fff5161c73ce767fb974b27d5c095785903d0a95db0982df86d"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_eegnet_large_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_large_nodemean_selection.yaml",
+      "sha256": "493fc4a84de7185602c99a720fbe973186c9eef6b7f821c2e45602ac9134a2ea"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_eegnet_large_nodemean_smoke.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_large_nodemean_smoke.yaml",
+      "sha256": "a4e01b9c85079554f6cf7a70a4a91a4871c482d6244b6e617d643e4bcc5bf4be"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_eegnet_small_demean_final.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_small_demean_final.yaml",
+      "sha256": "3e78a5ff9a856aaf653f9171db4751c70fef69f60586dc3263046df01c6ebfb3"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_eegnet_small_demean_selection.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_small_demean_selection.yaml",
+      "sha256": "ab3b5750abeb2a092c7cabda79b834d7e552590f2662121ff7d51f59569ba974"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_eegnet_small_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_small_nodemean_final.yaml",
+      "sha256": "fb954b8c414d0ca4a2c423659b0694922030dedf92d32a06ba4c62061fef68de"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_eegnet_small_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_small_nodemean_selection.yaml",
+      "sha256": "32945fe3fef65fdada749a4d4465522286c00ccd79f5bf16c6b7fd6434273667"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_eegnet_small_nodemean_smoke.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_eegnet_small_nodemean_smoke.yaml",
+      "sha256": "88de18f06f60f3565c1b4d81aa729eead977625a76c85c9866590d79c0d15f9f"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_nodemean_final.yaml",
+      "sha256": "75d204b5dbf232a5537c01d8d50413835e5b99d97568dce24619467920d6349b"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_nodemean_selection.yaml",
+      "sha256": "83dfa0c8fa727278bf7ee264c47855dd81cb11b900d2c761c2a917bd116808cc"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_rd_final.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_rd_final.yaml",
+      "sha256": "8fee1014148fdc6e480bd9c6d3206a7d19bb152af544a994f1499b36b3cd655b"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/config/hp05_rd_selection.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/config/hp05_rd_selection.yaml",
+      "sha256": "4620ed6ed847414dc29ad0340817e3803dad42332ac088d11f8980d8ca7b91f0"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/bnci2015_001_eegnet_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/bnci2015_001_eegnet_demean_selected_epochs.json",
+      "sha256": "8c844125b207f10c8f53a6191938da92272dda734fe1218ab120c107ff289ccc"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/bnci2015_001_external_report.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/bnci2015_001_external_report.json",
+      "sha256": "bb8eb34638b3933bac58a0cc229509514330493b5df563b205fb832def6284aa"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/bnci2015_001_external_subjects.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/bnci2015_001_external_subjects.csv",
+      "sha256": "1cbee1adfd7aee9d834a9306cae2b4b2d43e5fc1b94050e480410ec7c5085baf"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/bnci2015_001_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/bnci2015_001_nodemean_selected_epochs.json",
+      "sha256": "abee7df7c1d06e2e42079356834b8f1060f7d59bca327239428b0fb20313fee9"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/bnci2015_001_protocol_lock.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/bnci2015_001_protocol_lock.json",
+      "sha256": "d3f4e8b0ce28d6624a5e0fde185e6cb2a17d1138ad0f9fe43238002966176db4"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/bnci2015_001_rd_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/bnci2015_001_rd_selected_epochs.json",
+      "sha256": "403d89ff5690c7b8c5a8e344d578f00ac8a2c9b81cc5cec2fd91fc6876cce801"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/eegnet_large_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/eegnet_large_selected_epochs.json",
+      "sha256": "f4bc96d08b1fa0d39babf911182308d78eb1221cc208888ba466d338c6452705"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_2x2_report.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_2x2_report.json",
+      "sha256": "9d1c7e0273554c94cb44efa7d8b5e4d772e6855081f2f80431c170bd015a3743"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_2x2_verification.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_2x2_verification.json",
+      "sha256": "145c996f0f3ed01f32f1210147a7ecee1fc104806e66da143600b4b22d361cc5"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_large_demean_final_summary.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_large_demean_final_summary.csv",
+      "sha256": "c333e657d17e538a63777a10f0c621f356bcba8d7a4ebdc1d0fe1cf5620a5eba"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_large_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_large_demean_selected_epochs.json",
+      "sha256": "a76cacf4fa99537f81d75ff19259bafbc424953343901956e3b16ab18eff9b56"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_large_demean_selection_summary.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_large_demean_selection_summary.csv",
+      "sha256": "85dea5b2c6bf5d80a64bf91b2590450eb1367153aa6333abbd90a2cee735031d"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_large_nodemean_final_summary.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_large_nodemean_final_summary.csv",
+      "sha256": "751b437a7aa348234ecbe3481c06b163829d4442c6a48845bb7bcc2d810e4044"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_large_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_large_nodemean_selected_epochs.json",
+      "sha256": "eae9836239fc9f376309cbf779875d8416f1c78be07bed20d2fef89403207fdb"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_large_nodemean_selection_summary.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_large_nodemean_selection_summary.csv",
+      "sha256": "f2dac512bf9d136806becca1875fc574c9983327d863d1c9642bdff464653e23"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_small_demean_final_summary.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_small_demean_final_summary.csv",
+      "sha256": "f91f33fae55dee1f5def81ec23fb103e3c57679c19aa13c23bea5686e91d559d"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_small_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_small_demean_selected_epochs.json",
+      "sha256": "74e03fab35f45208fed56ee796246a4d68b1f5a19fd1223b0d9793e06ad04edc"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_small_demean_selection_summary.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_small_demean_selection_summary.csv",
+      "sha256": "580ecc6bf340df522ded0f72f08bfa2c33046181b467a716d24095b30365f50e"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_small_nodemean_final_summary.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_small_nodemean_final_summary.csv",
+      "sha256": "a4df2c33af27ec0a7569f17aedee5aa8dd4caaf146d2fa8af55c69388c05f2a3"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_small_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_small_nodemean_selected_epochs.json",
+      "sha256": "2e4d9be89c9f8ea196a3544293335f87ba9c830e014dbd3d0fa445e4216a0030"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_small_nodemean_selection_summary.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_eegnet_small_nodemean_selection_summary.csv",
+      "sha256": "0b83ebb07a15702a23f080d7bc3ed0289c3a03e53de87977e948b57bdb34e7a3"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_nodemean_final_summary.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_nodemean_final_summary.csv",
+      "sha256": "98cd795c355f4a0f4a06528071b2d996ed86f824e79a936f691bcbcc33fcc59b"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_rd_final_summary.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_bundle/hp05_rd_final_summary.csv",
+      "sha256": "1abfd060c28ea4b7405f4d26730941c97175b4ec2f07857078b3ae27e4ef61de"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_2x2_complete.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_2x2_complete.json",
+      "sha256": "8bb0240b2129df83a9ff6b9ec98ea67f39318cdbe0e77aa26b28b6e3b4828d72"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_design_audit.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_design_audit.json",
+      "sha256": "e87fcae0dd4a7f6d2bfc1c2c0a1aeedbbf898ad3140dd9c62f02e2b9a7023254"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_large_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_large_demean_selected_epochs.json",
+      "sha256": "a76cacf4fa99537f81d75ff19259bafbc424953343901956e3b16ab18eff9b56"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_large_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_large_nodemean_selected_epochs.json",
+      "sha256": "eae9836239fc9f376309cbf779875d8416f1c78be07bed20d2fef89403207fdb"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_small_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_small_demean_selected_epochs.json",
+      "sha256": "74e03fab35f45208fed56ee796246a4d68b1f5a19fd1223b0d9793e06ad04edc"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_eegnet_small_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_eegnet_small_nodemean_selected_epochs.json",
+      "sha256": "2e4d9be89c9f8ea196a3544293335f87ba9c830e014dbd3d0fa445e4216a0030"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_nodemean_selected_epochs.json",
+      "sha256": "c0531655589b220ced6516835474f91e3b19eb265b7e60cf33ec6946a2818c67"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/hp05_rd_selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/hp05_rd_selected_epochs.json",
+      "sha256": "82b34ef8b2711a907781281e03afd51d5321b33d739d23bcb604d06ea2dcfbd8"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/openbmi_csp_lda_report.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/openbmi_csp_lda_report.json",
+      "sha256": "9784455aeb8dc1f1b43d444b9423c1d0a1a1f496ddada584a6e70dbae536b955"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/openbmi_csp_lda_subjects.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/openbmi_csp_lda_subjects.csv",
+      "sha256": "8dd3ef0e83830e9b26d30aad0f63739be66ce84f874db47acf48bb537c927835"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/openbmi_fbcsp_report.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/openbmi_fbcsp_report.json",
+      "sha256": "99e88896159d1dedf1a780bdda114a0b94e0fc3a587d5169d8cbc8ad1716b5fc"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/openbmi_fbcsp_subjects.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/openbmi_fbcsp_subjects.csv",
+      "sha256": "15edc12ac64cf53561195080f72d77f5b6d2b102d667edfcb23f00421dd17b34"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/results/openbmi_offsets_posthoc.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/results/openbmi_offsets_posthoc.json",
+      "sha256": "b17db04aa7b634a5f3a08f2176053540878f03ab03bd8cc68e1e718564f8e209"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_final.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_final.yaml",
+      "sha256": "163fddbacc585a9fbeed14a7959ac36f49d99772273285a23103206c9642ed1c"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_final_gpu0.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_final_gpu0.yaml",
+      "sha256": "f8c908df632b00b801d82be42483eb840103967a00f2f20bfd710f775d911fc4"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_final_gpu1.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_final_gpu1.yaml",
+      "sha256": "231163c8605920d6969aa06f521847b898bebb545f35d09247be35c4c7d6c497"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_selection.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_selection.yaml",
+      "sha256": "e76a24008acd33a4f779b558daea6f876a1160227f3cb9bd0dd5385fdc91817e"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_selection_gpu0.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_selection_gpu0.yaml",
+      "sha256": "0d35db8e9482a8df355492ede3a840940642b2b6f2bf36e841dfcfa34d089bc4"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_selection_gpu1.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_selection_gpu1.yaml",
+      "sha256": "5fe74d553db9e44a8fb280564d26c630b12709d78ab4bb369b12e557ca77a69f"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_smoke.yaml",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/config/fbcnet_smoke.yaml",
+      "sha256": "e730cabdb4d9fab6638e27484626998b1ff50d3447e4c14218d72cbc3cab3865"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/fbcnet_hp05/results/design_lock.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/results/design_lock.json",
+      "sha256": "a4ed10a226ddf84903e0cff2f20d82cd921bf8bab7aae79fe861e065639a06bc"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/fbcnet_hp05/results/hp05_fbcnet_report.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/results/hp05_fbcnet_report.json",
+      "sha256": "015dea9583586c4ba49b649cee3b520022acbbe47e3d10677cf84fa88fd99946"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/fbcnet_hp05/results/hp05_fbcnet_runs.csv",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/results/hp05_fbcnet_runs.csv",
+      "sha256": "86282c94add69721a5ad4723781aa6b09d80b778455cc0e118b6018d2794c81f"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/fbcnet_hp05/results/selected_epochs.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/results/selected_epochs.json",
+      "sha256": "7f3e888770adf9fe3eaa5b5bf33bca03d2c0ffcfcd217d86b7860ce2fa70831c"
+    },
+    {
+      "file": "evidence/historical/reviewer-controls-20260925/fbcnet_hp05/results/session2_lock.json",
+      "source": "NPFEEGNet-RD-reviewer-controls-20260925/fbcnet_hp05/results/session2_lock.json",
+      "sha256": "fc9302ec85aa3c6d0f34d46a763da27f99daf0b45657366c83101481c423b423"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_resume_s05_s09_twostage.yaml",
+      "sha256": "6d0f11ae0a2997de8643e916c32694274edaedf6cc679e938409ac006c172975"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_fixed_uniform_seed0_twostage.yaml",
+      "sha256": "150e5529228fdea681ae52c4b25b2975710518deab94cae43bef54d27c5917a3"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_fixed_uniform_seed1_seed2_twostage.yaml",
+      "sha256": "47c024d9163068e6be872d053ddf3a0a8e311e4d991f3eca90fb0f580bbe5946"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_learnable_uniform_seed0_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_learnable_uniform_seed0_twostage.yaml",
+      "sha256": "e9cd6b53381f403e26383007947c21a1198ff682cd23c40a34a4b8bd3c5401af"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_learnable_uniform_seed1_seed2_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_learnable_uniform_seed1_seed2_twostage.yaml",
+      "sha256": "c86a2703042a648160537fb09679ff9f0d11aecbc6a71b4e486a63b8fd0bd27f"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_no_deepsup_seed0_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_no_deepsup_seed0_twostage.yaml",
+      "sha256": "e1d83e1470093f6e660d7c7b1bc583bf09ff83f613d1fdedc1f6e0c70c040c89"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_no_deepsup_seed1_seed2_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/ablation_2b_npf_eegnet_v2_no_deepsup_seed1_seed2_twostage.yaml",
+      "sha256": "0be5a24ac45da586d8cf44735c4d122796672f6cc1d17030fcdb55646894a9d7"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/baseline_2b_all_subjects_atcnetlite_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/baseline_2b_all_subjects_atcnetlite_twostage.yaml",
+      "sha256": "1b01ff50ccc300169ef9072ba488d2cb30f4b446f1b71c8ded71f7b746d8845c"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/baseline_2b_all_subjects_eegnet_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/baseline_2b_all_subjects_eegnet_twostage.yaml",
+      "sha256": "aa55a95258dfbd0c85cf18421b665fa38d4331b50c114d7c9db966fbfe748cec"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/baseline_2b_b02_b03_atcnetlite_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/baseline_2b_b02_b03_atcnetlite_twostage.yaml",
+      "sha256": "8e2899a8c2e057277724ebf9be2843921566b31cf2c068c2c34900682643e588"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/baseline_2b_b02_b03_eegnet_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/baseline_2b_b02_b03_eegnet_twostage.yaml",
+      "sha256": "9e8313b3a71cbcb058dd112f6aab458c9c41ec792509541cca5d66503ba0947b"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/baseline_2b_remaining_subjects_eegnet_seed0.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/baseline_2b_remaining_subjects_eegnet_seed0.yaml",
+      "sha256": "f996c2c5187d4f143d18e3c4b118689a555b3d5d719da50c9792665b6b301e73"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/confirm_2b_core_sr8_seeds12.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/confirm_2b_core_sr8_seeds12.yaml",
+      "sha256": "1d3ff6afb0d084cbb3f53a03b6725acda549c990b1a6df5c0ab0ea28a15de374"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/confirm_2b_npf_eegnet_v2_b02_b03_b06_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/confirm_2b_npf_eegnet_v2_b02_b03_b06_twostage.yaml",
+      "sha256": "b891fca888eb33f98c900b07a1020b7597c087f5ff4e2bafce76eddb45cee728"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/confirm_2b_npf_eegnet_v2_remaining_seed0_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/confirm_2b_npf_eegnet_v2_remaining_seed0_twostage.yaml",
+      "sha256": "23ffd6303e7e23469077e96ddf365cafc266b292add975ae7b11d0fa885cf811"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/confirm_hgd_npf_eegnet_core_3seed_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/confirm_hgd_npf_eegnet_core_3seed_twostage.yaml",
+      "sha256": "6f510f0396f3bbc4d7693c0477f10da425de2374c82631a422cd20af875102c0"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/confirm_hgd_npf_eegnet_enhanced_sr8_3seed_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/confirm_hgd_npf_eegnet_enhanced_sr8_3seed_twostage.yaml",
+      "sha256": "067e9864ece8c4c7a3afc7ffd01ea8d5c871d221e8b5d1357a1ef43c09a15eb0"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/confirm_hgd_raw_demean_h01_h09_seed0_remaining_groupcv_selection_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/confirm_hgd_raw_demean_h01_h09_seed0_remaining_groupcv_selection_only.yaml",
+      "sha256": "4eea0246cf6794923b2435fb7bb83890385f953c728a7dcb2ac2f6897888237d"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/confirm_hgd_raw_demean_h01_h09_seeds12_groupcv_selection_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/confirm_hgd_raw_demean_h01_h09_seeds12_groupcv_selection_only.yaml",
+      "sha256": "b8ba8b927f131f284660d0fe606c1e1694e931e1f0099902b06a098c67db3b2e"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/confirm_hgd_raw_demean_h10_h14_3seed_groupcv_selection_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/confirm_hgd_raw_demean_h10_h14_3seed_groupcv_selection_only.yaml",
+      "sha256": "a943474fc971a351ddada95a83c8b0f55c509e63d0b4da558e0640bda557e7ae"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/dcsa_2a.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/dcsa_2a.yaml",
+      "sha256": "f2a99c832af76fdc9d75f7db29b9e14698b2ba1793f90fd897ad394c815199ec"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/explore_2a_npf_eegnet_enhanced_sr8_3seed_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/explore_2a_npf_eegnet_enhanced_sr8_3seed_twostage.yaml",
+      "sha256": "31ea21ba3cbfec56a8e48722181722b212f5c17ace579fe699f70af4e29a858f"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/final_hgd_core_h01_h09_3seed_groupcv.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/final_hgd_core_h01_h09_3seed_groupcv.yaml",
+      "sha256": "7623958bfce6811275581e7d6e5329c651757d4e3552578cab207f6b7c553b3d"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/final_hgd_core_h10_h14_3seed_groupcv.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/final_hgd_core_h10_h14_3seed_groupcv.yaml",
+      "sha256": "b77bfbdf3d1f1ad49790dddc2226d7ac583f8cb9c7519995c4397f22efe68940"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/final_hgd_raw_demean_h01_h09_3seed_preselected.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/final_hgd_raw_demean_h01_h09_3seed_preselected.yaml",
+      "sha256": "133c583b3d0ac4e63ca9fbd02c83cc9a6b8e71e288105252ff7b95cda2e2f3da"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/final_hgd_raw_demean_h10_h14_3seed_preselected.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/final_hgd_raw_demean_h10_h14_3seed_preselected.yaml",
+      "sha256": "c58e7af311bace4224a3425996ef8fe037d634b7eef76ea0c0f9c08f28fb4a88"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/final_hgd_rgf_h10_h14_3seed_groupcv.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/final_hgd_rgf_h10_h14_3seed_groupcv.yaml",
+      "sha256": "92b8533e0ec926ca62aab6d947cf349584c99a7debe2bb6943df56ca368a9ff6"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_atcnet_final_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_atcnet_final_demean_3seed.yaml",
+      "sha256": "08d676071db9451d5c7d8b28964e1568370dffe1671c64dffc3a2fc660b99d19"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_atcnet_selection_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_atcnet_selection_demean_3seed.yaml",
+      "sha256": "32f93560762268c56debb4c69e84e90141ec1ed0b98a0c46d414f6ca87b72605"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_baseline_final_eegnet_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_baseline_final_eegnet_demean_3seed.yaml",
+      "sha256": "1d6f38f2fd62d9f3947484f5ef7dbefe7e5fc815826a9b65fe9aea93dd73a7ac"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_baseline_final_eegnet_nodemean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_baseline_final_eegnet_nodemean_3seed.yaml",
+      "sha256": "b81cc9bafa7f732f2915fbd9fa244570eb29f3ace0dad66828c6889c25bc1907"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_baseline_selection_eegnet_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_baseline_selection_eegnet_demean_3seed.yaml",
+      "sha256": "bfc6ce662fbda142ac61d803375790a7089302bb9dd27ac023ced8fe9e67c0cf"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_baseline_selection_eegnet_nodemean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_baseline_selection_eegnet_nodemean_3seed.yaml",
+      "sha256": "e872f9cc561ed238e1d28ce9cdd5526ac2a35129c14e565167f89976073ee5fa"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_eegconformer_final_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_eegconformer_final_demean_3seed.yaml",
+      "sha256": "bd1a1c00b827c3f4d680ac14bb44e6fb2c6798b50d620c340917fa1e274876b3"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_eegconformer_selection_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_eegconformer_selection_demean_3seed.yaml",
+      "sha256": "bfe5a7be39d3e0675816384c02fdd7e3de96969990790ed4c75cd6d98b4c18bc"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_final_npf_nodemean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_final_npf_nodemean_3seed.yaml",
+      "sha256": "33a5742858fd2635c8fc63320075dfdc498fec97053202bb82b1f63bdc30d45b"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_final_npf_raw_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_final_npf_raw_demean_3seed.yaml",
+      "sha256": "d89c2d7b78e1b97bdae093adb5379e6b6e5ef2a552f667312e826ab7827d9400"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_preprocess_control_final_fulldemean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_preprocess_control_final_fulldemean_3seed.yaml",
+      "sha256": "135ae19a54d92ba49337b55e9bdbd6c0665d4ea408b4dda109f21184573398f1"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_preprocess_control_final_highpass1hz_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_preprocess_control_final_highpass1hz_3seed.yaml",
+      "sha256": "1b389f4d3b2ee2ca667eb2ffdc2612360b06a35e31e9d3743c4ee7cd20ddc0f6"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_preprocess_control_selection_fulldemean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_preprocess_control_selection_fulldemean_3seed.yaml",
+      "sha256": "0026c0114243dba578bdf699485bdf3455e4eb3b4bab69c9a1ab243d99acf7c1"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_preprocess_control_selection_highpass1hz_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_preprocess_control_selection_highpass1hz_3seed.yaml",
+      "sha256": "9d6beb38666be8c68471d1ed7e7a22c9b413c5fff12cf5cbd94bebd8eb85f006"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_selection_npf_nodemean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_selection_npf_nodemean_3seed.yaml",
+      "sha256": "3e04559e055ba3f75f98c7af0b10cd0a5fda8ab055d0647bcd2029174e819f8e"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/openbmi_selection_npf_raw_demean_3seed.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/openbmi_selection_npf_raw_demean_3seed.yaml",
+      "sha256": "d25e437fcd34ea916a63601bec46e5fc46dad648a8e037da1dcd7606606f97a0"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/paper_2a_all_subjects_npf_eegnet_core_3seed_twostage.yaml",
+      "sha256": "ca191e1344d0645f79ee029bb7b4834569c62dc4ddd99c1f1ba63b420b293659"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/paper_2b_all_subjects_npf_eegnet_v2_groupcv_seed0_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/paper_2b_all_subjects_npf_eegnet_v2_groupcv_seed0_twostage.yaml",
+      "sha256": "8c8583bbbce069fab2eb1b6e0ea69a17cfce382dbb8a616037fb03d2a56e452f"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/paper_2b_all_subjects_npf_eegnet_v2_groupcv_seed1_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/paper_2b_all_subjects_npf_eegnet_v2_groupcv_seed1_twostage.yaml",
+      "sha256": "cf655d01324ec6def37904308175a5b01023001e38ac18fe05ebcc56d8b8db72"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/paper_2b_all_subjects_npf_eegnet_v2_groupcv_seed2_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/paper_2b_all_subjects_npf_eegnet_v2_groupcv_seed2_twostage.yaml",
+      "sha256": "121e4eb04a51e23bfd768989cf49966137c039e3965168a0d86135783185983f"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/paper_2b_all_subjects_npf_eegnet_v2_seed1_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/paper_2b_all_subjects_npf_eegnet_v2_seed1_twostage.yaml",
+      "sha256": "122aedf9a610f689458fd511f3f00904217dc00d4a0aecc593f3aadda26d7507"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/paper_2b_all_subjects_npf_eegnet_v2_seed2_twostage.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/paper_2b_all_subjects_npf_eegnet_v2_seed2_twostage.yaml",
+      "sha256": "005a1a5c3f91dc1368a4c5e860fac54f541782b3c5095ed2bbafecf087ccd0de"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/protocol_2a_holdout_eegnet_equalbudget.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/protocol_2a_holdout_eegnet_equalbudget.yaml",
+      "sha256": "01d08dcb20d0cdec3eda0eb26bc2769c61b615d86876f52ecec1602a8b3f95ba"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/protocol_2a_holdout_fbcnet_equalbudget.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/protocol_2a_holdout_fbcnet_equalbudget.yaml",
+      "sha256": "34d4ac098f881ac16b7c041933c39cf796082682ec2730a6cbb95f6daf022124"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/protocol_2b_fixedfinal_atcnetlite.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/protocol_2b_fixedfinal_atcnetlite.yaml",
+      "sha256": "8feb89164f46c64e5ba132fd2f1ec367ef10d35864d55232c58967d0bdec2c05"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/protocol_2b_fixedfinal_eegnet.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/protocol_2b_fixedfinal_eegnet.yaml",
+      "sha256": "a22e805e8ea9540535970c22feffe27a612c3beb23424201ff410671e571067b"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/protocol_2b_fixedfinal_npf_eegnet_v2.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/protocol_2b_fixedfinal_npf_eegnet_v2.yaml",
+      "sha256": "e457b69a245a9a1099b825ced51ea43c30368228507d016b735a19335bff3313"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/protocol_2b_groupcv_atcnetlite.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/protocol_2b_groupcv_atcnetlite.yaml",
+      "sha256": "6aeec46a04e1b25b6ea19032eca00dd6166425bdf8ff22715106c8c0cc471029"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/protocol_2b_groupcv_eegnet.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/protocol_2b_groupcv_eegnet.yaml",
+      "sha256": "aa7b1c323c29c45538afb75adbdd24ee385a2f52a3172453a59b90fdd3e8c7d1"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/protocol_2b_holdout_eegnet_equalbudget.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/protocol_2b_holdout_eegnet_equalbudget.yaml",
+      "sha256": "2aa2bfb1f3ba7760f0351cbc466f4dadf1606bcefa20901d43f1d704ec7a45d5"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/protocol_2b_legacy_testmax_eegnet_seed0.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/protocol_2b_legacy_testmax_eegnet_seed0.yaml",
+      "sha256": "fbd090fdf7e9ee9f13f16a1fec2b801001646f31649fd139a783450b580ca7af"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/protocol_2b_legacy_testmax_npf_eegnet_v2_seed0.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/protocol_2b_legacy_testmax_npf_eegnet_v2_seed0.yaml",
+      "sha256": "96f28d72e0a2248f566660ce4c3f0bfc5d065c69f2b4301111c38b74bafaefb6"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_2b_core_channelwise_seed0.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_2b_core_channelwise_seed0.yaml",
+      "sha256": "fde4436d3ebc7bbec98f1e53c14a9a0aa0be617ef56ac6913c96545c0546aba1"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_2b_core_channelwise_sr8_seed0.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_2b_core_channelwise_sr8_seed0.yaml",
+      "sha256": "664ad3b405f3d212db2d82a052960e3e28721b5440a97db45cda0ed9b1f10113"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_2b_core_sr8_seed0.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_2b_core_sr8_seed0.yaml",
+      "sha256": "1c2d63d655c1baadd4e93518ee53edf0346d2043aec2f3ea5a1da40143482d22"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_2b_npf_eegnet_deepsup_validation_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_2b_npf_eegnet_deepsup_validation_only.yaml",
+      "sha256": "a36d733af72527c26e3ae573334564bbc7a97a0c739906b71169f12def527718"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_2b_npf_eegnet_sessionalign_validation_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_2b_npf_eegnet_sessionalign_validation_only.yaml",
+      "sha256": "8487d80fd50a501400f5ef925cf4af4164adb4c0b27bcc148bb96ccd3b110ada"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_2b_npf_eegnet_validation_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_2b_npf_eegnet_validation_only.yaml",
+      "sha256": "0e871dfc075164dc96f76c33f716488d9dad1e0a67de850d4350a9c9b3fdf010"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_hgd_h07_core_loro_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_hgd_h07_core_loro_seed0_selection_only.yaml",
+      "sha256": "fb9a32edf44b3b0505a6fbfee9334e71514473e988ba47519f2fdfbb1de5c816"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_hgd_h07_groupnorm_loro_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_hgd_h07_groupnorm_loro_seed0_selection_only.yaml",
+      "sha256": "d7fa37d8a43d2ba0e9805278ea32ad212cb08e2a8eee4ed1f97fa398b6f862e9"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_hgd_h07_raw_demean_groupnorm_loro_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_hgd_h07_raw_demean_groupnorm_loro_seed0_selection_only.yaml",
+      "sha256": "3e3c6f174c2b1d73bd63ae3bdf19d967b7c360331ace5c1dc60149d4993a5c07"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_hgd_h07_raw_demean_loro_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_hgd_h07_raw_demean_loro_seed0_selection_only.yaml",
+      "sha256": "b322b21630368918cb517f983f130b7c7cd8a1483d3faaa59c7cdaccbef79868"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_hgd_npf_eegnet_core_groupcv_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_hgd_npf_eegnet_core_groupcv_seed0_selection_only.yaml",
+      "sha256": "74004c369b89079e3849ec8730e20887d056a0036edfcd4a156bc0caff489cf7"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_hgd_npf_eegnet_probavg_groupcv_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_hgd_npf_eegnet_probavg_groupcv_seed0_selection_only.yaml",
+      "sha256": "ab28a20568cc2c59c3df89ef1a6a6e2c081053e9184db8aec358ce553993f103"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_hgd_npf_eegnet_rgf_groupcv_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_hgd_npf_eegnet_rgf_groupcv_seed0_selection_only.yaml",
+      "sha256": "fbde72e5668802cabf9c27b2aa8e1a15cf45fdf6418079f036274f87bcce6f17"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/screen_hgd_raw_demean_controls_h01_h05_h06_groupcv_seed0_selection_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/screen_hgd_raw_demean_controls_h01_h05_h06_groupcv_seed0_selection_only.yaml",
+      "sha256": "4d3dbf9badc13e515df7ea0ae2f29c46d4b1e3579c4821c505de9554dd3aa5ef"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/smoke_2b_b01_eegnet_legacy_testmax.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/smoke_2b_b01_eegnet_legacy_testmax.yaml",
+      "sha256": "2aeb0a3b3f92af3fe6c6ebaad4670cb6bda65552583d0361d37f264dbcec6bfe"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/smoke_2b_b01_npf_eegnet_v2_fixedfinal.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/smoke_2b_b01_npf_eegnet_v2_fixedfinal.yaml",
+      "sha256": "47bc80c667cdb2694dd9711c03cffc0590ae639a4ed39f2cb2b357c17e8bb748"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/smoke_2b_b01_npf_eegnet_v2_groupcv.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/smoke_2b_b01_npf_eegnet_v2_groupcv.yaml",
+      "sha256": "5e479b22ab9bdb17fa3b85e8e8b4b7f4226f58acca9ef17ba00ea2f32d692935"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/smoke_hgd_npf_eegnet_enhanced_sr8_selection_only.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/smoke_hgd_npf_eegnet_enhanced_sr8_selection_only.yaml",
+      "sha256": "a806e351c71f8ed8297bb13cd2f865e2e1f1e422ea0eeadbac0335f5fbd2ddc4"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/smoke_openbmi_s01_raw_demean_selection.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/smoke_openbmi_s01_raw_demean_selection.yaml",
+      "sha256": "531d1855449b1db1ef72684ff60cff97534390bc81a9ed8ff10c6379f6857158"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/unified_repro_20260918/atcnet_demean.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/unified_repro_20260918/atcnet_demean.yaml",
+      "sha256": "1db02454705c920ff3dfbe4d9fc2b95b8951200a0b3383200820bf36bcd24c7d"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/unified_repro_20260918/eegnet_demean.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/unified_repro_20260918/eegnet_demean.yaml",
+      "sha256": "562c49c9fd6831cc352b221d702056b658cb7b2cee5322ced0a10d77a821a85c"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/unified_repro_20260918/npf_no_demean.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/unified_repro_20260918/npf_no_demean.yaml",
+      "sha256": "a9979ef77c89c03b5d351146eb11af1c8316024edf1f2c0b87a5b1854e817270"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/config/unified_repro_20260918/npf_raw_demean.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/config/unified_repro_20260918/npf_raw_demean.yaml",
+      "sha256": "4226d766bbe9ca11828ae836a9734588d1e44cea52e743616b20fdcada5d70f0"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/results/full54_atcnet_author_recipe_report.json",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/results/full54_atcnet_author_recipe_report.json",
+      "sha256": "aacd6ce56b67800cef0099b6e3c9af65de48add548b3e8b0a2bf0cc2dcc8185c"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/results/full54_atcnet_author_recipe_subjects.csv",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/results/full54_atcnet_author_recipe_subjects.csv",
+      "sha256": "d9e4ac814d5fec370aad0d388aff9fb6b71782bf2877f5da46c4f181bcd3c630"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/sentinel/atcnet_author_recipe_full54.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/sentinel/atcnet_author_recipe_full54.yaml",
+      "sha256": "c640a2d6408d4866d3638ad095d7f91d0d6f524bbfeeedc11c832dde4dff5988"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/sentinel/atcnet_author_recipe_sentinel.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/sentinel/atcnet_author_recipe_sentinel.yaml",
+      "sha256": "310c8fdd405cbfdebf4232c2965c8a78f6f5e61ead722eb36c18626a3dc38093"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/sentinel/atcnet_smoke.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/sentinel/atcnet_smoke.yaml",
+      "sha256": "2c0b412017578e1b72112ef2ad98901b5f0ee2ef555d671b01fd4828242d912d"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/sentinel/design_lock.json",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/sentinel/design_lock.json",
+      "sha256": "4459010d052e5d313005f26a7ee8602437106ea63bc8996c3f1874a09586aaf6"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/sentinel/eegconformer_author_recipe_sentinel.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/sentinel/eegconformer_author_recipe_sentinel.yaml",
+      "sha256": "408852f86dc73a03e989dbcde66d6be961bd536fe430b5e4685e05abe5b5e3f5"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/sentinel/eegconformer_smoke.yaml",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/sentinel/eegconformer_smoke.yaml",
+      "sha256": "58c15fcf1442d0fdc61fa686ac2cf07a13971ecd3a480b06863db9e7924676d0"
+    },
+    {
+      "file": "evidence/historical/sentinel-audit-20260923/sentinel/full54_design_lock.json",
+      "source": "NPFEEGNet-RD-sentinel-audit-20260923/sentinel/full54_design_lock.json",
+      "sha256": "4520e2f13960ade382cea146b10175f98a863e8395bc1911c2af7766d96764e3"
+    },
+    {
+      "file": "evidence/historical/temperature-20260926/config/rd_s1_oof.yaml",
+      "source": "NPFEEGNet-RD-temperature-20260926/config/rd_s1_oof.yaml",
+      "sha256": "41f7ddc7ced9811d45c04731ebb2cec89338f04ea459362524fceb5d14c208c3"
+    },
+    {
+      "file": "evidence/historical/temperature-20260926/config/rd_s1_oof_smoke.yaml",
+      "source": "NPFEEGNet-RD-temperature-20260926/config/rd_s1_oof_smoke.yaml",
+      "sha256": "3e3d0551b6c466cc3f90d5a919789a3764edf851e0806e43d8abc71d2754f89d"
+    },
+    {
+      "file": "evidence/historical/temperature-20260926/results/design_lock.json",
+      "source": "NPFEEGNet-RD-temperature-20260926/results/design_lock.json",
+      "sha256": "3ad527b33a3b405f128ca4a49e4fbf731c30a4e7f9729986b3e4b2b472c81d0e"
+    },
+    {
+      "file": "evidence/historical/temperature-20260926/results/temperature_lock.json",
+      "source": "NPFEEGNet-RD-temperature-20260926/results/temperature_lock.json",
+      "sha256": "8a89db808515d8b0f7d0948df15b3533911b1c453b2e0a6d9717b2c5487ca5e8"
+    },
+    {
+      "file": "evidence/historical/temperature-20260926/results/temperature_report.json",
+      "source": "NPFEEGNet-RD-temperature-20260926/results/temperature_report.json",
+      "sha256": "6ae483698f2c8849d1487deb17f555942ecb8647f5c6959df40f12bc99e99226"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/config/zhou2016_eegnet_demean_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_eegnet_demean_final.yaml",
+      "sha256": "ee25589d9f692f6147e04db23585fd9f6f0a52a19854720ffd32635db233b707"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/config/zhou2016_eegnet_demean_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_eegnet_demean_selection.yaml",
+      "sha256": "280993fb6ae4e83b64636024b4b71109777cc7036853721aee850df2fe77ad96"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/config/zhou2016_eegnet_demean_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_eegnet_demean_smoke.yaml",
+      "sha256": "c5cb422edddf862f6ff634a46f01c80eb10a91effd33d0d38390acf07ea40447"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/config/zhou2016_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_nodemean_final.yaml",
+      "sha256": "a976dbe5f9f7b31c37c386cf940d85c8f5aaac513200961a06f741af7c252406"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/config/zhou2016_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_nodemean_selection.yaml",
+      "sha256": "5924e1b0737c360658ce10b83a52e993a6c39f2e7f0dea9ef49cfdd41b2e007c"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/config/zhou2016_nodemean_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_nodemean_smoke.yaml",
+      "sha256": "5eca62c5c9cfc3fc354b417e4b4329b75635024d729944c3d897a1e1cbbf4a4f"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/config/zhou2016_rd_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_rd_final.yaml",
+      "sha256": "4821660223ebc14bc7507952c065832fdf2aa8abf7a55bf49a9ba261dbefc361"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/config/zhou2016_rd_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_rd_selection.yaml",
+      "sha256": "afda610e6c51ef1c8ec62b16a64a3b8e988cd517b290234fa99561f0e5071e1c"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/config/zhou2016_rd_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/config/zhou2016_rd_smoke.yaml",
+      "sha256": "9e0db5dce50f5d01d0922c2e77ca7f275c19d82ff56ef8b819764f2a61417910"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/results/final_report.json",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/results/final_report.json",
+      "sha256": "51d6a30c24b17c0513c0011c394b565892c3cffff1dc2878b8285384f1239ebd"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/results/final_subjects.csv",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/results/final_subjects.csv",
+      "sha256": "524bbe6103748b53e5e4bbd8dedae3a591628f36451a2c7e522cb7b0fb51ecec"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/results/final_unlock_lock.json",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/results/final_unlock_lock.json",
+      "sha256": "711ef2dffde34fb14802e0b86a1b4d1afe80530d3f9247e821619c195e1acc89"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/results/protocol_lock.json",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/results/protocol_lock.json",
+      "sha256": "70c770c35492e1533064597b5db1145666bec1ce47f31a66a9d5165cab646eed"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/results/session_a_addendum.json",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/results/session_a_addendum.json",
+      "sha256": "656d31734ec00c61f68835ec6457678691d45e50f875719578edeb634a00e4d8"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/results/zhou2016_eegnet_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/results/zhou2016_eegnet_demean_selected_epochs.json",
+      "sha256": "4404396b84167b7b94367a31e5c930c791a45c12023c40f86b312b196b441b66"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/results/zhou2016_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/results/zhou2016_nodemean_selected_epochs.json",
+      "sha256": "91469808fa30d385d6e13f9aeadf7e628c5c1872e4b94fa73b7c8ac8cc527f29"
+    },
+    {
+      "file": "evidence/historical/zhou2016-20260927/results/zhou2016_rd_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2016-20260927/results/zhou2016_rd_selected_epochs.json",
+      "sha256": "32efe93cf1fe07670a16680819dcfed092430b56528dc5e08c104ebb70cf97ed"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_a_eegnet_demean_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_a_eegnet_demean_final.yaml",
+      "sha256": "60357ee223fe08b33353e72255f522f78f80ccb905c2cba2906bcb18fcb87274"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_a_eegnet_demean_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_a_eegnet_demean_selection.yaml",
+      "sha256": "505bdcb30665150d99258e0e0790d972414aafa9557b870f15bb453b91ee7d4e"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_a_eegnet_demean_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_a_eegnet_demean_smoke.yaml",
+      "sha256": "074a36d3fabb092ddbf90ca4b02469059d068b705b1a72f14d5bbf621c39d6d6"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_a_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_a_nodemean_final.yaml",
+      "sha256": "844811d37ee5023d35c5fc06577f023f0169ce12c4c7ad859277c27282da8d68"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_a_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_a_nodemean_selection.yaml",
+      "sha256": "5326ad85340a3392acf199d8cbe292bb839c8df244c9550c9bd3156a23473f74"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_a_nodemean_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_a_nodemean_smoke.yaml",
+      "sha256": "da7ce2ed689f014e9c5013bfbd892f35bb762fd1345aa1ba1517f20e6df2776b"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_a_rd_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_a_rd_final.yaml",
+      "sha256": "341dd94035fc430a5614c605dd0f093bf20964dba66cdacb6042df8483c6fb85"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_a_rd_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_a_rd_selection.yaml",
+      "sha256": "19a389c426155a896d196bd8d4cf2ee4741d8ebca3106fca188e2010b9ae6213"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_a_rd_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_a_rd_smoke.yaml",
+      "sha256": "3d72492f8f630f934bb33cb918ea4fc602b07356b721d9bb9f5aa7a797f905fa"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_s_eegnet_demean_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_s_eegnet_demean_final.yaml",
+      "sha256": "1493796ec88a38a57ae2f567639f3cb5618f433822a3880c8ac1e2a4b4218ded"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_s_eegnet_demean_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_s_eegnet_demean_selection.yaml",
+      "sha256": "93745700aab9f9f433ceb83bb328063937a88d274c9f8919ee076fe5c4a587ce"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_s_eegnet_demean_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_s_eegnet_demean_smoke.yaml",
+      "sha256": "d10d9ccc5277b9bd2c70a2799d6fbc2128ba90768435ad4a8ee6804625dcd78a"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_s_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_s_nodemean_final.yaml",
+      "sha256": "689aee425c2bfee0745eba65cacc1060b396ccfe49263480141b303876c8820f"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_s_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_s_nodemean_selection.yaml",
+      "sha256": "9624d7f3024c6c78aa3cc73ab62a893bc391eb60cacc859007d5aa9bdd98b3cf"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_s_nodemean_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_s_nodemean_smoke.yaml",
+      "sha256": "801f71df6a72906732f35acccf4f8adbe43dc484d0ccb520b319c626d1412d94"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_s_rd_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_s_rd_final.yaml",
+      "sha256": "bd7fa710158babd6aa227f6eee4e8998dda2be2f97653c2976f0c29a447d5cef"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_s_rd_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_s_rd_selection.yaml",
+      "sha256": "6d159fbd6a0d2bf9fba6a4652edfe79b96d3df5c08f8f0db7ea6204ce73d9898"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/config/zhou2020_s_rd_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/config/zhou2020_s_rd_smoke.yaml",
+      "sha256": "5bdea71ee476703c63901f4f6dc67c274b96884518cea89654d2769a1b7b9e3a"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/accuracy_diagnostic.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/accuracy_diagnostic.json",
+      "sha256": "aee2f3ef869bb3369ee319ce0f1486c108c13025fbae54fb270499535b00dbad"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/final_report.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/final_report.json",
+      "sha256": "b02f3a054510de7d159463f509e5c3f15ef59e56f80c3f6deaeb375328f90d21"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/final_subjects.csv",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/final_subjects.csv",
+      "sha256": "9ba6ee0fbcdf7fc0802634a772966762e611a8d01125ea2c5164973ef1813454"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/final_unlock_lock.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/final_unlock_lock.json",
+      "sha256": "7ae583c7e98fb14b0e4f9acd242865d02f55a4575d97b584afbf168f594ee66b"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/protocol_lock.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/protocol_lock.json",
+      "sha256": "8747155b7ed72e662ca1e356a20e4890c6604df8361cea0d9c2dafc18c2da990"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S01_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S01_session_1_source.json",
+      "sha256": "34937d4e2daaa1419e08485b8b90f31da715c6eb73a657d85d8ead70c3fe5642"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S01_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S01_session_2_target.json",
+      "sha256": "1f5fcc1c95cb6219f5e7d040a3f2c90eb1f9b0c4b51a9e7fbbe0e3ee4286edb7"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S02_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S02_session_1_source.json",
+      "sha256": "a5431807b50b5e316d74894dbf87db06473c3185397c137e2dc741b0681612d9"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S02_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S02_session_2_target.json",
+      "sha256": "e053ab5f6143c3059d110b1b7242d22ce0b627a3613158be9223ded7c83797a1"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S03_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S03_session_1_source.json",
+      "sha256": "4a36fea8b8370871864465f0b05e645a6cfd72658f1cb1368f4151c72949a74a"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S03_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S03_session_2_target.json",
+      "sha256": "66d3aa9667b9d8085d5dad608e6cdb46669e5d3a46d7addbbe9655c4a9dc8b76"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S04_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S04_session_1_source.json",
+      "sha256": "6a9df883e8e9358b0030773b0f200c6aaf135d32f60b632b0e5b0b059dc88e5d"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S04_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S04_session_2_target.json",
+      "sha256": "8457489d0e4dd9ee3223bea85a80dc23f340acfe019c9cbf806b8eae78786d00"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S05_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S05_session_1_source.json",
+      "sha256": "567d626e84bf0e15cea65eeba77e4ca5bb175f955984cc6a2d94054d7d051a07"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S05_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S05_session_2_target.json",
+      "sha256": "b247bbd03671435f14d453109da0881c607c783f503940ff5850c4a7c77674da"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S06_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S06_session_1_source.json",
+      "sha256": "69e52b93fbaf3918c74e4dbe20f1d21fad6712c743810fcb019ec0cb5fb992b3"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S06_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S06_session_2_target.json",
+      "sha256": "543bb05f19286783f13eade4d316f3d68d75c5cc699cbc4fd03380efb3605dfd"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S07_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S07_session_1_source.json",
+      "sha256": "d2f8f2f13109a6a6f9785119eda72e2f52f2c55eaac25f6f91ba4469335d2add"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S07_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S07_session_2_target.json",
+      "sha256": "1c0f4382e841dcfb87f320f46d67cb6a7e18e9dfd63b381badce4f9290e71b6d"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S08_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S08_session_1_source.json",
+      "sha256": "29914db696a1485153953dfd0f7be7fca21f33c5afe77ac258008506265c6cbc"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S08_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S08_session_2_target.json",
+      "sha256": "b6fc879ca2201350f0dc52ba71562ecf7fdb6fda6588a6a85f35b8095ef89316"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S09_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S09_session_1_source.json",
+      "sha256": "9f16ca7ce58afccddc78ccbafe4f7b2751b5bb709a11ea4d41a9eb7b78ec4fde"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S09_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S09_session_2_target.json",
+      "sha256": "9792f7adea5b3c609147f931a2a95ffe8d8eca9d1f1cfe12c74b28747bea048f"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S10_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S10_session_1_source.json",
+      "sha256": "64458e57fdff023e689d27eea3b27159752638b7559e10b084939044abcc8c56"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S10_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S10_session_2_target.json",
+      "sha256": "ab02eb9151cae06168d1fad4e85c1b1c890d3eb7fc56701f6e67407d2ce913e2"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S11_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S11_session_1_source.json",
+      "sha256": "cd9f4232dd9f3bb64996e72762706e4b29288df02be439479c76c015795483cb"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S11_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S11_session_2_target.json",
+      "sha256": "6248e30b5749c756da07ce3bbbe293969b2b2fffb4b8d7ad8ee02c78e52b8630"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S12_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S12_session_1_source.json",
+      "sha256": "4a6ed48d9a955fb98ddc4077841e181341d462c319b06b12cdd5397a590cdbce"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S12_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S12_session_2_target.json",
+      "sha256": "8ba3b988563c511f1fcc1ad9e5564b3dc0cc925ebfe324dbe69b2ecaca1a74f3"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S13_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S13_session_1_source.json",
+      "sha256": "c019eaa502755eef2edd13f013dfb0c69e8d3b55a90fbc683e58d672fdfb87ef"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S13_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S13_session_2_target.json",
+      "sha256": "767a8395a3baee3e82fc3df270e25685948292f174d4f363e2b740c851ded83b"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S14_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S14_session_1_source.json",
+      "sha256": "af6a0a96df07ab3cca36f8aa4ff01fa5dc8c1e58febb817002a1c877469011bc"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S14_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S14_session_2_target.json",
+      "sha256": "e47fa721be9dad8e8d44b87a994ef5b6cc5cdde7f388ec0230b5766ce4db3046"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S15_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S15_session_1_source.json",
+      "sha256": "0cd6e777a640bdc472a6d990081a43b9d69860e6041b86290bbe3fb82bbb0224"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S15_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S15_session_2_target.json",
+      "sha256": "11940f07df4cd4dde760d2912eca943de2d79d70d181539cbe04a13c734e594d"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S16_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S16_session_1_source.json",
+      "sha256": "89c2c76fb73db1f0b1799d6d82c9f47e5a6fa71467c026e1cb5770292280086c"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S16_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S16_session_2_target.json",
+      "sha256": "635c9e79576d7ba93eb32d24e6a22be9cab3afdc69b8b31238d70aa9fac15796"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S17_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S17_session_1_source.json",
+      "sha256": "997e6f91e887b78520018bd6f2be153411f73177ec40744a9b9fdd6b052824ba"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S17_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S17_session_2_target.json",
+      "sha256": "51ec3b8fa2508c74183864925270a8145483494e6c847d707486a6bfb0697b3d"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S18_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S18_session_1_source.json",
+      "sha256": "6f3a7f5748e633ef895234200d88f50d9b0226f06557d2dcfbca979619591323"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S18_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S18_session_2_target.json",
+      "sha256": "8d2d9cda4e87752b874050c31e46e1cc4398aff322eb22892dda09183db95b35"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S19_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S19_session_1_source.json",
+      "sha256": "25b4c48050a7967ea85c81ea8ed71592dffda2236f787c43354b83eaffc89c99"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S19_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S19_session_2_target.json",
+      "sha256": "df09930dc52b6faaffec051323cb891194acb13603b5b591cea1d6d836b022d8"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S20_session_1_source.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S20_session_1_source.json",
+      "sha256": "d4b8b964b5ca0d5a91cbb2e9be7494f4381ca7ee1fb727471fc458aa47f69b83"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/S20_session_2_target.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/S20_session_2_target.json",
+      "sha256": "68a9aae582ed3c2789e6fb2ccd89533bd158bde3e60f6748eae60234d3fbb7a7"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/source_only_addendum.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/source_only_addendum.json",
+      "sha256": "566e01a19f3c9045c87af1d2de5f7f6129aa2e426dd53add7e6dd0fddc0a3ba4"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/source_probe.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/source_probe.json",
+      "sha256": "20602c57b3e366e29cf4e37167b5ec3a45e8cdfc963ad7dfd0032c0ee7da3afe"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/zhou2020_a_eegnet_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/zhou2020_a_eegnet_demean_selected_epochs.json",
+      "sha256": "d2056e73d1e2f8d363d1d28995871888701747f76a3c48fa1c57cc360419e0e4"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/zhou2020_a_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/zhou2020_a_nodemean_selected_epochs.json",
+      "sha256": "994acc26ea10bcdf7eb232c1b2e66d99b7d7a0b7571a252d7f1f3029e5db9b4f"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/zhou2020_a_rd_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/zhou2020_a_rd_selected_epochs.json",
+      "sha256": "f9242553973178441aae279841b585a0479f5aef7e5f9462e813c37351993014"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/zhou2020_s_eegnet_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/zhou2020_s_eegnet_demean_selected_epochs.json",
+      "sha256": "938d67e16792e9b9069e652f3e9b58963d1591cd54569898978ad8b3394011ad"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/zhou2020_s_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/zhou2020_s_nodemean_selected_epochs.json",
+      "sha256": "81776753c735794605b2c1f05e62255b65aaa11f327085ce21ccc01cbe05bf92"
+    },
+    {
+      "file": "evidence/historical/zhou2020-20260927/results/zhou2020_s_rd_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2020-20260927/results/zhou2020_s_rd_selected_epochs.json",
+      "sha256": "6bb1d7e5311803a25fb2ff5f04bee38d4ea106c55b79a8570a96032c82d0d282"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_a_eegnet_demean_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_a_eegnet_demean_final.yaml",
+      "sha256": "7c51fd464c684d736ef4742916525f48911e4585c1aedc8a1813deb31cb86e18"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_a_eegnet_demean_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_a_eegnet_demean_selection.yaml",
+      "sha256": "251d96ba3eb819021e2fb067e9b319a41a50dbe15a6c8caf4562200943f35e6d"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_a_eegnet_demean_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_a_eegnet_demean_smoke.yaml",
+      "sha256": "8d4d90bf51ef9b5fcff5969fb48c970e876d5c6e5f86a82bf27051ba3e71c9c6"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_a_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_a_nodemean_final.yaml",
+      "sha256": "4ce956aab9856a81925cee65fa7ad431fef93ef6a0fd909ea14487b01368f0c8"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_a_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_a_nodemean_selection.yaml",
+      "sha256": "fcc8744acc60f1559eb52bedc5f1d128a3a95e0203e803c552b2615167733650"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_a_nodemean_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_a_nodemean_smoke.yaml",
+      "sha256": "a8e01b5d56aed0cab1e48ccac8d2bf5ab996f317999828a645a566c3815f46b5"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_a_rd_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_a_rd_final.yaml",
+      "sha256": "4735baab387f1e47cf2039b9047bcfea1e24fb66b9f48fa60c79a396b863f21d"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_a_rd_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_a_rd_selection.yaml",
+      "sha256": "8fab9e3bcb6930b4c2b76f5cfc36bbae57d4fe6dd30fd90a3765f8dff6cab945"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_a_rd_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_a_rd_smoke.yaml",
+      "sha256": "cd1bda3a4ad3a554b7a482bd03ab5ff0075ea43408b27c426a49ce9f3b4e68dc"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_s_eegnet_demean_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_s_eegnet_demean_final.yaml",
+      "sha256": "eaf8cf5d7b9dee26c10ffc0a109511a4ec65d460c284368b2f6198742ea21ee4"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_s_eegnet_demean_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_s_eegnet_demean_selection.yaml",
+      "sha256": "6675c6035eb8077fbdc0e0365be83970ff6e185ab50fc251a558681072007684"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_s_eegnet_demean_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_s_eegnet_demean_smoke.yaml",
+      "sha256": "92008d61689a53a02bcf62779fea7c6db8ab683500bdd7fce23f2afc8686781a"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_s_nodemean_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_s_nodemean_final.yaml",
+      "sha256": "f2aea351a8e47296edd9f40f08a3f0abf128ea8621fafd0b9f1207b6724e8f8b"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_s_nodemean_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_s_nodemean_selection.yaml",
+      "sha256": "bf692c9e6fe77f2a014b772130c739776910eb2620bb0d573f486eac8168d491"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_s_nodemean_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_s_nodemean_smoke.yaml",
+      "sha256": "2b13e842e98b16d626eb036e09edaada5520c98663c27227b953c6d80d69f258"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_s_rd_final.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_s_rd_final.yaml",
+      "sha256": "2e4db87495c631e52dcd967ba2c77410f4532fd6615a9deac872399cf1a38dee"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_s_rd_selection.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_s_rd_selection.yaml",
+      "sha256": "dca7c88bfa46a1f78311629326d1617c90f54b4b897e3b630191832197e72665"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/config/zhou2020_s_rd_smoke.yaml",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/config/zhou2020_s_rd_smoke.yaml",
+      "sha256": "1f2942cd303f92dc46fb7838c117d2df4ea5dd14233f8aa42b9d2b1b00545df5"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/csp_all_report.json",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/csp_all_report.json",
+      "sha256": "f9f059415f8dee69885487c53917ded8189c0bd5b5f59737b1f19eaca8ddbdb7"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/csp_all_subjects.csv",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/csp_all_subjects.csv",
+      "sha256": "fe2e834a731683309bac78d808a95bd4adf24f68477022a1c88c1e45bb8b07a5"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/csp_smoke_report.json",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/csp_smoke_report.json",
+      "sha256": "3dc08c3c1494640a93ca706fb6a4ad27a3e99fdd989bb0d70f75a60830f227bf"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/csp_smoke_subjects.csv",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/csp_smoke_subjects.csv",
+      "sha256": "69e19145ef48a48df62e50663dff726df5bc3a419172c2637b4d16c49c18464d"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/final_report.json",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/final_report.json",
+      "sha256": "9bc7362fa63827fd497d0197f6100baf795aaee414f748299837c92d98c4c66e"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/final_subjects.csv",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/final_subjects.csv",
+      "sha256": "ecb1d4308526b332a889b2ae8804780abbcebcd7ff0b9e6f65275a44c9415937"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/selection_freeze.json",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/selection_freeze.json",
+      "sha256": "1cafcb7fbefadf1df985d37e42147b5e3ecf15fd5d3f5b40cf666ad1d69f6dcd"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/session_1_preprocess_report.json",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/session_1_preprocess_report.json",
+      "sha256": "7bcf8c2732b683a791f131fa46217e6cda851359ea391adbdf64706ae884f40e"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/session_2_preprocess_report.json",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/session_2_preprocess_report.json",
+      "sha256": "e1cc8aaeb8119dba997cc7429f122913f1677b892a2980493e3335895299f66b"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/zhou2020_a_eegnet_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/zhou2020_a_eegnet_demean_selected_epochs.json",
+      "sha256": "c9c76d263ef01b8c89df86baade1bf3d6721ec537675b654dbffeb173fadab42"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/zhou2020_a_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/zhou2020_a_nodemean_selected_epochs.json",
+      "sha256": "53b9f63f3b20022ed541f68f4e1c54d2043461bc39edc1b2b6e717deb3ff279f"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/zhou2020_a_rd_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/zhou2020_a_rd_selected_epochs.json",
+      "sha256": "4c69b24cf158b00c6d5c7763e62c0c90e73b2c51f5f085bd88dfbbedb83d1509"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/zhou2020_s_eegnet_demean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/zhou2020_s_eegnet_demean_selected_epochs.json",
+      "sha256": "8b98ef5dc1b54f6d162074952b8896f5b765f4307e8f58fd8e3821b48e91c7c2"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/zhou2020_s_nodemean_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/zhou2020_s_nodemean_selected_epochs.json",
+      "sha256": "d0225bf8c4ef80cfe2d66112b729ee80370194f8a6cfb0fcd9733e88281f50a0"
+    },
+    {
+      "file": "evidence/historical/zhou2020-posthoc-20260927/results/zhou2020_s_rd_selected_epochs.json",
+      "source": "NPFEEGNet-RD-zhou2020-posthoc-20260927/results/zhou2020_s_rd_selected_epochs.json",
+      "sha256": "42706a9ee2741c271790ab21869861ff1bcc52c1d21462795e2e55d86ff27298"
+    }
+  ]
+}
