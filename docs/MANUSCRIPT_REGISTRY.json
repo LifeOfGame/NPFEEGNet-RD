@@ -1,0 +1,566 @@
+{
+  "manuscript_snapshot": "bspc_repaired_20261006, inspected 2026-10-07",
+  "documents": {
+    "manuscript.md": "9462bd7793cbe3cf210eb14ee33266eb848db4a0ff92947654b43259656bc7a4",
+    "supplementary_material.md": "1cf435829b5383e4209f32d621168beb1831eabe9a82b8f6d9b45f343a7847c6"
+  },
+  "scope": "Content-indexed provenance map, not certification that each table and figure is fully regenerated. Missing source paths are explicit. Manuscript text/images are not copied by this script.",
+  "items": [
+    {
+      "item": "Table 1",
+      "document": "manuscript.md",
+      "line": 43,
+      "content_sha256": "77c27a996c1aa1f7786e348dfc9808132a57794a60446fd65702b5d6f76ce600",
+      "sources": [],
+      "scope": "Narrative chronology and dataset design; original protocol documents still need full linkage.",
+      "source_checks": []
+    },
+    {
+      "item": "Fig. 1",
+      "document": "manuscript.md",
+      "line": 53,
+      "figure": "figures/Fig1_evaluation_design.png",
+      "figure_sha256": "5eeac4760f88182b70258d24d059aacf891aa6c12733365d1b103a083f4f641b",
+      "sources": [],
+      "scope": "Conceptual evaluation design; no statistical data reconstruction needed.",
+      "source_checks": []
+    },
+    {
+      "item": "Fig. 2",
+      "document": "manuscript.md",
+      "line": 147,
+      "figure": "figures/Fig2_openbmi_subject_effects.png",
+      "figure_sha256": "f9718dc3cb60b0db1a68ddda91d7a232cc325a12f5eb29be2ad4a63071ef0f89",
+      "sources": [
+        "evidence/historical/paper-20260917/results/openbmi_final_3seed_report.json",
+        "evidence/studies.json"
+      ],
+      "scope": "Subject effects reconstructable from primary prediction pairs.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/openbmi_final_3seed_report.json",
+          "in_repository": true,
+          "sha256": "0341e06416bacffd470c1e9629d26af9bb2dd389c882a3eded952a5700438b7d"
+        },
+        {
+          "path": "evidence/studies.json",
+          "in_repository": true,
+          "sha256": "4e039ff7e965ce5f15d143acc91211746755af3f13e4685089b8401718255c78"
+        }
+      ]
+    },
+    {
+      "item": "Table 2",
+      "document": "manuscript.md",
+      "line": 149,
+      "content_sha256": "80bc2c8c71bb75a0cc0df289b9ca97a58396e8411d32b6765fe93c81f2ee04bb",
+      "sources": [
+        "evidence/historical/paper-20260917/results/openbmi_final_3seed_report.json",
+        "evidence/studies.json"
+      ],
+      "scope": "Portable primary accuracy/NLL/ECE: build_evidence_tables.py. Historical collapse definition remains in original records.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/openbmi_final_3seed_report.json",
+          "in_repository": true,
+          "sha256": "0341e06416bacffd470c1e9629d26af9bb2dd389c882a3eded952a5700438b7d"
+        },
+        {
+          "path": "evidence/studies.json",
+          "in_repository": true,
+          "sha256": "4e039ff7e965ce5f15d143acc91211746755af3f13e4685089b8401718255c78"
+        }
+      ]
+    },
+    {
+      "item": "Table 3",
+      "document": "manuscript.md",
+      "line": 162,
+      "content_sha256": "60d58ec45b5dba57cbaaff6a657b817c641a74f93ef527c9d202ddba300b65c7",
+      "sources": [
+        "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_report.json",
+        "evidence/studies.json"
+      ],
+      "scope": "Portable reconstruction of all eight accuracy conditions.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_report.json",
+          "in_repository": true,
+          "sha256": "0189a4b9fd9d06ee03f80cfe0105eebe0944b1bff801bcc17489387250eae4d3"
+        },
+        {
+          "path": "evidence/studies.json",
+          "in_repository": true,
+          "sha256": "4e039ff7e965ce5f15d143acc91211746755af3f13e4685089b8401718255c78"
+        }
+      ]
+    },
+    {
+      "item": "Fig. 3",
+      "document": "manuscript.md",
+      "line": 183,
+      "figure": "figures/Fig3_cross_dataset_effects.png",
+      "figure_sha256": "5cebe88f0ec8a6f035496d515878a2aeeb33a51bf3771e162d9a80e378dd2a20",
+      "sources": [
+        "evidence/historical/paper-20260917/results/openbmi_final_3seed_report.json",
+        "evidence/historical/reviewer-controls-20260925/results/bnci2015_001_external_report.json",
+        "evidence/historical/zhou2016-20260927/results/final_report.json",
+        "evidence/historical/zhou2020-20260927/results/final_report.json"
+      ],
+      "scope": "Dataset-specific historical intervals; descriptive means independently reconstructable.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/openbmi_final_3seed_report.json",
+          "in_repository": true,
+          "sha256": "0341e06416bacffd470c1e9629d26af9bb2dd389c882a3eded952a5700438b7d"
+        },
+        {
+          "path": "evidence/historical/reviewer-controls-20260925/results/bnci2015_001_external_report.json",
+          "in_repository": true,
+          "sha256": "bb8eb34638b3933bac58a0cc229509514330493b5df563b205fb832def6284aa"
+        },
+        {
+          "path": "evidence/historical/zhou2016-20260927/results/final_report.json",
+          "in_repository": true,
+          "sha256": "51d6a30c24b17c0513c0011c394b565892c3cffff1dc2878b8285384f1239ebd"
+        },
+        {
+          "path": "evidence/historical/zhou2020-20260927/results/final_report.json",
+          "in_repository": true,
+          "sha256": "b02f3a054510de7d159463f509e5c3f15ef59e56f80c3f6deaeb375328f90d21"
+        }
+      ]
+    },
+    {
+      "item": "Table S1",
+      "document": "supplementary_material.md",
+      "line": 19,
+      "content_sha256": "d33146f436b943ce3233a64894915493e469b3e2603f7ed18681691fac626213",
+      "sources": [
+        "evidence/historical/paper-20260917/results/paper_2b_ablation_summary.csv"
+      ],
+      "scope": "Developmental summary; no new training replication.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/paper_2b_ablation_summary.csv",
+          "in_repository": true,
+          "sha256": "7a05a5849b7b2865162d875369ccf5fc4c1d09ceced394eda0db06194ecafa74"
+        }
+      ]
+    },
+    {
+      "item": "Table S2",
+      "document": "supplementary_material.md",
+      "line": 27,
+      "content_sha256": "91683e623738a38a7e5a11f7da727e5010d86d93cf50e1a7185eac540b799584",
+      "sources": [
+        "evidence/historical/paper-20260917/results/paper_2b_ablation_summary.csv"
+      ],
+      "scope": "Summary source; exact contrast script still needs portable validation.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/paper_2b_ablation_summary.csv",
+          "in_repository": true,
+          "sha256": "7a05a5849b7b2865162d875369ccf5fc4c1d09ceced394eda0db06194ecafa74"
+        }
+      ]
+    },
+    {
+      "item": "Table S3",
+      "document": "supplementary_material.md",
+      "line": 42,
+      "content_sha256": "c7efdf5b4e5dc1919c107db22bd95bb1fd7cbf27666033c79017433db001db5f",
+      "sources": [
+        "evidence/historical/baseline-audit-20260922/results/cue_aligned_three_model_report.json"
+      ],
+      "scope": "Corrected cue-aligned results; do not use earlier 2a tables.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/baseline-audit-20260922/results/cue_aligned_three_model_report.json",
+          "in_repository": true,
+          "sha256": "ebc2f2e67d44246a02567f69a1bb7ee0220233f358eabe4048b652fe0cc9acec"
+        }
+      ]
+    },
+    {
+      "item": "Table S4",
+      "document": "supplementary_material.md",
+      "line": 54,
+      "content_sha256": "81cb3333c767edcbc73ad5fdd105b4eb16e820710f2ec27937cce9d554128724",
+      "sources": [
+        "evidence/historical/baseline-audit-20260922/results/cue_aligned_three_model_report.json",
+        "evidence/historical/baseline-audit-20260922/results/cue_aligned_three_model_subjects.csv"
+      ],
+      "scope": "Corrected subject records.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/baseline-audit-20260922/results/cue_aligned_three_model_report.json",
+          "in_repository": true,
+          "sha256": "ebc2f2e67d44246a02567f69a1bb7ee0220233f358eabe4048b652fe0cc9acec"
+        },
+        {
+          "path": "evidence/historical/baseline-audit-20260922/results/cue_aligned_three_model_subjects.csv",
+          "in_repository": true,
+          "sha256": "f2cb0bfadcbcb63f180c6529800bcd48c494a421d5d58a876061c73ddad559a9"
+        }
+      ]
+    },
+    {
+      "item": "Table S5",
+      "document": "supplementary_material.md",
+      "line": 62,
+      "content_sha256": "769b8e2f5463bb37984f0b5073cc41bd73114984e1c7066d47a942ddc96af573",
+      "sources": [
+        "evidence/historical/baseline-audit-20260922/results/cue_aligned_three_model_report.json"
+      ],
+      "scope": "Historical paired inference; not recomputed by new descriptive audit.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/baseline-audit-20260922/results/cue_aligned_three_model_report.json",
+          "in_repository": true,
+          "sha256": "ebc2f2e67d44246a02567f69a1bb7ee0220233f358eabe4048b652fe0cc9acec"
+        }
+      ]
+    },
+    {
+      "item": "Table S6",
+      "document": "supplementary_material.md",
+      "line": 80,
+      "content_sha256": "3d9b73cddbebec2d0a656a3715b9bd9847877241246c121c2d9cbd371c01edff",
+      "sources": [
+        "evidence/historical/paper-20260917/results/openbmi_baseline_2x2_report.json",
+        "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_report.json",
+        "evidence/studies.json"
+      ],
+      "scope": "Available prediction groups are independently auditable; registry does not imply all rows are regenerated.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/openbmi_baseline_2x2_report.json",
+          "in_repository": true,
+          "sha256": "e75bc81c32bf2b350194d726319045743872e201b0344459ce91a9bff69a2c2f"
+        },
+        {
+          "path": "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_report.json",
+          "in_repository": true,
+          "sha256": "0189a4b9fd9d06ee03f80cfe0105eebe0944b1bff801bcc17489387250eae4d3"
+        },
+        {
+          "path": "evidence/studies.json",
+          "in_repository": true,
+          "sha256": "4e039ff7e965ce5f15d143acc91211746755af3f13e4685089b8401718255c78"
+        }
+      ]
+    },
+    {
+      "item": "Table S7",
+      "document": "supplementary_material.md",
+      "line": 92,
+      "content_sha256": "c161ddc34d24a7da9269bec585dd5129e9606a89202e8509e478802ed75e1722",
+      "sources": [
+        "evidence/historical/paper-20260917/results/openbmi_baseline_2x2_report.json",
+        "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_report.json"
+      ],
+      "scope": "Original inference records; new exact-tie counts should be distinguished from old floating-point ties.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/openbmi_baseline_2x2_report.json",
+          "in_repository": true,
+          "sha256": "e75bc81c32bf2b350194d726319045743872e201b0344459ce91a9bff69a2c2f"
+        },
+        {
+          "path": "evidence/historical/paper-20260917/results/openbmi_preprocessing_controls_report.json",
+          "in_repository": true,
+          "sha256": "0189a4b9fd9d06ee03f80cfe0105eebe0944b1bff801bcc17489387250eae4d3"
+        }
+      ]
+    },
+    {
+      "item": "Table S8",
+      "document": "supplementary_material.md",
+      "line": 124,
+      "content_sha256": "ec2481dabbf3ab0c6d4dcfbb1fd088d9b8f50a2a67468b05880c416f6745e107",
+      "sources": [
+        "evidence/historical/sentinel-audit-20260923/results/full54_atcnet_author_recipe_report.json"
+      ],
+      "scope": "Stronger ATCNet recipe; prediction export incomplete.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/sentinel-audit-20260923/results/full54_atcnet_author_recipe_report.json",
+          "in_repository": true,
+          "sha256": "aacd6ce56b67800cef0099b6e3c9af65de48add548b3e8b0a2bf0cc2dcc8185c"
+        }
+      ]
+    },
+    {
+      "item": "Fig. S1",
+      "document": "supplementary_material.md",
+      "line": 159,
+      "figure": "figures/FigS1_branch_mechanism.png",
+      "figure_sha256": "6afddf10e1e5c870b0a48405d76c9b59319cb14fd860dc120a15642209a9e9f7",
+      "sources": [
+        "evidence/historical/paper-20260917/results/paper_openbmi/table_openbmi_branch_diagnostics.csv"
+      ],
+      "scope": "Archived branch summary; check coverage of all eight contrasts before recreating figure.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/paper_openbmi/table_openbmi_branch_diagnostics.csv",
+          "in_repository": true,
+          "sha256": "694d2f4aacc825c73d633e9b124448b78ef0a494e10dcd6dbeaffc32576439f5"
+        }
+      ]
+    },
+    {
+      "item": "Table S9",
+      "document": "supplementary_material.md",
+      "line": 161,
+      "content_sha256": "99f4a7d717b39104653eb27e9071ae7eef860eb37caef4eaf54722fde27e2fe4",
+      "sources": [
+        "evidence/historical/paper-20260917/results/paper_openbmi/table_openbmi_branch_diagnostics.csv"
+      ],
+      "scope": "Archived branch summary; intermediate branch predictions not exported.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/paper_openbmi/table_openbmi_branch_diagnostics.csv",
+          "in_repository": true,
+          "sha256": "694d2f4aacc825c73d633e9b124448b78ef0a494e10dcd6dbeaffc32576439f5"
+        }
+      ]
+    },
+    {
+      "item": "Table S10",
+      "document": "supplementary_material.md",
+      "line": 177,
+      "content_sha256": "62968f90ca9e6a7d5450220f493b111fd96cdae45fb696e61f8a3e05df7317f0",
+      "sources": [
+        "evidence/historical/paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_leave_one_out.csv"
+      ],
+      "scope": "Frozen embedding interventions, not signal-domain band removal.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/frequency_mechanism_20260919/frequency_mechanism_leave_one_out.csv",
+          "in_repository": true,
+          "sha256": "e23599b66eb04be0d8638035bc63378c963c4cb5332026505388d1c8cef4b500"
+        }
+      ]
+    },
+    {
+      "item": "Table S11",
+      "document": "supplementary_material.md",
+      "line": 199,
+      "content_sha256": "39d42f249a83fb31254b455628fbbb99f675cacb576f95a1babba5fb5178543d",
+      "sources": [
+        "evidence/historical/paper-20260917/results/openbmi_efficiency_profile.json"
+      ],
+      "scope": "Historical hardware-specific efficiency record, not a current benchmark.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/openbmi_efficiency_profile.json",
+          "in_repository": true,
+          "sha256": "a3f11e156a6d26540607ad01d8ffee54b21e834d5bd97816d89671021739176b"
+        }
+      ]
+    },
+    {
+      "item": "Fig. S2",
+      "document": "supplementary_material.md",
+      "line": 239,
+      "figure": "figures/FigS2_confusion_matrices_corrected.png",
+      "figure_sha256": "077e27ad5faed28ed4442194b9948a9ee8b14f2eb9739049c9f203be53cd0a53",
+      "sources": [
+        "evidence/studies.json"
+      ],
+      "scope": "OpenBMI prediction counts included; 2a/2b/HGD confusion inputs not fully exported.",
+      "source_checks": [
+        {
+          "path": "evidence/studies.json",
+          "in_repository": true,
+          "sha256": "4e039ff7e965ce5f15d143acc91211746755af3f13e4685089b8401718255c78"
+        }
+      ]
+    },
+    {
+      "item": "Fig. S3",
+      "document": "supplementary_material.md",
+      "line": 252,
+      "figure": "figures/FigS3_soft_frequency_responses.png",
+      "figure_sha256": "a33931997f95a65ddf30cabbfb764062a4f739f410dd0f4f5302a9a456964a77",
+      "sources": [
+        "scripts/rebuild_method_audits.py"
+      ],
+      "scope": "Portable Fig. S3 reconstruction with the original response formula.",
+      "source_checks": [
+        {
+          "path": "scripts/rebuild_method_audits.py",
+          "in_repository": true,
+          "sha256": "9e9425dfcff6ea9478490a337ac55ca3c5b8723bbb4b0b2cc520b04a6c80991f"
+        }
+      ]
+    },
+    {
+      "item": "Table S12",
+      "document": "supplementary_material.md",
+      "line": 254,
+      "content_sha256": "124b8cf93f39b72758316f6183e556a515ee35a70490d269a21ed86f9157358b",
+      "sources": [
+        "scripts/rebuild_method_audits.py"
+      ],
+      "scope": "Portable soft-response table reconstruction; no new training.",
+      "source_checks": [
+        {
+          "path": "scripts/rebuild_method_audits.py",
+          "in_repository": true,
+          "sha256": "9e9425dfcff6ea9478490a337ac55ca3c5b8723bbb4b0b2cc520b04a6c80991f"
+        }
+      ]
+    },
+    {
+      "item": "Table S13",
+      "document": "supplementary_material.md",
+      "line": 274,
+      "content_sha256": "96bd9d04fc4aa9db9999cb56799194acb0e5aeecc4cb077a94507449799f58e2",
+      "sources": [
+        "evidence/historical/methods-audit-20260928/results/final_report.json",
+        "evidence/studies.json"
+      ],
+      "scope": "Boundary sensitivity; predictions included.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/methods-audit-20260928/results/final_report.json",
+          "in_repository": true,
+          "sha256": "49cb012a06a838bba6833dac736d284128ba32aac7e24b9f8b3ae881dddcab58"
+        },
+        {
+          "path": "evidence/studies.json",
+          "in_repository": true,
+          "sha256": "4e039ff7e965ce5f15d143acc91211746755af3f13e4685089b8401718255c78"
+        }
+      ]
+    },
+    {
+      "item": "Table S14",
+      "document": "supplementary_material.md",
+      "line": 294,
+      "content_sha256": "22279659df625240c633ce252a4d1f35131e5ef6a47e1793fd863191c61ee26a",
+      "sources": [
+        "evidence/studies.json"
+      ],
+      "scope": "Continuous HP0.5 accuracy reconstructable; original inferential analysis remains separate.",
+      "source_checks": [
+        {
+          "path": "evidence/studies.json",
+          "in_repository": true,
+          "sha256": "4e039ff7e965ce5f15d143acc91211746755af3f13e4685089b8401718255c78"
+        }
+      ]
+    },
+    {
+      "item": "Fig. S4",
+      "document": "supplementary_material.md",
+      "line": 302,
+      "figure": "figures/FigS4_openbmi_controls.png",
+      "figure_sha256": "90207b6b8fd2adb6b0dde9ccd7f7fa69985cf9d934f2886f47cba2523b8f9c09",
+      "sources": [
+        "evidence/historical/paper-20260917/results/openbmi_baseline_2x2_report.json"
+      ],
+      "scope": "2x2 summary included; no new inference.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/paper-20260917/results/openbmi_baseline_2x2_report.json",
+          "in_repository": true,
+          "sha256": "e75bc81c32bf2b350194d726319045743872e201b0344459ce91a9bff69a2c2f"
+        }
+      ]
+    },
+    {
+      "item": "Table S15",
+      "document": "supplementary_material.md",
+      "line": 311,
+      "content_sha256": "8848b42fcdaa70c52829cdc030ef035f5c9ca7325b1c118d448493506876aeb9",
+      "sources": [
+        "evidence/historical/common-duration-20260928/results/report.json",
+        "evidence/studies.json"
+      ],
+      "scope": "Common-duration audit; predictions included.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/common-duration-20260928/results/report.json",
+          "in_repository": true,
+          "sha256": "866e43cbdb7975c3af03e206c0444eeaa0694b9472faa0824046afcdd0078aeb"
+        },
+        {
+          "path": "evidence/studies.json",
+          "in_repository": true,
+          "sha256": "4e039ff7e965ce5f15d143acc91211746755af3f13e4685089b8401718255c78"
+        }
+      ]
+    },
+    {
+      "item": "Fig. S5",
+      "document": "supplementary_material.md",
+      "line": 328,
+      "figure": "figures/FigS5_frozen_decoder.png",
+      "figure_sha256": "f585b752d4ac7db3389cbbe48740b9938568fd7a91de97b9e3d0cf3e71b23956",
+      "sources": [
+        "model/npf_eegnet_rd.py"
+      ],
+      "scope": "Conceptual decoder diagram; maintained code is not the original frozen source.",
+      "source_checks": [
+        {
+          "path": "model/npf_eegnet_rd.py",
+          "in_repository": true,
+          "sha256": "3bc008dcb863f2ae145367d5d9ad6ca1eb84970411d90808abd90a191c4c9139"
+        }
+      ]
+    },
+    {
+      "item": "Table S16",
+      "document": "supplementary_material.md",
+      "line": 334,
+      "content_sha256": "51d090757a5f56b5d057d8452dd752d2214b28f834ba7483cde1fb45237c22d0",
+      "sources": [],
+      "scope": "Literature acquisition metadata; references in manuscript. Not inferred from predictions.",
+      "source_checks": []
+    },
+    {
+      "item": "Fig. S6",
+      "document": "supplementary_material.md",
+      "line": 349,
+      "figure": "figures/FigS6_offset_gain.png",
+      "figure_sha256": "f6b002bf96b4020dc38c6e2e60847db77eb0b1cf58165e8791f9f981a2e16bb7",
+      "sources": [
+        "evidence/historical/reviewer-controls-20260925/results/openbmi_offsets_posthoc.json"
+      ],
+      "scope": "Anonymous subject shift/gain summaries included; association is not mediation.",
+      "source_checks": [
+        {
+          "path": "evidence/historical/reviewer-controls-20260925/results/openbmi_offsets_posthoc.json",
+          "in_repository": true,
+          "sha256": "b17db04aa7b634a5f3a08f2176053540878f03ab03bd8cc68e1e718564f8e209"
+        }
+      ]
+    },
+    {
+      "item": "Table S17",
+      "document": "supplementary_material.md",
+      "line": 375,
+      "content_sha256": "12a614d163e226ebe981f04fcdcb4aca431d91bf4d0bac393a2ea7d3c73162c3",
+      "sources": [
+        "evidence/bp830_protocol/analyze.py",
+        "evidence/bp830_protocol/verify.py"
+      ],
+      "scope": "Corrected authoritative BP8-30 audit; W/T/L 27/6/21.",
+      "source_checks": [
+        {
+          "path": "evidence/bp830_protocol/analyze.py",
+          "in_repository": true,
+          "sha256": "cb6e19ff9abf9603df08dce9c0ac30ba75445ede20b7924a3f603a2f21cb3ff4"
+        },
+        {
+          "path": "evidence/bp830_protocol/verify.py",
+          "in_repository": true,
+          "sha256": "5bcbf9e2995e2a43a819a992940f6cda2ef8d500dd1c214ac8e6d1a10c7f1c35"
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Reproduction coverage, preparation version 0.3.0.dev0
+# Reproduction coverage, preparation version 0.4.0.dev0
 
 | Scope | Included | Remaining limitation |
 |---|---|---|
@@ -9,19 +9,21 @@
 | Baselines | ATCNet and paper-based Conformer source, historical records | Mixed EEGNet/FBCNet dependency provenance unresolved; not all recipe predictions exported |
 | BCIC/HGD | Historical config/result records; corrected 2a preprocessing reference | Superseded 2a records must not be treated as final; portable rerun not validated |
 | BNCI/Zhou | Configs, locks, reports, available predictions and original preprocessing references | Dataset downloads and legacy training dependencies required |
-| Mechanism/calibration | Historical analysis code and result records | Checkpoints/source OOF outputs not distributed; no full rerun verified |
+| Mechanism/calibration | Historical analysis code and result records | Source OOF predictions and portable temperature refit included; mechanism checkpoints remain excluded |
 
 The newly generated metrics match original OpenBMI primary accuracy and pooled
 NLL. This is evidence reconstruction, not independent experimental replication.
 The historical record collection intentionally includes superseded development
-work; it is not a replacement for a final table/figure-to-result registry.
+work. The content-hashed MANUSCRIPT_REGISTRY.json now maps 29 tables/figures
+for the inspected BSPC snapshot, with explicit reconstruction gaps.
 
 ## Outstanding for a complete paper-associated release
 
 1. Resolve EEG-CSANet-derived frozen-engine permission and mixed baseline
    provenance, or independently reimplement and validate the missing path.
-2. Complete a version-specific manuscript table/figure registry and portable
-   preprocessing-to-selection-to-final commands for every reported experiment.
+2. Fill the remaining reconstruction gaps identified in the version-specific
+   manuscript registry; validate preprocessing-to-selection-to-final commands
+   for every reported experiment.
 3. Recover experiment-specific environments where absent; one later environment
    cannot establish earlier versions.
 4. Validate the full runnable package on legally obtained data. CPU unit tests

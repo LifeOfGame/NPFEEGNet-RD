@@ -1,0 +1,9 @@
+contrast,subjects,difference_pp,wins,ties,losses
+openbmi_primary_rd minus openbmi_primary_nodemean,54,4.185185185185185,40,1,13
+openbmi_bp830_rd minus openbmi_bp830_nodemean,54,0.18209876543209877,27,6,21
+openbmi_hp05_rd minus openbmi_hp05_nodemean,54,0.4166666666666667,27,3,24
+openbmi_primary_rd minus openbmi_fulldemean,54,0.2222222222222222,31,0,23
+openbmi_primary_rd minus openbmi_fbcnet_stronger_recipe,54,0.9290123456790124,31,1,22
+zhou2020_rd minus zhou2020_nodemean,20,0.33423554219456264,12,0,8
+zhou2016-20260927__zhou2016_rd_final minus zhou2016-20260927__zhou2016_nodemean_final,4,-1.5247731174883492,2,0,2
+reviewer-controls-20260925__bnci2015_001_rd_final minus reviewer-controls-20260925__bnci2015_001_nodemean_final,12,0.3055555555555556,6,2,4

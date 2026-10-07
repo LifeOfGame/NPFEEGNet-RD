@@ -2,7 +2,21 @@
 
 Fixed spectral-residual EEGNet with raw-branch trial-wise temporal demeaning.
 
-**Status: repository preparation, version 0.3.0.dev0. This is not the complete manuscript reproducibility release and has no archive DOI yet.** This repository contains an independent maintained model implementation, a new training/inference interface, and the corrected summary-level OpenBMI BP8–30 audit. The new trainer does not certify or regenerate all historical paper results. Do not describe this initial repository as the final paper-associated v1.0.0.
+**Status: repository preparation, version 0.4.0.dev0. This is not the complete manuscript reproducibility release and has no archive DOI yet.** This repository contains an independent maintained model implementation, a new training/inference interface, and the corrected summary-level OpenBMI BP8–30 audit. The new trainer does not certify or regenerate all historical paper results. Do not describe this initial repository as the final paper-associated v1.0.0.
+
+## Portable reconstruction added (7 October 2026)
+
+See [portable audit commands](docs/PORTABLE_AUDITS.md). Complete-study aggregation
+now covers 40 arms and eight descriptive contrasts, with exact tie handling and
+separate Zhou2020 cohort IDs. Source-OOF temperature fitting and the non-collapse/
+soft-response audits are runnable from this checkout. A content-hashed registry
+maps 29 tables/figures in the inspected BSPC snapshot to their available sources
+and explicit gaps. No manuscript results were changed.
+
+The full CPU suite passed 18 tests; optional plotting and source-only temperature
+reconstruction also passed in an isolated server directory. The temperature,
+NLL and ECE reproduce the archived report. These are retrospective artifact
+checks, not a new prospective experiment or complete training replication.
 
 ## Expanded historical evidence (7 October 2026)
 
@@ -57,7 +71,7 @@ The default execution device is CPU. Select a CUDA device explicitly through the
 
 ## Validation
 
-On 7 October 2026, all 14 included tests passed on CPU in an isolated server directory (Python 3.12.14, PyTorch 2.11.0+cu126, NumPy 2.4.4). The 324-row BP8?30 verification and corrected paired analysis also passed. See `docs/VALIDATION_20261007.json` for the initial checks and `docs/VALIDATION_EXPANDED_20261007.json` for the expanded checks. These checks do not constitute rerunning the paper experiments.
+On 7 October 2026, all 18 included tests passed on CPU in an isolated server directory (Python 3.12.14, PyTorch 2.11.0+cu126, NumPy 2.4.4). The 324-row BP8?30 verification and corrected paired analysis also passed. See `docs/VALIDATION_20261007.json` for the initial checks and `docs/VALIDATION_EXPANDED_20261007.json` for the expanded checks. These checks do not constitute rerunning the paper experiments.
 
 ## Scientific and licensing scope
 

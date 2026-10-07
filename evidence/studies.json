@@ -1,0 +1,467 @@
+{
+  "scope": "Complete prediction groups only. This does not include all manuscript results. Cohort namespaces prevent Zhou2020 subject collisions; GPU partitions retain the same namespace. Descriptive contrasts do not replace historical inferential analyses.",
+  "studies": {
+    "openbmi_bp830_nodemean": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "bp830-20260929__bp830_nodemean_final",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "openbmi_bp830_rd": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "bp830-20260929__bp830_rd_final",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "common-duration-20260928__no_at_no": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "common-duration-20260928__no_at_no",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "common-duration-20260928__no_at_rd": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "common-duration-20260928__no_at_rd",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "common-duration-20260928__rd_at_no": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "common-duration-20260928__rd_at_no",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "common-duration-20260928__rd_at_rd": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "common-duration-20260928__rd_at_rd",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "openbmi_fbcnet_stronger_recipe": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "component-author-20260926__fbcnet_author_training",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "component-author-20260926__no_spectral_prior": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "component-author-20260926__no_spectral_prior",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "component-author-20260926__spectral_only": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "component-author-20260926__spectral_only",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "methods-audit-20260928__current_nodemean": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "methods-audit-20260928__current_nodemean",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "methods-audit-20260928__current_rd": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "methods-audit-20260928__current_rd",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "methods-audit-20260928__fft_reflect_nodemean": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "methods-audit-20260928__fft_reflect_nodemean",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "methods-audit-20260928__fft_reflect_rd": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "methods-audit-20260928__fft_reflect_rd",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "methods-audit-20260928__raw_reflect_nodemean": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "methods-audit-20260928__raw_reflect_nodemean",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "methods-audit-20260928__raw_reflect_rd": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "methods-audit-20260928__raw_reflect_rd",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "paper-20260917__openbmi_atcnet_final_demean_3seed": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "paper-20260917__openbmi_atcnet_final_demean_3seed",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "paper-20260917__openbmi_baseline_final_eegnet_demean_3seed": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "paper-20260917__openbmi_baseline_final_eegnet_demean_3seed",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "paper-20260917__openbmi_eegconformer_final_demean_3seed": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "paper-20260917__openbmi_eegconformer_final_demean_3seed",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "openbmi_primary_nodemean": {
+      "subjects": 54,
+      "role": "original internally locked primary",
+      "parts": [
+        {
+          "group": "paper-20260917__openbmi_final_npf_nodemean_3seed",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "openbmi_primary_rd": {
+      "subjects": 54,
+      "role": "original internally locked primary",
+      "parts": [
+        {
+          "group": "paper-20260917__openbmi_final_npf_raw_demean_3seed",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "openbmi_fulldemean": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "paper-20260917__openbmi_preprocess_control_final_fulldemean_3seed",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "openbmi_epoch_hp1": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "paper-20260917__openbmi_preprocess_control_final_highpass1hz_3seed",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "reviewer-controls-20260925__bnci2015_001_eegnet_demean_final": {
+      "subjects": 12,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "reviewer-controls-20260925__bnci2015_001_eegnet_demean_final",
+          "namespace": "bnci2015"
+        }
+      ]
+    },
+    "reviewer-controls-20260925__bnci2015_001_nodemean_final": {
+      "subjects": 12,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "reviewer-controls-20260925__bnci2015_001_nodemean_final",
+          "namespace": "bnci2015"
+        }
+      ]
+    },
+    "reviewer-controls-20260925__bnci2015_001_rd_final": {
+      "subjects": 12,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "reviewer-controls-20260925__bnci2015_001_rd_final",
+          "namespace": "bnci2015"
+        }
+      ]
+    },
+    "reviewer-controls-20260925__eegnet_large_final": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "reviewer-controls-20260925__eegnet_large_final",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "reviewer-controls-20260925__hp05_eegnet_large_demean_final": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "reviewer-controls-20260925__hp05_eegnet_large_demean_final",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "reviewer-controls-20260925__hp05_eegnet_large_nodemean_final": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "reviewer-controls-20260925__hp05_eegnet_large_nodemean_final",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "reviewer-controls-20260925__hp05_eegnet_small_demean_final": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "reviewer-controls-20260925__hp05_eegnet_small_demean_final",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "reviewer-controls-20260925__hp05_eegnet_small_nodemean_final": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "reviewer-controls-20260925__hp05_eegnet_small_nodemean_final",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "openbmi_hp05_nodemean": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "reviewer-controls-20260925__hp05_nodemean_final",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "openbmi_hp05_rd": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "reviewer-controls-20260925__hp05_rd_final",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "zhou2016-20260927__zhou2016_eegnet_demean_final": {
+      "subjects": 4,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "zhou2016-20260927__zhou2016_eegnet_demean_final",
+          "namespace": "zhou2016"
+        }
+      ]
+    },
+    "zhou2016-20260927__zhou2016_nodemean_final": {
+      "subjects": 4,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "zhou2016-20260927__zhou2016_nodemean_final",
+          "namespace": "zhou2016"
+        }
+      ]
+    },
+    "zhou2016-20260927__zhou2016_rd_final": {
+      "subjects": 4,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "zhou2016-20260927__zhou2016_rd_final",
+          "namespace": "zhou2016"
+        }
+      ]
+    },
+    "openbmi_fbcnet_filtermatched": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "openbmi-fbcnet-audit-20260922__final_gpu1",
+          "namespace": "openbmi"
+        },
+        {
+          "group": "openbmi-fbcnet-audit-20260922__final_gpu2",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "openbmi_fbcnet_hp05": {
+      "subjects": 54,
+      "role": "post-confirmatory",
+      "parts": [
+        {
+          "group": "reviewer-controls-20260925__fbcnet_hp05__output__final_gpu0",
+          "namespace": "openbmi"
+        },
+        {
+          "group": "reviewer-controls-20260925__fbcnet_hp05__output__final_gpu1",
+          "namespace": "openbmi"
+        }
+      ]
+    },
+    "zhou2020_rd": {
+      "subjects": 20,
+      "role": "later independently locked external audit; post-confirmatory",
+      "parts": [
+        {
+          "group": "zhou2020-20260927__zhou2020_s_rd_final",
+          "namespace": "zhou2020_s"
+        },
+        {
+          "group": "zhou2020-20260927__zhou2020_a_rd_final",
+          "namespace": "zhou2020_a"
+        }
+      ]
+    },
+    "zhou2020_nodemean": {
+      "subjects": 20,
+      "role": "later independently locked external audit; post-confirmatory",
+      "parts": [
+        {
+          "group": "zhou2020-20260927__zhou2020_s_nodemean_final",
+          "namespace": "zhou2020_s"
+        },
+        {
+          "group": "zhou2020-20260927__zhou2020_a_nodemean_final",
+          "namespace": "zhou2020_a"
+        }
+      ]
+    },
+    "zhou2020_eegnet_demean": {
+      "subjects": 20,
+      "role": "later independently locked external audit; post-confirmatory",
+      "parts": [
+        {
+          "group": "zhou2020-20260927__zhou2020_s_eegnet_demean_final",
+          "namespace": "zhou2020_s"
+        },
+        {
+          "group": "zhou2020-20260927__zhou2020_a_eegnet_demean_final",
+          "namespace": "zhou2020_a"
+        }
+      ]
+    }
+  },
+  "contrasts": [
+    {
+      "name": "openbmi_primary_rd minus openbmi_primary_nodemean",
+      "left": "openbmi_primary_rd",
+      "right": "openbmi_primary_nodemean"
+    },
+    {
+      "name": "openbmi_bp830_rd minus openbmi_bp830_nodemean",
+      "left": "openbmi_bp830_rd",
+      "right": "openbmi_bp830_nodemean"
+    },
+    {
+      "name": "openbmi_hp05_rd minus openbmi_hp05_nodemean",
+      "left": "openbmi_hp05_rd",
+      "right": "openbmi_hp05_nodemean"
+    },
+    {
+      "name": "openbmi_primary_rd minus openbmi_fulldemean",
+      "left": "openbmi_primary_rd",
+      "right": "openbmi_fulldemean"
+    },
+    {
+      "name": "openbmi_primary_rd minus openbmi_fbcnet_stronger_recipe",
+      "left": "openbmi_primary_rd",
+      "right": "openbmi_fbcnet_stronger_recipe"
+    },
+    {
+      "name": "zhou2020_rd minus zhou2020_nodemean",
+      "left": "zhou2020_rd",
+      "right": "zhou2020_nodemean"
+    },
+    {
+      "name": "zhou2016-20260927__zhou2016_rd_final minus zhou2016-20260927__zhou2016_nodemean_final",
+      "left": "zhou2016-20260927__zhou2016_rd_final",
+      "right": "zhou2016-20260927__zhou2016_nodemean_final"
+    },
+    {
+      "name": "reviewer-controls-20260925__bnci2015_001_rd_final minus reviewer-controls-20260925__bnci2015_001_nodemean_final",
+      "left": "reviewer-controls-20260925__bnci2015_001_rd_final",
+      "right": "reviewer-controls-20260925__bnci2015_001_nodemean_final"
+    }
+  ]
+}

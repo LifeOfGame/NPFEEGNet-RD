@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-07",
+  "scope": "Retrospective artifact reconstruction, not full training reproduction",
+  "cpu_tests_passed": 18,
+  "complete_prediction_arms": 40,
+  "paired_descriptive_contrasts": 8,
+  "manuscript_items_indexed": 29,
+  "source_oof_original_hashes_verified": 324,
+  "source_oof_predictions": 32400,
+  "temperature": 2.5463403064273793,
+  "scaled_s2_nll": 0.5553834068753374,
+  "scaled_s2_ece": 0.025640330738154304,
+  "paired_noncollapse_subjects": 53,
+  "paired_noncollapse_seed_pairs": 156,
+  "soft_response_figure": "rendered and visually inspected",
+  "gpu_training_runs": 0
+}

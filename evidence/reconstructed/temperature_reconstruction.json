@@ -1,0 +1,28 @@
+{
+  "role": "retrospective artifact reconstruction",
+  "temperature": 2.5463403064273793,
+  "historical_temperature": 2.5463403064273793,
+  "session2_used_for_fitting": false,
+  "source_sha256": "2f3b09e6cf12b6456f1349c1f2c5d6ffa6f2b3387ccd9377f17b421875868828",
+  "s1_before": {
+    "accuracy": 0.6959567901234568,
+    "nll": 0.6832631821188878,
+    "ece": 0.12101877901657127
+  },
+  "s1_after": {
+    "accuracy": 0.6959567901234568,
+    "nll": 0.5914118890690264,
+    "ece": 0.040870363803736987
+  },
+  "s2_before": {
+    "accuracy": 0.706358024691358,
+    "nll": 0.63633714176785,
+    "ece": 0.09119184704842387
+  },
+  "s2_after": {
+    "accuracy": 0.706358024691358,
+    "nll": 0.5553834068753374,
+    "ece": 0.025640330738154304
+  },
+  "target_sha256": "ebf242650328f0c0664def4662495dece6d5a88025250ceb7648b020169e7c8c"
+}

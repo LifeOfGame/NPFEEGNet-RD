@@ -1,0 +1,5 @@
+# Optional dependencies for retrospective calibration and plotting.
+# Basic prediction/study tables require only NumPy; PyTorch is unnecessary.
+numpy>=1.26,<3
+scipy>=1.11,<2
+matplotlib>=3.7,<4

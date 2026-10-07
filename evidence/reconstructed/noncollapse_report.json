@@ -1,0 +1,69 @@
+{
+  "analysis_role": "post-hoc descriptive; collapse-based exclusion conditions on target outcomes and does not replace primary analysis",
+  "source": "evidence/bp830/openbmi_final_3seed_rows.csv",
+  "source_sha256": "ba9d8a0c7d48691b25790f25140d2dd548f542b5d8651568b0d6739f4275a264",
+  "threshold": "minimum class recall < 0.10 in either paired run",
+  "all_subjects": {
+    "n_subjects": 54,
+    "mean_pp": 4.185185185185184,
+    "median_pp": 2.5000000000000004,
+    "ci95_pp": [
+      2.481481481481482,
+      6.064814814814815
+    ],
+    "wins": 40,
+    "ties": 1,
+    "losses": 13
+  },
+  "paired_noncollapse": {
+    "n_subjects": 53,
+    "mean_pp": 3.547169811320755,
+    "median_pp": 2.1666666666666683,
+    "ci95_pp": [
+      2.053419811320755,
+      5.179245283018867
+    ],
+    "wins": 39,
+    "ties": 1,
+    "losses": 13
+  },
+  "excluded_pairs": [
+    {
+      "subject": 7,
+      "seed": 0,
+      "rd_collapse": false,
+      "nodemean_collapse": true
+    },
+    {
+      "subject": 7,
+      "seed": 1,
+      "rd_collapse": false,
+      "nodemean_collapse": true
+    },
+    {
+      "subject": 7,
+      "seed": 2,
+      "rd_collapse": false,
+      "nodemean_collapse": true
+    },
+    {
+      "subject": 23,
+      "seed": 0,
+      "rd_collapse": false,
+      "nodemean_collapse": true
+    },
+    {
+      "subject": 38,
+      "seed": 0,
+      "rd_collapse": false,
+      "nodemean_collapse": true
+    },
+    {
+      "subject": 49,
+      "seed": 1,
+      "rd_collapse": false,
+      "nodemean_collapse": true
+    }
+  ],
+  "retained_pairs": 156
+}

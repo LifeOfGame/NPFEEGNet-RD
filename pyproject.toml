@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "npfeegnet-rd"
-version = "0.3.0.dev0"
+version = "0.4.0.dev0"
 description = "Fixed spectral-residual EEGNet with raw-branch demeaning"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
