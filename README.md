@@ -2,7 +2,7 @@
 
 Fixed spectral-residual EEGNet with raw-branch trial-wise temporal demeaning.
 
-**Status: repository preparation, version 0.5.0.dev0. This is not the complete manuscript reproducibility release and has no archive DOI yet.** This repository contains an independent maintained model implementation, a new training/inference interface, and the corrected summary-level OpenBMI BP8–30 audit. The new trainer does not certify or regenerate all historical paper results. Do not describe this initial repository as the final paper-associated v1.0.0.
+**Version 0.5.0: maintained implementation and audit evidence.** This version contains the independent maintained model/training/inference path and portable audits of available historical evidence. It excludes the legacy EEG-CSANet-derived training engine and does not certify full numerical reproduction of all manuscript experiments. See [release scope](docs/RELEASE_v0.5.0.md), [citation metadata](CITATION.cff), and the [versioned release](https://github.com/LifeOfGame/NPFEEGNet-RD/releases/tag/v0.5.0).
 
 ## Independent training validation (7 October 2026)
 
@@ -87,7 +87,7 @@ The default execution device is CPU. Select a CUDA device explicitly through the
 
 ## Validation
 
-On 7 October 2026, 22 tests passed (21-model/statistics/training suite plus the new preprocessing-guard test) on CPU in an isolated server directory (Python 3.12.14, PyTorch 2.11.0+cu126, NumPy 2.4.4). The 324-row BP8?30 verification and corrected paired analysis also passed. See `docs/VALIDATION_20261007.json` for the initial checks and `docs/VALIDATION_EXPANDED_20261007.json` for the expanded checks. These checks do not constitute rerunning the paper experiments.
+On 7 October 2026, 22 tests passed (21-model/statistics/training suite plus the new preprocessing-guard test) on CPU in an isolated server directory (Python 3.12.14, PyTorch 2.11.0+cu126, NumPy 2.4.4). The 324-row BP8–30 verification and corrected paired analysis also passed. See `docs/VALIDATION_20261007.json` for the initial checks and `docs/VALIDATION_EXPANDED_20261007.json` for the expanded checks. These checks do not constitute rerunning the paper experiments.
 
 ## Scientific and licensing scope
 

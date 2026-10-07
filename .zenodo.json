@@ -1,0 +1,21 @@
+{
+  "title": "NPFEEGNet-RD: maintained implementation and audit evidence",
+  "version": "0.5.0",
+  "upload_type": "software",
+  "description": "NPFEEGNet-RD version 0.5.0: independently maintained EEG model, training and inference workflow, with experiment configurations, anonymous prediction-level evidence and portable audits. Validation includes 22 tests, byte-identical re-export of six OpenBMI input files, one subject/seed NPF source-selection/fitting/inference run, and four short baseline integration runs. This is not a full rerun of all manuscript experiments or a demonstration of numerical equivalence to the historical engine. Raw EEG, trained weights and the EEG-CSANet-derived legacy training engine are excluded. Project-owned code is Apache-2.0; included third-party components retain their own notices, including the pinned MIT-licensed FBCNet source. See LICENSE_SCOPE.md and THIRD_PARTY_NOTICES.md.",
+  "creators": [
+    {
+      "name": "何, 龙飞",
+      "affiliation": "上海海事大学"
+    }
+  ],
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "keywords": [
+    "EEG",
+    "motor imagery",
+    "cross-session decoding",
+    "reproducibility",
+    "PyTorch"
+  ]
+}

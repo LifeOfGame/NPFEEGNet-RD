@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this software version when using the maintained implementation or audit evidence."
+type: software
+title: "NPFEEGNet-RD: maintained implementation and audit evidence"
+authors:
+  - family-names: "何"
+    given-names: "龙飞"
+    affiliation: "上海海事大学"
+version: 0.5.0
+date-released: 2026-10-08
+repository-code: "https://github.com/LifeOfGame/NPFEEGNet-RD"
+url: "https://github.com/LifeOfGame/NPFEEGNet-RD/releases/tag/v0.5.0"
+license:
+  - Apache-2.0
+  - MIT
+abstract: >-
+  Independently maintained model, training and inference workflow with portable
+  audits of available historical evidence. The legacy training engine, raw EEG
+  and trained weights are excluded. Validation does not establish full historical
+  numerical replication. Component-specific license terms apply as documented
+  in LICENSE_SCOPE.md and THIRD_PARTY_NOTICES.md.

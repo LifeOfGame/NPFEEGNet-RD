@@ -1,4 +1,4 @@
-# Reproduction coverage, preparation version 0.5.0.dev0
+# Reproduction coverage, version 0.5.0
 
 | Scope | Included | Remaining limitation |
 |---|---|---|
